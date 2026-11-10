@@ -1,0 +1,27 @@
+{
+  "snapshots": [
+    {
+      "city": "chicago",
+      "source_sha256": "e95a09fed1c4b0c044827845d20af6eb80f9ea80b74702029f595525efa2b26b",
+      "records": 12913,
+      "new": 12913,
+      "changed": 0,
+      "cached": false,
+      "observed_at": "2026-11-10T20:12:20.552610+00:00",
+      "sha256": "d1b14f3d083f8d19eccf3a90286da123f39ef64cf665b7ec3ae22a2304c9216c",
+      "caveat": "absence from this scope does not imply deletion; first_seen begins at actual snapshot observation, not historical incident time"
+    },
+    {
+      "city": "san_francisco",
+      "source_sha256": "ed6290376c5f5803ab848840c58f456240e4ab00f33b63dc808a73214f5c6ba4",
+      "records": 2647,
+      "new": 2647,
+      "changed": 0,
+      "cached": false,
+      "observed_at": "2026-11-10T20:12:17.758324+00:00",
+      "sha256": "8b58125bbef2acec87f26920d161e88e45c37cf3d78734903f4dc24a6db74909",
+      "caveat": "absence from this scope does not imply deletion; first_seen begins at actual snapshot observation, not historical incident time"
+    }
+  ],
+  "note": "Only October-query scope is observed. No historic first-seen times are invented. No claims about deletion outside this scope."
+}

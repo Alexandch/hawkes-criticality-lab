@@ -1,0 +1,63 @@
+{
+  "city": "chicago",
+  "bin_hours": 6,
+  "start": "2019-01-01 00:00:00",
+  "end_exclusive": "2026-11-01 00:00:00",
+  "raw_rows": 1189679,
+  "cases": 1189263,
+  "group_counts": {
+    "all": 1189263,
+    "property": 619512,
+    "assault_robbery": 569751
+  },
+  "districts": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09",
+    "10",
+    "11",
+    "12",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "22",
+    "24",
+    "25"
+  ],
+  "groups": [
+    "all",
+    "property",
+    "assault_robbery"
+  ],
+  "invalid_rows": 0,
+  "unknown_district_rows": 416,
+  "conflicting_cases": 0,
+  "duplicate_rows": 0,
+  "new_rows_for_existing_historical_cases": 0,
+  "source_sha256": {
+    "data\\raw\\spatiotemporal_20261110\\chicago_2019.csv.gz": "1ee5b5976f6b7c84e6315c4f6a28a6d675ca007b64e21837013b184d8de02d28",
+    "data\\raw\\spatiotemporal_20261110\\chicago_2020.csv.gz": "79cec028dea6c2d4a3a83bda3c658eb06fbb8c0d8e12f1aed0a4ad4e5739594e",
+    "data\\raw\\spatiotemporal_20261110\\chicago_2021.csv.gz": "1077cb97c07546f6b2abe2d6ed788be989630a0fba66b2b6888f38c0f76aebb5",
+    "data\\raw\\spatiotemporal_20261110\\chicago_2022.csv.gz": "437d8d0daa72e03e525c80f970abcc8867d28837870598cc94ed543f2baf7af2",
+    "data\\raw\\spatiotemporal_20261110\\chicago_2023.csv.gz": "4609cd2c8595fe2884fa15f8fe21dd04a6f5c5c7e22a9508e9d54eba09d118ff",
+    "data\\raw\\spatiotemporal_20261110\\chicago_2024.csv.gz": "f988156d63dd77a4cb551c4b488337e98ee29b2fccc848a834e5e617be0d7929",
+    "data\\raw\\spatiotemporal_20261110\\chicago_2025.csv.gz": "6af32a4ff03be3268a693f04430add38c868106d19ab0041df1cff7873bfbd14",
+    "data\\raw\\spatiotemporal_20261110\\chicago_2026.csv.gz": "3f016d1f0673dff239d5560e9fe5cc12cabcbbdb7b824882b189454a71771db7",
+    "data\\raw\\offline_20261110\\chicago_202610.csv.gz": "e95a09fed1c4b0c044827845d20af6eb80f9ea80b74702029f595525efa2b26b"
+  },
+  "output_sha256": "15c54deb20c959758f2a056b23faa30e9f40a4a6835f1426523f9fcf57c5f468",
+  "centroid_source": "data\\processed\\spatiotemporal_20261110\\chicago.npz",
+  "centroid_source_sha256": "46b17e0f8e0e07be55a85fd065f5f44d6ae7ccc49be57b30add3536a3896aaf4",
+  "availability": "report time plus assumed publication delay for SF; Chicago incident lag only; historical publication vintages unknown",
+  "novel_control": "October 2026, preliminary; primary first14days, supplementary full month"
+}

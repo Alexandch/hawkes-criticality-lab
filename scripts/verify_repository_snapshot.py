@@ -34,7 +34,7 @@ def main():
             links+=1
     assets=json.loads((root/'report/assets/manifest.json').read_text(encoding='utf-8'))
     for item in assets['assets']:assert digest(root/item['source'])==digest(root/item['copy'])==item['sha256']
-    for folder in ('dynamic_estimation','extended_neural','empirical_transfer','spatiotemporal_forecast'):
+    for folder in ('dynamic_estimation','extended_neural','empirical_transfer','spatiotemporal_forecast','offline_readiness'):
         protocol=json.loads((root/'results'/folder/'protocol.json').read_text(encoding='utf-8'))
         for name,value in protocol['code_sha256'].items():assert digest(root/'src/critical_processes'/name)==value,(folder,name)
     metrics=json.loads((root/'results/extended_neural/metrics.json').read_text(encoding='utf-8'))
@@ -42,7 +42,7 @@ def main():
     assert metrics['warning__ensemble__family_confident']['positive_trajectories']==600
     assert metrics['warning__ensemble__family_nominal_sensitivity']['detected_trajectories']==27
     tests=json.loads((root/'reproducibility/test_result.json').read_text(encoding='utf-8'))
-    assert tests['successful'] and tests['tests_run']==90 and tests['failures']==tests['errors']==0
+    assert tests['successful'] and tests['tests_run']==99 and tests['failures']==tests['errors']==0
     spatial=root/'results/spatiotemporal_forecast'
     complete=json.loads((spatial/'complete.json').read_text(encoding='utf-8'))
     for name,value in complete['artifact_sha256'].items():
@@ -58,6 +58,18 @@ def main():
     provenance=json.loads((summary/'provenance.json').read_text(encoding='utf-8'))
     for name,value in provenance['source_sha256'].items():assert digest(root/name)==value,name
     for name,value in provenance['artifact_sha256'].items():assert digest(summary/name)==value,name
+    offline=root/'results/offline_readiness'
+    finished=json.loads((offline/'complete.json').read_text(encoding='utf-8'))
+    for name,value in finished['artifact_sha256'].items():
+        relative=(offline/name).relative_to(root).as_posix()
+        if relative in manifest['files']:assert digest(offline/name)==value,name
+        else:assert relative in external,name
+    readiness=json.loads((offline/'readiness.json').read_text(encoding='utf-8'))
+    assert not readiness['real_pilot_performed'] and not readiness['historical_publication_times_verified']
+    derived=root/'results/offline_summary'
+    provenance=json.loads((derived/'provenance.json').read_text(encoding='utf-8'))
+    for name,value in provenance['source_sha256'].items():assert digest(root/name)==value,name
+    for name,value in provenance['artifact_sha256'].items():assert digest(derived/name)==value,name
     print(f'Verified {len(manifest["files"])} published files, {len(assets["assets"])} figures, {links} documentation links and frozen source hashes.')
     print(f'External artifacts intentionally not part of Git: {len(external)}; missing documentation targets declared external: {len(missing_links)}. Full raw-data verification was not run.')
 

@@ -89,6 +89,21 @@
       "source": "results/spatiotemporal_summary/district_forecast_example.png",
       "copy": "report/assets/district_forecast_example.png",
       "sha256": "33e928c16e0a666d2f1fd774ea24717356a152b7f9505f2a326cdea7412b621a"
+    },
+    {
+      "source": "results/offline_summary/offline_count.png",
+      "copy": "report/assets/offline_count.png",
+      "sha256": "a6ef3a86ff780c003a6ebf0b9d31050297de1644e7df0196943556b8457fb988"
+    },
+    {
+      "source": "results/offline_summary/offline_alarms.png",
+      "copy": "report/assets/offline_alarms.png",
+      "sha256": "8edb6fecc3ca50fca10e22d935d47d279cf1f8440b596bab20d0c8619af938f9"
+    },
+    {
+      "source": "results/offline_summary/offline_reliability.png",
+      "copy": "report/assets/offline_reliability.png",
+      "sha256": "74ae33c60b6d696ba73efa876cee5643ff03ca964fa8b26682375df0410bf980"
     }
   ]
 }

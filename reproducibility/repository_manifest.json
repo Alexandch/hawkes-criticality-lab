@@ -10,16 +10,16 @@
       "bytes": 220
     },
     ".gitignore": {
-      "sha256": "937a56a72f4aa9cd34e124e5d26b766fcd40cabe48184767030bf97e6f63ede1",
-      "bytes": 1114
+      "sha256": "f0c00712fc36fafdd75a9cb3c0997b11bb1dd6dc440b954de4cd547e2022ce47",
+      "bytes": 1132
     },
     "README.md": {
-      "sha256": "1526d4f208641630c01de41efce6a6558990e44fc9dce32b442fd7aeb2117e7b",
-      "bytes": 49501
+      "sha256": "8c2373a20ce961a52ad7b113a7eaebd63864ffd376f54ff8757bc57cc87a964f",
+      "bytes": 50895
     },
     "data/README.md": {
-      "sha256": "49a26715ef71cf61db5dcd34bf76ed55b4ce74a7ef566915210d285bcffb3948",
-      "bytes": 8228
+      "sha256": "a6772d0ce1cbb2773aee200fab7825cca8d85b493874149c174e184abc897481",
+      "bytes": 9887
     },
     "data/processed/code_core_2020_2021_17cities.csv.manifest.json": {
       "sha256": "230388ebc2d10b726e57bf171d8173ae7dd2d3ee4f73028120942314960b776d",
@@ -116,6 +116,18 @@
     "data/processed/nypd_2024_2025_verified_quality.json": {
       "sha256": "2acf7b9e30a93050bb01b2dd0498b2b79c93da31aeeaf2fe332598ce1e77f5e9",
       "bytes": 353
+    },
+    "data/processed/offline_20261110/chicago.json": {
+      "sha256": "a7bffb12e6313611b91a3c54975c9a890b10ff1283783e6f56bf5da26f2ab466",
+      "bytes": 2473
+    },
+    "data/processed/offline_20261110/observation_ledger_summary.json": {
+      "sha256": "dc80ac43ca83f1cfa3a770b2bf903f8abded1de50af8fde2cff165eb2f9bdcb7",
+      "bytes": 1198
+    },
+    "data/processed/offline_20261110/san_francisco.json": {
+      "sha256": "4b41c172c133378f1410355288df6f15a12c23a69fcf5ed2529967c910dd5ace",
+      "bytes": 2463
     },
     "data/processed/spatiotemporal_20261110/chicago.json": {
       "sha256": "5bd165e88170bc2d4c4b0c5916c2940dea9b951b42b50ba5c8f4ca80289212d6",
@@ -273,6 +285,22 @@
       "sha256": "2b705e0c7078af6bf3c11f1968b45137d35c6957e48926bae5d44e08c217b879",
       "bytes": 43352
     },
+    "data/raw/offline_20261110/chicago_202610.csv.gz.manifest.json": {
+      "sha256": "826b42c9defbb67f7e276913e9eaba2571e45822ef4b39cd5c605f4036074c74",
+      "bytes": 813
+    },
+    "data/raw/offline_20261110/san_francisco_202610.csv.gz.manifest.json": {
+      "sha256": "ca8a9574a4d44425981265b174325d979419da8bc9035c9881426076d4458be7",
+      "bytes": 938
+    },
+    "data/raw/public_observed_20261110/chicago/chicago.csv.gz.manifest.json": {
+      "sha256": "7ab5865da6468dfadbfcfa76999b75d289ae40e3ac02f50984e26c88adaa69d1",
+      "bytes": 1264
+    },
+    "data/raw/public_observed_20261110/san_francisco/san_francisco.csv.gz.manifest.json": {
+      "sha256": "32bd11a449dc21ff646df4cc7756f03f43bc00512faccc8c67a574a617ee46d3",
+      "bytes": 1309
+    },
     "data/raw/spatiotemporal_20261110/chicago_2019.csv.gz.manifest.json": {
       "sha256": "e210171a402210203eb7c93f90b1daeb59d4bcf6cd1aeefd8267536244cd7bd6",
       "bytes": 1181
@@ -358,48 +386,56 @@
       "bytes": 632
     },
     "report/ACCEPTANCE.md": {
-      "sha256": "3a438530cade345e87e1271b991405986d455a41e4efa22cbf3bd62ec3908dc4",
-      "bytes": 5791
+      "sha256": "9f81571a37c6bb3edaa02103d25731de192728f13d02f417f72812b788e786b6",
+      "bytes": 6570
     },
     "report/DEFENSE.md": {
-      "sha256": "6f67076808bccbc789625d5ee6ca08894c96bb254513ad58c4c5b058bf69d16e",
-      "bytes": 24850
+      "sha256": "45c26b7f440bc467d849c18c77d390972364e1957f9f7ef05d63b85585650ee6",
+      "bytes": 27248
     },
     "report/DYNAMIC_PROTOCOL.md": {
       "sha256": "97c7b22a196044fef29132fdbd73154237a3362428cc9be204ad20d41831fd81",
       "bytes": 10429
     },
     "report/EVIDENCE.md": {
-      "sha256": "95f2598cdc8373517751f44578a3efa6b392e21afc03ea9238690691dabd2131",
-      "bytes": 22342
+      "sha256": "255709650393ce92d519a12eb772f0f9225eeb8a2d710bd3f9faefa41a539a13",
+      "bytes": 26843
     },
     "report/EXTENDED_PROTOCOL.md": {
       "sha256": "c2a5a78fc3a50286a4a150dd3fac39861d153b962221373f7440689241f195ab",
       "bytes": 9810
     },
+    "report/OFFLINE_GUIDE.md": {
+      "sha256": "109370239d90f3fb438ef3da8dc3b1a18790fda962266153337040859ad6126e",
+      "bytes": 7639
+    },
+    "report/OFFLINE_PROTOCOL.md": {
+      "sha256": "fc31bf9fa8469ab6c2b1a8b45d25415778e4ac5c6adf2cf2490b82795232a9b9",
+      "bytes": 10986
+    },
     "report/PLAN.md": {
-      "sha256": "bb0d2adb12107ee5a8ccdbf0af466468bb7d6746dc46fb45a36da714d45d841d",
-      "bytes": 13323
+      "sha256": "d84be97787fec094b3e79b37faffb1080d7b91e570460b10aa774eef73c72730",
+      "bytes": 14009
     },
     "report/README.md": {
-      "sha256": "3232feaf253709ec3830511f7248d5ae6f09029a9af8107dbd91156b80c20ecd",
-      "bytes": 5077
+      "sha256": "9350be0c9e8ea816aa76a4dee6cae727887da147d72d654f97c2a54fbb509ae1",
+      "bytes": 5589
     },
     "report/REPORT.md": {
-      "sha256": "28a6494afb3fa8c5f6a14d530232d108c81f539e8d56345676bde135485ed4bd",
-      "bytes": 88585
+      "sha256": "7b453d8d7f24cc8d351443fc3ffa51d2576ae224932d62c63f316a55b56a9b3c",
+      "bytes": 101678
     },
     "report/RUN_GUIDE.md": {
-      "sha256": "1b6ca9bab33d8a0a6a3be7867f3419948b2e7e647b3f8d82488f32b8f69b1986",
-      "bytes": 12523
+      "sha256": "b0a6539e7797d1b955142264efe6e89e23ba84e7e111d101ebc25ebe0fd9f565",
+      "bytes": 13047
     },
     "report/SPATIOTEMPORAL_PROTOCOL.md": {
       "sha256": "2b07dd0f5855b4eab93bc4047ca0bbff54a125225b9bb9a6b748af6010ff7f19",
       "bytes": 9800
     },
     "report/VALIDATION.md": {
-      "sha256": "a02bfda648c4f88cd2ac2e868a1ad28a40d39f91cf2d59112fb99f4ce518caa6",
-      "bytes": 7418
+      "sha256": "e40d2fc4eb894762d27f17da5132821e1f76218f90dd505e96bc27ac1e0d384e",
+      "bytes": 8785
     },
     "report/assets/background_comparison.png": {
       "sha256": "7732fe959528f4c3f33630b011e3afe98743254272ef3e409cce0f99ab116eb9",
@@ -450,8 +486,8 @@
       "bytes": 145860
     },
     "report/assets/manifest.json": {
-      "sha256": "2a89700256580efb77e27158406e11a47dfca5b3860e849d8d1e4ad655aab8dc",
-      "bytes": 4069
+      "sha256": "069cddd37ec88de87af015ef0ef852e3c97985dd12db67ed9d4ab2fdfe401610",
+      "bytes": 4716
     },
     "report/assets/n_accuracy_auc.png": {
       "sha256": "40e81305b3625385d4689a3f4de07d1e522866f2ee51ed2f66b2f9956d7a184a",
@@ -464,6 +500,18 @@
     "report/assets/n_overlap.png": {
       "sha256": "93d732340c0901d0075833306c52a498aaa74564b027bc6c102ba55a53d23086",
       "bytes": 157279
+    },
+    "report/assets/offline_alarms.png": {
+      "sha256": "8edb6fecc3ca50fca10e22d935d47d279cf1f8440b596bab20d0c8619af938f9",
+      "bytes": 72064
+    },
+    "report/assets/offline_count.png": {
+      "sha256": "a6ef3a86ff780c003a6ebf0b9d31050297de1644e7df0196943556b8457fb988",
+      "bytes": 89025
+    },
+    "report/assets/offline_reliability.png": {
+      "sha256": "74ae33c60b6d696ba73efa876cee5643ff03ca964fa8b26682375df0410bf980",
+      "bytes": 78808
     },
     "report/assets/pilot_indicators.png": {
       "sha256": "8efce4d67f45d4e561bf7febdc9411e6551e8a27a13122eb5b17717937c0cc9c",
@@ -482,12 +530,12 @@
       "bytes": 314
     },
     "reproducibility/logs/final_tests_utf8.log": {
-      "sha256": "0aeed706c922f8b299c97b8d0d12d5751cc0a271e10c4ea6ae52d0fb04f759a3",
-      "bytes": 15631
+      "sha256": "557d90210f8cd917d344875c34ef480ed42677c8b88f897677e7993150d88114",
+      "bytes": 17243
     },
     "reproducibility/test_result.json": {
-      "sha256": "372e84641e3620ceeeebcf042515c9f7d595bfdcde545e7f6e154315197b976b",
-      "bytes": 178
+      "sha256": "6de53d9110ee35f7e30fe8eaadf4319baaac394ee435f262a74975b194c1d531",
+      "bytes": 179
     },
     "requirements-lock.txt": {
       "sha256": "a3994c6b4683da0e7d4cca20426498ba19046e30e38f0b674a581b9c7935f734",
@@ -1248,6 +1296,278 @@
     "results/nyc_2024_2025_hourly/run_config.json": {
       "sha256": "aaa524720ef88db325fa4c00d3cffceca3e3569f84542b4be0dd7f8ae61bfb61",
       "bytes": 415
+    },
+    "results/offline_readiness/complete.json": {
+      "sha256": "e947e5f3d584b720f34ec217a175951fd80be501411135a47abdd6ea3acb90e7",
+      "bytes": 22553
+    },
+    "results/offline_readiness/district_metrics.csv": {
+      "sha256": "54937c814bb0ef5f1075acc483e0cf622f65ea2f88e0cbd7a777e126687fd522",
+      "bytes": 1358501
+    },
+    "results/offline_readiness/evaluation_started.json": {
+      "sha256": "df9eb5790a72d90a6768fe341f572e37d8933262ba4be9eb12f872c8d5eafbcb",
+      "bytes": 194
+    },
+    "results/offline_readiness/forecast_journal.json": {
+      "sha256": "863a214ff4e6114e6fa1e8804c2d15428243eed520b14066c8d9edca2f3c35b2",
+      "bytes": 42143
+    },
+    "results/offline_readiness/frozen_plan.json": {
+      "sha256": "b2cb1b3720735b51b537a34b0897ae39e9a2cbd6c955ccb13e127183acb4d542",
+      "bytes": 995251
+    },
+    "results/offline_readiness/metrics.csv": {
+      "sha256": "f71013463405da953f0674fa82d9e2f60a27d4605c641d958318eb0b6e0f3fb9",
+      "bytes": 100292
+    },
+    "results/offline_readiness/models/chicago/2024-01-01/seed211.csv": {
+      "sha256": "722b70fba53d5f7aa43b4ff94de35c85a424c25ded319c8152656ede9433c708",
+      "bytes": 1622
+    },
+    "results/offline_readiness/models/chicago/2024-01-01/seed211.pt": {
+      "sha256": "58da5fefb78cd2780ad7f8e91e0c692ad019818caff8ec30f817695aa48a7170",
+      "bytes": 16845
+    },
+    "results/offline_readiness/models/chicago/2024-01-01/seed223.csv": {
+      "sha256": "5416d39ed00dde49768f3366e06588dab2438fd0393cc776ea9a84e3225de0cf",
+      "bytes": 1622
+    },
+    "results/offline_readiness/models/chicago/2024-01-01/seed223.pt": {
+      "sha256": "f709bcc7fb111a18bfaf5858cb5df63a628fc90a31795e4d7d322df965787a18",
+      "bytes": 16845
+    },
+    "results/offline_readiness/models/chicago/2024-01-01/seed227.csv": {
+      "sha256": "f2447448cd4b65870a2171eae75e197eeed5d8a1fa395bce30ec8f613869642a",
+      "bytes": 1625
+    },
+    "results/offline_readiness/models/chicago/2024-01-01/seed227.pt": {
+      "sha256": "1187f148653a6b37ad7309ca4edc6f46944f023eda413bd149f9c8da7ab243ab",
+      "bytes": 16845
+    },
+    "results/offline_readiness/models/chicago/2025-01-01/seed211.csv": {
+      "sha256": "9d83d6b4f4bae4a7f05f8818c9bb5e6ae73d5fb81a049a9894af8c1e27f66163",
+      "bytes": 1641
+    },
+    "results/offline_readiness/models/chicago/2025-01-01/seed211.pt": {
+      "sha256": "bec5edad44b234b476f652fc4b816d09ff459b207993b34a7cadebf4d0ea3309",
+      "bytes": 16845
+    },
+    "results/offline_readiness/models/chicago/2025-01-01/seed223.csv": {
+      "sha256": "8606131897326e2b3d49d76918fdf878e5de35a00592ae351bae11518e3e4939",
+      "bytes": 1642
+    },
+    "results/offline_readiness/models/chicago/2025-01-01/seed223.pt": {
+      "sha256": "7b6ddc28e43180064ae2e7d7524991978dffb0068ca4c076aba96a5f58119129",
+      "bytes": 16845
+    },
+    "results/offline_readiness/models/chicago/2025-01-01/seed227.csv": {
+      "sha256": "cc1ec9a31c91f3eeaaf3317ca0e236df6682afdb125067dce2d0cda48095c643",
+      "bytes": 1655
+    },
+    "results/offline_readiness/models/chicago/2025-01-01/seed227.pt": {
+      "sha256": "51459892338ccfe39232fc9943fa505eed9cd5ff6ec0443cfadab8c22bf22129",
+      "bytes": 16845
+    },
+    "results/offline_readiness/models/chicago/2026-01-01/seed211.csv": {
+      "sha256": "dd3eacaea3322582400155f9822e32c35fa2ee4f0150739dab3ea485b403f568",
+      "bytes": 1687
+    },
+    "results/offline_readiness/models/chicago/2026-01-01/seed211.pt": {
+      "sha256": "d2e267f2a5e658663d4f12fda3a973277d9244f8a986fa9d34cd9e230fd3715e",
+      "bytes": 16845
+    },
+    "results/offline_readiness/models/chicago/2026-01-01/seed223.csv": {
+      "sha256": "35595ecf98cbc75ee69cd15177537288e6f0b1c50f1e6d29b7b48382872734b8",
+      "bytes": 1684
+    },
+    "results/offline_readiness/models/chicago/2026-01-01/seed223.pt": {
+      "sha256": "a71a0d8466561c2fb0ab757d3bc3238879a3a2b5c851703ccb5d09d0c284e16e",
+      "bytes": 16845
+    },
+    "results/offline_readiness/models/chicago/2026-01-01/seed227.csv": {
+      "sha256": "792b381267bdf1c875104aa2561621d07309257a7424264052d8bf94682fb7c1",
+      "bytes": 1706
+    },
+    "results/offline_readiness/models/chicago/2026-01-01/seed227.pt": {
+      "sha256": "bc8bb34ba83b47d851b334c3ccf466f4da433ddfd951ccd65a58570a94530bc6",
+      "bytes": 16845
+    },
+    "results/offline_readiness/models/chicago/2026-10-01/seed211.csv": {
+      "sha256": "0c4a2a1d73563d400899042c3babd458cac54bad3640718939eee3d78c814db4",
+      "bytes": 1664
+    },
+    "results/offline_readiness/models/chicago/2026-10-01/seed211.pt": {
+      "sha256": "2835ba85c505e4a7f682db2ef294c1cf1cb9eacf1f2bc79b97399c3083970622",
+      "bytes": 16845
+    },
+    "results/offline_readiness/models/chicago/2026-10-01/seed223.csv": {
+      "sha256": "d9dacfe5918a61b54dda23b8f27b9f042e0bd7ed8da838746fff4e94cffaf9bb",
+      "bytes": 1652
+    },
+    "results/offline_readiness/models/chicago/2026-10-01/seed223.pt": {
+      "sha256": "73d0a9e233abad58d5fbc6e266da1bddcff2d78331972f3ed57b8c34a9d10674",
+      "bytes": 16845
+    },
+    "results/offline_readiness/models/chicago/2026-10-01/seed227.csv": {
+      "sha256": "59085a52fb0f82e25c983f0b8e467fbe7e599797d6c5d50565df6b3e3d9792bd",
+      "bytes": 1663
+    },
+    "results/offline_readiness/models/chicago/2026-10-01/seed227.pt": {
+      "sha256": "40ab8398d183d0134c81acb56fa3f51603d3431a1f5ac45f5b4b6b964c8d6541",
+      "bytes": 16845
+    },
+    "results/offline_readiness/models/san_francisco/2024-01-01/seed211.csv": {
+      "sha256": "ca8c2dc18fd72ba55769a7325b610df11b963769467d95c5c75c3183f2528771",
+      "bytes": 1696
+    },
+    "results/offline_readiness/models/san_francisco/2024-01-01/seed211.pt": {
+      "sha256": "b9c2b9e2fdb707b84fc2ba72ec1c0fab06c1ec16d58bafb437ba6350f74e60d4",
+      "bytes": 16461
+    },
+    "results/offline_readiness/models/san_francisco/2024-01-01/seed223.csv": {
+      "sha256": "26298d557a924b9f8c5c2c317fe8387e16caaa7a5b1a6981ca6030701615a916",
+      "bytes": 1702
+    },
+    "results/offline_readiness/models/san_francisco/2024-01-01/seed223.pt": {
+      "sha256": "2a4f6776700376e77eb49034df37700ae2de6be6a62d3308d12d68d66c0c10d0",
+      "bytes": 16461
+    },
+    "results/offline_readiness/models/san_francisco/2024-01-01/seed227.csv": {
+      "sha256": "f20e0c8f4491caaa64c5577a6e8d5c32f0ca0199c7359d7ba670e6d7c5d11297",
+      "bytes": 1700
+    },
+    "results/offline_readiness/models/san_francisco/2024-01-01/seed227.pt": {
+      "sha256": "5a0ca88466c083b5faefc9c78ff50dc010d0a52d1d7fd6da3a056dcd1f99801e",
+      "bytes": 16461
+    },
+    "results/offline_readiness/models/san_francisco/2025-01-01/seed211.csv": {
+      "sha256": "978b67556709a6875abded30d2dc3c7b0cae90cdc6db53b28dfa78873403b804",
+      "bytes": 1702
+    },
+    "results/offline_readiness/models/san_francisco/2025-01-01/seed211.pt": {
+      "sha256": "6d2c5ff6c43c2d7bab1f849d94ce66b8e48da245253169c9dbed60f5b2e592c0",
+      "bytes": 16461
+    },
+    "results/offline_readiness/models/san_francisco/2025-01-01/seed223.csv": {
+      "sha256": "6cce1c34dbfd2c9d0e5c4f40e31f25663c4c1cc07e2abb9aba9f4b1e8fef523f",
+      "bytes": 1691
+    },
+    "results/offline_readiness/models/san_francisco/2025-01-01/seed223.pt": {
+      "sha256": "ef5ec148d57b0a1969fd6b6b65cd5d9452ab7bfc4544f87a3dcf1259ea21d5c5",
+      "bytes": 16461
+    },
+    "results/offline_readiness/models/san_francisco/2025-01-01/seed227.csv": {
+      "sha256": "c20cfb2ccfe5f298125d18f635ebe3c570f1cb380f2b1b6fb00c3007f3c0a735",
+      "bytes": 1700
+    },
+    "results/offline_readiness/models/san_francisco/2025-01-01/seed227.pt": {
+      "sha256": "3bf160cfe3684a28c82dcc49b46d5f9e58e09abf7673ffe996468531e85cb588",
+      "bytes": 16461
+    },
+    "results/offline_readiness/models/san_francisco/2026-01-01/seed211.csv": {
+      "sha256": "fb893d8f188dd1348c9f61c905345be1a425d9169ef77d9e31753482d2a4b044",
+      "bytes": 1625
+    },
+    "results/offline_readiness/models/san_francisco/2026-01-01/seed211.pt": {
+      "sha256": "03cdaa45e84d24a8beaf59607322bcd518bba784470a23159067502cec65a4f2",
+      "bytes": 16461
+    },
+    "results/offline_readiness/models/san_francisco/2026-01-01/seed223.csv": {
+      "sha256": "42d81a27b6203958f57f5314d51a23237da20586b75d92a82016028af55b644e",
+      "bytes": 1612
+    },
+    "results/offline_readiness/models/san_francisco/2026-01-01/seed223.pt": {
+      "sha256": "4b01bd1390c5f4aa49116084af9e3c66dbc11ae5cdc174a8a550dd040e706e4d",
+      "bytes": 16461
+    },
+    "results/offline_readiness/models/san_francisco/2026-01-01/seed227.csv": {
+      "sha256": "0bd04e0f80bde8124a9ede37eedd624b8102b51a3b0b25fb62f9a50fab3b4328",
+      "bytes": 1612
+    },
+    "results/offline_readiness/models/san_francisco/2026-01-01/seed227.pt": {
+      "sha256": "e257852914c5bfd06ca10e409a688a483c72c1badbfbcbdca4a9e129b103a794",
+      "bytes": 16461
+    },
+    "results/offline_readiness/models/san_francisco/2026-10-01/seed211.csv": {
+      "sha256": "0eeb9c52dac626cc942d0cbe760ef4f8c661f7ea255224df1df66df16b247a06",
+      "bytes": 1595
+    },
+    "results/offline_readiness/models/san_francisco/2026-10-01/seed211.pt": {
+      "sha256": "8d1709a320e55f2434b21b33d2207183023518b73dd6172b27720204edfd3fea",
+      "bytes": 16461
+    },
+    "results/offline_readiness/models/san_francisco/2026-10-01/seed223.csv": {
+      "sha256": "7d66b56b07c9a1f978742f10ce62ffa9f1160e80b17cb6a9af1feb58cb1eafd4",
+      "bytes": 1594
+    },
+    "results/offline_readiness/models/san_francisco/2026-10-01/seed223.pt": {
+      "sha256": "90fab22b23e56f1c7492b9ba3f239723ae9888bf509cf42d2a69f036846a779c",
+      "bytes": 16461
+    },
+    "results/offline_readiness/models/san_francisco/2026-10-01/seed227.csv": {
+      "sha256": "697a79acaa676fddabfc53fd9c7a7ff83bc1b1a0d4b27eb19dddcbb24a320af9",
+      "bytes": 1590
+    },
+    "results/offline_readiness/models/san_francisco/2026-10-01/seed227.pt": {
+      "sha256": "90ac23ddb250b59bae271e7a57a2031d2c0519831fc2596ef7cb1a01bcb55914",
+      "bytes": 16461
+    },
+    "results/offline_readiness/monthly_metrics.csv": {
+      "sha256": "8afe1ea67700ae07467f302fbee3a9a7ba9d55311a2d53bcbf4e7b21fbf1c952",
+      "bytes": 670191
+    },
+    "results/offline_readiness/october_examples.csv": {
+      "sha256": "ecfc2df702452677003ad2510f701e73b71fc5a6a455a1814ea0f2895229cf74",
+      "bytes": 418891
+    },
+    "results/offline_readiness/paired_differences.csv": {
+      "sha256": "ae8d7260ee43c8e9b36f2562a42d1888697cb57494ad3dbdcf91cf18118c2103",
+      "bytes": 36505
+    },
+    "results/offline_readiness/protocol.json": {
+      "sha256": "5339929f2c838b299cabfe1a1be898f782696e418c6c7de1b418e92fa939e128",
+      "bytes": 1634
+    },
+    "results/offline_readiness/readiness.json": {
+      "sha256": "119a8704a4815c5582b8b2764296112f77d6849c5cd9f518a6be2f760613f3d5",
+      "bytes": 601
+    },
+    "results/offline_summary/analysis.md": {
+      "sha256": "6fc6d6d6d2d8fdcf966af456d2fc9deaedcf166e20b937451cece0f5a2ae21a4",
+      "bytes": 5547
+    },
+    "results/offline_summary/headline.csv": {
+      "sha256": "0dad18d7f876cccf038f6deee25d4890cd67e76013885b2c06ec30dd5a3099f2",
+      "bytes": 8534
+    },
+    "results/offline_summary/interpretable_differences.csv": {
+      "sha256": "996dce5bbfe62c2238e5ff14fded3b726588414b9bb3c8e6f0c215048f139050",
+      "bytes": 34783
+    },
+    "results/offline_summary/offline_alarms.png": {
+      "sha256": "8edb6fecc3ca50fca10e22d935d47d279cf1f8440b596bab20d0c8619af938f9",
+      "bytes": 72064
+    },
+    "results/offline_summary/offline_count.png": {
+      "sha256": "a6ef3a86ff780c003a6ebf0b9d31050297de1644e7df0196943556b8457fb988",
+      "bytes": 89025
+    },
+    "results/offline_summary/offline_reliability.png": {
+      "sha256": "74ae33c60b6d696ba73efa876cee5643ff03ca964fa8b26682375df0410bf980",
+      "bytes": 78808
+    },
+    "results/offline_summary/probability_calibration.csv": {
+      "sha256": "d16be4750c5fc0b56a68ae16e288fea560a141432467ddc2c5bf93f2da63b10b",
+      "bytes": 223809
+    },
+    "results/offline_summary/provenance.json": {
+      "sha256": "2fa783f1feb1ad4ceda709c05784a9da9652b9b5d80194bb7be9cdcdf28a89bc",
+      "bytes": 1048
+    },
+    "results/offline_summary/reliability.csv": {
+      "sha256": "f7d79dbea82eb5091e0bf49d52584e1037e5698e370706e30561f4cb6be56f32",
+      "bytes": 1713
     },
     "results/project_completion/data_totals.json": {
       "sha256": "1500fe3a9c777d35e4d47e293737756e5574b47ba2c5696cf4f8dcce8d0a64ad",
@@ -2437,6 +2757,10 @@
       "sha256": "6dbb4c035388d340a5b087d69f70bbf41854ecdbe070e16662f0b502c8881846",
       "bytes": 2645
     },
+    "scripts/capture_public_observations.py": {
+      "sha256": "f6e6cab7efaf199148040c53b302734f7657cba87c6a3fccef7d8764d459e20c",
+      "bytes": 3450
+    },
     "scripts/compare_intraday_models.py": {
       "sha256": "60bae9910c220832a33b9acd13e837f6683e0edb5cc73aa8ae83e53b7f686e69",
       "bytes": 14304
@@ -2461,6 +2785,10 @@
       "sha256": "7abc27f1c581ee72e2a1f2d1da7d6a07f44b46c8cf2c55da04177381e31cfa1e",
       "bytes": 9213
     },
+    "scripts/initialize_offline_observations.py": {
+      "sha256": "4627ec2b1afa15a7a0e5c7a736bcd184ec3219648802b862fd1639be781d338b",
+      "bytes": 1217
+    },
     "scripts/prepare_code_subset.py": {
       "sha256": "c2e433636f0b5de014ba81a184668375ddbb9d32348d1145c1a1fad10c618a85",
       "bytes": 3836
@@ -2473,9 +2801,13 @@
       "sha256": "da3c06e655f0c5ee20156f690e5e69a5901cdba2f69c79314ef7bbf1d3becc37",
       "bytes": 2526
     },
+    "scripts/prepare_offline_data.py": {
+      "sha256": "8e32c119802cea262c16518a50eb018fc1da3914dad6f4fb8d52bd67f5827a34",
+      "bytes": 7953
+    },
     "scripts/prepare_report_assets.py": {
-      "sha256": "44f85aa7309b43082aff0574095883ce57a87ba42497a8a45d0c0652cebe37b8",
-      "bytes": 2629
+      "sha256": "de6b1c9220a96479ecad76552c59a23aef4f83651aff651e192d7d261741e893",
+      "bytes": 2853
     },
     "scripts/prepare_repository_manifest.py": {
       "sha256": "6db887e0844fe5d51f7ae44c804d8579df62005c5c0eb2fd2b59ce3c5d6cda4a",
@@ -2492,6 +2824,10 @@
     "scripts/summarize_completion.py": {
       "sha256": "a8f3049c4ba554708faeb7647a9f740f0635907927986226cf93de8f48a4a00e",
       "bytes": 6646
+    },
+    "scripts/summarize_offline.py": {
+      "sha256": "fbfb223f45ca4e0ad8eb63ea0da004ab33c87e8ded32957ffe0e771a6dd6078c",
+      "bytes": 13735
     },
     "scripts/summarize_spatiotemporal.py": {
       "sha256": "bc79921395f25bf4f7ec1a1c51a5496a43d995034b9b075dbff6ac78aa210816",
@@ -2517,13 +2853,17 @@
       "sha256": "d3db34f5322689c712bd13c7cad4a79b771748588d6f0a117c62e5d6535be7cb",
       "bytes": 2955
     },
+    "scripts/verify_offline.py": {
+      "sha256": "2a1a65dd264b344d66665aa694f444640d68ad86cafb27b74d373a16581901a9",
+      "bytes": 10049
+    },
     "scripts/verify_report.py": {
-      "sha256": "141efcc92eef65e6d8d595bb894fee0ffdfe3c3d2fce0d7b5738f5f429cca5a8",
-      "bytes": 11215
+      "sha256": "1aa3da3e04fd62c3e6a66aebc66b1d9a1ea34c2aeb26e39109748cefd4d48636",
+      "bytes": 12574
     },
     "scripts/verify_repository_snapshot.py": {
-      "sha256": "28807caddfae19e6d4272166cb5290cad799e090527d38d71c1ebdc58f986982",
-      "bytes": 4214
+      "sha256": "02561b96716bc61ea2fa5aaf695ab295591901420c037114ab3e88f5deb46eeb",
+      "bytes": 5115
     },
     "scripts/verify_robust_experiment.py": {
       "sha256": "a596d394b51e8e06c5525e64440d992726ebcc27e143cee59e5a176845885089",
@@ -2633,6 +2973,18 @@
       "sha256": "7e84e79db2009bd92c11503878556215442ddef8542adfbb2247010baedb9654",
       "bytes": 23099
     },
+    "src/critical_processes/observation_ledger.py": {
+      "sha256": "d5ab5bfaeb26547c10f8291b89213718e00e3a40e7cebe0195c6abfe8b1a8236",
+      "bytes": 4098
+    },
+    "src/critical_processes/offline_experiment.py": {
+      "sha256": "405866bd2b431f4ba3e4cea7f847de5292f0d42d235bb4c1f245953c2d6e9b27",
+      "bytes": 18027
+    },
+    "src/critical_processes/offline_forecast.py": {
+      "sha256": "bb7be37ae37d0ea858637cc8d1af65ffe0b5bb119cbc7d381fc04b814cbb1db7",
+      "bytes": 13089
+    },
     "src/critical_processes/robust_training.py": {
       "sha256": "decf950ad2d4b46c164a4d894bcd00754cc941afd43ec85734049cdd1c6f587f",
       "bytes": 37436
@@ -2732,6 +3084,10 @@
     "tests/test_n_accuracy.py": {
       "sha256": "02762474f26458588bc32978a6eb19f1104d2968402ee5087d7aa19e9390a480",
       "bytes": 3577
+    },
+    "tests/test_offline_readiness.py": {
+      "sha256": "79ed21bb77286765ff40eb9d5a406a67294a4fdb9ce77b5f5945986cc3d1737e",
+      "bytes": 6909
     },
     "tests/test_robust_training.py": {
       "sha256": "3a73fa92e111382fc63a377b927888b628a4ec9120a5b48c32a605c49ced4332",
@@ -3024,6 +3380,22 @@
       "bytes": 46117359
     },
     {
+      "path": "data/processed/offline_20261110/chicago.npz",
+      "bytes": 1506151
+    },
+    {
+      "path": "data/processed/offline_20261110/observations.sqlite",
+      "bytes": 2928640
+    },
+    {
+      "path": "data/processed/offline_20261110/san_francisco.npz",
+      "bytes": 942806
+    },
+    {
+      "path": "data/processed/public_observations/rows.sqlite",
+      "bytes": 1073152
+    },
+    {
       "path": "data/processed/spatiotemporal_20261110/chicago.npz",
       "bytes": 229993
     },
@@ -3186,6 +3558,22 @@
     {
       "path": "data/raw/nypd_complaints_2024_2025_verified.csv",
       "bytes": 81516235
+    },
+    {
+      "path": "data/raw/offline_20261110/chicago_202610.csv.gz",
+      "bytes": 88315
+    },
+    {
+      "path": "data/raw/offline_20261110/san_francisco_202610.csv.gz",
+      "bytes": 29305
+    },
+    {
+      "path": "data/raw/public_observed_20261110/chicago/chicago.csv.gz",
+      "bytes": 50608
+    },
+    {
+      "path": "data/raw/public_observed_20261110/san_francisco/san_francisco.csv.gz",
+      "bytes": 8816
     },
     {
       "path": "data/raw/spatiotemporal_20261110/chicago_2019.csv.gz",
@@ -3370,6 +3758,550 @@
     {
       "path": "results/neural_detector_robust_90d/trajectory_test_metrics.csv",
       "bytes": 249373
+    },
+    {
+      "path": "results/offline_readiness/ledger/chicago/delayed_stress_2024-01.npz",
+      "bytes": 541306
+    },
+    {
+      "path": "results/offline_readiness/ledger/chicago/delayed_stress_2024-02.npz",
+      "bytes": 509367
+    },
+    {
+      "path": "results/offline_readiness/ledger/chicago/delayed_stress_2024-03.npz",
+      "bytes": 536221
+    },
+    {
+      "path": "results/offline_readiness/ledger/chicago/delayed_stress_2024-04.npz",
+      "bytes": 520767
+    },
+    {
+      "path": "results/offline_readiness/ledger/chicago/delayed_stress_2024-05.npz",
+      "bytes": 538161
+    },
+    {
+      "path": "results/offline_readiness/ledger/chicago/delayed_stress_2024-06.npz",
+      "bytes": 522180
+    },
+    {
+      "path": "results/offline_readiness/ledger/chicago/delayed_stress_2024-07.npz",
+      "bytes": 538256
+    },
+    {
+      "path": "results/offline_readiness/ledger/chicago/delayed_stress_2024-08.npz",
+      "bytes": 539885
+    },
+    {
+      "path": "results/offline_readiness/ledger/chicago/delayed_stress_2024-09.npz",
+      "bytes": 521935
+    },
+    {
+      "path": "results/offline_readiness/ledger/chicago/delayed_stress_2024-10.npz",
+      "bytes": 537544
+    },
+    {
+      "path": "results/offline_readiness/ledger/chicago/delayed_stress_2024-11.npz",
+      "bytes": 520251
+    },
+    {
+      "path": "results/offline_readiness/ledger/chicago/delayed_stress_2024-12.npz",
+      "bytes": 537679
+    },
+    {
+      "path": "results/offline_readiness/ledger/chicago/delayed_stress_2025-01.npz",
+      "bytes": 535916
+    },
+    {
+      "path": "results/offline_readiness/ledger/chicago/delayed_stress_2025-02.npz",
+      "bytes": 488186
+    },
+    {
+      "path": "results/offline_readiness/ledger/chicago/delayed_stress_2025-03.npz",
+      "bytes": 537162
+    },
+    {
+      "path": "results/offline_readiness/ledger/chicago/delayed_stress_2025-04.npz",
+      "bytes": 519030
+    },
+    {
+      "path": "results/offline_readiness/ledger/chicago/delayed_stress_2025-05.npz",
+      "bytes": 537601
+    },
+    {
+      "path": "results/offline_readiness/ledger/chicago/delayed_stress_2025-06.npz",
+      "bytes": 522062
+    },
+    {
+      "path": "results/offline_readiness/ledger/chicago/delayed_stress_2025-07.npz",
+      "bytes": 537502
+    },
+    {
+      "path": "results/offline_readiness/ledger/chicago/delayed_stress_2025-08.npz",
+      "bytes": 538879
+    },
+    {
+      "path": "results/offline_readiness/ledger/chicago/delayed_stress_2025-09.npz",
+      "bytes": 519827
+    },
+    {
+      "path": "results/offline_readiness/ledger/chicago/delayed_stress_2025-10.npz",
+      "bytes": 536218
+    },
+    {
+      "path": "results/offline_readiness/ledger/chicago/delayed_stress_2025-11.npz",
+      "bytes": 519542
+    },
+    {
+      "path": "results/offline_readiness/ledger/chicago/delayed_stress_2025-12.npz",
+      "bytes": 536477
+    },
+    {
+      "path": "results/offline_readiness/ledger/chicago/delayed_stress_2026-01.npz",
+      "bytes": 534945
+    },
+    {
+      "path": "results/offline_readiness/ledger/chicago/delayed_stress_2026-02.npz",
+      "bytes": 490283
+    },
+    {
+      "path": "results/offline_readiness/ledger/chicago/delayed_stress_2026-03.npz",
+      "bytes": 537383
+    },
+    {
+      "path": "results/offline_readiness/ledger/chicago/delayed_stress_2026-04.npz",
+      "bytes": 523843
+    },
+    {
+      "path": "results/offline_readiness/ledger/chicago/delayed_stress_2026-05.npz",
+      "bytes": 538832
+    },
+    {
+      "path": "results/offline_readiness/ledger/chicago/delayed_stress_2026-06.npz",
+      "bytes": 524404
+    },
+    {
+      "path": "results/offline_readiness/ledger/chicago/delayed_stress_2026-07.npz",
+      "bytes": 538064
+    },
+    {
+      "path": "results/offline_readiness/ledger/chicago/delayed_stress_2026-08.npz",
+      "bytes": 537451
+    },
+    {
+      "path": "results/offline_readiness/ledger/chicago/delayed_stress_2026-09.npz",
+      "bytes": 520368
+    },
+    {
+      "path": "results/offline_readiness/ledger/chicago/delayed_stress_2026-10.npz",
+      "bytes": 536701
+    },
+    {
+      "path": "results/offline_readiness/ledger/chicago/primary_2024-01.npz",
+      "bytes": 541246
+    },
+    {
+      "path": "results/offline_readiness/ledger/chicago/primary_2024-02.npz",
+      "bytes": 509349
+    },
+    {
+      "path": "results/offline_readiness/ledger/chicago/primary_2024-03.npz",
+      "bytes": 536096
+    },
+    {
+      "path": "results/offline_readiness/ledger/chicago/primary_2024-04.npz",
+      "bytes": 520664
+    },
+    {
+      "path": "results/offline_readiness/ledger/chicago/primary_2024-05.npz",
+      "bytes": 538122
+    },
+    {
+      "path": "results/offline_readiness/ledger/chicago/primary_2024-06.npz",
+      "bytes": 522020
+    },
+    {
+      "path": "results/offline_readiness/ledger/chicago/primary_2024-07.npz",
+      "bytes": 537993
+    },
+    {
+      "path": "results/offline_readiness/ledger/chicago/primary_2024-08.npz",
+      "bytes": 539755
+    },
+    {
+      "path": "results/offline_readiness/ledger/chicago/primary_2024-09.npz",
+      "bytes": 521881
+    },
+    {
+      "path": "results/offline_readiness/ledger/chicago/primary_2024-10.npz",
+      "bytes": 537198
+    },
+    {
+      "path": "results/offline_readiness/ledger/chicago/primary_2024-11.npz",
+      "bytes": 520258
+    },
+    {
+      "path": "results/offline_readiness/ledger/chicago/primary_2024-12.npz",
+      "bytes": 537578
+    },
+    {
+      "path": "results/offline_readiness/ledger/chicago/primary_2025-01.npz",
+      "bytes": 535951
+    },
+    {
+      "path": "results/offline_readiness/ledger/chicago/primary_2025-02.npz",
+      "bytes": 487938
+    },
+    {
+      "path": "results/offline_readiness/ledger/chicago/primary_2025-03.npz",
+      "bytes": 537241
+    },
+    {
+      "path": "results/offline_readiness/ledger/chicago/primary_2025-04.npz",
+      "bytes": 519010
+    },
+    {
+      "path": "results/offline_readiness/ledger/chicago/primary_2025-05.npz",
+      "bytes": 537597
+    },
+    {
+      "path": "results/offline_readiness/ledger/chicago/primary_2025-06.npz",
+      "bytes": 521817
+    },
+    {
+      "path": "results/offline_readiness/ledger/chicago/primary_2025-07.npz",
+      "bytes": 537502
+    },
+    {
+      "path": "results/offline_readiness/ledger/chicago/primary_2025-08.npz",
+      "bytes": 538841
+    },
+    {
+      "path": "results/offline_readiness/ledger/chicago/primary_2025-09.npz",
+      "bytes": 519802
+    },
+    {
+      "path": "results/offline_readiness/ledger/chicago/primary_2025-10.npz",
+      "bytes": 536215
+    },
+    {
+      "path": "results/offline_readiness/ledger/chicago/primary_2025-11.npz",
+      "bytes": 519283
+    },
+    {
+      "path": "results/offline_readiness/ledger/chicago/primary_2025-12.npz",
+      "bytes": 536555
+    },
+    {
+      "path": "results/offline_readiness/ledger/chicago/primary_2026-01.npz",
+      "bytes": 534914
+    },
+    {
+      "path": "results/offline_readiness/ledger/chicago/primary_2026-02.npz",
+      "bytes": 489981
+    },
+    {
+      "path": "results/offline_readiness/ledger/chicago/primary_2026-03.npz",
+      "bytes": 537678
+    },
+    {
+      "path": "results/offline_readiness/ledger/chicago/primary_2026-04.npz",
+      "bytes": 523588
+    },
+    {
+      "path": "results/offline_readiness/ledger/chicago/primary_2026-05.npz",
+      "bytes": 538641
+    },
+    {
+      "path": "results/offline_readiness/ledger/chicago/primary_2026-06.npz",
+      "bytes": 524442
+    },
+    {
+      "path": "results/offline_readiness/ledger/chicago/primary_2026-07.npz",
+      "bytes": 537934
+    },
+    {
+      "path": "results/offline_readiness/ledger/chicago/primary_2026-08.npz",
+      "bytes": 537390
+    },
+    {
+      "path": "results/offline_readiness/ledger/chicago/primary_2026-09.npz",
+      "bytes": 520238
+    },
+    {
+      "path": "results/offline_readiness/ledger/chicago/primary_2026-10.npz",
+      "bytes": 536603
+    },
+    {
+      "path": "results/offline_readiness/ledger/san_francisco/delayed_stress_2024-01.npz",
+      "bytes": 247807
+    },
+    {
+      "path": "results/offline_readiness/ledger/san_francisco/delayed_stress_2024-02.npz",
+      "bytes": 233736
+    },
+    {
+      "path": "results/offline_readiness/ledger/san_francisco/delayed_stress_2024-03.npz",
+      "bytes": 248276
+    },
+    {
+      "path": "results/offline_readiness/ledger/san_francisco/delayed_stress_2024-04.npz",
+      "bytes": 241579
+    },
+    {
+      "path": "results/offline_readiness/ledger/san_francisco/delayed_stress_2024-05.npz",
+      "bytes": 248906
+    },
+    {
+      "path": "results/offline_readiness/ledger/san_francisco/delayed_stress_2024-06.npz",
+      "bytes": 240329
+    },
+    {
+      "path": "results/offline_readiness/ledger/san_francisco/delayed_stress_2024-07.npz",
+      "bytes": 249906
+    },
+    {
+      "path": "results/offline_readiness/ledger/san_francisco/delayed_stress_2024-08.npz",
+      "bytes": 250426
+    },
+    {
+      "path": "results/offline_readiness/ledger/san_francisco/delayed_stress_2024-09.npz",
+      "bytes": 242216
+    },
+    {
+      "path": "results/offline_readiness/ledger/san_francisco/delayed_stress_2024-10.npz",
+      "bytes": 248135
+    },
+    {
+      "path": "results/offline_readiness/ledger/san_francisco/delayed_stress_2024-11.npz",
+      "bytes": 241778
+    },
+    {
+      "path": "results/offline_readiness/ledger/san_francisco/delayed_stress_2024-12.npz",
+      "bytes": 247771
+    },
+    {
+      "path": "results/offline_readiness/ledger/san_francisco/delayed_stress_2025-01.npz",
+      "bytes": 247571
+    },
+    {
+      "path": "results/offline_readiness/ledger/san_francisco/delayed_stress_2025-02.npz",
+      "bytes": 225216
+    },
+    {
+      "path": "results/offline_readiness/ledger/san_francisco/delayed_stress_2025-03.npz",
+      "bytes": 246981
+    },
+    {
+      "path": "results/offline_readiness/ledger/san_francisco/delayed_stress_2025-04.npz",
+      "bytes": 239493
+    },
+    {
+      "path": "results/offline_readiness/ledger/san_francisco/delayed_stress_2025-05.npz",
+      "bytes": 247680
+    },
+    {
+      "path": "results/offline_readiness/ledger/san_francisco/delayed_stress_2025-06.npz",
+      "bytes": 240460
+    },
+    {
+      "path": "results/offline_readiness/ledger/san_francisco/delayed_stress_2025-07.npz",
+      "bytes": 248141
+    },
+    {
+      "path": "results/offline_readiness/ledger/san_francisco/delayed_stress_2025-08.npz",
+      "bytes": 248055
+    },
+    {
+      "path": "results/offline_readiness/ledger/san_francisco/delayed_stress_2025-09.npz",
+      "bytes": 240541
+    },
+    {
+      "path": "results/offline_readiness/ledger/san_francisco/delayed_stress_2025-10.npz",
+      "bytes": 247173
+    },
+    {
+      "path": "results/offline_readiness/ledger/san_francisco/delayed_stress_2025-11.npz",
+      "bytes": 240247
+    },
+    {
+      "path": "results/offline_readiness/ledger/san_francisco/delayed_stress_2025-12.npz",
+      "bytes": 248031
+    },
+    {
+      "path": "results/offline_readiness/ledger/san_francisco/delayed_stress_2026-01.npz",
+      "bytes": 247153
+    },
+    {
+      "path": "results/offline_readiness/ledger/san_francisco/delayed_stress_2026-02.npz",
+      "bytes": 224917
+    },
+    {
+      "path": "results/offline_readiness/ledger/san_francisco/delayed_stress_2026-03.npz",
+      "bytes": 246933
+    },
+    {
+      "path": "results/offline_readiness/ledger/san_francisco/delayed_stress_2026-04.npz",
+      "bytes": 239150
+    },
+    {
+      "path": "results/offline_readiness/ledger/san_francisco/delayed_stress_2026-05.npz",
+      "bytes": 246260
+    },
+    {
+      "path": "results/offline_readiness/ledger/san_francisco/delayed_stress_2026-06.npz",
+      "bytes": 240017
+    },
+    {
+      "path": "results/offline_readiness/ledger/san_francisco/delayed_stress_2026-07.npz",
+      "bytes": 248003
+    },
+    {
+      "path": "results/offline_readiness/ledger/san_francisco/delayed_stress_2026-08.npz",
+      "bytes": 247111
+    },
+    {
+      "path": "results/offline_readiness/ledger/san_francisco/delayed_stress_2026-09.npz",
+      "bytes": 239450
+    },
+    {
+      "path": "results/offline_readiness/ledger/san_francisco/delayed_stress_2026-10.npz",
+      "bytes": 246183
+    },
+    {
+      "path": "results/offline_readiness/ledger/san_francisco/primary_2024-01.npz",
+      "bytes": 247867
+    },
+    {
+      "path": "results/offline_readiness/ledger/san_francisco/primary_2024-02.npz",
+      "bytes": 233681
+    },
+    {
+      "path": "results/offline_readiness/ledger/san_francisco/primary_2024-03.npz",
+      "bytes": 248284
+    },
+    {
+      "path": "results/offline_readiness/ledger/san_francisco/primary_2024-04.npz",
+      "bytes": 241579
+    },
+    {
+      "path": "results/offline_readiness/ledger/san_francisco/primary_2024-05.npz",
+      "bytes": 248886
+    },
+    {
+      "path": "results/offline_readiness/ledger/san_francisco/primary_2024-06.npz",
+      "bytes": 240316
+    },
+    {
+      "path": "results/offline_readiness/ledger/san_francisco/primary_2024-07.npz",
+      "bytes": 249821
+    },
+    {
+      "path": "results/offline_readiness/ledger/san_francisco/primary_2024-08.npz",
+      "bytes": 250321
+    },
+    {
+      "path": "results/offline_readiness/ledger/san_francisco/primary_2024-09.npz",
+      "bytes": 242088
+    },
+    {
+      "path": "results/offline_readiness/ledger/san_francisco/primary_2024-10.npz",
+      "bytes": 248135
+    },
+    {
+      "path": "results/offline_readiness/ledger/san_francisco/primary_2024-11.npz",
+      "bytes": 241749
+    },
+    {
+      "path": "results/offline_readiness/ledger/san_francisco/primary_2024-12.npz",
+      "bytes": 247843
+    },
+    {
+      "path": "results/offline_readiness/ledger/san_francisco/primary_2025-01.npz",
+      "bytes": 247585
+    },
+    {
+      "path": "results/offline_readiness/ledger/san_francisco/primary_2025-02.npz",
+      "bytes": 225138
+    },
+    {
+      "path": "results/offline_readiness/ledger/san_francisco/primary_2025-03.npz",
+      "bytes": 247027
+    },
+    {
+      "path": "results/offline_readiness/ledger/san_francisco/primary_2025-04.npz",
+      "bytes": 239512
+    },
+    {
+      "path": "results/offline_readiness/ledger/san_francisco/primary_2025-05.npz",
+      "bytes": 247713
+    },
+    {
+      "path": "results/offline_readiness/ledger/san_francisco/primary_2025-06.npz",
+      "bytes": 240561
+    },
+    {
+      "path": "results/offline_readiness/ledger/san_francisco/primary_2025-07.npz",
+      "bytes": 248123
+    },
+    {
+      "path": "results/offline_readiness/ledger/san_francisco/primary_2025-08.npz",
+      "bytes": 247916
+    },
+    {
+      "path": "results/offline_readiness/ledger/san_francisco/primary_2025-09.npz",
+      "bytes": 240740
+    },
+    {
+      "path": "results/offline_readiness/ledger/san_francisco/primary_2025-10.npz",
+      "bytes": 247331
+    },
+    {
+      "path": "results/offline_readiness/ledger/san_francisco/primary_2025-11.npz",
+      "bytes": 240348
+    },
+    {
+      "path": "results/offline_readiness/ledger/san_francisco/primary_2025-12.npz",
+      "bytes": 248128
+    },
+    {
+      "path": "results/offline_readiness/ledger/san_francisco/primary_2026-01.npz",
+      "bytes": 247117
+    },
+    {
+      "path": "results/offline_readiness/ledger/san_francisco/primary_2026-02.npz",
+      "bytes": 224910
+    },
+    {
+      "path": "results/offline_readiness/ledger/san_francisco/primary_2026-03.npz",
+      "bytes": 246804
+    },
+    {
+      "path": "results/offline_readiness/ledger/san_francisco/primary_2026-04.npz",
+      "bytes": 239251
+    },
+    {
+      "path": "results/offline_readiness/ledger/san_francisco/primary_2026-05.npz",
+      "bytes": 246278
+    },
+    {
+      "path": "results/offline_readiness/ledger/san_francisco/primary_2026-06.npz",
+      "bytes": 240196
+    },
+    {
+      "path": "results/offline_readiness/ledger/san_francisco/primary_2026-07.npz",
+      "bytes": 247998
+    },
+    {
+      "path": "results/offline_readiness/ledger/san_francisco/primary_2026-08.npz",
+      "bytes": 247080
+    },
+    {
+      "path": "results/offline_readiness/ledger/san_francisco/primary_2026-09.npz",
+      "bytes": 239592
+    },
+    {
+      "path": "results/offline_readiness/ledger/san_francisco/primary_2026-10.npz",
+      "bytes": 246114
     },
     {
       "path": "results/selected_detectors/data/calibration.npz",

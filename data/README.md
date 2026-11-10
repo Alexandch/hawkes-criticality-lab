@@ -1,5 +1,13 @@
 # CODE data
 
+## Offline readiness R11 — 2026-11-10
+
+Separate [October manifests](raw/offline_20261110/) extend the unchanged R10 history by 12,913 Chicago rows and 2,773 SF rows. After validation there are 1,189,263 Chicago cases and 426,309 SF reports in [the category panels](processed/offline_20261110/). Historical case IDs repeated in the October query cannot rewrite their earlier group or report date. Exact R10 historical total grids are retained.
+
+The NPZ adds three groups: `all,property,assault_robbery`. A selected case with any assault/robbery category belongs to that group; otherwise it belongs to property. The two exclusive groups sum to `all`. This is a technical partition of selected categories, not all crime or a legal taxonomy. Per-case `event_bins,area_indices,group_indices` and SF `report_bins` support chronological training labels. October labels remain preliminary. Files are external to Git, checksums and scope are retained.
+
+A separate actual observation journal starts on November 10. [Chicago source-row snapshot](raw/public_observed_20261110/chicago/chicago.csv.gz.manifest.json) contains 4,304 rows filtered by source `updated_on`; [SF source-row snapshot](raw/public_observed_20261110/san_francisco/san_francisco.csv.gz.manifest.json) contains 568 rows filtered by `report_datetime`. Unique `id` / `row_id` keys avoid conflating different offenses in the same case. The SQLite ledger stores actual first/last observation times and payload hashes. Partial-window absence is not deletion; SF report-date windows cannot detect every later edit. No historical publication dates are invented. [Instructions](../report/OFFLINE_GUIDE.md).
+
 ## District × 6-hour snapshot R10 — 2026-11-10
 
 This additional task uses separate portal extracts with district fields: [raw manifests](raw/spatiotemporal_20261110/), [Chicago metadata](processed/spatiotemporal_20261110/chicago.json), [San Francisco metadata](processed/spatiotemporal_20261110/san_francisco.json). The 16 CSV.GZ files cover 2019–2025 and January–September 2026. They contain 1,621,231 selected offense rows, reduced to 1,176,356 Chicago cases and 423,703 SF reports after validation and case deduplication. The grid has 11,320 six-hour intervals, 22 Chicago police districts and 10 SF police districts.

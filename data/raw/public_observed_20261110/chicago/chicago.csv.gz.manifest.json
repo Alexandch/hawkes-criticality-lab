@@ -1,0 +1,19 @@
+{
+  "city": "chicago",
+  "rows": 4304,
+  "url": "https://data.cityofchicago.org/resource/ijzp-q8t2.csv?%24select=id%2Ccase_number%2Cdate%2Cdistrict%2Cprimary_type%2Cupdated_on&%24where=updated_on+%3E%3D+%272026-11-01T00%3A00%3A00%27+AND+updated_on+%3C+%272026-11-11T00%3A00%3A00%27+AND+primary_type+in%28%27ASSAULT%27%2C%27BATTERY%27%2C%27BURGLARY%27%2C%27ROBBERY%27%2C%27THEFT%27%2C%27MOTOR+VEHICLE+THEFT%27%29&%24order=id&%24limit=1000000",
+  "sha256": "217ccf2faee847784bff0362c4c6a0643ecfe65543811b7878f60bc1ce85c058",
+  "observed_at": "2026-11-10T20:23:20.224224+00:00",
+  "filter_column": "updated_on",
+  "ledger": "data\\processed\\public_observations\\rows.sqlite",
+  "ledger_receipt": {
+    "records": 4304,
+    "new": 4304,
+    "changed": 0,
+    "cached": false,
+    "observed_at": "2026-11-10T20:23:20.224224+00:00",
+    "sha256": "d44e6b44c09eb9ee166fa976b2a7fe2b3ac0f7a0ee033141d62a34d43bca63f9",
+    "caveat": "absence from this scope does not imply deletion; first_seen begins at actual snapshot observation, not historical incident time"
+  },
+  "limitations": "SF report window does not capture all later edits to older reports; Chicago update window depends on source updated_on. Absence from a partial window is not deletion."
+}

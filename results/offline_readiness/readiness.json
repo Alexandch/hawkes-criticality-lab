@@ -1,0 +1,15 @@
+{
+  "status": "research_prototype_offline_only",
+  "real_pilot_performed": false,
+  "historical_publication_times_verified": false,
+  "prospective_validation_performed": false,
+  "intervention_benefit_measured": false,
+  "first_seen_ledger_supported": true,
+  "remaining": [
+    "independent prospective observations",
+    "verified publication-time history",
+    "agreed action-specific utility and acceptable alarm budget",
+    "external impact and feedback-loop assessment"
+  ],
+  "note": "Passing software tests and retrospective metrics does not authorize operational deployment."
+}

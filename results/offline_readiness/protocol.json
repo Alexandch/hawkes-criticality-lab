@@ -1,0 +1,48 @@
+{
+  "stage": "11_offline_readiness",
+  "epochs": 60,
+  "seeds": [
+    211,
+    223,
+    227
+  ],
+  "vintages": [
+    "2024-01-01",
+    "2025-01-01",
+    "2026-01-01",
+    "2026-10-01"
+  ],
+  "methods": [
+    "seasonal",
+    "recent_calendar",
+    "neural_nb",
+    "neural_direct"
+  ],
+  "scenarios": {
+    "primary": {
+      "lag_days": 7,
+      "publication_days": 3
+    },
+    "delayed_stress": {
+      "lag_days": 14,
+      "publication_days": 7
+    }
+  },
+  "target": "N >= ceil(adaptive_past_background + max(2,.5*adaptive_past_background)); group-specific, distinct from R10 historical95%",
+  "novel_control": "October2026 first14days primary, full month supplementary; provisional registered-case labels",
+  "bootstrap_samples": 1000,
+  "panel_sha256": {
+    "chicago": "15c54deb20c959758f2a056b23faa30e9f40a4a6835f1426523f9fcf57c5f468",
+    "san_francisco": "6fc0346e321fd36421d4c8db6a940f66fd63a6f2190fc0afa7c18c82dff7e51e"
+  },
+  "metadata_sha256": {
+    "chicago": "a7bffb12e6313611b91a3c54975c9a890b10ff1283783e6f56bf5da26f2ab466",
+    "san_francisco": "4b41c172c133378f1410355288df6f15a12c23a69fcf5ed2529967c910dd5ace"
+  },
+  "code_sha256": {
+    "offline_forecast.py": "bb7be37ae37d0ea858637cc8d1af65ffe0b5bb119cbc7d381fc04b814cbb1db7",
+    "offline_experiment.py": "405866bd2b431f4ba3e4cea7f847de5292f0d42d235bb4c1f245953c2d6e9b27"
+  },
+  "previous_experiment_sha256": "46abf0d971a91082cd8209166ac810ab5d7e2cc0a5bf8dfb116d1cb98772fe49",
+  "history_warning": "historical publication times are assumed, not reconstructed; first-seen ledger begins only at actual snapshots"
+}

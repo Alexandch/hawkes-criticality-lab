@@ -32,6 +32,7 @@ secrets.json
 /data/**/*.csv
 /data/**/*.csv.gz
 /data/**/*.npz
+/data/**/*.sqlite
 /data/**/*.partial
 
 # Large simulation caches are regenerated from the saved protocols

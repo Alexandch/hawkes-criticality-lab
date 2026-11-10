@@ -1,0 +1,19 @@
+{
+  "city": "san_francisco",
+  "rows": 568,
+  "url": "https://data.sfgov.org/resource/wg3w-h783.csv?%24select=row_id%2Cincident_id%2Cincident_datetime%2Creport_datetime%2Cpolice_district%2Cincident_category&%24where=report_datetime+%3E%3D+%272026-11-01T00%3A00%3A00%27+AND+report_datetime+%3C+%272026-11-11T00%3A00%3A00%27+AND+incident_category+in%28%27Assault%27%2C%27Burglary%27%2C%27Robbery%27%2C%27Larceny+Theft%27%2C%27Motor+Vehicle+Theft%27%29&%24order=row_id&%24limit=1000000",
+  "sha256": "1379e59a2e3d01ba161aea8ffbe7a73f789ee2ee1138016650c0b1e61686a98a",
+  "observed_at": "2026-11-10T20:23:02.709603+00:00",
+  "filter_column": "report_datetime",
+  "ledger": "data\\processed\\public_observations\\rows.sqlite",
+  "ledger_receipt": {
+    "records": 568,
+    "new": 568,
+    "changed": 0,
+    "cached": false,
+    "observed_at": "2026-11-10T20:23:02.709603+00:00",
+    "sha256": "daede32b70b6da444f7215bf53808c36e9f9e32da29b92fa5c9a85c01558b40f",
+    "caveat": "absence from this scope does not imply deletion; first_seen begins at actual snapshot observation, not historical incident time"
+  },
+  "limitations": "SF report window does not capture all later edits to older reports; Chicago update window depends on source updated_on. Absence from a partial window is not deletion."
+}

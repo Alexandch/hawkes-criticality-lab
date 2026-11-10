@@ -45,6 +45,15 @@ test_invalid_estimates_are_not_counted_as_zero_or_removed_from_success_denominat
 test_rejects_duplicate_and_out_of_range_grid (test_n_accuracy.NAccuracyTests.test_rejects_duplicate_and_out_of_range_grid) ... ok
 test_seeds_are_unique_and_baseline_preserves_expected_rate (test_n_accuracy.NAccuracyTests.test_seeds_are_unique_and_baseline_preserves_expected_rate) ... ok
 test_small_complete_experiment_saves_raw_data_protocol_and_maps (test_n_accuracy.NAccuracyTests.test_small_complete_experiment_saves_raw_data_protocol_and_maps) ... ok
+test_confusion_counts_and_precision_use_alarm_denominator (test_offline_readiness.OfflineReadinessTests.test_confusion_counts_and_precision_use_alarm_denominator) ... ok
+test_district_thresholds_handle_ties_and_small_samples (test_offline_readiness.OfflineReadinessTests.test_district_thresholds_handle_ties_and_small_samples) ... ok
+test_first_seen_is_actual_observation_and_missing_partial_scope_is_not_deletion (test_offline_readiness.OfflineReadinessTests.test_first_seen_is_actual_observation_and_missing_partial_scope_is_not_deletion) ... ok
+test_full_offline_run_freezes_predictions_without_outcomes_and_caches (test_offline_readiness.OfflineReadinessTests.test_full_offline_run_freezes_predictions_without_outcomes_and_caches) ... ok
+test_future_outcomes_do_not_change_causal_inputs (test_offline_readiness.OfflineReadinessTests.test_future_outcomes_do_not_change_causal_inputs) ... ok
+test_probability_calibration_is_monotone_and_handles_single_class (test_offline_readiness.OfflineReadinessTests.test_probability_calibration_is_monotone_and_handles_single_class) ... ok
+test_report_registration_plus_publication_delay_controls_targets (test_offline_readiness.OfflineReadinessTests.test_report_registration_plus_publication_delay_controls_targets) ... ok
+test_rise_is_relative_to_available_background_with_absolute_floor (test_offline_readiness.OfflineReadinessTests.test_rise_is_relative_to_available_background_with_absolute_floor) ... ok
+test_vintage_maturity_and_calibration_separation (test_offline_readiness.OfflineReadinessTests.test_vintage_maturity_and_calibration_separation) ... ok
 test_training_calibration_checkpoint_and_test_are_consistent (test_robust_training.RobustTrainingIntegrationTests.test_training_calibration_checkpoint_and_test_are_consistent) ... ok
 test_excitation_survives_parameter_boundary (test_robust_training.StagedHawkesTests.test_excitation_survives_parameter_boundary) ... ok
 test_partitions_are_reproducible_and_separate (test_robust_training.StagedHawkesTests.test_partitions_are_reproducible_and_separate) ... ok
@@ -90,6 +99,6 @@ test_likelihood_matches_existing_grouped_event_likelihood (test_window_features.
 test_recording_events_preserves_counts_and_simulator_stream (test_window_features.WindowFeatureTests.test_recording_events_preserves_counts_and_simulator_stream) ... ok
 
 ----------------------------------------------------------------------
-Ran 90 tests in 53.251s
+Ran 99 tests in 112.703s
 
 OK

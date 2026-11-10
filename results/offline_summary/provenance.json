@@ -1,0 +1,16 @@
+{
+  "source_sha256": {
+    "results/offline_readiness/complete.json": "e947e5f3d584b720f34ec217a175951fd80be501411135a47abdd6ea3acb90e7",
+    "scripts/summarize_offline.py": "fbfb223f45ca4e0ad8eb63ea0da004ab33c87e8ded32957ffe0e771a6dd6078c"
+  },
+  "artifact_sha256": {
+    "analysis.md": "6fc6d6d6d2d8fdcf966af456d2fc9deaedcf166e20b937451cece0f5a2ae21a4",
+    "headline.csv": "0dad18d7f876cccf038f6deee25d4890cd67e76013885b2c06ec30dd5a3099f2",
+    "interpretable_differences.csv": "996dce5bbfe62c2238e5ff14fded3b726588414b9bb3c8e6f0c215048f139050",
+    "offline_alarms.png": "8edb6fecc3ca50fca10e22d935d47d279cf1f8440b596bab20d0c8619af938f9",
+    "offline_count.png": "a6ef3a86ff780c003a6ebf0b9d31050297de1644e7df0196943556b8457fb988",
+    "offline_reliability.png": "74ae33c60b6d696ba73efa876cee5643ff03ca964fa8b26682375df0410bf980",
+    "probability_calibration.csv": "d16be4750c5fc0b56a68ae16e288fea560a141432467ddc2c5bf93f2da63b10b",
+    "reliability.csv": "f7d79dbea82eb5091e0bf49d52584e1037e5698e370706e30561f4cb6be56f32"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "city": "san_francisco",
+  "start": "2026-10-01",
+  "end_exclusive": "2026-11-01",
+  "rows": 2773,
+  "columns": [
+    "incident_id",
+    "incident_datetime",
+    "report_datetime",
+    "police_district",
+    "incident_category"
+  ],
+  "url": "https://data.sfgov.org/resource/wg3w-h783.csv?%24select=incident_id%2Cincident_datetime%2Creport_datetime%2Cpolice_district%2Cincident_category&%24where=incident_datetime+%3E%3D+%272026-10-01T00%3A00%3A00%27+AND+incident_datetime+%3C+%272026-11-01T00%3A00%3A00%27+AND+incident_category+in%28%27Assault%27%2C%27Burglary%27%2C%27Robbery%27%2C%27Larceny+Theft%27%2C%27Motor+Vehicle+Theft%27%29&%24order=incident_datetime%2Cincident_id&%24limit=1000000",
+  "sha256": "ed6290376c5f5803ab848840c58f456240e4ab00f33b63dc808a73214f5c6ba4",
+  "retrieved_utc": "2026-11-10T20:12:17.758324+00:00",
+  "label_status": "preliminary snapshot, later reports and corrections remain possible"
+}

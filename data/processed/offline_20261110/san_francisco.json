@@ -1,0 +1,51 @@
+{
+  "city": "san_francisco",
+  "bin_hours": 6,
+  "start": "2019-01-01 00:00:00",
+  "end_exclusive": "2026-11-01 00:00:00",
+  "raw_rows": 447238,
+  "cases": 426309,
+  "group_counts": {
+    "all": 426309,
+    "property": 352188,
+    "assault_robbery": 74121
+  },
+  "districts": [
+    "BAYVIEW",
+    "CENTRAL",
+    "INGLESIDE",
+    "MISSION",
+    "NORTHERN",
+    "PARK",
+    "RICHMOND",
+    "SOUTHERN",
+    "TARAVAL",
+    "TENDERLOIN"
+  ],
+  "groups": [
+    "all",
+    "property",
+    "assault_robbery"
+  ],
+  "invalid_rows": 0,
+  "unknown_district_rows": 4923,
+  "conflicting_cases": 0,
+  "duplicate_rows": 16006,
+  "new_rows_for_existing_historical_cases": 0,
+  "source_sha256": {
+    "data\\raw\\spatiotemporal_20261110\\san_francisco_2019.csv.gz": "e5a2e7988a2249a36859919052a25388c52576646a49e0d7fd58ba7759ae0a95",
+    "data\\raw\\spatiotemporal_20261110\\san_francisco_2020.csv.gz": "064086b56a1ca3cc27ce8c5d907a1355b6b578b71bc81fba25543a0eac4970b8",
+    "data\\raw\\spatiotemporal_20261110\\san_francisco_2021.csv.gz": "594e95a651a15615f090348facf9ac5a3a9e40c372092530f6b924082f95a2a8",
+    "data\\raw\\spatiotemporal_20261110\\san_francisco_2022.csv.gz": "196952524b65843952098c4285ae94874a765ae98ebfe71534d4c8c8b07bd940",
+    "data\\raw\\spatiotemporal_20261110\\san_francisco_2023.csv.gz": "23ccd8bf387aa370025bdb108f3fade901934d84d0659a91747a02a355d82052",
+    "data\\raw\\spatiotemporal_20261110\\san_francisco_2024.csv.gz": "677145c2253d3ed5f2a417792189299d3819d5b15a77dad06ddfcf72b9384952",
+    "data\\raw\\spatiotemporal_20261110\\san_francisco_2025.csv.gz": "1dec454ef5e057debe17e4aea8e330b07937a43e3ef6bd016af8e3e54f62fc7e",
+    "data\\raw\\spatiotemporal_20261110\\san_francisco_2026.csv.gz": "cbdc9c3d22ae98562f6faff35a0590541dd1f25994a0d063b5b0b50e59eecf66",
+    "data\\raw\\offline_20261110\\san_francisco_202610.csv.gz": "ed6290376c5f5803ab848840c58f456240e4ab00f33b63dc808a73214f5c6ba4"
+  },
+  "output_sha256": "6fc0346e321fd36421d4c8db6a940f66fd63a6f2190fc0afa7c18c82dff7e51e",
+  "centroid_source": "data\\processed\\spatiotemporal_20261110\\san_francisco.npz",
+  "centroid_source_sha256": "40088091775f498b88a44a0b667107f9f6a9d506e905b03196cb91fd74c531dc",
+  "availability": "report time plus assumed publication delay for SF; Chicago incident lag only; historical publication vintages unknown",
+  "novel_control": "October 2026, preliminary; primary first14days, supplementary full month"
+}

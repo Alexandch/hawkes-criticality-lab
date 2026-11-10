@@ -24,6 +24,9 @@ ASSETS = {
     "district_count_comparison.png": "results/spatiotemporal_forecast/count_comparison.png",
     "district_time_example.png": "results/spatiotemporal_forecast/district_time_example.png",
     "district_forecast_example.png": "results/spatiotemporal_summary/district_forecast_example.png",
+    "offline_count.png": "results/offline_summary/offline_count.png",
+    "offline_alarms.png": "results/offline_summary/offline_alarms.png",
+    "offline_reliability.png": "results/offline_summary/offline_reliability.png",
 }
 
 

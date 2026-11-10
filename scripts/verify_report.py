@@ -18,7 +18,7 @@ def main():
     root = Path(__file__).resolve().parents[1]
     report = root / "report"
     test_result = json.loads((root / "reproducibility/test_result.json").read_text(encoding="utf-8"))
-    assert test_result["successful"] and test_result["tests_run"] == 90
+    assert test_result["successful"] and test_result["tests_run"] == 99
     assert test_result["failures"] == test_result["errors"] == 0
     documents = sorted(report.glob("*.md"))
     assert len(documents) >= 5
@@ -30,7 +30,7 @@ def main():
             assert text.count("$$") % 2 == 0, "unclosed display formula"
             assert "итоговая редакция" in text.lower()
             figures = [int(v) for v in re.findall(r"(?m)^\*Рисунок (\d+)\.", text)]
-            assert figures == list(range(1, 18)), "figure captions must be sequential"
+            assert figures == list(range(1, 21)), "figure captions must be sequential"
         table_width = None
         in_code = False
         for number, line in enumerate(text.splitlines(), 1):
@@ -168,7 +168,26 @@ def main():
     forecasts = pd.read_csv(summary_dir / "next_interval_forecasts.csv")
     assert len(forecasts) == 32 and forecasts.observed_count.isna().all()
     assert (forecasts.forecast_start == "2026-10-01 00:00:00").all()
-    print(f"Verified {len(documents)} Markdown documents, {links} local links, {len(manifest['assets'])} figure copies, P1/R1-R10 result cells and unchanged frozen final metrics.")
+    offline = root / "results/offline_readiness"
+    offline_protocol = json.loads((offline / "protocol.json").read_text(encoding="utf-8"))
+    for name, value in offline_protocol["code_sha256"].items():
+        assert digest(root / "src/critical_processes" / name) == value
+    offline_complete = json.loads((offline / "complete.json").read_text(encoding="utf-8"))
+    for name, value in offline_complete["artifact_sha256"].items():
+        assert digest(offline / name) == value
+    journal = json.loads((offline / "forecast_journal.json").read_text(encoding="utf-8"))
+    assert len(journal["entries"]) == 136 and not journal["contains_outcomes"]
+    readiness = json.loads((offline / "readiness.json").read_text(encoding="utf-8"))
+    assert readiness["status"] == "research_prototype_offline_only" and not readiness["real_pilot_performed"]
+    new_summary = root / "results/offline_summary"
+    provenance = json.loads((new_summary / "provenance.json").read_text(encoding="utf-8"))
+    for name, value in provenance["source_sha256"].items():
+        assert digest(root / name) == value
+    for name, value in provenance["artifact_sha256"].items():
+        assert digest(new_summary / name) == value
+    interpreted = pd.read_csv(new_summary / "interpretable_differences.csv")
+    assert interpreted.loc[interpreted.blocks < 4, "mae_ci_low"].isna().all()
+    print(f"Verified {len(documents)} Markdown documents, {links} local links, {len(manifest['assets'])} figure copies, P1/R1-R11 result cells and unchanged frozen final metrics.")
 
 
 if __name__ == "__main__":
