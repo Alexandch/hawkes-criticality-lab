@@ -1,0 +1,24 @@
+{
+  "city": "nyc",
+  "host": "data.cityofnewyork.us",
+  "dataset": "qgea-i56i",
+  "date": "cmplnt_fr_dt",
+  "id": "cmplnt_num",
+  "columns": "cmplnt_num,cmplnt_fr_dt,cmplnt_fr_tm",
+  "url": "https://data.cityofnewyork.us/resource/qgea-i56i.csv?%24select=cmplnt_num%2Ccmplnt_fr_dt%2Ccmplnt_fr_tm&%24where=cmplnt_fr_dt+%3E%3D+%272020-01-01T00%3A00%3A00%27+AND+cmplnt_fr_dt+%3C+%272021-01-01T00%3A00%3A00%27&%24order=cmplnt_fr_dt%2Ccmplnt_num&%24limit=1000000",
+  "count_url": "https://data.cityofnewyork.us/resource/qgea-i56i.json?%24select=count%28%2A%29+as+rows&%24where=cmplnt_fr_dt+%3E%3D+%272020-01-01T00%3A00%3A00%27+AND+cmplnt_fr_dt+%3C+%272021-01-01T00%3A00%3A00%27",
+  "columns_returned": [
+    "cmplnt_num",
+    "cmplnt_fr_dt",
+    "cmplnt_fr_tm"
+  ],
+  "start": "2020-01-01T00:00:00",
+  "end_exclusive": "2021-01-01T00:00:00",
+  "rows": 414277,
+  "count_before": 414277,
+  "count_after": 414277,
+  "downloaded_utc": "2026-11-10T15:21:28.536340+00:00",
+  "sha256": "f7b959232d653023acf37e58d623b4e197c70265cb1cc8f009756784d618fa02",
+  "bytes": 2428331,
+  "notes": "registered incidents; one case may have multiple offense rows; local timestamps; deduplicate by case/report identifier during preparation"
+}

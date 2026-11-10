@@ -1,0 +1,4965 @@
+{
+  "retrieved_utc": "2026-11-10T15:18:14.755175+00:00",
+  "url": "https://api.osf.io/v2/nodes/zyaqn/files/osfstorage/5b2ceceed65eaa0011d95f95/?page[size]=100",
+  "response": {
+    "data": [
+      {
+        "id": "5b2ced1bd65eaa000fd98bbf",
+        "type": "files",
+        "attributes": {
+          "guid": "jxgq6",
+          "checkout": null,
+          "name": "crime_open_database_core_2010.csv.gz",
+          "kind": "file",
+          "path": "/5b2ced1bd65eaa000fd98bbf",
+          "size": 35797784,
+          "provider": "osfstorage",
+          "materialized_path": "/Data/crime_open_database_core_2010.csv.gz",
+          "last_touched": null,
+          "date_modified": "2023-12-20T15:56:40.174671",
+          "date_created": "2018-06-22T12:35:39.542052Z",
+          "extra": {
+            "hashes": {
+              "md5": "2fc2b1e6cba8fb80a7cdcdd287e751fb",
+              "sha256": "8ab08d89b61ebbe3dc1e5ce9bfd2271b6678622a5a1d9b5f532ea5334955fd4c"
+            },
+            "downloads": 178
+          },
+          "tags": [],
+          "current_user_can_comment": false,
+          "current_version": 12,
+          "show_as_unviewed": false
+        },
+        "relationships": {
+          "parent_folder": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ceceed65eaa0011d95f95/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "5b2ceceed65eaa0011d95f95",
+              "type": "files"
+            }
+          },
+          "versions": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ced1bd65eaa000fd98bbf/versions/",
+                "meta": {}
+              }
+            }
+          },
+          "comments": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/comments/?filter%5Btarget%5D=jxgq6",
+                "meta": {}
+              }
+            }
+          },
+          "node": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "zyaqn",
+              "type": "nodes"
+            }
+          },
+          "target": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {
+                  "type": "nodes"
+                }
+              }
+            },
+            "data": {
+              "type": "nodes",
+              "id": "zyaqn"
+            }
+          },
+          "cedar_metadata_records": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ced1bd65eaa000fd98bbf/cedar_metadata_records/",
+                "meta": {}
+              }
+            }
+          }
+        },
+        "links": {
+          "info": "https://api.osf.io/v2/files/5b2ced1bd65eaa000fd98bbf/",
+          "move": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5b2ced1bd65eaa000fd98bbf",
+          "upload": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5b2ced1bd65eaa000fd98bbf",
+          "delete": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5b2ced1bd65eaa000fd98bbf",
+          "download": "https://osf.io/download/jxgq6/",
+          "render": "https://mfr.osf.io/render?url=https%3A%2F%2Fosf.io%2Fdownload%2Fjxgq6%2F%3Fdirect%26mode%3Drender",
+          "html": "https://osf.io/zyaqn/files/osfstorage/5b2ced1bd65eaa000fd98bbf",
+          "self": "https://api.osf.io/v2/files/5b2ced1bd65eaa000fd98bbf/",
+          "iri": "https://osf.io/jxgq6"
+        }
+      },
+      {
+        "id": "5b2ced1cd65eaa000fd98bc2",
+        "type": "files",
+        "attributes": {
+          "guid": "6w7k4",
+          "checkout": null,
+          "name": "crime_open_database_core_2011.csv.gz",
+          "kind": "file",
+          "path": "/5b2ced1cd65eaa000fd98bc2",
+          "size": 34312652,
+          "provider": "osfstorage",
+          "materialized_path": "/Data/crime_open_database_core_2011.csv.gz",
+          "last_touched": null,
+          "date_modified": "2023-12-20T15:57:20.716790",
+          "date_created": "2018-06-22T12:35:40.052301Z",
+          "extra": {
+            "hashes": {
+              "md5": "7372f8da2ddfab88ab73873edd705439",
+              "sha256": "f7dec6bb66cd8e19e6c3e15b9575f00ab5efcc186d121dca1dbb99cb8f281519"
+            },
+            "downloads": 135
+          },
+          "tags": [],
+          "current_user_can_comment": false,
+          "current_version": 12,
+          "show_as_unviewed": false
+        },
+        "relationships": {
+          "parent_folder": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ceceed65eaa0011d95f95/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "5b2ceceed65eaa0011d95f95",
+              "type": "files"
+            }
+          },
+          "versions": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ced1cd65eaa000fd98bc2/versions/",
+                "meta": {}
+              }
+            }
+          },
+          "comments": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/comments/?filter%5Btarget%5D=6w7k4",
+                "meta": {}
+              }
+            }
+          },
+          "node": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "zyaqn",
+              "type": "nodes"
+            }
+          },
+          "target": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {
+                  "type": "nodes"
+                }
+              }
+            },
+            "data": {
+              "type": "nodes",
+              "id": "zyaqn"
+            }
+          },
+          "cedar_metadata_records": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ced1cd65eaa000fd98bc2/cedar_metadata_records/",
+                "meta": {}
+              }
+            }
+          }
+        },
+        "links": {
+          "info": "https://api.osf.io/v2/files/5b2ced1cd65eaa000fd98bc2/",
+          "move": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5b2ced1cd65eaa000fd98bc2",
+          "upload": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5b2ced1cd65eaa000fd98bc2",
+          "delete": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5b2ced1cd65eaa000fd98bc2",
+          "download": "https://osf.io/download/6w7k4/",
+          "render": "https://mfr.osf.io/render?url=https%3A%2F%2Fosf.io%2Fdownload%2F6w7k4%2F%3Fdirect%26mode%3Drender",
+          "html": "https://osf.io/zyaqn/files/osfstorage/5b2ced1cd65eaa000fd98bc2",
+          "self": "https://api.osf.io/v2/files/5b2ced1cd65eaa000fd98bc2/",
+          "iri": "https://osf.io/6w7k4"
+        }
+      },
+      {
+        "id": "5b2ced1cd65eaa000ed9ff9c",
+        "type": "files",
+        "attributes": {
+          "guid": "am3h8",
+          "checkout": null,
+          "name": "crime_open_database_core_2009.csv.gz",
+          "kind": "file",
+          "path": "/5b2ced1cd65eaa000ed9ff9c",
+          "size": 32441649,
+          "provider": "osfstorage",
+          "materialized_path": "/Data/crime_open_database_core_2009.csv.gz",
+          "last_touched": null,
+          "date_modified": "2023-12-20T15:46:32.075759",
+          "date_created": "2018-06-22T12:35:40.238134Z",
+          "extra": {
+            "hashes": {
+              "md5": "24bbf13dce57f053c11b0aa09241b8af",
+              "sha256": "b166d74dc1189abba1b80a8777f2dcf86b8f59a8572516fe01af1877bf3f6396"
+            },
+            "downloads": 141
+          },
+          "tags": [],
+          "current_user_can_comment": false,
+          "current_version": 12,
+          "show_as_unviewed": false
+        },
+        "relationships": {
+          "parent_folder": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ceceed65eaa0011d95f95/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "5b2ceceed65eaa0011d95f95",
+              "type": "files"
+            }
+          },
+          "versions": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ced1cd65eaa000ed9ff9c/versions/",
+                "meta": {}
+              }
+            }
+          },
+          "comments": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/comments/?filter%5Btarget%5D=am3h8",
+                "meta": {}
+              }
+            }
+          },
+          "node": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "zyaqn",
+              "type": "nodes"
+            }
+          },
+          "target": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {
+                  "type": "nodes"
+                }
+              }
+            },
+            "data": {
+              "type": "nodes",
+              "id": "zyaqn"
+            }
+          },
+          "cedar_metadata_records": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ced1cd65eaa000ed9ff9c/cedar_metadata_records/",
+                "meta": {}
+              }
+            }
+          }
+        },
+        "links": {
+          "info": "https://api.osf.io/v2/files/5b2ced1cd65eaa000ed9ff9c/",
+          "move": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5b2ced1cd65eaa000ed9ff9c",
+          "upload": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5b2ced1cd65eaa000ed9ff9c",
+          "delete": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5b2ced1cd65eaa000ed9ff9c",
+          "download": "https://osf.io/download/am3h8/",
+          "render": "https://mfr.osf.io/render?url=https%3A%2F%2Fosf.io%2Fdownload%2Fam3h8%2F%3Fdirect%26mode%3Drender",
+          "html": "https://osf.io/zyaqn/files/osfstorage/5b2ced1cd65eaa000ed9ff9c",
+          "self": "https://api.osf.io/v2/files/5b2ced1cd65eaa000ed9ff9c/",
+          "iri": "https://osf.io/am3h8"
+        }
+      },
+      {
+        "id": "5b2ced2ad65eaa000fd98bd1",
+        "type": "files",
+        "attributes": {
+          "guid": "89xye",
+          "checkout": null,
+          "name": "crime_open_database_core_2012.csv.gz",
+          "kind": "file",
+          "path": "/5b2ced2ad65eaa000fd98bd1",
+          "size": 34182546,
+          "provider": "osfstorage",
+          "materialized_path": "/Data/crime_open_database_core_2012.csv.gz",
+          "last_touched": null,
+          "date_modified": "2023-12-20T15:58:31.454977",
+          "date_created": "2018-06-22T12:35:54.236302Z",
+          "extra": {
+            "hashes": {
+              "md5": "cbc3e180fe77d8b4d0e4686144ecf5a6",
+              "sha256": "19598302fcc1a96c9779f2024989891b16ea7508870afedc3af41c33af1ffa41"
+            },
+            "downloads": 215
+          },
+          "tags": [],
+          "current_user_can_comment": false,
+          "current_version": 12,
+          "show_as_unviewed": false
+        },
+        "relationships": {
+          "parent_folder": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ceceed65eaa0011d95f95/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "5b2ceceed65eaa0011d95f95",
+              "type": "files"
+            }
+          },
+          "versions": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ced2ad65eaa000fd98bd1/versions/",
+                "meta": {}
+              }
+            }
+          },
+          "comments": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/comments/?filter%5Btarget%5D=89xye",
+                "meta": {}
+              }
+            }
+          },
+          "node": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "zyaqn",
+              "type": "nodes"
+            }
+          },
+          "target": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {
+                  "type": "nodes"
+                }
+              }
+            },
+            "data": {
+              "type": "nodes",
+              "id": "zyaqn"
+            }
+          },
+          "cedar_metadata_records": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ced2ad65eaa000fd98bd1/cedar_metadata_records/",
+                "meta": {}
+              }
+            }
+          }
+        },
+        "links": {
+          "info": "https://api.osf.io/v2/files/5b2ced2ad65eaa000fd98bd1/",
+          "move": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5b2ced2ad65eaa000fd98bd1",
+          "upload": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5b2ced2ad65eaa000fd98bd1",
+          "delete": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5b2ced2ad65eaa000fd98bd1",
+          "download": "https://osf.io/download/89xye/",
+          "render": "https://mfr.osf.io/render?url=https%3A%2F%2Fosf.io%2Fdownload%2F89xye%2F%3Fdirect%26mode%3Drender",
+          "html": "https://osf.io/zyaqn/files/osfstorage/5b2ced2ad65eaa000fd98bd1",
+          "self": "https://api.osf.io/v2/files/5b2ced2ad65eaa000fd98bd1/",
+          "iri": "https://osf.io/89xye"
+        }
+      },
+      {
+        "id": "5b2ced2ed65eaa000ed9ffba",
+        "type": "files",
+        "attributes": {
+          "guid": "thm2b",
+          "checkout": null,
+          "name": "crime_open_database_core_2013.csv.gz",
+          "kind": "file",
+          "path": "/5b2ced2ed65eaa000ed9ffba",
+          "size": 35222063,
+          "provider": "osfstorage",
+          "materialized_path": "/Data/crime_open_database_core_2013.csv.gz",
+          "last_touched": null,
+          "date_modified": "2023-12-20T16:01:12.283897",
+          "date_created": "2018-06-22T12:35:58.436660Z",
+          "extra": {
+            "hashes": {
+              "md5": "827cdbaa24c28c59d424361451726297",
+              "sha256": "39a63d8756a21eee80db123f8c57311ad4832c3209a8aa304902936485abb67e"
+            },
+            "downloads": 156
+          },
+          "tags": [],
+          "current_user_can_comment": false,
+          "current_version": 12,
+          "show_as_unviewed": false
+        },
+        "relationships": {
+          "parent_folder": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ceceed65eaa0011d95f95/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "5b2ceceed65eaa0011d95f95",
+              "type": "files"
+            }
+          },
+          "versions": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ced2ed65eaa000ed9ffba/versions/",
+                "meta": {}
+              }
+            }
+          },
+          "comments": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/comments/?filter%5Btarget%5D=thm2b",
+                "meta": {}
+              }
+            }
+          },
+          "node": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "zyaqn",
+              "type": "nodes"
+            }
+          },
+          "target": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {
+                  "type": "nodes"
+                }
+              }
+            },
+            "data": {
+              "type": "nodes",
+              "id": "zyaqn"
+            }
+          },
+          "cedar_metadata_records": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ced2ed65eaa000ed9ffba/cedar_metadata_records/",
+                "meta": {}
+              }
+            }
+          }
+        },
+        "links": {
+          "info": "https://api.osf.io/v2/files/5b2ced2ed65eaa000ed9ffba/",
+          "move": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5b2ced2ed65eaa000ed9ffba",
+          "upload": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5b2ced2ed65eaa000ed9ffba",
+          "delete": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5b2ced2ed65eaa000ed9ffba",
+          "download": "https://osf.io/download/thm2b/",
+          "render": "https://mfr.osf.io/render?url=https%3A%2F%2Fosf.io%2Fdownload%2Fthm2b%2F%3Fdirect%26mode%3Drender",
+          "html": "https://osf.io/zyaqn/files/osfstorage/5b2ced2ed65eaa000ed9ffba",
+          "self": "https://api.osf.io/v2/files/5b2ced2ed65eaa000ed9ffba/",
+          "iri": "https://osf.io/thm2b"
+        }
+      },
+      {
+        "id": "5b2ced30d65eaa000ed9ffc3",
+        "type": "files",
+        "attributes": {
+          "guid": "5py9k",
+          "checkout": null,
+          "name": "crime_open_database_core_2015.csv.gz",
+          "kind": "file",
+          "path": "/5b2ced30d65eaa000ed9ffc3",
+          "size": 33831553,
+          "provider": "osfstorage",
+          "materialized_path": "/Data/crime_open_database_core_2015.csv.gz",
+          "last_touched": null,
+          "date_modified": "2023-12-20T16:05:45.219707",
+          "date_created": "2018-06-22T12:36:00.678309Z",
+          "extra": {
+            "hashes": {
+              "md5": "53b3427e8b169394109b568993bf1009",
+              "sha256": "d764dfbb69a0eab444f873697bc4f0476a6b8d5105e1eac8bd876a35e88cf472"
+            },
+            "downloads": 183
+          },
+          "tags": [],
+          "current_user_can_comment": false,
+          "current_version": 12,
+          "show_as_unviewed": false
+        },
+        "relationships": {
+          "parent_folder": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ceceed65eaa0011d95f95/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "5b2ceceed65eaa0011d95f95",
+              "type": "files"
+            }
+          },
+          "versions": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ced30d65eaa000ed9ffc3/versions/",
+                "meta": {}
+              }
+            }
+          },
+          "comments": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/comments/?filter%5Btarget%5D=5py9k",
+                "meta": {}
+              }
+            }
+          },
+          "node": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "zyaqn",
+              "type": "nodes"
+            }
+          },
+          "target": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {
+                  "type": "nodes"
+                }
+              }
+            },
+            "data": {
+              "type": "nodes",
+              "id": "zyaqn"
+            }
+          },
+          "cedar_metadata_records": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ced30d65eaa000ed9ffc3/cedar_metadata_records/",
+                "meta": {}
+              }
+            }
+          }
+        },
+        "links": {
+          "info": "https://api.osf.io/v2/files/5b2ced30d65eaa000ed9ffc3/",
+          "move": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5b2ced30d65eaa000ed9ffc3",
+          "upload": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5b2ced30d65eaa000ed9ffc3",
+          "delete": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5b2ced30d65eaa000ed9ffc3",
+          "download": "https://osf.io/download/5py9k/",
+          "render": "https://mfr.osf.io/render?url=https%3A%2F%2Fosf.io%2Fdownload%2F5py9k%2F%3Fdirect%26mode%3Drender",
+          "html": "https://osf.io/zyaqn/files/osfstorage/5b2ced30d65eaa000ed9ffc3",
+          "self": "https://api.osf.io/v2/files/5b2ced30d65eaa000ed9ffc3/",
+          "iri": "https://osf.io/5py9k"
+        }
+      },
+      {
+        "id": "5b2ced30daf8210011d3674d",
+        "type": "files",
+        "attributes": {
+          "guid": "6ak9u",
+          "checkout": null,
+          "name": "crime_open_database_core_2014.csv.gz",
+          "kind": "file",
+          "path": "/5b2ced30daf8210011d3674d",
+          "size": 34062147,
+          "provider": "osfstorage",
+          "materialized_path": "/Data/crime_open_database_core_2014.csv.gz",
+          "last_touched": null,
+          "date_modified": "2023-12-20T16:03:26.122155",
+          "date_created": "2018-06-22T12:36:00.817455Z",
+          "extra": {
+            "hashes": {
+              "md5": "7662d67bc3d73ed80dcb7b1c7c349244",
+              "sha256": "a01b5cc5c57d23122e067b646eaba09094ae80303b2054854328d00a698609e0"
+            },
+            "downloads": 157
+          },
+          "tags": [],
+          "current_user_can_comment": false,
+          "current_version": 12,
+          "show_as_unviewed": false
+        },
+        "relationships": {
+          "parent_folder": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ceceed65eaa0011d95f95/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "5b2ceceed65eaa0011d95f95",
+              "type": "files"
+            }
+          },
+          "versions": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ced30daf8210011d3674d/versions/",
+                "meta": {}
+              }
+            }
+          },
+          "comments": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/comments/?filter%5Btarget%5D=6ak9u",
+                "meta": {}
+              }
+            }
+          },
+          "node": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "zyaqn",
+              "type": "nodes"
+            }
+          },
+          "target": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {
+                  "type": "nodes"
+                }
+              }
+            },
+            "data": {
+              "type": "nodes",
+              "id": "zyaqn"
+            }
+          },
+          "cedar_metadata_records": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ced30daf8210011d3674d/cedar_metadata_records/",
+                "meta": {}
+              }
+            }
+          }
+        },
+        "links": {
+          "info": "https://api.osf.io/v2/files/5b2ced30daf8210011d3674d/",
+          "move": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5b2ced30daf8210011d3674d",
+          "upload": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5b2ced30daf8210011d3674d",
+          "delete": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5b2ced30daf8210011d3674d",
+          "download": "https://osf.io/download/6ak9u/",
+          "render": "https://mfr.osf.io/render?url=https%3A%2F%2Fosf.io%2Fdownload%2F6ak9u%2F%3Fdirect%26mode%3Drender",
+          "html": "https://osf.io/zyaqn/files/osfstorage/5b2ced30daf8210011d3674d",
+          "self": "https://api.osf.io/v2/files/5b2ced30daf8210011d3674d/",
+          "iri": "https://osf.io/6ak9u"
+        }
+      },
+      {
+        "id": "5b2ced32daf8210013d352bc",
+        "type": "files",
+        "attributes": {
+          "guid": "dcn2j",
+          "checkout": null,
+          "name": "crime_open_database_core_2016.csv.gz",
+          "kind": "file",
+          "path": "/5b2ced32daf8210013d352bc",
+          "size": 36683634,
+          "provider": "osfstorage",
+          "materialized_path": "/Data/crime_open_database_core_2016.csv.gz",
+          "last_touched": null,
+          "date_modified": "2023-12-20T16:06:36.039964",
+          "date_created": "2018-06-22T12:36:02.708892Z",
+          "extra": {
+            "hashes": {
+              "md5": "ad0b011053a51352ca265a4b36c4aebe",
+              "sha256": "e6322d95e22276284209e5ee4f843fdc8171dbab8e762c910f33ee45a7c78431"
+            },
+            "downloads": 391
+          },
+          "tags": [],
+          "current_user_can_comment": false,
+          "current_version": 12,
+          "show_as_unviewed": false
+        },
+        "relationships": {
+          "parent_folder": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ceceed65eaa0011d95f95/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "5b2ceceed65eaa0011d95f95",
+              "type": "files"
+            }
+          },
+          "versions": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ced32daf8210013d352bc/versions/",
+                "meta": {}
+              }
+            }
+          },
+          "comments": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/comments/?filter%5Btarget%5D=dcn2j",
+                "meta": {}
+              }
+            }
+          },
+          "node": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "zyaqn",
+              "type": "nodes"
+            }
+          },
+          "target": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {
+                  "type": "nodes"
+                }
+              }
+            },
+            "data": {
+              "type": "nodes",
+              "id": "zyaqn"
+            }
+          },
+          "cedar_metadata_records": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ced32daf8210013d352bc/cedar_metadata_records/",
+                "meta": {}
+              }
+            }
+          }
+        },
+        "links": {
+          "info": "https://api.osf.io/v2/files/5b2ced32daf8210013d352bc/",
+          "move": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5b2ced32daf8210013d352bc",
+          "upload": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5b2ced32daf8210013d352bc",
+          "delete": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5b2ced32daf8210013d352bc",
+          "download": "https://osf.io/download/dcn2j/",
+          "render": "https://mfr.osf.io/render?url=https%3A%2F%2Fosf.io%2Fdownload%2Fdcn2j%2F%3Fdirect%26mode%3Drender",
+          "html": "https://osf.io/zyaqn/files/osfstorage/5b2ced32daf8210013d352bc",
+          "self": "https://api.osf.io/v2/files/5b2ced32daf8210013d352bc/",
+          "iri": "https://osf.io/dcn2j"
+        }
+      },
+      {
+        "id": "5b2ced3ddaf8210012d3f047",
+        "type": "files",
+        "attributes": {
+          "guid": "9aubv",
+          "checkout": null,
+          "name": "crime_open_database_core_2017.csv.gz",
+          "kind": "file",
+          "path": "/5b2ced3ddaf8210012d3f047",
+          "size": 39565067,
+          "provider": "osfstorage",
+          "materialized_path": "/Data/crime_open_database_core_2017.csv.gz",
+          "last_touched": null,
+          "date_modified": "2023-12-20T16:08:53.574871",
+          "date_created": "2018-06-22T12:36:13.406968Z",
+          "extra": {
+            "hashes": {
+              "md5": "9b02c9992430fdfdd19a1eb412862f41",
+              "sha256": "2007c4f9ccf55ee17ce414251c10ea1802a47ba55b96fddc2cdcd0b714ec071d"
+            },
+            "downloads": 406
+          },
+          "tags": [],
+          "current_user_can_comment": false,
+          "current_version": 12,
+          "show_as_unviewed": false
+        },
+        "relationships": {
+          "parent_folder": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ceceed65eaa0011d95f95/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "5b2ceceed65eaa0011d95f95",
+              "type": "files"
+            }
+          },
+          "versions": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ced3ddaf8210012d3f047/versions/",
+                "meta": {}
+              }
+            }
+          },
+          "comments": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/comments/?filter%5Btarget%5D=9aubv",
+                "meta": {}
+              }
+            }
+          },
+          "node": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "zyaqn",
+              "type": "nodes"
+            }
+          },
+          "target": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {
+                  "type": "nodes"
+                }
+              }
+            },
+            "data": {
+              "type": "nodes",
+              "id": "zyaqn"
+            }
+          },
+          "cedar_metadata_records": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ced3ddaf8210012d3f047/cedar_metadata_records/",
+                "meta": {}
+              }
+            }
+          }
+        },
+        "links": {
+          "info": "https://api.osf.io/v2/files/5b2ced3ddaf8210012d3f047/",
+          "move": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5b2ced3ddaf8210012d3f047",
+          "upload": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5b2ced3ddaf8210012d3f047",
+          "delete": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5b2ced3ddaf8210012d3f047",
+          "download": "https://osf.io/download/9aubv/",
+          "render": "https://mfr.osf.io/render?url=https%3A%2F%2Fosf.io%2Fdownload%2F9aubv%2F%3Fdirect%26mode%3Drender",
+          "html": "https://osf.io/zyaqn/files/osfstorage/5b2ced3ddaf8210012d3f047",
+          "self": "https://api.osf.io/v2/files/5b2ced3ddaf8210012d3f047/",
+          "iri": "https://osf.io/9aubv"
+        }
+      },
+      {
+        "id": "5b2ced47daf8210011d3675f",
+        "type": "files",
+        "attributes": {
+          "guid": "9amjy",
+          "checkout": null,
+          "name": "crime_open_database_extended_2007.csv.gz",
+          "kind": "file",
+          "path": "/5b2ced47daf8210011d3675f",
+          "size": 79321626,
+          "provider": "osfstorage",
+          "materialized_path": "/Data/crime_open_database_extended_2007.csv.gz",
+          "last_touched": null,
+          "date_modified": "2023-11-02T19:25:01.786431",
+          "date_created": "2018-06-22T12:36:23.459237Z",
+          "extra": {
+            "hashes": {
+              "md5": "132315b967fefa2178f0b8be77651db4",
+              "sha256": "009a6be7d38906a5f86a126768556caf35e61b49dbe5af9c0fc7ea611d693ec5"
+            },
+            "downloads": 202
+          },
+          "tags": [],
+          "current_user_can_comment": false,
+          "current_version": 11,
+          "show_as_unviewed": false
+        },
+        "relationships": {
+          "parent_folder": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ceceed65eaa0011d95f95/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "5b2ceceed65eaa0011d95f95",
+              "type": "files"
+            }
+          },
+          "versions": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ced47daf8210011d3675f/versions/",
+                "meta": {}
+              }
+            }
+          },
+          "comments": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/comments/?filter%5Btarget%5D=9amjy",
+                "meta": {}
+              }
+            }
+          },
+          "node": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "zyaqn",
+              "type": "nodes"
+            }
+          },
+          "target": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {
+                  "type": "nodes"
+                }
+              }
+            },
+            "data": {
+              "type": "nodes",
+              "id": "zyaqn"
+            }
+          },
+          "cedar_metadata_records": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ced47daf8210011d3675f/cedar_metadata_records/",
+                "meta": {}
+              }
+            }
+          }
+        },
+        "links": {
+          "info": "https://api.osf.io/v2/files/5b2ced47daf8210011d3675f/",
+          "move": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5b2ced47daf8210011d3675f",
+          "upload": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5b2ced47daf8210011d3675f",
+          "delete": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5b2ced47daf8210011d3675f",
+          "download": "https://osf.io/download/9amjy/",
+          "render": "https://mfr.osf.io/render?url=https%3A%2F%2Fosf.io%2Fdownload%2F9amjy%2F%3Fdirect%26mode%3Drender",
+          "html": "https://osf.io/zyaqn/files/osfstorage/5b2ced47daf8210011d3675f",
+          "self": "https://api.osf.io/v2/files/5b2ced47daf8210011d3675f/",
+          "iri": "https://osf.io/9amjy"
+        }
+      },
+      {
+        "id": "5b2ced4cd65eaa0010d95479",
+        "type": "files",
+        "attributes": {
+          "guid": "gkjdz",
+          "checkout": null,
+          "name": "crime_open_database_extended_2008.csv.gz",
+          "kind": "file",
+          "path": "/5b2ced4cd65eaa0010d95479",
+          "size": 85591761,
+          "provider": "osfstorage",
+          "materialized_path": "/Data/crime_open_database_extended_2008.csv.gz",
+          "last_touched": null,
+          "date_modified": "2023-12-20T16:40:19.905136",
+          "date_created": "2018-06-22T12:36:28.364693Z",
+          "extra": {
+            "hashes": {
+              "md5": "2e4019079b452a8f9947efefa44200ab",
+              "sha256": "0eb147e05ac0cd06f22b955837efe8b7302b20d27600dfdd86903dde402fef02"
+            },
+            "downloads": 156
+          },
+          "tags": [],
+          "current_user_can_comment": false,
+          "current_version": 12,
+          "show_as_unviewed": false
+        },
+        "relationships": {
+          "parent_folder": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ceceed65eaa0011d95f95/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "5b2ceceed65eaa0011d95f95",
+              "type": "files"
+            }
+          },
+          "versions": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ced4cd65eaa0010d95479/versions/",
+                "meta": {}
+              }
+            }
+          },
+          "comments": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/comments/?filter%5Btarget%5D=gkjdz",
+                "meta": {}
+              }
+            }
+          },
+          "node": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "zyaqn",
+              "type": "nodes"
+            }
+          },
+          "target": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {
+                  "type": "nodes"
+                }
+              }
+            },
+            "data": {
+              "type": "nodes",
+              "id": "zyaqn"
+            }
+          },
+          "cedar_metadata_records": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ced4cd65eaa0010d95479/cedar_metadata_records/",
+                "meta": {}
+              }
+            }
+          }
+        },
+        "links": {
+          "info": "https://api.osf.io/v2/files/5b2ced4cd65eaa0010d95479/",
+          "move": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5b2ced4cd65eaa0010d95479",
+          "upload": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5b2ced4cd65eaa0010d95479",
+          "delete": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5b2ced4cd65eaa0010d95479",
+          "download": "https://osf.io/download/gkjdz/",
+          "render": "https://mfr.osf.io/render?url=https%3A%2F%2Fosf.io%2Fdownload%2Fgkjdz%2F%3Fdirect%26mode%3Drender",
+          "html": "https://osf.io/zyaqn/files/osfstorage/5b2ced4cd65eaa0010d95479",
+          "self": "https://api.osf.io/v2/files/5b2ced4cd65eaa0010d95479/",
+          "iri": "https://osf.io/gkjdz"
+        }
+      },
+      {
+        "id": "5b2ced50d65eaa000fd98bee",
+        "type": "files",
+        "attributes": {
+          "guid": "86k2e",
+          "checkout": null,
+          "name": "crime_open_database_extended_2009.csv.gz",
+          "kind": "file",
+          "path": "/5b2ced50d65eaa000fd98bee",
+          "size": 94420763,
+          "provider": "osfstorage",
+          "materialized_path": "/Data/crime_open_database_extended_2009.csv.gz",
+          "last_touched": null,
+          "date_modified": "2023-12-20T16:41:38.813441",
+          "date_created": "2018-06-22T12:36:32.164899Z",
+          "extra": {
+            "hashes": {
+              "md5": "0f75e3995e9f25abc4d4a69acd54e331",
+              "sha256": "64b88510d987e08de8f232ec452ea4ea10d0c012aec56e824967c737874718fc"
+            },
+            "downloads": 154
+          },
+          "tags": [],
+          "current_user_can_comment": false,
+          "current_version": 12,
+          "show_as_unviewed": false
+        },
+        "relationships": {
+          "parent_folder": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ceceed65eaa0011d95f95/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "5b2ceceed65eaa0011d95f95",
+              "type": "files"
+            }
+          },
+          "versions": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ced50d65eaa000fd98bee/versions/",
+                "meta": {}
+              }
+            }
+          },
+          "comments": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/comments/?filter%5Btarget%5D=86k2e",
+                "meta": {}
+              }
+            }
+          },
+          "node": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "zyaqn",
+              "type": "nodes"
+            }
+          },
+          "target": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {
+                  "type": "nodes"
+                }
+              }
+            },
+            "data": {
+              "type": "nodes",
+              "id": "zyaqn"
+            }
+          },
+          "cedar_metadata_records": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ced50d65eaa000fd98bee/cedar_metadata_records/",
+                "meta": {}
+              }
+            }
+          }
+        },
+        "links": {
+          "info": "https://api.osf.io/v2/files/5b2ced50d65eaa000fd98bee/",
+          "move": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5b2ced50d65eaa000fd98bee",
+          "upload": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5b2ced50d65eaa000fd98bee",
+          "delete": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5b2ced50d65eaa000fd98bee",
+          "download": "https://osf.io/download/86k2e/",
+          "render": "https://mfr.osf.io/render?url=https%3A%2F%2Fosf.io%2Fdownload%2F86k2e%2F%3Fdirect%26mode%3Drender",
+          "html": "https://osf.io/zyaqn/files/osfstorage/5b2ced50d65eaa000fd98bee",
+          "self": "https://api.osf.io/v2/files/5b2ced50d65eaa000fd98bee/",
+          "iri": "https://osf.io/86k2e"
+        }
+      },
+      {
+        "id": "5b2ced55d65eaa000fd98bf4",
+        "type": "files",
+        "attributes": {
+          "guid": "m3y62",
+          "checkout": null,
+          "name": "crime_open_database_extended_2010.csv.gz",
+          "kind": "file",
+          "path": "/5b2ced55d65eaa000fd98bf4",
+          "size": 106265569,
+          "provider": "osfstorage",
+          "materialized_path": "/Data/crime_open_database_extended_2010.csv.gz",
+          "last_touched": null,
+          "date_modified": "2023-12-20T16:42:49.584510",
+          "date_created": "2018-06-22T12:36:37.541918Z",
+          "extra": {
+            "hashes": {
+              "md5": "12d73d17fa4c28bd3f33dbe985bc57c9",
+              "sha256": "895a3bcc5d3270bdcbf5b216e88ff327c3dc16e1a8421d495ef6e3e49f469d84"
+            },
+            "downloads": 177
+          },
+          "tags": [],
+          "current_user_can_comment": false,
+          "current_version": 12,
+          "show_as_unviewed": false
+        },
+        "relationships": {
+          "parent_folder": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ceceed65eaa0011d95f95/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "5b2ceceed65eaa0011d95f95",
+              "type": "files"
+            }
+          },
+          "versions": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ced55d65eaa000fd98bf4/versions/",
+                "meta": {}
+              }
+            }
+          },
+          "comments": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/comments/?filter%5Btarget%5D=m3y62",
+                "meta": {}
+              }
+            }
+          },
+          "node": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "zyaqn",
+              "type": "nodes"
+            }
+          },
+          "target": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {
+                  "type": "nodes"
+                }
+              }
+            },
+            "data": {
+              "type": "nodes",
+              "id": "zyaqn"
+            }
+          },
+          "cedar_metadata_records": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ced55d65eaa000fd98bf4/cedar_metadata_records/",
+                "meta": {}
+              }
+            }
+          }
+        },
+        "links": {
+          "info": "https://api.osf.io/v2/files/5b2ced55d65eaa000fd98bf4/",
+          "move": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5b2ced55d65eaa000fd98bf4",
+          "upload": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5b2ced55d65eaa000fd98bf4",
+          "delete": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5b2ced55d65eaa000fd98bf4",
+          "download": "https://osf.io/download/m3y62/",
+          "render": "https://mfr.osf.io/render?url=https%3A%2F%2Fosf.io%2Fdownload%2Fm3y62%2F%3Fdirect%26mode%3Drender",
+          "html": "https://osf.io/zyaqn/files/osfstorage/5b2ced55d65eaa000fd98bf4",
+          "self": "https://api.osf.io/v2/files/5b2ced55d65eaa000fd98bf4/",
+          "iri": "https://osf.io/m3y62"
+        }
+      },
+      {
+        "id": "5b2ced5fdaf8210013d352da",
+        "type": "files",
+        "attributes": {
+          "guid": "eywab",
+          "checkout": null,
+          "name": "crime_open_database_extended_2011.csv.gz",
+          "kind": "file",
+          "path": "/5b2ced5fdaf8210013d352da",
+          "size": 102070996,
+          "provider": "osfstorage",
+          "materialized_path": "/Data/crime_open_database_extended_2011.csv.gz",
+          "last_touched": null,
+          "date_modified": "2023-12-20T17:20:42.752173",
+          "date_created": "2018-06-22T12:36:47.158140Z",
+          "extra": {
+            "hashes": {
+              "md5": "d7ff8e388787fc504db7c5dd3b8a83d7",
+              "sha256": "8efcb69963501210561126c1afc20b3be9ebcd8ab653a2c73aab9d0b44cd8f22"
+            },
+            "downloads": 136
+          },
+          "tags": [],
+          "current_user_can_comment": false,
+          "current_version": 12,
+          "show_as_unviewed": false
+        },
+        "relationships": {
+          "parent_folder": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ceceed65eaa0011d95f95/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "5b2ceceed65eaa0011d95f95",
+              "type": "files"
+            }
+          },
+          "versions": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ced5fdaf8210013d352da/versions/",
+                "meta": {}
+              }
+            }
+          },
+          "comments": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/comments/?filter%5Btarget%5D=eywab",
+                "meta": {}
+              }
+            }
+          },
+          "node": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "zyaqn",
+              "type": "nodes"
+            }
+          },
+          "target": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {
+                  "type": "nodes"
+                }
+              }
+            },
+            "data": {
+              "type": "nodes",
+              "id": "zyaqn"
+            }
+          },
+          "cedar_metadata_records": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ced5fdaf8210013d352da/cedar_metadata_records/",
+                "meta": {}
+              }
+            }
+          }
+        },
+        "links": {
+          "info": "https://api.osf.io/v2/files/5b2ced5fdaf8210013d352da/",
+          "move": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5b2ced5fdaf8210013d352da",
+          "upload": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5b2ced5fdaf8210013d352da",
+          "delete": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5b2ced5fdaf8210013d352da",
+          "download": "https://osf.io/download/eywab/",
+          "render": "https://mfr.osf.io/render?url=https%3A%2F%2Fosf.io%2Fdownload%2Feywab%2F%3Fdirect%26mode%3Drender",
+          "html": "https://osf.io/zyaqn/files/osfstorage/5b2ced5fdaf8210013d352da",
+          "self": "https://api.osf.io/v2/files/5b2ced5fdaf8210013d352da/",
+          "iri": "https://osf.io/eywab"
+        }
+      },
+      {
+        "id": "5b2ced68daf8210011d3677d",
+        "type": "files",
+        "attributes": {
+          "guid": "fmwbg",
+          "checkout": null,
+          "name": "crime_open_database_extended_2012.csv.gz",
+          "kind": "file",
+          "path": "/5b2ced68daf8210011d3677d",
+          "size": 102327361,
+          "provider": "osfstorage",
+          "materialized_path": "/Data/crime_open_database_extended_2012.csv.gz",
+          "last_touched": null,
+          "date_modified": "2023-12-20T16:46:34.796018",
+          "date_created": "2018-06-22T12:36:56.611974Z",
+          "extra": {
+            "hashes": {
+              "md5": "26ed22dfe7161cb13cac0bda7f5dac76",
+              "sha256": "4cbfb2528adef78b29403a04b367fdb047c9d299c0a9848c6b7a4bf9c230c582"
+            },
+            "downloads": 175
+          },
+          "tags": [],
+          "current_user_can_comment": false,
+          "current_version": 12,
+          "show_as_unviewed": false
+        },
+        "relationships": {
+          "parent_folder": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ceceed65eaa0011d95f95/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "5b2ceceed65eaa0011d95f95",
+              "type": "files"
+            }
+          },
+          "versions": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ced68daf8210011d3677d/versions/",
+                "meta": {}
+              }
+            }
+          },
+          "comments": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/comments/?filter%5Btarget%5D=fmwbg",
+                "meta": {}
+              }
+            }
+          },
+          "node": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "zyaqn",
+              "type": "nodes"
+            }
+          },
+          "target": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {
+                  "type": "nodes"
+                }
+              }
+            },
+            "data": {
+              "type": "nodes",
+              "id": "zyaqn"
+            }
+          },
+          "cedar_metadata_records": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ced68daf8210011d3677d/cedar_metadata_records/",
+                "meta": {}
+              }
+            }
+          }
+        },
+        "links": {
+          "info": "https://api.osf.io/v2/files/5b2ced68daf8210011d3677d/",
+          "move": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5b2ced68daf8210011d3677d",
+          "upload": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5b2ced68daf8210011d3677d",
+          "delete": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5b2ced68daf8210011d3677d",
+          "download": "https://osf.io/download/fmwbg/",
+          "render": "https://mfr.osf.io/render?url=https%3A%2F%2Fosf.io%2Fdownload%2Ffmwbg%2F%3Fdirect%26mode%3Drender",
+          "html": "https://osf.io/zyaqn/files/osfstorage/5b2ced68daf8210011d3677d",
+          "self": "https://api.osf.io/v2/files/5b2ced68daf8210011d3677d/",
+          "iri": "https://osf.io/fmwbg"
+        }
+      },
+      {
+        "id": "5b2ced6dd65eaa000eda001d",
+        "type": "files",
+        "attributes": {
+          "guid": "dc3ra",
+          "checkout": null,
+          "name": "crime_open_database_extended_2013.csv.gz",
+          "kind": "file",
+          "path": "/5b2ced6dd65eaa000eda001d",
+          "size": 109583280,
+          "provider": "osfstorage",
+          "materialized_path": "/Data/crime_open_database_extended_2013.csv.gz",
+          "last_touched": null,
+          "date_modified": "2023-12-20T16:46:50.633094",
+          "date_created": "2018-06-22T12:37:01.244728Z",
+          "extra": {
+            "hashes": {
+              "md5": "1ebbfbe1ffa5060a3a60d492b55960c1",
+              "sha256": "0c88bd8cf85b8e93de9bbc8f7cf96da4355cfe4013b96ac535435ad5473220c9"
+            },
+            "downloads": 809
+          },
+          "tags": [],
+          "current_user_can_comment": false,
+          "current_version": 12,
+          "show_as_unviewed": false
+        },
+        "relationships": {
+          "parent_folder": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ceceed65eaa0011d95f95/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "5b2ceceed65eaa0011d95f95",
+              "type": "files"
+            }
+          },
+          "versions": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ced6dd65eaa000eda001d/versions/",
+                "meta": {}
+              }
+            }
+          },
+          "comments": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/comments/?filter%5Btarget%5D=dc3ra",
+                "meta": {}
+              }
+            }
+          },
+          "node": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "zyaqn",
+              "type": "nodes"
+            }
+          },
+          "target": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {
+                  "type": "nodes"
+                }
+              }
+            },
+            "data": {
+              "type": "nodes",
+              "id": "zyaqn"
+            }
+          },
+          "cedar_metadata_records": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ced6dd65eaa000eda001d/cedar_metadata_records/",
+                "meta": {}
+              }
+            }
+          }
+        },
+        "links": {
+          "info": "https://api.osf.io/v2/files/5b2ced6dd65eaa000eda001d/",
+          "move": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5b2ced6dd65eaa000eda001d",
+          "upload": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5b2ced6dd65eaa000eda001d",
+          "delete": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5b2ced6dd65eaa000eda001d",
+          "download": "https://osf.io/download/dc3ra/",
+          "render": "https://mfr.osf.io/render?url=https%3A%2F%2Fosf.io%2Fdownload%2Fdc3ra%2F%3Fdirect%26mode%3Drender",
+          "html": "https://osf.io/zyaqn/files/osfstorage/5b2ced6dd65eaa000eda001d",
+          "self": "https://api.osf.io/v2/files/5b2ced6dd65eaa000eda001d/",
+          "iri": "https://osf.io/dc3ra"
+        }
+      },
+      {
+        "id": "5b2ced70daf8210013d352e7",
+        "type": "files",
+        "attributes": {
+          "guid": "mnr24",
+          "checkout": null,
+          "name": "crime_open_database_extended_2014.csv.gz",
+          "kind": "file",
+          "path": "/5b2ced70daf8210013d352e7",
+          "size": 107266522,
+          "provider": "osfstorage",
+          "materialized_path": "/Data/crime_open_database_extended_2014.csv.gz",
+          "last_touched": null,
+          "date_modified": "2023-12-20T16:52:08.415034",
+          "date_created": "2018-06-22T12:37:04.146995Z",
+          "extra": {
+            "hashes": {
+              "md5": "82f9b80cd758154890856caa42d31497",
+              "sha256": "194cf8dc6b7370ccf8f3285be3deafe799633a4d77a2333f7c6f86c01b7647c2"
+            },
+            "downloads": 323
+          },
+          "tags": [],
+          "current_user_can_comment": false,
+          "current_version": 12,
+          "show_as_unviewed": false
+        },
+        "relationships": {
+          "parent_folder": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ceceed65eaa0011d95f95/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "5b2ceceed65eaa0011d95f95",
+              "type": "files"
+            }
+          },
+          "versions": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ced70daf8210013d352e7/versions/",
+                "meta": {}
+              }
+            }
+          },
+          "comments": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/comments/?filter%5Btarget%5D=mnr24",
+                "meta": {}
+              }
+            }
+          },
+          "node": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "zyaqn",
+              "type": "nodes"
+            }
+          },
+          "target": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {
+                  "type": "nodes"
+                }
+              }
+            },
+            "data": {
+              "type": "nodes",
+              "id": "zyaqn"
+            }
+          },
+          "cedar_metadata_records": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ced70daf8210013d352e7/cedar_metadata_records/",
+                "meta": {}
+              }
+            }
+          }
+        },
+        "links": {
+          "info": "https://api.osf.io/v2/files/5b2ced70daf8210013d352e7/",
+          "move": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5b2ced70daf8210013d352e7",
+          "upload": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5b2ced70daf8210013d352e7",
+          "delete": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5b2ced70daf8210013d352e7",
+          "download": "https://osf.io/download/mnr24/",
+          "render": "https://mfr.osf.io/render?url=https%3A%2F%2Fosf.io%2Fdownload%2Fmnr24%2F%3Fdirect%26mode%3Drender",
+          "html": "https://osf.io/zyaqn/files/osfstorage/5b2ced70daf8210013d352e7",
+          "self": "https://api.osf.io/v2/files/5b2ced70daf8210013d352e7/",
+          "iri": "https://osf.io/mnr24"
+        }
+      },
+      {
+        "id": "5b2ced73d65eaa000eda0025",
+        "type": "files",
+        "attributes": {
+          "guid": "hgzxt",
+          "checkout": null,
+          "name": "crime_open_database_extended_2015.csv.gz",
+          "kind": "file",
+          "path": "/5b2ced73d65eaa000eda0025",
+          "size": 107851153,
+          "provider": "osfstorage",
+          "materialized_path": "/Data/crime_open_database_extended_2015.csv.gz",
+          "last_touched": null,
+          "date_modified": "2023-12-20T16:52:07.965973",
+          "date_created": "2018-06-22T12:37:07.563294Z",
+          "extra": {
+            "hashes": {
+              "md5": "c8bb970e19560c32e164efd9f8680387",
+              "sha256": "9c047f233bbba947810a70643a19c1505b8b0528695dae5c6a6ba42e591e6303"
+            },
+            "downloads": 370
+          },
+          "tags": [],
+          "current_user_can_comment": false,
+          "current_version": 12,
+          "show_as_unviewed": false
+        },
+        "relationships": {
+          "parent_folder": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ceceed65eaa0011d95f95/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "5b2ceceed65eaa0011d95f95",
+              "type": "files"
+            }
+          },
+          "versions": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ced73d65eaa000eda0025/versions/",
+                "meta": {}
+              }
+            }
+          },
+          "comments": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/comments/?filter%5Btarget%5D=hgzxt",
+                "meta": {}
+              }
+            }
+          },
+          "node": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "zyaqn",
+              "type": "nodes"
+            }
+          },
+          "target": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {
+                  "type": "nodes"
+                }
+              }
+            },
+            "data": {
+              "type": "nodes",
+              "id": "zyaqn"
+            }
+          },
+          "cedar_metadata_records": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ced73d65eaa000eda0025/cedar_metadata_records/",
+                "meta": {}
+              }
+            }
+          }
+        },
+        "links": {
+          "info": "https://api.osf.io/v2/files/5b2ced73d65eaa000eda0025/",
+          "move": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5b2ced73d65eaa000eda0025",
+          "upload": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5b2ced73d65eaa000eda0025",
+          "delete": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5b2ced73d65eaa000eda0025",
+          "download": "https://osf.io/download/hgzxt/",
+          "render": "https://mfr.osf.io/render?url=https%3A%2F%2Fosf.io%2Fdownload%2Fhgzxt%2F%3Fdirect%26mode%3Drender",
+          "html": "https://osf.io/zyaqn/files/osfstorage/5b2ced73d65eaa000eda0025",
+          "self": "https://api.osf.io/v2/files/5b2ced73d65eaa000eda0025/",
+          "iri": "https://osf.io/hgzxt"
+        }
+      },
+      {
+        "id": "5b2ced77daf8210011d3678b",
+        "type": "files",
+        "attributes": {
+          "guid": "s9je6",
+          "checkout": null,
+          "name": "crime_open_database_extended_2016.csv.gz",
+          "kind": "file",
+          "path": "/5b2ced77daf8210011d3678b",
+          "size": 118203332,
+          "provider": "osfstorage",
+          "materialized_path": "/Data/crime_open_database_extended_2016.csv.gz",
+          "last_touched": null,
+          "date_modified": "2023-12-20T16:55:48.430924",
+          "date_created": "2018-06-22T12:37:11.873063Z",
+          "extra": {
+            "hashes": {
+              "md5": "1bf797234d4e1006222c71639af7ea82",
+              "sha256": "8b42d596bce10ff29cb90bd9c4187ad03c19595de38a00fb66ca8040ba97cf29"
+            },
+            "downloads": 382
+          },
+          "tags": [],
+          "current_user_can_comment": false,
+          "current_version": 12,
+          "show_as_unviewed": false
+        },
+        "relationships": {
+          "parent_folder": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ceceed65eaa0011d95f95/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "5b2ceceed65eaa0011d95f95",
+              "type": "files"
+            }
+          },
+          "versions": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ced77daf8210011d3678b/versions/",
+                "meta": {}
+              }
+            }
+          },
+          "comments": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/comments/?filter%5Btarget%5D=s9je6",
+                "meta": {}
+              }
+            }
+          },
+          "node": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "zyaqn",
+              "type": "nodes"
+            }
+          },
+          "target": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {
+                  "type": "nodes"
+                }
+              }
+            },
+            "data": {
+              "type": "nodes",
+              "id": "zyaqn"
+            }
+          },
+          "cedar_metadata_records": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ced77daf8210011d3678b/cedar_metadata_records/",
+                "meta": {}
+              }
+            }
+          }
+        },
+        "links": {
+          "info": "https://api.osf.io/v2/files/5b2ced77daf8210011d3678b/",
+          "move": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5b2ced77daf8210011d3678b",
+          "upload": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5b2ced77daf8210011d3678b",
+          "delete": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5b2ced77daf8210011d3678b",
+          "download": "https://osf.io/download/s9je6/",
+          "render": "https://mfr.osf.io/render?url=https%3A%2F%2Fosf.io%2Fdownload%2Fs9je6%2F%3Fdirect%26mode%3Drender",
+          "html": "https://osf.io/zyaqn/files/osfstorage/5b2ced77daf8210011d3678b",
+          "self": "https://api.osf.io/v2/files/5b2ced77daf8210011d3678b/",
+          "iri": "https://osf.io/s9je6"
+        }
+      },
+      {
+        "id": "5b2ced7adaf8210013d352f2",
+        "type": "files",
+        "attributes": {
+          "guid": "f6pvq",
+          "checkout": null,
+          "name": "crime_open_database_extended_2017.csv.gz",
+          "kind": "file",
+          "path": "/5b2ced7adaf8210013d352f2",
+          "size": 131039146,
+          "provider": "osfstorage",
+          "materialized_path": "/Data/crime_open_database_extended_2017.csv.gz",
+          "last_touched": null,
+          "date_modified": "2023-12-20T16:56:01.719997",
+          "date_created": "2018-06-22T12:37:14.132551Z",
+          "extra": {
+            "hashes": {
+              "md5": "f87db69db78cd08dfadb350df058ca47",
+              "sha256": "6677e9edde6c01c989be8fa7420324f9e8f4d0c2f5543a917a65eb8051aff806"
+            },
+            "downloads": 223
+          },
+          "tags": [],
+          "current_user_can_comment": false,
+          "current_version": 12,
+          "show_as_unviewed": false
+        },
+        "relationships": {
+          "parent_folder": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ceceed65eaa0011d95f95/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "5b2ceceed65eaa0011d95f95",
+              "type": "files"
+            }
+          },
+          "versions": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ced7adaf8210013d352f2/versions/",
+                "meta": {}
+              }
+            }
+          },
+          "comments": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/comments/?filter%5Btarget%5D=f6pvq",
+                "meta": {}
+              }
+            }
+          },
+          "node": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "zyaqn",
+              "type": "nodes"
+            }
+          },
+          "target": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {
+                  "type": "nodes"
+                }
+              }
+            },
+            "data": {
+              "type": "nodes",
+              "id": "zyaqn"
+            }
+          },
+          "cedar_metadata_records": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ced7adaf8210013d352f2/cedar_metadata_records/",
+                "meta": {}
+              }
+            }
+          }
+        },
+        "links": {
+          "info": "https://api.osf.io/v2/files/5b2ced7adaf8210013d352f2/",
+          "move": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5b2ced7adaf8210013d352f2",
+          "upload": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5b2ced7adaf8210013d352f2",
+          "delete": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5b2ced7adaf8210013d352f2",
+          "download": "https://osf.io/download/f6pvq/",
+          "render": "https://mfr.osf.io/render?url=https%3A%2F%2Fosf.io%2Fdownload%2Ff6pvq%2F%3Fdirect%26mode%3Drender",
+          "html": "https://osf.io/zyaqn/files/osfstorage/5b2ced7adaf8210013d352f2",
+          "self": "https://api.osf.io/v2/files/5b2ced7adaf8210013d352f2/",
+          "iri": "https://osf.io/f6pvq"
+        }
+      },
+      {
+        "id": "5bb28117dc1a760019caa5c6",
+        "type": "files",
+        "attributes": {
+          "guid": "3tqg4",
+          "checkout": null,
+          "name": "crime_open_database_sample_2008.csv.gz",
+          "kind": "file",
+          "path": "/5bb28117dc1a760019caa5c6",
+          "size": 400811,
+          "provider": "osfstorage",
+          "materialized_path": "/Data/crime_open_database_sample_2008.csv.gz",
+          "last_touched": null,
+          "date_modified": "2023-12-20T17:24:09.199061",
+          "date_created": "2018-10-01T20:18:31.973675Z",
+          "extra": {
+            "hashes": {
+              "md5": "600c39f67abe3fc6a3a3362b446fd052",
+              "sha256": "5ed73192173e60e334fe635ffb8dc49c8ed6a4e312bbed67978918c59c2b2e8a"
+            },
+            "downloads": 35
+          },
+          "tags": [],
+          "current_user_can_comment": false,
+          "current_version": 9,
+          "show_as_unviewed": false
+        },
+        "relationships": {
+          "parent_folder": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ceceed65eaa0011d95f95/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "5b2ceceed65eaa0011d95f95",
+              "type": "files"
+            }
+          },
+          "versions": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5bb28117dc1a760019caa5c6/versions/",
+                "meta": {}
+              }
+            }
+          },
+          "comments": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/comments/?filter%5Btarget%5D=3tqg4",
+                "meta": {}
+              }
+            }
+          },
+          "node": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "zyaqn",
+              "type": "nodes"
+            }
+          },
+          "target": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {
+                  "type": "nodes"
+                }
+              }
+            },
+            "data": {
+              "type": "nodes",
+              "id": "zyaqn"
+            }
+          },
+          "cedar_metadata_records": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5bb28117dc1a760019caa5c6/cedar_metadata_records/",
+                "meta": {}
+              }
+            }
+          }
+        },
+        "links": {
+          "info": "https://api.osf.io/v2/files/5bb28117dc1a760019caa5c6/",
+          "move": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5bb28117dc1a760019caa5c6",
+          "upload": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5bb28117dc1a760019caa5c6",
+          "delete": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5bb28117dc1a760019caa5c6",
+          "download": "https://osf.io/download/3tqg4/",
+          "render": "https://mfr.osf.io/render?url=https%3A%2F%2Fosf.io%2Fdownload%2F3tqg4%2F%3Fdirect%26mode%3Drender",
+          "html": "https://osf.io/zyaqn/files/osfstorage/5bb28117dc1a760019caa5c6",
+          "self": "https://api.osf.io/v2/files/5bb28117dc1a760019caa5c6/",
+          "iri": "https://osf.io/3tqg4"
+        }
+      },
+      {
+        "id": "5bb28122dc1a760017ca9c96",
+        "type": "files",
+        "attributes": {
+          "guid": "pu9he",
+          "checkout": null,
+          "name": "crime_open_database_sample_2009.csv.gz",
+          "kind": "file",
+          "path": "/5bb28122dc1a760017ca9c96",
+          "size": 442557,
+          "provider": "osfstorage",
+          "materialized_path": "/Data/crime_open_database_sample_2009.csv.gz",
+          "last_touched": null,
+          "date_modified": "2023-12-20T17:24:17.900219",
+          "date_created": "2018-10-01T20:18:43.001663Z",
+          "extra": {
+            "hashes": {
+              "md5": "c35ef637117808f93c757f99792a1858",
+              "sha256": "8fb27bce786a6666f43d081ec016b3e48164014d835677b17ffbb44f56bdccd2"
+            },
+            "downloads": 50
+          },
+          "tags": [],
+          "current_user_can_comment": false,
+          "current_version": 9,
+          "show_as_unviewed": false
+        },
+        "relationships": {
+          "parent_folder": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ceceed65eaa0011d95f95/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "5b2ceceed65eaa0011d95f95",
+              "type": "files"
+            }
+          },
+          "versions": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5bb28122dc1a760017ca9c96/versions/",
+                "meta": {}
+              }
+            }
+          },
+          "comments": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/comments/?filter%5Btarget%5D=pu9he",
+                "meta": {}
+              }
+            }
+          },
+          "node": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "zyaqn",
+              "type": "nodes"
+            }
+          },
+          "target": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {
+                  "type": "nodes"
+                }
+              }
+            },
+            "data": {
+              "type": "nodes",
+              "id": "zyaqn"
+            }
+          },
+          "cedar_metadata_records": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5bb28122dc1a760017ca9c96/cedar_metadata_records/",
+                "meta": {}
+              }
+            }
+          }
+        },
+        "links": {
+          "info": "https://api.osf.io/v2/files/5bb28122dc1a760017ca9c96/",
+          "move": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5bb28122dc1a760017ca9c96",
+          "upload": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5bb28122dc1a760017ca9c96",
+          "delete": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5bb28122dc1a760017ca9c96",
+          "download": "https://osf.io/download/pu9he/",
+          "render": "https://mfr.osf.io/render?url=https%3A%2F%2Fosf.io%2Fdownload%2Fpu9he%2F%3Fdirect%26mode%3Drender",
+          "html": "https://osf.io/zyaqn/files/osfstorage/5bb28122dc1a760017ca9c96",
+          "self": "https://api.osf.io/v2/files/5bb28122dc1a760017ca9c96/",
+          "iri": "https://osf.io/pu9he"
+        }
+      },
+      {
+        "id": "5bb28125dc1a760017ca9c9b",
+        "type": "files",
+        "attributes": {
+          "guid": "p7nw3",
+          "checkout": null,
+          "name": "crime_open_database_sample_2011.csv.gz",
+          "kind": "file",
+          "path": "/5bb28125dc1a760017ca9c9b",
+          "size": 466155,
+          "provider": "osfstorage",
+          "materialized_path": "/Data/crime_open_database_sample_2011.csv.gz",
+          "last_touched": null,
+          "date_modified": "2023-12-20T17:25:00.436175",
+          "date_created": "2018-10-01T20:18:45.686131Z",
+          "extra": {
+            "hashes": {
+              "md5": "cf7cabbb30d2677e7a6dca863cb185e8",
+              "sha256": "366884e6b90e422abac1dd18024a13f8c1bc420a275c072e3b99e436a9d91492"
+            },
+            "downloads": 54
+          },
+          "tags": [],
+          "current_user_can_comment": false,
+          "current_version": 9,
+          "show_as_unviewed": false
+        },
+        "relationships": {
+          "parent_folder": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ceceed65eaa0011d95f95/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "5b2ceceed65eaa0011d95f95",
+              "type": "files"
+            }
+          },
+          "versions": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5bb28125dc1a760017ca9c9b/versions/",
+                "meta": {}
+              }
+            }
+          },
+          "comments": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/comments/?filter%5Btarget%5D=p7nw3",
+                "meta": {}
+              }
+            }
+          },
+          "node": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "zyaqn",
+              "type": "nodes"
+            }
+          },
+          "target": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {
+                  "type": "nodes"
+                }
+              }
+            },
+            "data": {
+              "type": "nodes",
+              "id": "zyaqn"
+            }
+          },
+          "cedar_metadata_records": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5bb28125dc1a760017ca9c9b/cedar_metadata_records/",
+                "meta": {}
+              }
+            }
+          }
+        },
+        "links": {
+          "info": "https://api.osf.io/v2/files/5bb28125dc1a760017ca9c9b/",
+          "move": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5bb28125dc1a760017ca9c9b",
+          "upload": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5bb28125dc1a760017ca9c9b",
+          "delete": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5bb28125dc1a760017ca9c9b",
+          "download": "https://osf.io/download/p7nw3/",
+          "render": "https://mfr.osf.io/render?url=https%3A%2F%2Fosf.io%2Fdownload%2Fp7nw3%2F%3Fdirect%26mode%3Drender",
+          "html": "https://osf.io/zyaqn/files/osfstorage/5bb28125dc1a760017ca9c9b",
+          "self": "https://api.osf.io/v2/files/5bb28125dc1a760017ca9c9b/",
+          "iri": "https://osf.io/p7nw3"
+        }
+      },
+      {
+        "id": "5bb28125af0e400019edec0a",
+        "type": "files",
+        "attributes": {
+          "guid": "4r3eb",
+          "checkout": null,
+          "name": "crime_open_database_sample_2007.csv.gz",
+          "kind": "file",
+          "path": "/5bb28125af0e400019edec0a",
+          "size": 367103,
+          "provider": "osfstorage",
+          "materialized_path": "/Data/crime_open_database_sample_2007.csv.gz",
+          "last_touched": null,
+          "date_modified": "2023-12-20T17:24:10.463453",
+          "date_created": "2018-10-01T20:18:45.820047Z",
+          "extra": {
+            "hashes": {
+              "md5": "467ef8af6a7a4f515467762e439ba3db",
+              "sha256": "8a16be58900dd93d016c1f90bb398db68a8d066ecf989f485a779329a0c9bca3"
+            },
+            "downloads": 39
+          },
+          "tags": [],
+          "current_user_can_comment": false,
+          "current_version": 9,
+          "show_as_unviewed": false
+        },
+        "relationships": {
+          "parent_folder": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ceceed65eaa0011d95f95/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "5b2ceceed65eaa0011d95f95",
+              "type": "files"
+            }
+          },
+          "versions": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5bb28125af0e400019edec0a/versions/",
+                "meta": {}
+              }
+            }
+          },
+          "comments": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/comments/?filter%5Btarget%5D=4r3eb",
+                "meta": {}
+              }
+            }
+          },
+          "node": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "zyaqn",
+              "type": "nodes"
+            }
+          },
+          "target": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {
+                  "type": "nodes"
+                }
+              }
+            },
+            "data": {
+              "type": "nodes",
+              "id": "zyaqn"
+            }
+          },
+          "cedar_metadata_records": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5bb28125af0e400019edec0a/cedar_metadata_records/",
+                "meta": {}
+              }
+            }
+          }
+        },
+        "links": {
+          "info": "https://api.osf.io/v2/files/5bb28125af0e400019edec0a/",
+          "move": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5bb28125af0e400019edec0a",
+          "upload": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5bb28125af0e400019edec0a",
+          "delete": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5bb28125af0e400019edec0a",
+          "download": "https://osf.io/download/4r3eb/",
+          "render": "https://mfr.osf.io/render?url=https%3A%2F%2Fosf.io%2Fdownload%2F4r3eb%2F%3Fdirect%26mode%3Drender",
+          "html": "https://osf.io/zyaqn/files/osfstorage/5bb28125af0e400019edec0a",
+          "self": "https://api.osf.io/v2/files/5bb28125af0e400019edec0a/",
+          "iri": "https://osf.io/4r3eb"
+        }
+      },
+      {
+        "id": "5bb28126af0e400016edf5eb",
+        "type": "files",
+        "attributes": {
+          "guid": "vktnz",
+          "checkout": null,
+          "name": "crime_open_database_sample_2010.csv.gz",
+          "kind": "file",
+          "path": "/5bb28126af0e400016edf5eb",
+          "size": 487076,
+          "provider": "osfstorage",
+          "materialized_path": "/Data/crime_open_database_sample_2010.csv.gz",
+          "last_touched": null,
+          "date_modified": "2023-12-20T17:24:18.139938",
+          "date_created": "2018-10-01T20:18:46.348320Z",
+          "extra": {
+            "hashes": {
+              "md5": "bb843c450c88fe47b55d4b31641bad1e",
+              "sha256": "ed125037ea705fb3d58f030a3ca6f4181bfab78dad3bcfdb9ec9f8a324acf1db"
+            },
+            "downloads": 72
+          },
+          "tags": [],
+          "current_user_can_comment": false,
+          "current_version": 9,
+          "show_as_unviewed": false
+        },
+        "relationships": {
+          "parent_folder": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ceceed65eaa0011d95f95/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "5b2ceceed65eaa0011d95f95",
+              "type": "files"
+            }
+          },
+          "versions": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5bb28126af0e400016edf5eb/versions/",
+                "meta": {}
+              }
+            }
+          },
+          "comments": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/comments/?filter%5Btarget%5D=vktnz",
+                "meta": {}
+              }
+            }
+          },
+          "node": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "zyaqn",
+              "type": "nodes"
+            }
+          },
+          "target": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {
+                  "type": "nodes"
+                }
+              }
+            },
+            "data": {
+              "type": "nodes",
+              "id": "zyaqn"
+            }
+          },
+          "cedar_metadata_records": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5bb28126af0e400016edf5eb/cedar_metadata_records/",
+                "meta": {}
+              }
+            }
+          }
+        },
+        "links": {
+          "info": "https://api.osf.io/v2/files/5bb28126af0e400016edf5eb/",
+          "move": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5bb28126af0e400016edf5eb",
+          "upload": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5bb28126af0e400016edf5eb",
+          "delete": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5bb28126af0e400016edf5eb",
+          "download": "https://osf.io/download/vktnz/",
+          "render": "https://mfr.osf.io/render?url=https%3A%2F%2Fosf.io%2Fdownload%2Fvktnz%2F%3Fdirect%26mode%3Drender",
+          "html": "https://osf.io/zyaqn/files/osfstorage/5bb28126af0e400016edf5eb",
+          "self": "https://api.osf.io/v2/files/5bb28126af0e400016edf5eb/",
+          "iri": "https://osf.io/vktnz"
+        }
+      },
+      {
+        "id": "5bb28130af0e400017ede967",
+        "type": "files",
+        "attributes": {
+          "guid": "k4vhs",
+          "checkout": null,
+          "name": "crime_open_database_sample_2012.csv.gz",
+          "kind": "file",
+          "path": "/5bb28130af0e400017ede967",
+          "size": 465349,
+          "provider": "osfstorage",
+          "materialized_path": "/Data/crime_open_database_sample_2012.csv.gz",
+          "last_touched": null,
+          "date_modified": "2023-12-20T17:24:55.026763",
+          "date_created": "2018-10-01T20:18:56.318012Z",
+          "extra": {
+            "hashes": {
+              "md5": "4d878df40732ca3f978072f5f56d9a73",
+              "sha256": "68c47c91549cbed80d1158bcc284c05a84e17560f01d9a03565f23b135446597"
+            },
+            "downloads": 56
+          },
+          "tags": [],
+          "current_user_can_comment": false,
+          "current_version": 9,
+          "show_as_unviewed": false
+        },
+        "relationships": {
+          "parent_folder": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ceceed65eaa0011d95f95/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "5b2ceceed65eaa0011d95f95",
+              "type": "files"
+            }
+          },
+          "versions": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5bb28130af0e400017ede967/versions/",
+                "meta": {}
+              }
+            }
+          },
+          "comments": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/comments/?filter%5Btarget%5D=k4vhs",
+                "meta": {}
+              }
+            }
+          },
+          "node": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "zyaqn",
+              "type": "nodes"
+            }
+          },
+          "target": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {
+                  "type": "nodes"
+                }
+              }
+            },
+            "data": {
+              "type": "nodes",
+              "id": "zyaqn"
+            }
+          },
+          "cedar_metadata_records": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5bb28130af0e400017ede967/cedar_metadata_records/",
+                "meta": {}
+              }
+            }
+          }
+        },
+        "links": {
+          "info": "https://api.osf.io/v2/files/5bb28130af0e400017ede967/",
+          "move": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5bb28130af0e400017ede967",
+          "upload": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5bb28130af0e400017ede967",
+          "delete": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5bb28130af0e400017ede967",
+          "download": "https://osf.io/download/k4vhs/",
+          "render": "https://mfr.osf.io/render?url=https%3A%2F%2Fosf.io%2Fdownload%2Fk4vhs%2F%3Fdirect%26mode%3Drender",
+          "html": "https://osf.io/zyaqn/files/osfstorage/5bb28130af0e400017ede967",
+          "self": "https://api.osf.io/v2/files/5bb28130af0e400017ede967/",
+          "iri": "https://osf.io/k4vhs"
+        }
+      },
+      {
+        "id": "5bb28141dc1a760018ca9f62",
+        "type": "files",
+        "attributes": {
+          "guid": "cnb7r",
+          "checkout": null,
+          "name": "crime_open_database_sample_2013.csv.gz",
+          "kind": "file",
+          "path": "/5bb28141dc1a760018ca9f62",
+          "size": 480475,
+          "provider": "osfstorage",
+          "materialized_path": "/Data/crime_open_database_sample_2013.csv.gz",
+          "last_touched": null,
+          "date_modified": "2023-12-20T17:25:27.891351",
+          "date_created": "2018-10-01T20:19:13.366596Z",
+          "extra": {
+            "hashes": {
+              "md5": "89f9a49ca9570455e6d4ce7352ad2353",
+              "sha256": "fb90e975afb34413c2eda7b12cdbdb94ba3869e2b79a95f991bed8a09ace7afd"
+            },
+            "downloads": 63
+          },
+          "tags": [],
+          "current_user_can_comment": false,
+          "current_version": 9,
+          "show_as_unviewed": false
+        },
+        "relationships": {
+          "parent_folder": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ceceed65eaa0011d95f95/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "5b2ceceed65eaa0011d95f95",
+              "type": "files"
+            }
+          },
+          "versions": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5bb28141dc1a760018ca9f62/versions/",
+                "meta": {}
+              }
+            }
+          },
+          "comments": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/comments/?filter%5Btarget%5D=cnb7r",
+                "meta": {}
+              }
+            }
+          },
+          "node": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "zyaqn",
+              "type": "nodes"
+            }
+          },
+          "target": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {
+                  "type": "nodes"
+                }
+              }
+            },
+            "data": {
+              "type": "nodes",
+              "id": "zyaqn"
+            }
+          },
+          "cedar_metadata_records": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5bb28141dc1a760018ca9f62/cedar_metadata_records/",
+                "meta": {}
+              }
+            }
+          }
+        },
+        "links": {
+          "info": "https://api.osf.io/v2/files/5bb28141dc1a760018ca9f62/",
+          "move": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5bb28141dc1a760018ca9f62",
+          "upload": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5bb28141dc1a760018ca9f62",
+          "delete": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5bb28141dc1a760018ca9f62",
+          "download": "https://osf.io/download/cnb7r/",
+          "render": "https://mfr.osf.io/render?url=https%3A%2F%2Fosf.io%2Fdownload%2Fcnb7r%2F%3Fdirect%26mode%3Drender",
+          "html": "https://osf.io/zyaqn/files/osfstorage/5bb28141dc1a760018ca9f62",
+          "self": "https://api.osf.io/v2/files/5bb28141dc1a760018ca9f62/",
+          "iri": "https://osf.io/cnb7r"
+        }
+      },
+      {
+        "id": "5bb28152dc1a76001aca9bfc",
+        "type": "files",
+        "attributes": {
+          "guid": "hswqb",
+          "checkout": null,
+          "name": "crime_open_database_sample_2014.csv.gz",
+          "kind": "file",
+          "path": "/5bb28152dc1a76001aca9bfc",
+          "size": 465213,
+          "provider": "osfstorage",
+          "materialized_path": "/Data/crime_open_database_sample_2014.csv.gz",
+          "last_touched": null,
+          "date_modified": "2023-12-20T17:25:25.924174",
+          "date_created": "2018-10-01T20:19:30.363573Z",
+          "extra": {
+            "hashes": {
+              "md5": "ac7657e009341f05c722ab5012397846",
+              "sha256": "fbcd5fbb0a18ecf56510f600a710ae65dac5b5939c23a758aaed7bb0202c6c46"
+            },
+            "downloads": 39
+          },
+          "tags": [],
+          "current_user_can_comment": false,
+          "current_version": 9,
+          "show_as_unviewed": false
+        },
+        "relationships": {
+          "parent_folder": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ceceed65eaa0011d95f95/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "5b2ceceed65eaa0011d95f95",
+              "type": "files"
+            }
+          },
+          "versions": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5bb28152dc1a76001aca9bfc/versions/",
+                "meta": {}
+              }
+            }
+          },
+          "comments": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/comments/?filter%5Btarget%5D=hswqb",
+                "meta": {}
+              }
+            }
+          },
+          "node": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "zyaqn",
+              "type": "nodes"
+            }
+          },
+          "target": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {
+                  "type": "nodes"
+                }
+              }
+            },
+            "data": {
+              "type": "nodes",
+              "id": "zyaqn"
+            }
+          },
+          "cedar_metadata_records": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5bb28152dc1a76001aca9bfc/cedar_metadata_records/",
+                "meta": {}
+              }
+            }
+          }
+        },
+        "links": {
+          "info": "https://api.osf.io/v2/files/5bb28152dc1a76001aca9bfc/",
+          "move": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5bb28152dc1a76001aca9bfc",
+          "upload": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5bb28152dc1a76001aca9bfc",
+          "delete": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5bb28152dc1a76001aca9bfc",
+          "download": "https://osf.io/download/hswqb/",
+          "render": "https://mfr.osf.io/render?url=https%3A%2F%2Fosf.io%2Fdownload%2Fhswqb%2F%3Fdirect%26mode%3Drender",
+          "html": "https://osf.io/zyaqn/files/osfstorage/5bb28152dc1a76001aca9bfc",
+          "self": "https://api.osf.io/v2/files/5bb28152dc1a76001aca9bfc/",
+          "iri": "https://osf.io/hswqb"
+        }
+      },
+      {
+        "id": "5bb28152af0e400017ede99a",
+        "type": "files",
+        "attributes": {
+          "guid": "zcwfv",
+          "checkout": null,
+          "name": "crime_open_database_sample_2015.csv.gz",
+          "kind": "file",
+          "path": "/5bb28152af0e400017ede99a",
+          "size": 461718,
+          "provider": "osfstorage",
+          "materialized_path": "/Data/crime_open_database_sample_2015.csv.gz",
+          "last_touched": null,
+          "date_modified": "2023-12-20T17:26:09.225835",
+          "date_created": "2018-10-01T20:19:31.111736Z",
+          "extra": {
+            "hashes": {
+              "md5": "b773abd02d3a18079b86eac05916ca81",
+              "sha256": "baeeac78d943b690dc13e10419a449c414b0c2fbcdd10cde225abd2fd51dcfbe"
+            },
+            "downloads": 72
+          },
+          "tags": [],
+          "current_user_can_comment": false,
+          "current_version": 9,
+          "show_as_unviewed": false
+        },
+        "relationships": {
+          "parent_folder": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ceceed65eaa0011d95f95/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "5b2ceceed65eaa0011d95f95",
+              "type": "files"
+            }
+          },
+          "versions": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5bb28152af0e400017ede99a/versions/",
+                "meta": {}
+              }
+            }
+          },
+          "comments": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/comments/?filter%5Btarget%5D=zcwfv",
+                "meta": {}
+              }
+            }
+          },
+          "node": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "zyaqn",
+              "type": "nodes"
+            }
+          },
+          "target": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {
+                  "type": "nodes"
+                }
+              }
+            },
+            "data": {
+              "type": "nodes",
+              "id": "zyaqn"
+            }
+          },
+          "cedar_metadata_records": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5bb28152af0e400017ede99a/cedar_metadata_records/",
+                "meta": {}
+              }
+            }
+          }
+        },
+        "links": {
+          "info": "https://api.osf.io/v2/files/5bb28152af0e400017ede99a/",
+          "move": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5bb28152af0e400017ede99a",
+          "upload": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5bb28152af0e400017ede99a",
+          "delete": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5bb28152af0e400017ede99a",
+          "download": "https://osf.io/download/zcwfv/",
+          "render": "https://mfr.osf.io/render?url=https%3A%2F%2Fosf.io%2Fdownload%2Fzcwfv%2F%3Fdirect%26mode%3Drender",
+          "html": "https://osf.io/zyaqn/files/osfstorage/5bb28152af0e400017ede99a",
+          "self": "https://api.osf.io/v2/files/5bb28152af0e400017ede99a/",
+          "iri": "https://osf.io/zcwfv"
+        }
+      },
+      {
+        "id": "5bb28152af0e400018ededff",
+        "type": "files",
+        "attributes": {
+          "guid": "ug82r",
+          "checkout": null,
+          "name": "crime_open_database_sample_2016.csv.gz",
+          "kind": "file",
+          "path": "/5bb28152af0e400018ededff",
+          "size": 500464,
+          "provider": "osfstorage",
+          "materialized_path": "/Data/crime_open_database_sample_2016.csv.gz",
+          "last_touched": null,
+          "date_modified": "2023-12-20T17:25:49.353867",
+          "date_created": "2018-10-01T20:19:30.786101Z",
+          "extra": {
+            "hashes": {
+              "md5": "4d55ca4f95cf7c0824a84db013e59763",
+              "sha256": "00f2d6ec0aba2195535a3fe955d7d07ae9d977763c82fe749900973adb911baa"
+            },
+            "downloads": 32
+          },
+          "tags": [],
+          "current_user_can_comment": false,
+          "current_version": 9,
+          "show_as_unviewed": false
+        },
+        "relationships": {
+          "parent_folder": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ceceed65eaa0011d95f95/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "5b2ceceed65eaa0011d95f95",
+              "type": "files"
+            }
+          },
+          "versions": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5bb28152af0e400018ededff/versions/",
+                "meta": {}
+              }
+            }
+          },
+          "comments": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/comments/?filter%5Btarget%5D=ug82r",
+                "meta": {}
+              }
+            }
+          },
+          "node": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "zyaqn",
+              "type": "nodes"
+            }
+          },
+          "target": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {
+                  "type": "nodes"
+                }
+              }
+            },
+            "data": {
+              "type": "nodes",
+              "id": "zyaqn"
+            }
+          },
+          "cedar_metadata_records": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5bb28152af0e400018ededff/cedar_metadata_records/",
+                "meta": {}
+              }
+            }
+          }
+        },
+        "links": {
+          "info": "https://api.osf.io/v2/files/5bb28152af0e400018ededff/",
+          "move": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5bb28152af0e400018ededff",
+          "upload": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5bb28152af0e400018ededff",
+          "delete": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5bb28152af0e400018ededff",
+          "download": "https://osf.io/download/ug82r/",
+          "render": "https://mfr.osf.io/render?url=https%3A%2F%2Fosf.io%2Fdownload%2Fug82r%2F%3Fdirect%26mode%3Drender",
+          "html": "https://osf.io/zyaqn/files/osfstorage/5bb28152af0e400018ededff",
+          "self": "https://api.osf.io/v2/files/5bb28152af0e400018ededff/",
+          "iri": "https://osf.io/ug82r"
+        }
+      },
+      {
+        "id": "5bb28154dc1a760019caa617",
+        "type": "files",
+        "attributes": {
+          "guid": "qnpm2",
+          "checkout": null,
+          "name": "crime_open_database_sample_2017.csv.gz",
+          "kind": "file",
+          "path": "/5bb28154dc1a760019caa617",
+          "size": 543163,
+          "provider": "osfstorage",
+          "materialized_path": "/Data/crime_open_database_sample_2017.csv.gz",
+          "last_touched": null,
+          "date_modified": "2023-12-20T17:28:09.510119",
+          "date_created": "2018-10-01T20:19:32.229167Z",
+          "extra": {
+            "hashes": {
+              "md5": "87b8f5289054aee02644f3869dab963d",
+              "sha256": "71317725c8c7781c8ba700f2f53b213e43554cc17a54d63006f901e474958669"
+            },
+            "downloads": 57
+          },
+          "tags": [],
+          "current_user_can_comment": false,
+          "current_version": 9,
+          "show_as_unviewed": false
+        },
+        "relationships": {
+          "parent_folder": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ceceed65eaa0011d95f95/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "5b2ceceed65eaa0011d95f95",
+              "type": "files"
+            }
+          },
+          "versions": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5bb28154dc1a760019caa617/versions/",
+                "meta": {}
+              }
+            }
+          },
+          "comments": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/comments/?filter%5Btarget%5D=qnpm2",
+                "meta": {}
+              }
+            }
+          },
+          "node": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "zyaqn",
+              "type": "nodes"
+            }
+          },
+          "target": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {
+                  "type": "nodes"
+                }
+              }
+            },
+            "data": {
+              "type": "nodes",
+              "id": "zyaqn"
+            }
+          },
+          "cedar_metadata_records": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5bb28154dc1a760019caa617/cedar_metadata_records/",
+                "meta": {}
+              }
+            }
+          }
+        },
+        "links": {
+          "info": "https://api.osf.io/v2/files/5bb28154dc1a760019caa617/",
+          "move": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5bb28154dc1a760019caa617",
+          "upload": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5bb28154dc1a760019caa617",
+          "delete": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5bb28154dc1a760019caa617",
+          "download": "https://osf.io/download/qnpm2/",
+          "render": "https://mfr.osf.io/render?url=https%3A%2F%2Fosf.io%2Fdownload%2Fqnpm2%2F%3Fdirect%26mode%3Drender",
+          "html": "https://osf.io/zyaqn/files/osfstorage/5bb28154dc1a760019caa617",
+          "self": "https://api.osf.io/v2/files/5bb28154dc1a760019caa617/",
+          "iri": "https://osf.io/qnpm2"
+        }
+      },
+      {
+        "id": "5c927205a743a9001663ae8b",
+        "type": "files",
+        "attributes": {
+          "guid": "bm7a5",
+          "checkout": null,
+          "name": "crime_open_database_core_2018.csv.gz",
+          "kind": "file",
+          "path": "/5c927205a743a9001663ae8b",
+          "size": 39097734,
+          "provider": "osfstorage",
+          "materialized_path": "/Data/crime_open_database_core_2018.csv.gz",
+          "last_touched": null,
+          "date_modified": "2023-12-20T16:10:15.069463",
+          "date_created": "2019-03-20T17:01:57.191427Z",
+          "extra": {
+            "hashes": {
+              "md5": "7fd7a80f085bd7c36ff531690a7d8136",
+              "sha256": "3609ed686efd071f0f88f3a3a8245eedeeb45a1c045f9b130b130c3f36d8de68"
+            },
+            "downloads": 667
+          },
+          "tags": [],
+          "current_user_can_comment": false,
+          "current_version": 7,
+          "show_as_unviewed": false
+        },
+        "relationships": {
+          "parent_folder": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ceceed65eaa0011d95f95/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "5b2ceceed65eaa0011d95f95",
+              "type": "files"
+            }
+          },
+          "versions": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5c927205a743a9001663ae8b/versions/",
+                "meta": {}
+              }
+            }
+          },
+          "comments": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/comments/?filter%5Btarget%5D=bm7a5",
+                "meta": {}
+              }
+            }
+          },
+          "node": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "zyaqn",
+              "type": "nodes"
+            }
+          },
+          "target": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {
+                  "type": "nodes"
+                }
+              }
+            },
+            "data": {
+              "type": "nodes",
+              "id": "zyaqn"
+            }
+          },
+          "cedar_metadata_records": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5c927205a743a9001663ae8b/cedar_metadata_records/",
+                "meta": {}
+              }
+            }
+          }
+        },
+        "links": {
+          "info": "https://api.osf.io/v2/files/5c927205a743a9001663ae8b/",
+          "move": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5c927205a743a9001663ae8b",
+          "upload": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5c927205a743a9001663ae8b",
+          "delete": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5c927205a743a9001663ae8b",
+          "download": "https://osf.io/download/bm7a5/",
+          "render": "https://mfr.osf.io/render?url=https%3A%2F%2Fosf.io%2Fdownload%2Fbm7a5%2F%3Fdirect%26mode%3Drender",
+          "html": "https://osf.io/zyaqn/files/osfstorage/5c927205a743a9001663ae8b",
+          "self": "https://api.osf.io/v2/files/5c927205a743a9001663ae8b/",
+          "iri": "https://osf.io/bm7a5"
+        }
+      },
+      {
+        "id": "5c928a5da743a9001762a08e",
+        "type": "files",
+        "attributes": {
+          "guid": "ev6gp",
+          "checkout": null,
+          "name": "crime_open_database_sample_2018.csv.gz",
+          "kind": "file",
+          "path": "/5c928a5da743a9001762a08e",
+          "size": 536861,
+          "provider": "osfstorage",
+          "materialized_path": "/Data/crime_open_database_sample_2018.csv.gz",
+          "last_touched": null,
+          "date_modified": "2023-12-20T17:27:58.811190",
+          "date_created": "2019-03-20T18:45:49.639978Z",
+          "extra": {
+            "hashes": {
+              "md5": "f6a3f0b9ac3e70c98904156cd66cbac9",
+              "sha256": "66b657a558c5d2babbb247a748a11274217849bd1b73611320a81dd0cd1395c6"
+            },
+            "downloads": 61
+          },
+          "tags": [],
+          "current_user_can_comment": false,
+          "current_version": 7,
+          "show_as_unviewed": false
+        },
+        "relationships": {
+          "parent_folder": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ceceed65eaa0011d95f95/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "5b2ceceed65eaa0011d95f95",
+              "type": "files"
+            }
+          },
+          "versions": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5c928a5da743a9001762a08e/versions/",
+                "meta": {}
+              }
+            }
+          },
+          "comments": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/comments/?filter%5Btarget%5D=ev6gp",
+                "meta": {}
+              }
+            }
+          },
+          "node": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "zyaqn",
+              "type": "nodes"
+            }
+          },
+          "target": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {
+                  "type": "nodes"
+                }
+              }
+            },
+            "data": {
+              "type": "nodes",
+              "id": "zyaqn"
+            }
+          },
+          "cedar_metadata_records": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5c928a5da743a9001762a08e/cedar_metadata_records/",
+                "meta": {}
+              }
+            }
+          }
+        },
+        "links": {
+          "info": "https://api.osf.io/v2/files/5c928a5da743a9001762a08e/",
+          "move": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5c928a5da743a9001762a08e",
+          "upload": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5c928a5da743a9001762a08e",
+          "delete": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5c928a5da743a9001762a08e",
+          "download": "https://osf.io/download/ev6gp/",
+          "render": "https://mfr.osf.io/render?url=https%3A%2F%2Fosf.io%2Fdownload%2Fev6gp%2F%3Fdirect%26mode%3Drender",
+          "html": "https://osf.io/zyaqn/files/osfstorage/5c928a5da743a9001762a08e",
+          "self": "https://api.osf.io/v2/files/5c928a5da743a9001762a08e/",
+          "iri": "https://osf.io/ev6gp"
+        }
+      },
+      {
+        "id": "5c92d2522286e80018c68334",
+        "type": "files",
+        "attributes": {
+          "guid": "8cxuh",
+          "checkout": null,
+          "name": "crime_open_database_extended_2018.csv.gz",
+          "kind": "file",
+          "path": "/5c92d2522286e80018c68334",
+          "size": 131600290,
+          "provider": "osfstorage",
+          "materialized_path": "/Data/crime_open_database_extended_2018.csv.gz",
+          "last_touched": null,
+          "date_modified": "2023-12-20T17:00:16.936739",
+          "date_created": "2019-03-20T23:52:50.889951Z",
+          "extra": {
+            "hashes": {
+              "md5": "bc8236384f53e8dc2b6c87e6311b2db4",
+              "sha256": "9a3e2ced111f86786f5f9f2b6283290012789e5957a674f56a52a334398406b3"
+            },
+            "downloads": 476
+          },
+          "tags": [],
+          "current_user_can_comment": false,
+          "current_version": 7,
+          "show_as_unviewed": false
+        },
+        "relationships": {
+          "parent_folder": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ceceed65eaa0011d95f95/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "5b2ceceed65eaa0011d95f95",
+              "type": "files"
+            }
+          },
+          "versions": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5c92d2522286e80018c68334/versions/",
+                "meta": {}
+              }
+            }
+          },
+          "comments": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/comments/?filter%5Btarget%5D=8cxuh",
+                "meta": {}
+              }
+            }
+          },
+          "node": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "zyaqn",
+              "type": "nodes"
+            }
+          },
+          "target": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {
+                  "type": "nodes"
+                }
+              }
+            },
+            "data": {
+              "type": "nodes",
+              "id": "zyaqn"
+            }
+          },
+          "cedar_metadata_records": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5c92d2522286e80018c68334/cedar_metadata_records/",
+                "meta": {}
+              }
+            }
+          }
+        },
+        "links": {
+          "info": "https://api.osf.io/v2/files/5c92d2522286e80018c68334/",
+          "move": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5c92d2522286e80018c68334",
+          "upload": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5c92d2522286e80018c68334",
+          "delete": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5c92d2522286e80018c68334",
+          "download": "https://osf.io/download/8cxuh/",
+          "render": "https://mfr.osf.io/render?url=https%3A%2F%2Fosf.io%2Fdownload%2F8cxuh%2F%3Fdirect%26mode%3Drender",
+          "html": "https://osf.io/zyaqn/files/osfstorage/5c92d2522286e80018c68334",
+          "self": "https://api.osf.io/v2/files/5c92d2522286e80018c68334/",
+          "iri": "https://osf.io/8cxuh"
+        }
+      },
+      {
+        "id": "5f0093ccea59af018ad32e12",
+        "type": "files",
+        "attributes": {
+          "guid": "3hkzj",
+          "checkout": null,
+          "name": "crime_open_database_core_2019.csv.gz",
+          "kind": "file",
+          "path": "/5f0093ccea59af018ad32e12",
+          "size": 41948301,
+          "provider": "osfstorage",
+          "materialized_path": "/Data/crime_open_database_core_2019.csv.gz",
+          "last_touched": null,
+          "date_modified": "2023-12-20T16:11:14.419796",
+          "date_created": "2020-07-04T14:35:56.098749Z",
+          "extra": {
+            "hashes": {
+              "md5": "4a2ddc00195e81b3ffeb8129c3645d13",
+              "sha256": "601896337e1568d81d43ef074afed316fe72b9b8158ce6cf58026fc0c8e9051b"
+            },
+            "downloads": 1175
+          },
+          "tags": [],
+          "current_user_can_comment": false,
+          "current_version": 5,
+          "show_as_unviewed": false
+        },
+        "relationships": {
+          "parent_folder": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ceceed65eaa0011d95f95/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "5b2ceceed65eaa0011d95f95",
+              "type": "files"
+            }
+          },
+          "versions": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5f0093ccea59af018ad32e12/versions/",
+                "meta": {}
+              }
+            }
+          },
+          "comments": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/comments/?filter%5Btarget%5D=3hkzj",
+                "meta": {}
+              }
+            }
+          },
+          "node": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "zyaqn",
+              "type": "nodes"
+            }
+          },
+          "target": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {
+                  "type": "nodes"
+                }
+              }
+            },
+            "data": {
+              "type": "nodes",
+              "id": "zyaqn"
+            }
+          },
+          "cedar_metadata_records": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5f0093ccea59af018ad32e12/cedar_metadata_records/",
+                "meta": {}
+              }
+            }
+          }
+        },
+        "links": {
+          "info": "https://api.osf.io/v2/files/5f0093ccea59af018ad32e12/",
+          "move": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5f0093ccea59af018ad32e12",
+          "upload": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5f0093ccea59af018ad32e12",
+          "delete": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5f0093ccea59af018ad32e12",
+          "download": "https://osf.io/download/3hkzj/",
+          "render": "https://mfr.osf.io/render?url=https%3A%2F%2Fosf.io%2Fdownload%2F3hkzj%2F%3Fdirect%26mode%3Drender",
+          "html": "https://osf.io/zyaqn/files/osfstorage/5f0093ccea59af018ad32e12",
+          "self": "https://api.osf.io/v2/files/5f0093ccea59af018ad32e12/",
+          "iri": "https://osf.io/3hkzj"
+        }
+      },
+      {
+        "id": "5f00943aaf115601743b34b0",
+        "type": "files",
+        "attributes": {
+          "guid": "t9jrx",
+          "checkout": null,
+          "name": "crime_open_database_extended_2019.csv.gz",
+          "kind": "file",
+          "path": "/5f00943aaf115601743b34b0",
+          "size": 135874674,
+          "provider": "osfstorage",
+          "materialized_path": "/Data/crime_open_database_extended_2019.csv.gz",
+          "last_touched": null,
+          "date_modified": "2023-12-20T17:00:28.503631",
+          "date_created": "2020-07-04T14:37:46.467751Z",
+          "extra": {
+            "hashes": {
+              "md5": "524c6da1d90e5c5155c7c18dc6e8a7d2",
+              "sha256": "f4f3ea390fca00f4b1252fd9b0ea7ed216b90d4e2b969c8fa5876fb9d247271d"
+            },
+            "downloads": 147
+          },
+          "tags": [],
+          "current_user_can_comment": false,
+          "current_version": 5,
+          "show_as_unviewed": false
+        },
+        "relationships": {
+          "parent_folder": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ceceed65eaa0011d95f95/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "5b2ceceed65eaa0011d95f95",
+              "type": "files"
+            }
+          },
+          "versions": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5f00943aaf115601743b34b0/versions/",
+                "meta": {}
+              }
+            }
+          },
+          "comments": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/comments/?filter%5Btarget%5D=t9jrx",
+                "meta": {}
+              }
+            }
+          },
+          "node": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "zyaqn",
+              "type": "nodes"
+            }
+          },
+          "target": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {
+                  "type": "nodes"
+                }
+              }
+            },
+            "data": {
+              "type": "nodes",
+              "id": "zyaqn"
+            }
+          },
+          "cedar_metadata_records": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5f00943aaf115601743b34b0/cedar_metadata_records/",
+                "meta": {}
+              }
+            }
+          }
+        },
+        "links": {
+          "info": "https://api.osf.io/v2/files/5f00943aaf115601743b34b0/",
+          "move": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5f00943aaf115601743b34b0",
+          "upload": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5f00943aaf115601743b34b0",
+          "delete": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5f00943aaf115601743b34b0",
+          "download": "https://osf.io/download/t9jrx/",
+          "render": "https://mfr.osf.io/render?url=https%3A%2F%2Fosf.io%2Fdownload%2Ft9jrx%2F%3Fdirect%26mode%3Drender",
+          "html": "https://osf.io/zyaqn/files/osfstorage/5f00943aaf115601743b34b0",
+          "self": "https://api.osf.io/v2/files/5f00943aaf115601743b34b0/",
+          "iri": "https://osf.io/t9jrx"
+        }
+      },
+      {
+        "id": "5f00943aaf115601743b34b3",
+        "type": "files",
+        "attributes": {
+          "guid": "reqmh",
+          "checkout": null,
+          "name": "crime_open_database_sample_2019.csv.gz",
+          "kind": "file",
+          "path": "/5f00943aaf115601743b34b3",
+          "size": 568434,
+          "provider": "osfstorage",
+          "materialized_path": "/Data/crime_open_database_sample_2019.csv.gz",
+          "last_touched": null,
+          "date_modified": "2023-12-20T17:30:16.627311",
+          "date_created": "2020-07-04T14:37:46.506541Z",
+          "extra": {
+            "hashes": {
+              "md5": "0bfb9eaa3bd3cc7d8f3c16009e5dbfc1",
+              "sha256": "acc1e647e303c128e0159436266bd29303dd96bb4afeb7dacf08a382e028a2bf"
+            },
+            "downloads": 62
+          },
+          "tags": [],
+          "current_user_can_comment": false,
+          "current_version": 5,
+          "show_as_unviewed": false
+        },
+        "relationships": {
+          "parent_folder": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ceceed65eaa0011d95f95/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "5b2ceceed65eaa0011d95f95",
+              "type": "files"
+            }
+          },
+          "versions": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5f00943aaf115601743b34b3/versions/",
+                "meta": {}
+              }
+            }
+          },
+          "comments": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/comments/?filter%5Btarget%5D=reqmh",
+                "meta": {}
+              }
+            }
+          },
+          "node": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "zyaqn",
+              "type": "nodes"
+            }
+          },
+          "target": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {
+                  "type": "nodes"
+                }
+              }
+            },
+            "data": {
+              "type": "nodes",
+              "id": "zyaqn"
+            }
+          },
+          "cedar_metadata_records": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5f00943aaf115601743b34b3/cedar_metadata_records/",
+                "meta": {}
+              }
+            }
+          }
+        },
+        "links": {
+          "info": "https://api.osf.io/v2/files/5f00943aaf115601743b34b3/",
+          "move": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5f00943aaf115601743b34b3",
+          "upload": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5f00943aaf115601743b34b3",
+          "delete": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/5f00943aaf115601743b34b3",
+          "download": "https://osf.io/download/reqmh/",
+          "render": "https://mfr.osf.io/render?url=https%3A%2F%2Fosf.io%2Fdownload%2Freqmh%2F%3Fdirect%26mode%3Drender",
+          "html": "https://osf.io/zyaqn/files/osfstorage/5f00943aaf115601743b34b3",
+          "self": "https://api.osf.io/v2/files/5f00943aaf115601743b34b3/",
+          "iri": "https://osf.io/reqmh"
+        }
+      },
+      {
+        "id": "614ce10cf5976b00209cf4ae",
+        "type": "files",
+        "attributes": {
+          "guid": "ng49y",
+          "checkout": null,
+          "name": "crime_open_database_core_2020.csv.gz",
+          "kind": "file",
+          "path": "/614ce10cf5976b00209cf4ae",
+          "size": 38857665,
+          "provider": "osfstorage",
+          "materialized_path": "/Data/crime_open_database_core_2020.csv.gz",
+          "last_touched": null,
+          "date_modified": "2023-12-20T16:12:06.733813",
+          "date_created": "2021-09-23T20:18:20.522261Z",
+          "extra": {
+            "hashes": {
+              "md5": "915fb336df2dcc8216b5fcd61873b2c6",
+              "sha256": "c1cac6466fc80e8d09bf4fe247af4887aefeafb4b68d1d4743e21400fa484ad2"
+            },
+            "downloads": 231
+          },
+          "tags": [],
+          "current_user_can_comment": false,
+          "current_version": 4,
+          "show_as_unviewed": false
+        },
+        "relationships": {
+          "parent_folder": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ceceed65eaa0011d95f95/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "5b2ceceed65eaa0011d95f95",
+              "type": "files"
+            }
+          },
+          "versions": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/614ce10cf5976b00209cf4ae/versions/",
+                "meta": {}
+              }
+            }
+          },
+          "comments": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/comments/?filter%5Btarget%5D=ng49y",
+                "meta": {}
+              }
+            }
+          },
+          "node": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "zyaqn",
+              "type": "nodes"
+            }
+          },
+          "target": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {
+                  "type": "nodes"
+                }
+              }
+            },
+            "data": {
+              "type": "nodes",
+              "id": "zyaqn"
+            }
+          },
+          "cedar_metadata_records": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/614ce10cf5976b00209cf4ae/cedar_metadata_records/",
+                "meta": {}
+              }
+            }
+          }
+        },
+        "links": {
+          "info": "https://api.osf.io/v2/files/614ce10cf5976b00209cf4ae/",
+          "move": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/614ce10cf5976b00209cf4ae",
+          "upload": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/614ce10cf5976b00209cf4ae",
+          "delete": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/614ce10cf5976b00209cf4ae",
+          "download": "https://osf.io/download/ng49y/",
+          "render": "https://mfr.osf.io/render?url=https%3A%2F%2Fosf.io%2Fdownload%2Fng49y%2F%3Fdirect%26mode%3Drender",
+          "html": "https://osf.io/zyaqn/files/osfstorage/614ce10cf5976b00209cf4ae",
+          "self": "https://api.osf.io/v2/files/614ce10cf5976b00209cf4ae/",
+          "iri": "https://osf.io/ng49y"
+        }
+      },
+      {
+        "id": "614ceae40708b0001bbffa04",
+        "type": "files",
+        "attributes": {
+          "guid": "e5pra",
+          "checkout": null,
+          "name": "crime_open_database_extended_2020.csv.gz",
+          "kind": "file",
+          "path": "/614ceae40708b0001bbffa04",
+          "size": 122723249,
+          "provider": "osfstorage",
+          "materialized_path": "/Data/crime_open_database_extended_2020.csv.gz",
+          "last_touched": null,
+          "date_modified": "2023-12-20T17:04:42.623775",
+          "date_created": "2021-09-23T21:00:20.747267Z",
+          "extra": {
+            "hashes": {
+              "md5": "5b3e842a0984392e36ae6b6f740d5286",
+              "sha256": "c191fae20547758ba54a4df33e9924eb48857e9b78bb4df7212a705ca9356f0e"
+            },
+            "downloads": 162
+          },
+          "tags": [],
+          "current_user_can_comment": false,
+          "current_version": 4,
+          "show_as_unviewed": false
+        },
+        "relationships": {
+          "parent_folder": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ceceed65eaa0011d95f95/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "5b2ceceed65eaa0011d95f95",
+              "type": "files"
+            }
+          },
+          "versions": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/614ceae40708b0001bbffa04/versions/",
+                "meta": {}
+              }
+            }
+          },
+          "comments": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/comments/?filter%5Btarget%5D=e5pra",
+                "meta": {}
+              }
+            }
+          },
+          "node": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "zyaqn",
+              "type": "nodes"
+            }
+          },
+          "target": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {
+                  "type": "nodes"
+                }
+              }
+            },
+            "data": {
+              "type": "nodes",
+              "id": "zyaqn"
+            }
+          },
+          "cedar_metadata_records": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/614ceae40708b0001bbffa04/cedar_metadata_records/",
+                "meta": {}
+              }
+            }
+          }
+        },
+        "links": {
+          "info": "https://api.osf.io/v2/files/614ceae40708b0001bbffa04/",
+          "move": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/614ceae40708b0001bbffa04",
+          "upload": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/614ceae40708b0001bbffa04",
+          "delete": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/614ceae40708b0001bbffa04",
+          "download": "https://osf.io/download/e5pra/",
+          "render": "https://mfr.osf.io/render?url=https%3A%2F%2Fosf.io%2Fdownload%2Fe5pra%2F%3Fdirect%26mode%3Drender",
+          "html": "https://osf.io/zyaqn/files/osfstorage/614ceae40708b0001bbffa04",
+          "self": "https://api.osf.io/v2/files/614ceae40708b0001bbffa04/",
+          "iri": "https://osf.io/e5pra"
+        }
+      },
+      {
+        "id": "614cfc55687972000c8770e0",
+        "type": "files",
+        "attributes": {
+          "guid": "hwdr7",
+          "checkout": null,
+          "name": "crime_open_database_sample_2020.csv.gz",
+          "kind": "file",
+          "path": "/614cfc55687972000c8770e0",
+          "size": 527631,
+          "provider": "osfstorage",
+          "materialized_path": "/Data/crime_open_database_sample_2020.csv.gz",
+          "last_touched": null,
+          "date_modified": "2023-12-20T17:30:11.193080",
+          "date_created": "2021-09-23T22:14:45.652620Z",
+          "extra": {
+            "hashes": {
+              "md5": "127230613494721b5ff7502e3bf2e590",
+              "sha256": "ae90ebfa6d7703daedadb55e572cd7ffd3dcd38866f75a7f435860daebf4a252"
+            },
+            "downloads": 78
+          },
+          "tags": [],
+          "current_user_can_comment": false,
+          "current_version": 4,
+          "show_as_unviewed": false
+        },
+        "relationships": {
+          "parent_folder": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ceceed65eaa0011d95f95/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "5b2ceceed65eaa0011d95f95",
+              "type": "files"
+            }
+          },
+          "versions": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/614cfc55687972000c8770e0/versions/",
+                "meta": {}
+              }
+            }
+          },
+          "comments": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/comments/?filter%5Btarget%5D=hwdr7",
+                "meta": {}
+              }
+            }
+          },
+          "node": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "zyaqn",
+              "type": "nodes"
+            }
+          },
+          "target": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {
+                  "type": "nodes"
+                }
+              }
+            },
+            "data": {
+              "type": "nodes",
+              "id": "zyaqn"
+            }
+          },
+          "cedar_metadata_records": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/614cfc55687972000c8770e0/cedar_metadata_records/",
+                "meta": {}
+              }
+            }
+          }
+        },
+        "links": {
+          "info": "https://api.osf.io/v2/files/614cfc55687972000c8770e0/",
+          "move": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/614cfc55687972000c8770e0",
+          "upload": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/614cfc55687972000c8770e0",
+          "delete": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/614cfc55687972000c8770e0",
+          "download": "https://osf.io/download/hwdr7/",
+          "render": "https://mfr.osf.io/render?url=https%3A%2F%2Fosf.io%2Fdownload%2Fhwdr7%2F%3Fdirect%26mode%3Drender",
+          "html": "https://osf.io/zyaqn/files/osfstorage/614cfc55687972000c8770e0",
+          "self": "https://api.osf.io/v2/files/614cfc55687972000c8770e0/",
+          "iri": "https://osf.io/hwdr7"
+        }
+      },
+      {
+        "id": "6347e0c4d5b0102f7d1f821b",
+        "type": "files",
+        "attributes": {
+          "guid": "gmkz4",
+          "checkout": null,
+          "name": "crime_open_database_core_2021.csv.gz",
+          "kind": "file",
+          "path": "/6347e0c4d5b0102f7d1f821b",
+          "size": 40160230,
+          "provider": "osfstorage",
+          "materialized_path": "/Data/crime_open_database_core_2021.csv.gz",
+          "last_touched": null,
+          "date_modified": "2023-12-20T16:14:13.745813",
+          "date_created": "2022-10-13T09:56:20.770062Z",
+          "extra": {
+            "hashes": {
+              "md5": "437c50215141669cf46cfee40b3a9cf9",
+              "sha256": "48233850d06577d7cbf9ef7fd747f548a08a4b80f64c3161c9e2bb5fe3797de2"
+            },
+            "downloads": 234
+          },
+          "tags": [],
+          "current_user_can_comment": false,
+          "current_version": 3,
+          "show_as_unviewed": false
+        },
+        "relationships": {
+          "parent_folder": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ceceed65eaa0011d95f95/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "5b2ceceed65eaa0011d95f95",
+              "type": "files"
+            }
+          },
+          "versions": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/6347e0c4d5b0102f7d1f821b/versions/",
+                "meta": {}
+              }
+            }
+          },
+          "comments": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/comments/?filter%5Btarget%5D=gmkz4",
+                "meta": {}
+              }
+            }
+          },
+          "node": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "zyaqn",
+              "type": "nodes"
+            }
+          },
+          "target": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {
+                  "type": "nodes"
+                }
+              }
+            },
+            "data": {
+              "type": "nodes",
+              "id": "zyaqn"
+            }
+          },
+          "cedar_metadata_records": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/6347e0c4d5b0102f7d1f821b/cedar_metadata_records/",
+                "meta": {}
+              }
+            }
+          }
+        },
+        "links": {
+          "info": "https://api.osf.io/v2/files/6347e0c4d5b0102f7d1f821b/",
+          "move": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/6347e0c4d5b0102f7d1f821b",
+          "upload": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/6347e0c4d5b0102f7d1f821b",
+          "delete": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/6347e0c4d5b0102f7d1f821b",
+          "download": "https://osf.io/download/gmkz4/",
+          "render": "https://mfr.osf.io/render?url=https%3A%2F%2Fosf.io%2Fdownload%2Fgmkz4%2F%3Fdirect%26mode%3Drender",
+          "html": "https://osf.io/zyaqn/files/osfstorage/6347e0c4d5b0102f7d1f821b",
+          "self": "https://api.osf.io/v2/files/6347e0c4d5b0102f7d1f821b/",
+          "iri": "https://osf.io/gmkz4"
+        }
+      },
+      {
+        "id": "6347e18e31d653210b2dc66a",
+        "type": "files",
+        "attributes": {
+          "guid": "4dtac",
+          "checkout": null,
+          "name": "crime_open_database_extended_2021.csv.gz",
+          "kind": "file",
+          "path": "/6347e18e31d653210b2dc66a",
+          "size": 115538035,
+          "provider": "osfstorage",
+          "materialized_path": "/Data/crime_open_database_extended_2021.csv.gz",
+          "last_touched": null,
+          "date_modified": "2023-12-20T17:04:52.195266",
+          "date_created": "2022-10-13T09:59:42.855813Z",
+          "extra": {
+            "hashes": {
+              "md5": "7cb793c091f8f4bc694aa2668aec8349",
+              "sha256": "7f867c3d83682ef3a29a54a42ae612d638b4dcc502335fe02ab7384e7eba3966"
+            },
+            "downloads": 242
+          },
+          "tags": [],
+          "current_user_can_comment": false,
+          "current_version": 3,
+          "show_as_unviewed": false
+        },
+        "relationships": {
+          "parent_folder": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ceceed65eaa0011d95f95/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "5b2ceceed65eaa0011d95f95",
+              "type": "files"
+            }
+          },
+          "versions": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/6347e18e31d653210b2dc66a/versions/",
+                "meta": {}
+              }
+            }
+          },
+          "comments": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/comments/?filter%5Btarget%5D=4dtac",
+                "meta": {}
+              }
+            }
+          },
+          "node": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "zyaqn",
+              "type": "nodes"
+            }
+          },
+          "target": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {
+                  "type": "nodes"
+                }
+              }
+            },
+            "data": {
+              "type": "nodes",
+              "id": "zyaqn"
+            }
+          },
+          "cedar_metadata_records": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/6347e18e31d653210b2dc66a/cedar_metadata_records/",
+                "meta": {}
+              }
+            }
+          }
+        },
+        "links": {
+          "info": "https://api.osf.io/v2/files/6347e18e31d653210b2dc66a/",
+          "move": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/6347e18e31d653210b2dc66a",
+          "upload": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/6347e18e31d653210b2dc66a",
+          "delete": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/6347e18e31d653210b2dc66a",
+          "download": "https://osf.io/download/4dtac/",
+          "render": "https://mfr.osf.io/render?url=https%3A%2F%2Fosf.io%2Fdownload%2F4dtac%2F%3Fdirect%26mode%3Drender",
+          "html": "https://osf.io/zyaqn/files/osfstorage/6347e18e31d653210b2dc66a",
+          "self": "https://api.osf.io/v2/files/6347e18e31d653210b2dc66a/",
+          "iri": "https://osf.io/4dtac"
+        }
+      },
+      {
+        "id": "6347e2dc0db48e2ca4e11b42",
+        "type": "files",
+        "attributes": {
+          "guid": "s7q63",
+          "checkout": null,
+          "name": "crime_open_database_sample_2021.csv.gz",
+          "kind": "file",
+          "path": "/6347e2dc0db48e2ca4e11b42",
+          "size": 534468,
+          "provider": "osfstorage",
+          "materialized_path": "/Data/crime_open_database_sample_2021.csv.gz",
+          "last_touched": null,
+          "date_modified": "2023-12-20T17:30:22.131869",
+          "date_created": "2022-10-13T10:05:16.194099Z",
+          "extra": {
+            "hashes": {
+              "md5": "6fb113fc203a1acc475c79fb4862255c",
+              "sha256": "1b4f199e6106b7548b22d7b1426c30a14ecc251c4a56a8bc0f8c9f0c5b3eadc8"
+            },
+            "downloads": 46
+          },
+          "tags": [],
+          "current_user_can_comment": false,
+          "current_version": 3,
+          "show_as_unviewed": false
+        },
+        "relationships": {
+          "parent_folder": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ceceed65eaa0011d95f95/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "5b2ceceed65eaa0011d95f95",
+              "type": "files"
+            }
+          },
+          "versions": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/6347e2dc0db48e2ca4e11b42/versions/",
+                "meta": {}
+              }
+            }
+          },
+          "comments": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/comments/?filter%5Btarget%5D=s7q63",
+                "meta": {}
+              }
+            }
+          },
+          "node": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "zyaqn",
+              "type": "nodes"
+            }
+          },
+          "target": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {
+                  "type": "nodes"
+                }
+              }
+            },
+            "data": {
+              "type": "nodes",
+              "id": "zyaqn"
+            }
+          },
+          "cedar_metadata_records": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/6347e2dc0db48e2ca4e11b42/cedar_metadata_records/",
+                "meta": {}
+              }
+            }
+          }
+        },
+        "links": {
+          "info": "https://api.osf.io/v2/files/6347e2dc0db48e2ca4e11b42/",
+          "move": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/6347e2dc0db48e2ca4e11b42",
+          "upload": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/6347e2dc0db48e2ca4e11b42",
+          "delete": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/6347e2dc0db48e2ca4e11b42",
+          "download": "https://osf.io/download/s7q63/",
+          "render": "https://mfr.osf.io/render?url=https%3A%2F%2Fosf.io%2Fdownload%2Fs7q63%2F%3Fdirect%26mode%3Drender",
+          "html": "https://osf.io/zyaqn/files/osfstorage/6347e2dc0db48e2ca4e11b42",
+          "self": "https://api.osf.io/v2/files/6347e2dc0db48e2ca4e11b42/",
+          "iri": "https://osf.io/s7q63"
+        }
+      },
+      {
+        "id": "65425c62164d321a8aa5df57",
+        "type": "files",
+        "attributes": {
+          "guid": "46ew8",
+          "checkout": null,
+          "name": "crime_open_database_core_2022.csv.gz",
+          "kind": "file",
+          "path": "/65425c62164d321a8aa5df57",
+          "size": 42540082,
+          "provider": "osfstorage",
+          "materialized_path": "/Data/crime_open_database_core_2022.csv.gz",
+          "last_touched": null,
+          "date_modified": "2023-12-20T16:18:40.388241",
+          "date_created": "2023-11-01T14:10:42.554830Z",
+          "extra": {
+            "hashes": {
+              "md5": "c36b95302cd0abec66e895eedd091edd",
+              "sha256": "41293986b2546fe2adccf3dc51908410e6b7ae91455bc6d85279b5c27062eb71"
+            },
+            "downloads": 119
+          },
+          "tags": [],
+          "current_user_can_comment": false,
+          "current_version": 2,
+          "show_as_unviewed": false
+        },
+        "relationships": {
+          "parent_folder": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ceceed65eaa0011d95f95/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "5b2ceceed65eaa0011d95f95",
+              "type": "files"
+            }
+          },
+          "versions": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/65425c62164d321a8aa5df57/versions/",
+                "meta": {}
+              }
+            }
+          },
+          "comments": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/comments/?filter%5Btarget%5D=46ew8",
+                "meta": {}
+              }
+            }
+          },
+          "node": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "zyaqn",
+              "type": "nodes"
+            }
+          },
+          "target": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {
+                  "type": "nodes"
+                }
+              }
+            },
+            "data": {
+              "type": "nodes",
+              "id": "zyaqn"
+            }
+          },
+          "cedar_metadata_records": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/65425c62164d321a8aa5df57/cedar_metadata_records/",
+                "meta": {}
+              }
+            }
+          }
+        },
+        "links": {
+          "info": "https://api.osf.io/v2/files/65425c62164d321a8aa5df57/",
+          "move": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/65425c62164d321a8aa5df57",
+          "upload": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/65425c62164d321a8aa5df57",
+          "delete": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/65425c62164d321a8aa5df57",
+          "download": "https://osf.io/download/46ew8/",
+          "render": "https://mfr.osf.io/render?url=https%3A%2F%2Fosf.io%2Fdownload%2F46ew8%2F%3Fdirect%26mode%3Drender",
+          "html": "https://osf.io/zyaqn/files/osfstorage/65425c62164d321a8aa5df57",
+          "self": "https://api.osf.io/v2/files/65425c62164d321a8aa5df57/",
+          "iri": "https://osf.io/46ew8"
+        }
+      },
+      {
+        "id": "6543f59c8a28b11c35ffcc9b",
+        "type": "files",
+        "attributes": {
+          "guid": "x5qhw",
+          "checkout": null,
+          "name": "crime_open_database_extended_2022.csv.gz",
+          "kind": "file",
+          "path": "/6543f59c8a28b11c35ffcc9b",
+          "size": 121684821,
+          "provider": "osfstorage",
+          "materialized_path": "/Data/crime_open_database_extended_2022.csv.gz",
+          "last_touched": null,
+          "date_modified": "2023-12-20T17:07:18.607220",
+          "date_created": "2023-11-02T19:16:44.432637Z",
+          "extra": {
+            "hashes": {
+              "md5": "b00d86e6bd174507810b16824d3d775a",
+              "sha256": "d1da9f36d10b7cb643bdaf7e519f2a84581dbb3119bdecce03bf69c5d9539fdc"
+            },
+            "downloads": 85
+          },
+          "tags": [],
+          "current_user_can_comment": false,
+          "current_version": 2,
+          "show_as_unviewed": false
+        },
+        "relationships": {
+          "parent_folder": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ceceed65eaa0011d95f95/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "5b2ceceed65eaa0011d95f95",
+              "type": "files"
+            }
+          },
+          "versions": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/6543f59c8a28b11c35ffcc9b/versions/",
+                "meta": {}
+              }
+            }
+          },
+          "comments": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/comments/?filter%5Btarget%5D=x5qhw",
+                "meta": {}
+              }
+            }
+          },
+          "node": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "zyaqn",
+              "type": "nodes"
+            }
+          },
+          "target": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {
+                  "type": "nodes"
+                }
+              }
+            },
+            "data": {
+              "type": "nodes",
+              "id": "zyaqn"
+            }
+          },
+          "cedar_metadata_records": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/6543f59c8a28b11c35ffcc9b/cedar_metadata_records/",
+                "meta": {}
+              }
+            }
+          }
+        },
+        "links": {
+          "info": "https://api.osf.io/v2/files/6543f59c8a28b11c35ffcc9b/",
+          "move": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/6543f59c8a28b11c35ffcc9b",
+          "upload": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/6543f59c8a28b11c35ffcc9b",
+          "delete": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/6543f59c8a28b11c35ffcc9b",
+          "download": "https://osf.io/download/x5qhw/",
+          "render": "https://mfr.osf.io/render?url=https%3A%2F%2Fosf.io%2Fdownload%2Fx5qhw%2F%3Fdirect%26mode%3Drender",
+          "html": "https://osf.io/zyaqn/files/osfstorage/6543f59c8a28b11c35ffcc9b",
+          "self": "https://api.osf.io/v2/files/6543f59c8a28b11c35ffcc9b/",
+          "iri": "https://osf.io/x5qhw"
+        }
+      },
+      {
+        "id": "6543f8518a28b11c2cffca47",
+        "type": "files",
+        "attributes": {
+          "guid": "h3vsj",
+          "checkout": null,
+          "name": "crime_open_database_sample_2022.csv.gz",
+          "kind": "file",
+          "path": "/6543f8518a28b11c2cffca47",
+          "size": 569278,
+          "provider": "osfstorage",
+          "materialized_path": "/Data/crime_open_database_sample_2022.csv.gz",
+          "last_touched": null,
+          "date_modified": "2023-12-20T17:30:27.220246",
+          "date_created": "2023-11-02T19:28:17.931374Z",
+          "extra": {
+            "hashes": {
+              "md5": "cf1d8d4ff0e356b724548b0fee4a5bfa",
+              "sha256": "0497336469114d7117856ddf50d5a7cb8ed6e28422538a475a995bad5bae7aef"
+            },
+            "downloads": 69
+          },
+          "tags": [],
+          "current_user_can_comment": false,
+          "current_version": 2,
+          "show_as_unviewed": false
+        },
+        "relationships": {
+          "parent_folder": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ceceed65eaa0011d95f95/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "5b2ceceed65eaa0011d95f95",
+              "type": "files"
+            }
+          },
+          "versions": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/6543f8518a28b11c2cffca47/versions/",
+                "meta": {}
+              }
+            }
+          },
+          "comments": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/comments/?filter%5Btarget%5D=h3vsj",
+                "meta": {}
+              }
+            }
+          },
+          "node": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "zyaqn",
+              "type": "nodes"
+            }
+          },
+          "target": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {
+                  "type": "nodes"
+                }
+              }
+            },
+            "data": {
+              "type": "nodes",
+              "id": "zyaqn"
+            }
+          },
+          "cedar_metadata_records": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/6543f8518a28b11c2cffca47/cedar_metadata_records/",
+                "meta": {}
+              }
+            }
+          }
+        },
+        "links": {
+          "info": "https://api.osf.io/v2/files/6543f8518a28b11c2cffca47/",
+          "move": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/6543f8518a28b11c2cffca47",
+          "upload": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/6543f8518a28b11c2cffca47",
+          "delete": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/6543f8518a28b11c2cffca47",
+          "download": "https://osf.io/download/h3vsj/",
+          "render": "https://mfr.osf.io/render?url=https%3A%2F%2Fosf.io%2Fdownload%2Fh3vsj%2F%3Fdirect%26mode%3Drender",
+          "html": "https://osf.io/zyaqn/files/osfstorage/6543f8518a28b11c2cffca47",
+          "self": "https://api.osf.io/v2/files/6543f8518a28b11c2cffca47/",
+          "iri": "https://osf.io/h3vsj"
+        }
+      },
+      {
+        "id": "65830d067094e91035a1752d",
+        "type": "files",
+        "attributes": {
+          "guid": "j84nq",
+          "checkout": null,
+          "name": "crime_open_database_core_2007.csv.gz",
+          "kind": "file",
+          "path": "/65830d067094e91035a1752d",
+          "size": 27724339,
+          "provider": "osfstorage",
+          "materialized_path": "/Data/crime_open_database_core_2007.csv.gz",
+          "last_touched": null,
+          "date_modified": "2023-12-20T15:49:26.890217",
+          "date_created": "2023-12-20T15:49:26.890217Z",
+          "extra": {
+            "hashes": {
+              "md5": "42ec8a1bbacb61b6a17dfe74f9bb6232",
+              "sha256": "25a50f9359e977886e912e3a06254cbf6958e1cc51e467a43fbdc29ae98e2e91"
+            },
+            "downloads": 89
+          },
+          "tags": [],
+          "current_user_can_comment": false,
+          "current_version": 1,
+          "show_as_unviewed": false
+        },
+        "relationships": {
+          "parent_folder": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ceceed65eaa0011d95f95/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "5b2ceceed65eaa0011d95f95",
+              "type": "files"
+            }
+          },
+          "versions": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/65830d067094e91035a1752d/versions/",
+                "meta": {}
+              }
+            }
+          },
+          "comments": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/comments/?filter%5Btarget%5D=j84nq",
+                "meta": {}
+              }
+            }
+          },
+          "node": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "zyaqn",
+              "type": "nodes"
+            }
+          },
+          "target": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {
+                  "type": "nodes"
+                }
+              }
+            },
+            "data": {
+              "type": "nodes",
+              "id": "zyaqn"
+            }
+          },
+          "cedar_metadata_records": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/65830d067094e91035a1752d/cedar_metadata_records/",
+                "meta": {}
+              }
+            }
+          }
+        },
+        "links": {
+          "info": "https://api.osf.io/v2/files/65830d067094e91035a1752d/",
+          "move": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/65830d067094e91035a1752d",
+          "upload": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/65830d067094e91035a1752d",
+          "delete": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/65830d067094e91035a1752d",
+          "download": "https://osf.io/download/j84nq/",
+          "render": "https://mfr.osf.io/render?url=https%3A%2F%2Fosf.io%2Fdownload%2Fj84nq%2F%3Fdirect%26mode%3Drender",
+          "html": "https://osf.io/zyaqn/files/osfstorage/65830d067094e91035a1752d",
+          "self": "https://api.osf.io/v2/files/65830d067094e91035a1752d/",
+          "iri": "https://osf.io/j84nq"
+        }
+      },
+      {
+        "id": "65830dda7094e91049a17426",
+        "type": "files",
+        "attributes": {
+          "guid": "d53y7",
+          "checkout": null,
+          "name": "crime_open_database_core_2008.csv.gz",
+          "kind": "file",
+          "path": "/65830dda7094e91049a17426",
+          "size": 30292459,
+          "provider": "osfstorage",
+          "materialized_path": "/Data/crime_open_database_core_2008.csv.gz",
+          "last_touched": null,
+          "date_modified": "2023-12-20T15:52:58.769726",
+          "date_created": "2023-12-20T15:52:58.769726Z",
+          "extra": {
+            "hashes": {
+              "md5": "c6e8c5f7cb10461a136fa561a6675b48",
+              "sha256": "aff939caaf4e5639a4179672e41e8f2b7cf7031dfd424dd71ccfa135391eae6b"
+            },
+            "downloads": 22
+          },
+          "tags": [],
+          "current_user_can_comment": false,
+          "current_version": 1,
+          "show_as_unviewed": false
+        },
+        "relationships": {
+          "parent_folder": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/5b2ceceed65eaa0011d95f95/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "5b2ceceed65eaa0011d95f95",
+              "type": "files"
+            }
+          },
+          "versions": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/65830dda7094e91049a17426/versions/",
+                "meta": {}
+              }
+            }
+          },
+          "comments": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/comments/?filter%5Btarget%5D=d53y7",
+                "meta": {}
+              }
+            }
+          },
+          "node": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {}
+              }
+            },
+            "data": {
+              "id": "zyaqn",
+              "type": "nodes"
+            }
+          },
+          "target": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/nodes/zyaqn/",
+                "meta": {
+                  "type": "nodes"
+                }
+              }
+            },
+            "data": {
+              "type": "nodes",
+              "id": "zyaqn"
+            }
+          },
+          "cedar_metadata_records": {
+            "links": {
+              "related": {
+                "href": "https://api.osf.io/v2/files/65830dda7094e91049a17426/cedar_metadata_records/",
+                "meta": {}
+              }
+            }
+          }
+        },
+        "links": {
+          "info": "https://api.osf.io/v2/files/65830dda7094e91049a17426/",
+          "move": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/65830dda7094e91049a17426",
+          "upload": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/65830dda7094e91049a17426",
+          "delete": "https://files.osf.io/v1/resources/zyaqn/providers/osfstorage/65830dda7094e91049a17426",
+          "download": "https://osf.io/download/d53y7/",
+          "render": "https://mfr.osf.io/render?url=https%3A%2F%2Fosf.io%2Fdownload%2Fd53y7%2F%3Fdirect%26mode%3Drender",
+          "html": "https://osf.io/zyaqn/files/osfstorage/65830dda7094e91049a17426",
+          "self": "https://api.osf.io/v2/files/65830dda7094e91049a17426/",
+          "iri": "https://osf.io/d53y7"
+        }
+      }
+    ],
+    "links": {
+      "first": null,
+      "last": null,
+      "prev": null,
+      "next": null,
+      "meta": {
+        "total": 48,
+        "per_page": 100
+      }
+    },
+    "meta": {
+      "version": "2.0"
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "source": "CODE:Colorado Springs",
+  "start": "2018-01-01",
+  "end_exclusive": "2023-01-01",
+  "raw_rows": 216909,
+  "invalid_timestamps": 0,
+  "missing_identifiers": 0,
+  "outside_requested_range": 0,
+  "duplicate_identifiers_removed": 0,
+  "events": 216909,
+  "unique_timestamps": 142113,
+  "fraction_tied_records": 0.3448266323665685,
+  "fraction_midnight": 0.017864634478053008,
+  "source_files_sha256": {
+    "data\\raw\\expanded_20261110\\crime_open_database_core_2018.csv.gz": "3609ed686efd071f0f88f3a3a8245eedeeb45a1c045f9b130b130c3f36d8de68",
+    "data\\raw\\expanded_20261110\\crime_open_database_core_2019.csv.gz": "601896337e1568d81d43ef074afed316fe72b9b8158ce6cf58026fc0c8e9051b",
+    "data\\raw\\crime_open_database_core_2020.csv.gz": "c1cac6466fc80e8d09bf4fe247af4887aefeafb4b68d1d4743e21400fa484ad2",
+    "data\\raw\\crime_open_database_core_2021.csv.gz": "48233850d06577d7cbf9ef7fd747f548a08a4b80f64c3161c9e2bb5fe3797de2",
+    "data\\raw\\expanded_20261110\\crime_open_database_core_2022.csv.gz": "41293986b2546fe2adccf3dc51908410e6b7ae91455bc6d85279b5c27062eb71"
+  },
+  "output_sha256": "cea37a68593d365621ef98b9d3e2e216eaaa107a89d94c1b18469abe7b120e5e",
+  "events_npz_sha256": "d6c4ee79bd358ef54ee0d9bcafba100c22e20d35ca3df24e9ac18e6590cc6bbc",
+  "missing_calendar_months": [],
+  "eligible_for_full_history": true,
+  "yearly": [
+    {
+      "year": 2018,
+      "start": "2018-01-01",
+      "end_exclusive": "2019-01-01",
+      "events": 40827,
+      "exposure_days": 365,
+      "mean_daily_rate": 111.85479452054794,
+      "full_calendar_year": true
+    },
+    {
+      "year": 2019,
+      "start": "2019-01-01",
+      "end_exclusive": "2020-01-01",
+      "events": 43941,
+      "exposure_days": 365,
+      "mean_daily_rate": 120.38630136986302,
+      "full_calendar_year": true
+    },
+    {
+      "year": 2020,
+      "start": "2020-01-01",
+      "end_exclusive": "2021-01-01",
+      "events": 42464,
+      "exposure_days": 366,
+      "mean_daily_rate": 116.02185792349727,
+      "full_calendar_year": true
+    },
+    {
+      "year": 2021,
+      "start": "2021-01-01",
+      "end_exclusive": "2022-01-01",
+      "events": 44508,
+      "exposure_days": 365,
+      "mean_daily_rate": 121.93972602739726,
+      "full_calendar_year": true
+    },
+    {
+      "year": 2022,
+      "start": "2022-01-01",
+      "end_exclusive": "2023-01-01",
+      "events": 45169,
+      "exposure_days": 365,
+      "mean_daily_rate": 123.75068493150685,
+      "full_calendar_year": true
+    }
+  ],
+  "unit": "registered offense record, uid namespaced by source year",
+  "timestamp_notes": "source local naive time; no UTC conversion or random jitter; equal timestamps stay equal; recorded date can be estimated"
+}

@@ -1,0 +1,10 @@
+{
+  "sha256": {
+    "analysis.md": "a6c9cd4ecdcc42091cfacece13269e78983724bfd8d2f2a7a53ed1c579509423",
+    "counts.npz": "0a4b83e1bcd96ca5935c9582b7e0dee79e7c25aa2a7c34b75666a6cf31b39920",
+    "indicators.png": "fab11753ec2f3f50f81e18f034d38a73f6b560227e41077922be5e9a1f5a6ccd",
+    "protocol.json": "93bb25775d64bbd5cecd238f1b4926152cc6c6e56531c1238432ad9e140ec61d",
+    "replicates.csv": "5a0e17907bc4a5dc0a54c55227a0354f363ff72487cd09b46113f057e17c04ea",
+    "summary.csv": "dd96d57fc54dd72bd2f3d51cbef9bcfe05ad99688d131340914eb528f42f99f6"
+  }
+}

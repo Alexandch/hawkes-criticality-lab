@@ -1,0 +1,11 @@
+{
+  "command": "simulate",
+  "out": "results\\simulation_v2",
+  "replicates": 30,
+  "horizon": 365.0,
+  "rate": 2.0,
+  "decay": 1.0,
+  "burn_in_times": 8.0,
+  "cluster_gap": 0.5,
+  "seed": 42
+}

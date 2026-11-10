@@ -1,0 +1,9 @@
+{
+  "artifact_sha256": {
+    "analysis.md": "ff217506b53c78478629187902a1ce36cf34099e2cfcd3453fb5a8ec4f8fc5f3",
+    "clusters.npz": "4791c759495eca1ddab2b8044bdb794362b0304c3c719f8072f00f1d7164759f",
+    "genealogy.png": "00414f80dc7512baed43d58f8f6e9a5d98d9b72348c2cb71c5c29f5c7699470d",
+    "protocol.json": "f42ecd066d7a6fa676dc0162f24305c99c7000d2187725b692bbeb30d78fd233",
+    "summary.csv": "7896c11997b0bf6a0d0029eade23a627cce7aeb8f455dededa8c872a2c247715"
+  }
+}

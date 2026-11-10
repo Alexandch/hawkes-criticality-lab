@@ -1,0 +1,104 @@
+{
+  "source": "portal:chicago",
+  "start": "2019-01-01",
+  "end_exclusive": "2026-10-01",
+  "raw_rows": 1862831,
+  "invalid_timestamps": 0,
+  "missing_identifiers": 0,
+  "outside_requested_range": 0,
+  "duplicate_identifiers_removed": 229,
+  "events": 1862602,
+  "unique_timestamps": 922605,
+  "fraction_tied_records": 0.5046687376047057,
+  "fraction_midnight": 0.03448401751957745,
+  "source_files_sha256": {
+    "data\\raw\\expanded_20261110\\cities\\chicago_2019.csv.gz": "3366086467aa204abd5ef395f3aa1a60751ce4351e30afdc9e4751007f55735d",
+    "data\\raw\\expanded_20261110\\cities\\chicago_2020.csv.gz": "04194e412f8c01928c011e199f4a63fd84ce1038215687b12142b03525357ccb",
+    "data\\raw\\expanded_20261110\\cities\\chicago_2021.csv.gz": "5ebba2d572d99f0700edc722835ef1b4d170a4244bfa42882e80ba4af3e89e40",
+    "data\\raw\\expanded_20261110\\cities\\chicago_2022.csv.gz": "cad4787c94ef8148b352c6dcc021f33266946c98cf2b86011839b648977b61a1",
+    "data\\raw\\expanded_20261110\\cities\\chicago_2023.csv.gz": "e1d2ed03d04974baff3dadd38a0a8e67a3cadeee685a912ee37c664e44e5a0d8",
+    "data\\raw\\expanded_20261110\\cities\\chicago_2024.csv.gz": "d6bb427241b4c2ca0571298779d1b6547de076b10d5ef57b6b1dcfd990a37e8d",
+    "data\\raw\\expanded_20261110\\cities\\chicago_2025.csv.gz": "c551279b0b8dccc88a0520e322123589f998611ca633cccda3ed84ad4f512611",
+    "data\\raw\\expanded_20261110\\cities\\chicago_2026.csv.gz": "75ebeffef40d7399d72817ae97f9f895f13bd00dd525dd03ba3d2e4464b092b4"
+  },
+  "output_sha256": "6bbda6f846b658ed9df995e2953f76052df69e111efa24ed5532f39c0a7cbe43",
+  "events_npz_sha256": "30279686258c9cc17a4c94d271f1b8266d75a995efd17f59e380979840aff564",
+  "missing_calendar_months": [],
+  "eligible_for_full_history": true,
+  "yearly": [
+    {
+      "year": 2019,
+      "start": "2019-01-01",
+      "end_exclusive": "2020-01-01",
+      "events": 261924,
+      "exposure_days": 365,
+      "mean_daily_rate": 717.6,
+      "full_calendar_year": true
+    },
+    {
+      "year": 2020,
+      "start": "2020-01-01",
+      "end_exclusive": "2021-01-01",
+      "events": 213061,
+      "exposure_days": 366,
+      "mean_daily_rate": 582.1338797814208,
+      "full_calendar_year": true
+    },
+    {
+      "year": 2021,
+      "start": "2021-01-01",
+      "end_exclusive": "2022-01-01",
+      "events": 209997,
+      "exposure_days": 365,
+      "mean_daily_rate": 575.3342465753425,
+      "full_calendar_year": true
+    },
+    {
+      "year": 2022,
+      "start": "2022-01-01",
+      "end_exclusive": "2023-01-01",
+      "events": 240474,
+      "exposure_days": 365,
+      "mean_daily_rate": 658.8328767123288,
+      "full_calendar_year": true
+    },
+    {
+      "year": 2023,
+      "start": "2023-01-01",
+      "end_exclusive": "2024-01-01",
+      "events": 263858,
+      "exposure_days": 365,
+      "mean_daily_rate": 722.8986301369863,
+      "full_calendar_year": true
+    },
+    {
+      "year": 2024,
+      "start": "2024-01-01",
+      "end_exclusive": "2025-01-01",
+      "events": 259656,
+      "exposure_days": 366,
+      "mean_daily_rate": 709.4426229508197,
+      "full_calendar_year": true
+    },
+    {
+      "year": 2025,
+      "start": "2025-01-01",
+      "end_exclusive": "2026-01-01",
+      "events": 238195,
+      "exposure_days": 365,
+      "mean_daily_rate": 652.5890410958904,
+      "full_calendar_year": true
+    },
+    {
+      "year": 2026,
+      "start": "2026-01-01",
+      "end_exclusive": "2026-10-01",
+      "events": 175437,
+      "exposure_days": 273,
+      "mean_daily_rate": 642.6263736263736,
+      "full_calendar_year": false
+    }
+  ],
+  "unit": "case/report, earliest observed time",
+  "timestamp_notes": "source local naive time; no UTC conversion or random jitter; equal timestamps stay equal; recorded date can be estimated"
+}

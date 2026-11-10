@@ -1,0 +1,24 @@
+{
+  "source": "CODE core",
+  "url": "https://osf.io/download/46ew8/",
+  "name": "crime_open_database_core_2022.csv.gz",
+  "columns": [
+    "uid",
+    "city_name",
+    "offense_code",
+    "offense_type",
+    "offense_group",
+    "offense_against",
+    "date_single",
+    "longitude",
+    "latitude",
+    "location_type",
+    "location_category",
+    "census_block",
+    "date_start",
+    "date_end"
+  ],
+  "downloaded_utc": "2026-11-10T15:25:22.701748+00:00",
+  "bytes": 42540082,
+  "sha256": "41293986b2546fe2adccf3dc51908410e6b7ae91455bc6d85279b5c27062eb71"
+}

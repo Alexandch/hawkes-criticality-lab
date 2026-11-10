@@ -1,0 +1,118 @@
+source,unit,year,start,end_exclusive,events,exposure_days,mean_daily_rate,full_calendar_year
+portal:chicago,"case/report, earliest observed time",2019,2019-01-01,2020-01-01,261924,365,717.6,True
+portal:chicago,"case/report, earliest observed time",2020,2020-01-01,2021-01-01,213061,366,582.1338797814208,True
+portal:chicago,"case/report, earliest observed time",2021,2021-01-01,2022-01-01,209997,365,575.3342465753425,True
+portal:chicago,"case/report, earliest observed time",2022,2022-01-01,2023-01-01,240474,365,658.8328767123288,True
+portal:chicago,"case/report, earliest observed time",2023,2023-01-01,2024-01-01,263858,365,722.8986301369863,True
+portal:chicago,"case/report, earliest observed time",2024,2024-01-01,2025-01-01,259656,366,709.4426229508197,True
+portal:chicago,"case/report, earliest observed time",2025,2025-01-01,2026-01-01,238195,365,652.5890410958904,True
+portal:chicago,"case/report, earliest observed time",2026,2026-01-01,2026-10-01,175437,273,642.6263736263736,False
+portal:nyc,"case/report, earliest observed time",2019,2019-01-01,2020-01-01,459608,365,1259.2,True
+portal:nyc,"case/report, earliest observed time",2020,2020-01-01,2021-01-01,414277,366,1131.9043715846994,True
+portal:nyc,"case/report, earliest observed time",2021,2021-01-01,2022-01-01,450331,365,1233.7835616438356,True
+portal:nyc,"case/report, earliest observed time",2022,2022-01-01,2023-01-01,531322,365,1455.676712328767,True
+portal:nyc,"case/report, earliest observed time",2023,2023-01-01,2024-01-01,553467,365,1516.3479452054794,True
+portal:nyc,"case/report, earliest observed time",2024,2024-01-01,2025-01-01,574192,366,1568.8306010928961,True
+portal:nyc,"case/report, earliest observed time",2025,2025-01-01,2026-01-01,567667,365,1555.2520547945205,True
+portal:nyc,"case/report, earliest observed time",2026,2026-01-01,2026-10-01,416073,273,1524.076923076923,False
+portal:san_francisco,"case/report, earliest observed time",2019,2019-01-01,2020-01-01,119150,365,326.43835616438355,True
+portal:san_francisco,"case/report, earliest observed time",2020,2020-01-01,2021-01-01,95444,366,260.775956284153,True
+portal:san_francisco,"case/report, earliest observed time",2021,2021-01-01,2022-01-01,106261,365,291.12602739726026,True
+portal:san_francisco,"case/report, earliest observed time",2022,2022-01-01,2023-01-01,112484,365,308.17534246575343,True
+portal:san_francisco,"case/report, earliest observed time",2023,2023-01-01,2024-01-01,110070,365,301.56164383561645,True
+portal:san_francisco,"case/report, earliest observed time",2024,2024-01-01,2025-01-01,90276,366,246.65573770491804,True
+portal:san_francisco,"case/report, earliest observed time",2025,2025-01-01,2026-01-01,76581,365,209.81095890410958,True
+portal:san_francisco,"case/report, earliest observed time",2026,2026-01-01,2026-10-01,55074,273,201.73626373626374,False
+portal:seattle,"case/report, earliest observed time",2019,2019-01-01,2020-01-01,73317,365,200.86849315068494,True
+portal:seattle,"case/report, earliest observed time",2020,2020-01-01,2021-01-01,76866,366,210.01639344262296,True
+portal:seattle,"case/report, earliest observed time",2021,2021-01-01,2022-01-01,71105,365,194.8082191780822,True
+portal:seattle,"case/report, earliest observed time",2022,2022-01-01,2023-01-01,74622,365,204.44383561643835,True
+portal:seattle,"case/report, earliest observed time",2023,2023-01-01,2024-01-01,70739,365,193.80547945205478,True
+portal:seattle,"case/report, earliest observed time",2024,2024-01-01,2025-01-01,70475,366,192.55464480874318,True
+portal:seattle,"case/report, earliest observed time",2025,2025-01-01,2026-01-01,66480,365,182.13698630136986,True
+portal:seattle,"case/report, earliest observed time",2026,2026-01-01,2026-10-01,47920,273,175.53113553113553,False
+CODE:Austin,"registered offense record, uid namespaced by source year",2018,2018-01-01,2019-01-01,81659,365,223.72328767123287,True
+CODE:Austin,"registered offense record, uid namespaced by source year",2019,2019-01-01,2020-01-01,87094,365,238.61369863013698,True
+CODE:Austin,"registered offense record, uid namespaced by source year",2020,2020-01-01,2021-01-01,84355,366,230.47814207650273,True
+CODE:Austin,"registered offense record, uid namespaced by source year",2021,2021-01-01,2022-01-01,77732,365,212.96438356164384,True
+CODE:Austin,"registered offense record, uid namespaced by source year",2022,2022-01-01,2023-01-01,75088,365,205.72054794520548,True
+CODE:Boston,"registered offense record, uid namespaced by source year",2018,2018-01-01,2019-01-01,43230,365,118.43835616438356,True
+CODE:Boston,"registered offense record, uid namespaced by source year",2019,2019-01-01,2020-01-01,35125,365,96.23287671232876,True
+CODE:Boston,"registered offense record, uid namespaced by source year",2020,2020-01-01,2021-01-01,34517,366,94.30874316939891,True
+CODE:Boston,"registered offense record, uid namespaced by source year",2021,2021-01-01,2022-01-01,31342,365,85.86849315068493,True
+CODE:Boston,"registered offense record, uid namespaced by source year",2022,2022-01-01,2023-01-01,30372,365,83.21095890410959,True
+CODE:Charlotte,"registered offense record, uid namespaced by source year",2018,2018-01-01,2019-01-01,53162,365,145.64931506849314,True
+CODE:Charlotte,"registered offense record, uid namespaced by source year",2019,2019-01-01,2020-01-01,55286,365,151.46849315068494,True
+CODE:Charlotte,"registered offense record, uid namespaced by source year",2020,2020-01-01,2021-01-01,50106,366,136.9016393442623,True
+CODE:Charlotte,"registered offense record, uid namespaced by source year",2021,2021-01-01,2022-01-01,52032,365,142.55342465753424,True
+CODE:Charlotte,"registered offense record, uid namespaced by source year",2022,2022-01-01,2023-01-01,53819,365,147.44931506849315,True
+CODE:Chicago,"registered offense record, uid namespaced by source year",2018,2018-01-01,2019-01-01,262742,365,719.841095890411,True
+CODE:Chicago,"registered offense record, uid namespaced by source year",2019,2019-01-01,2020-01-01,258546,365,708.345205479452,True
+CODE:Chicago,"registered offense record, uid namespaced by source year",2020,2020-01-01,2021-01-01,207853,366,567.9043715846994,True
+CODE:Chicago,"registered offense record, uid namespaced by source year",2021,2021-01-01,2022-01-01,202312,365,554.2794520547945,True
+CODE:Chicago,"registered offense record, uid namespaced by source year",2022,2022-01-01,2023-01-01,159001,365,435.6191780821918,True
+CODE:Colorado Springs,"registered offense record, uid namespaced by source year",2018,2018-01-01,2019-01-01,40827,365,111.85479452054794,True
+CODE:Colorado Springs,"registered offense record, uid namespaced by source year",2019,2019-01-01,2020-01-01,43941,365,120.38630136986302,True
+CODE:Colorado Springs,"registered offense record, uid namespaced by source year",2020,2020-01-01,2021-01-01,42464,366,116.02185792349727,True
+CODE:Colorado Springs,"registered offense record, uid namespaced by source year",2021,2021-01-01,2022-01-01,44508,365,121.93972602739726,True
+CODE:Colorado Springs,"registered offense record, uid namespaced by source year",2022,2022-01-01,2023-01-01,45169,365,123.75068493150685,True
+CODE:Detroit,"registered offense record, uid namespaced by source year",2018,2018-01-01,2019-01-01,80803,365,221.37808219178083,True
+CODE:Detroit,"registered offense record, uid namespaced by source year",2019,2019-01-01,2020-01-01,82682,365,226.52602739726026,True
+CODE:Detroit,"registered offense record, uid namespaced by source year",2020,2020-01-01,2021-01-01,76758,366,209.72131147540983,True
+CODE:Detroit,"registered offense record, uid namespaced by source year",2021,2021-01-01,2022-01-01,75444,365,206.6958904109589,True
+CODE:Detroit,"registered offense record, uid namespaced by source year",2022,2022-01-01,2023-01-01,80059,365,219.33972602739726,True
+CODE:Houston,"registered offense record, uid namespaced by source year",2018,2018-01-01,2019-01-01,0,365,0.0,True
+CODE:Houston,"registered offense record, uid namespaced by source year",2019,2019-01-01,2020-01-01,210879,365,577.7506849315068,True
+CODE:Houston,"registered offense record, uid namespaced by source year",2020,2020-01-01,2021-01-01,234376,366,640.3715846994536,True
+CODE:Houston,"registered offense record, uid namespaced by source year",2021,2021-01-01,2022-01-01,240162,365,657.9780821917808,True
+CODE:Houston,"registered offense record, uid namespaced by source year",2022,2022-01-01,2023-01-01,255586,365,700.2356164383561,True
+CODE:Kansas City,"registered offense record, uid namespaced by source year",2018,2018-01-01,2019-01-01,121038,365,331.61095890410957,True
+CODE:Kansas City,"registered offense record, uid namespaced by source year",2019,2019-01-01,2020-01-01,83811,365,229.61917808219178,True
+CODE:Kansas City,"registered offense record, uid namespaced by source year",2020,2020-01-01,2021-01-01,82988,366,226.7431693989071,True
+CODE:Kansas City,"registered offense record, uid namespaced by source year",2021,2021-01-01,2022-01-01,78748,365,215.74794520547945,True
+CODE:Kansas City,"registered offense record, uid namespaced by source year",2022,2022-01-01,2023-01-01,85741,365,234.90684931506848,True
+CODE:Los Angeles,"registered offense record, uid namespaced by source year",2018,2018-01-01,2019-01-01,240669,365,659.3671232876712,True
+CODE:Los Angeles,"registered offense record, uid namespaced by source year",2019,2019-01-01,2020-01-01,228717,365,626.6219178082192,True
+CODE:Los Angeles,"registered offense record, uid namespaced by source year",2020,2020-01-01,2021-01-01,208373,366,569.3251366120219,True
+CODE:Los Angeles,"registered offense record, uid namespaced by source year",2021,2021-01-01,2022-01-01,214445,365,587.5205479452055,True
+CODE:Los Angeles,"registered offense record, uid namespaced by source year",2022,2022-01-01,2023-01-01,237006,365,649.331506849315,True
+CODE:Louisville,"registered offense record, uid namespaced by source year",2018,2018-01-01,2019-01-01,42098,365,115.33698630136986,True
+CODE:Louisville,"registered offense record, uid namespaced by source year",2019,2019-01-01,2020-01-01,37494,365,102.72328767123288,True
+CODE:Louisville,"registered offense record, uid namespaced by source year",2020,2020-01-01,2021-01-01,35863,366,97.98633879781421,True
+CODE:Louisville,"registered offense record, uid namespaced by source year",2021,2021-01-01,2022-01-01,35535,365,97.35616438356165,True
+CODE:Louisville,"registered offense record, uid namespaced by source year",2022,2022-01-01,2023-01-01,34935,365,95.71232876712328,True
+CODE:Memphis,"registered offense record, uid namespaced by source year",2018,2018-01-01,2019-01-01,96278,365,263.7753424657534,True
+CODE:Memphis,"registered offense record, uid namespaced by source year",2019,2019-01-01,2020-01-01,92244,365,252.72328767123287,True
+CODE:Memphis,"registered offense record, uid namespaced by source year",2020,2020-01-01,2021-01-01,89385,366,244.22131147540983,True
+CODE:Memphis,"registered offense record, uid namespaced by source year",2021,2021-01-01,2022-01-01,88942,365,243.6767123287671,True
+CODE:Memphis,"registered offense record, uid namespaced by source year",2022,2022-01-01,2023-01-01,103746,365,284.23561643835615,True
+CODE:Mesa,"registered offense record, uid namespaced by source year",2018,2018-01-01,2019-01-01,29190,365,79.97260273972603,True
+CODE:Mesa,"registered offense record, uid namespaced by source year",2019,2019-01-01,2020-01-01,29640,365,81.20547945205479,True
+CODE:Mesa,"registered offense record, uid namespaced by source year",2020,2020-01-01,2021-01-01,36101,366,98.63661202185793,True
+CODE:Mesa,"registered offense record, uid namespaced by source year",2021,2021-01-01,2022-01-01,32357,365,88.64931506849315,True
+CODE:Mesa,"registered offense record, uid namespaced by source year",2022,2022-01-01,2023-01-01,37773,365,103.4876712328767,True
+CODE:Minneapolis,"registered offense record, uid namespaced by source year",2018,2018-01-01,2019-01-01,0,365,0.0,True
+CODE:Minneapolis,"registered offense record, uid namespaced by source year",2019,2019-01-01,2020-01-01,42567,365,116.62191780821918,True
+CODE:Minneapolis,"registered offense record, uid namespaced by source year",2020,2020-01-01,2021-01-01,43376,366,118.51366120218579,True
+CODE:Minneapolis,"registered offense record, uid namespaced by source year",2021,2021-01-01,2022-01-01,40406,365,110.7013698630137,True
+CODE:Minneapolis,"registered offense record, uid namespaced by source year",2022,2022-01-01,2023-01-01,45222,365,123.8958904109589,True
+CODE:Nashville,"registered offense record, uid namespaced by source year",2018,2018-01-01,2019-01-01,83025,365,227.46575342465752,True
+CODE:Nashville,"registered offense record, uid namespaced by source year",2019,2019-01-01,2020-01-01,79669,365,218.27123287671233,True
+CODE:Nashville,"registered offense record, uid namespaced by source year",2020,2020-01-01,2021-01-01,79190,366,216.36612021857923,True
+CODE:Nashville,"registered offense record, uid namespaced by source year",2021,2021-01-01,2022-01-01,76113,365,208.52876712328768,True
+CODE:Nashville,"registered offense record, uid namespaced by source year",2022,2022-01-01,2023-01-01,78251,365,214.38630136986302,True
+CODE:New York,"registered offense record, uid namespaced by source year",2018,2018-01-01,2019-01-01,454888,365,1246.268493150685,True
+CODE:New York,"registered offense record, uid namespaced by source year",2019,2019-01-01,2020-01-01,451189,365,1236.1342465753426,True
+CODE:New York,"registered offense record, uid namespaced by source year",2020,2020-01-01,2021-01-01,405135,366,1106.9262295081967,True
+CODE:New York,"registered offense record, uid namespaced by source year",2021,2021-01-01,2022-01-01,438932,365,1202.5534246575342,True
+CODE:New York,"registered offense record, uid namespaced by source year",2022,2022-01-01,2023-01-01,506564,365,1387.8465753424657,True
+CODE:San Francisco,"registered offense record, uid namespaced by source year",2018,2018-01-01,2019-01-01,104867,365,287.3068493150685,True
+CODE:San Francisco,"registered offense record, uid namespaced by source year",2019,2019-01-01,2020-01-01,101858,365,279.06301369863013,True
+CODE:San Francisco,"registered offense record, uid namespaced by source year",2020,2020-01-01,2021-01-01,83434,366,227.96174863387978,True
+CODE:San Francisco,"registered offense record, uid namespaced by source year",2021,2021-01-01,2022-01-01,91940,365,251.8904109589041,True
+CODE:San Francisco,"registered offense record, uid namespaced by source year",2022,2022-01-01,2023-01-01,97725,365,267.73972602739724,True
+CODE:Seattle,"registered offense record, uid namespaced by source year",2018,2018-01-01,2019-01-01,72486,365,198.5917808219178,True
+CODE:Seattle,"registered offense record, uid namespaced by source year",2019,2019-01-01,2020-01-01,67362,365,184.55342465753424,True
+CODE:Seattle,"registered offense record, uid namespaced by source year",2020,2020-01-01,2021-01-01,71602,366,195.63387978142077,True
+CODE:Seattle,"registered offense record, uid namespaced by source year",2021,2021-01-01,2022-01-01,66188,365,181.33698630136988,True
+CODE:Seattle,"registered offense record, uid namespaced by source year",2022,2022-01-01,2023-01-01,68967,365,188.95068493150686,True

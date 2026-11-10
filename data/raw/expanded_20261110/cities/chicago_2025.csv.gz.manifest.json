@@ -1,0 +1,23 @@
+{
+  "city": "chicago",
+  "host": "data.cityofchicago.org",
+  "dataset": "ijzp-q8t2",
+  "date": "date",
+  "id": "case_number",
+  "columns": "case_number,date",
+  "url": "https://data.cityofchicago.org/resource/ijzp-q8t2.csv?%24select=case_number%2Cdate&%24where=date+%3E%3D+%272025-01-01T00%3A00%3A00%27+AND+date+%3C+%272026-01-01T00%3A00%3A00%27&%24order=date%2Ccase_number&%24limit=1000000",
+  "count_url": "https://data.cityofchicago.org/resource/ijzp-q8t2.json?%24select=count%28%2A%29+as+rows&%24where=date+%3E%3D+%272025-01-01T00%3A00%3A00%27+AND+date+%3C+%272026-01-01T00%3A00%3A00%27",
+  "columns_returned": [
+    "case_number",
+    "date"
+  ],
+  "start": "2025-01-01T00:00:00",
+  "end_exclusive": "2026-01-01T00:00:00",
+  "rows": 238218,
+  "count_before": 238218,
+  "count_after": 238218,
+  "downloaded_utc": "2026-11-10T15:19:21.871223+00:00",
+  "sha256": "c551279b0b8dccc88a0520e322123589f998611ca633cccda3ed84ad4f512611",
+  "bytes": 1221660,
+  "notes": "registered incidents; one case may have multiple offense rows; local timestamps; deduplicate by case/report identifier during preparation"
+}

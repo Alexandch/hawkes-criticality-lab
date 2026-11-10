@@ -1,0 +1,118 @@
+{
+  "stage": "5_estimation_vs_calibration_diagnostics",
+  "generator": {
+    "prefix_days": 730,
+    "stage_days": 90,
+    "stages": 12,
+    "lookback": 3,
+    "forecast_stages": 2,
+    "critical_level": 0.9,
+    "rate_min": 0.2,
+    "rate_max": 50.0,
+    "windows": [
+      30,
+      90,
+      180,
+      360
+    ]
+  },
+  "sizes": {
+    "train": 150,
+    "calibration": 300,
+    "evaluation": 300
+  },
+  "data_seed": 20261119,
+  "evaluation_seed": 20261120,
+  "model_seed": 53,
+  "epochs": 100,
+  "workers": 2,
+  "bootstrap_samples": 500,
+  "source_directory": "D:\\Проект ИиСМ\\results\\selected_detectors",
+  "source_snapshot_sha256": {
+    "protocol.json": "3033a007a008eebcfbcc60bb694b2488d993e52b79f205940d357480a9da2204",
+    "selection.json": "864c5713f0b921432e3d916bc7e4aea860a98a2e5f3b44f93dc7d787766ec09d",
+    "frozen_plan.json": "e0db063e4bd0cace893b94822e3e0f86d18c565af4eebbb83937ad3e8a9740ff",
+    "final_test_complete.json": "bcc70911b271c60d83317e488dfa9bd74d394b79599fdd81371076502308423c",
+    "metrics.json": "78ba8c2cce984bd42f2a18ee1c105824b18be9d6fd299d2c81a6eaae18397292",
+    "test_metrics.csv": "0014de3b7f289df74ca54f6ee30f0710d0b06f3742badd3e12713eccd0215bd0",
+    "data/test.npz": "42ca163d6d7db6a6ece414a817b9565e452bd62cee03a59b02b4374d3a931199",
+    "data/test_scores.npz": "fe5835359f8c3600ab807ce002bad037b9f0ea05f2a56352154ded7cb601ef2d",
+    "models/state_counts_w360_s17.pt": "a912c694ba963bfe143800ea5ac59ee7cbfbad2a91b5421ce5f47b5523566bd1",
+    "models/state_counts_w360_s29.pt": "7d589bb439e862d50fa2920821d4105dbe2f3749244625079b627af6bf58f662",
+    "models/state_counts_w360_s41.pt": "e220e6b63a0fe9e82f9169f9238ba431fabbb7f87e714d1d2ab78cec1c05733e",
+    "models/state_constant_mle_w360_s17.pt": "034ff73eccb4e1a39b79b1526fe4caf1a5f2bd8aa03eac9ed7d9258680a234cf",
+    "models/state_constant_mle_w360_s29.pt": "fc6b6a7b9344c04ef656d80c3a328210ca52b2d20a707067b16661c84fcb4b77",
+    "models/state_constant_mle_w360_s41.pt": "38f03a6c7882c485955f1f036396659f0eb35a8c46c9caf95555dc7482ebab85",
+    "models/state_calendar_mle_w360_s17.pt": "a31ac6a43c9999c5ed66b1cbe2f529640fbaa1da036752a9b0d11edfc0264347",
+    "models/state_calendar_mle_w360_s29.pt": "5479bccda625884622825f28679cb9a291eca4fc73967b765426712bff31fabe",
+    "models/state_calendar_mle_w360_s41.pt": "8be2767488ad3fcd1bb353e2b2006caa60ff9f3071c298a545aa6088819458f3",
+    "models/warning_counts_w180_s17.pt": "e1af38b4b3e443943b8e6415011484e3f4f6b11af44d75d3a4cab3be21241832",
+    "models/warning_counts_w180_s29.pt": "9d52113e4b7bbf5a5c4dd922ce06f2e11a5d1243fe0ce23fb46f85b51516b1f4",
+    "models/warning_counts_w180_s41.pt": "4214ee6ea2f115b28d4be7d34a00e908e6002a27d5f591eb826b95fdcfeed520",
+    "models/warning_constant_mle_w180_s17.pt": "5d0bcafa6a62ddbb3754178d1cffa6f66dfb80834e3e5878636ccf8925216bc8",
+    "models/warning_constant_mle_w180_s29.pt": "bdcf459809ace584038aee7f20c9df023f3fa82b50d28b3ddd7b85f82be977ba",
+    "models/warning_constant_mle_w180_s41.pt": "bd0b75b003f09d325d7e99d7634c9b424d6772183559dc046e34ce644b345463",
+    "models/warning_calendar_mle_w30_s17.pt": "c4dbd8fc140043c336222c95b5c10eb756ecdf9e60130456b7d6d60d176c891f",
+    "models/warning_calendar_mle_w30_s29.pt": "bf94893092bc3b0abb6361bc1d8382ea801c1df23ebea56a68ec516e87420010",
+    "models/warning_calendar_mle_w30_s41.pt": "e8675d9bc1bccb4c767067d2b988b2a73b6658d08279d496fc3fa3ca614280ce"
+  },
+  "primary_entries": {
+    "state": {
+      "stream": "state__calendar_mle__ensemble",
+      "task": "state",
+      "method": "calendar_mle",
+      "member": "ensemble",
+      "window_days": 360,
+      "window_index": 3,
+      "primary": true,
+      "model_paths": [
+        "models/state_calendar_mle_w360_s17.pt",
+        "models/state_calendar_mle_w360_s29.pt",
+        "models/state_calendar_mle_w360_s41.pt"
+      ],
+      "threshold": 0.9978498021761577
+    },
+    "warning": {
+      "stream": "warning__constant_mle__ensemble",
+      "task": "warning",
+      "method": "constant_mle",
+      "member": "ensemble",
+      "window_days": 180,
+      "window_index": 2,
+      "primary": true,
+      "model_paths": [
+        "models/warning_constant_mle_w180_s17.pt",
+        "models/warning_constant_mle_w180_s29.pt",
+        "models/warning_constant_mle_w180_s41.pt"
+      ],
+      "threshold": 0.9394953052202861
+    }
+  },
+  "stage_window_index": 1,
+  "source_protected_streams": 28,
+  "alpha": 0.05,
+  "policies": [
+    "fixed_score",
+    "pooled_trajectory",
+    "family_nominal",
+    "family_confident",
+    "family_confident_source_scope",
+    "family_nominal_without_near"
+  ],
+  "curve_grid": "calibration quantiles only: 61 points 0..0.95, 81 points 0.95..1, named cutoffs and endpoints",
+  "new_matched_models": "same 8 features, architecture and initialization; n history source is known/constant/calendar; labels used only for training and evaluation",
+  "matched_feature_names": [
+    "n_lag2",
+    "n_lag1",
+    "n_lag0",
+    "slope",
+    "linear_projection",
+    "valid_lag2",
+    "valid_lag1",
+    "valid_lag0"
+  ],
+  "paired_models_are_diagnostic_not_deployable": true,
+  "old_holdout_values_not_used_for_selection_or_fitting": true,
+  "calibration_without_near_control_still_evaluates_all_families": true,
+  "diagnostic_curves_do_not_choose_a_new_deployment_threshold": true
+}

@@ -1,0 +1,1712 @@
+{
+  "streams": [
+    {
+      "source": "portal:chicago",
+      "start": "2019-01-01",
+      "end_exclusive": "2026-10-01",
+      "raw_rows": 1862831,
+      "invalid_timestamps": 0,
+      "missing_identifiers": 0,
+      "outside_requested_range": 0,
+      "duplicate_identifiers_removed": 229,
+      "events": 1862602,
+      "unique_timestamps": 922605,
+      "fraction_tied_records": 0.5046687376047057,
+      "fraction_midnight": 0.03448401751957745,
+      "source_files_sha256": {
+        "data\\raw\\expanded_20261110\\cities\\chicago_2019.csv.gz": "3366086467aa204abd5ef395f3aa1a60751ce4351e30afdc9e4751007f55735d",
+        "data\\raw\\expanded_20261110\\cities\\chicago_2020.csv.gz": "04194e412f8c01928c011e199f4a63fd84ce1038215687b12142b03525357ccb",
+        "data\\raw\\expanded_20261110\\cities\\chicago_2021.csv.gz": "5ebba2d572d99f0700edc722835ef1b4d170a4244bfa42882e80ba4af3e89e40",
+        "data\\raw\\expanded_20261110\\cities\\chicago_2022.csv.gz": "cad4787c94ef8148b352c6dcc021f33266946c98cf2b86011839b648977b61a1",
+        "data\\raw\\expanded_20261110\\cities\\chicago_2023.csv.gz": "e1d2ed03d04974baff3dadd38a0a8e67a3cadeee685a912ee37c664e44e5a0d8",
+        "data\\raw\\expanded_20261110\\cities\\chicago_2024.csv.gz": "d6bb427241b4c2ca0571298779d1b6547de076b10d5ef57b6b1dcfd990a37e8d",
+        "data\\raw\\expanded_20261110\\cities\\chicago_2025.csv.gz": "c551279b0b8dccc88a0520e322123589f998611ca633cccda3ed84ad4f512611",
+        "data\\raw\\expanded_20261110\\cities\\chicago_2026.csv.gz": "75ebeffef40d7399d72817ae97f9f895f13bd00dd525dd03ba3d2e4464b092b4"
+      },
+      "output_sha256": "6bbda6f846b658ed9df995e2953f76052df69e111efa24ed5532f39c0a7cbe43",
+      "events_npz_sha256": "30279686258c9cc17a4c94d271f1b8266d75a995efd17f59e380979840aff564",
+      "missing_calendar_months": [],
+      "eligible_for_full_history": true,
+      "yearly": [
+        {
+          "year": 2019,
+          "start": "2019-01-01",
+          "end_exclusive": "2020-01-01",
+          "events": 261924,
+          "exposure_days": 365,
+          "mean_daily_rate": 717.6,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2020,
+          "start": "2020-01-01",
+          "end_exclusive": "2021-01-01",
+          "events": 213061,
+          "exposure_days": 366,
+          "mean_daily_rate": 582.1338797814208,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2021,
+          "start": "2021-01-01",
+          "end_exclusive": "2022-01-01",
+          "events": 209997,
+          "exposure_days": 365,
+          "mean_daily_rate": 575.3342465753425,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2022,
+          "start": "2022-01-01",
+          "end_exclusive": "2023-01-01",
+          "events": 240474,
+          "exposure_days": 365,
+          "mean_daily_rate": 658.8328767123288,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2023,
+          "start": "2023-01-01",
+          "end_exclusive": "2024-01-01",
+          "events": 263858,
+          "exposure_days": 365,
+          "mean_daily_rate": 722.8986301369863,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2024,
+          "start": "2024-01-01",
+          "end_exclusive": "2025-01-01",
+          "events": 259656,
+          "exposure_days": 366,
+          "mean_daily_rate": 709.4426229508197,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2025,
+          "start": "2025-01-01",
+          "end_exclusive": "2026-01-01",
+          "events": 238195,
+          "exposure_days": 365,
+          "mean_daily_rate": 652.5890410958904,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2026,
+          "start": "2026-01-01",
+          "end_exclusive": "2026-10-01",
+          "events": 175437,
+          "exposure_days": 273,
+          "mean_daily_rate": 642.6263736263736,
+          "full_calendar_year": false
+        }
+      ],
+      "unit": "case/report, earliest observed time",
+      "timestamp_notes": "source local naive time; no UTC conversion or random jitter; equal timestamps stay equal; recorded date can be estimated"
+    },
+    {
+      "source": "portal:nyc",
+      "start": "2019-01-01",
+      "end_exclusive": "2026-10-01",
+      "raw_rows": 3966939,
+      "invalid_timestamps": 0,
+      "missing_identifiers": 0,
+      "outside_requested_range": 0,
+      "duplicate_identifiers_removed": 2,
+      "events": 3966937,
+      "unique_timestamps": 1390107,
+      "fraction_tied_records": 0.649576738929809,
+      "fraction_midnight": 0.011148147802700169,
+      "source_files_sha256": {
+        "data\\raw\\expanded_20261110\\cities\\nyc_2019.csv.gz": "4117710694c80efdba5d7dd830b61ed4a429d0fd7bb9b48f60053725c92d53f6",
+        "data\\raw\\expanded_20261110\\cities\\nyc_2020.csv.gz": "f7b959232d653023acf37e58d623b4e197c70265cb1cc8f009756784d618fa02",
+        "data\\raw\\expanded_20261110\\cities\\nyc_2021.csv.gz": "92c4d4495865f688c463730c3a8139616c54b7327e52579dda8831d36c26daea",
+        "data\\raw\\expanded_20261110\\cities\\nyc_2022.csv.gz": "26b9e4619978edb9dfbd8022541fd70300d93e2ae545717ad9463b6f5541a082",
+        "data\\raw\\expanded_20261110\\cities\\nyc_2023.csv.gz": "30b53947b3cdae3cb013d4cb03cdd7c8d16ec4d16c9dd0ad713c04f4f327832e",
+        "data\\raw\\expanded_20261110\\cities\\nyc_2024.csv.gz": "4fb9acac113aa11397bbd68cafa314d895dceccaad362c46724f2bcefdcd9805",
+        "data\\raw\\expanded_20261110\\cities\\nyc_2025.csv.gz": "5243d1ebd780bfca62250fd9a7164462d4bb37ad68e45ad15209a0bf1a1dae92",
+        "data\\raw\\expanded_20261110\\cities\\nyc_2026.csv.gz": "5831d064fdbc827bb7f7ef65c027b90f14cbd66d8b1f2aa1d4d90663b06844b7"
+      },
+      "output_sha256": "3f70831cd8b1225817525c5f6ff76e55f9e5850fcceaf719a9adb3fca481b54e",
+      "events_npz_sha256": "61145f9ff3ee1890b631b1950ebeb728f6254809c494ec77f7971d62228339c5",
+      "missing_calendar_months": [],
+      "eligible_for_full_history": true,
+      "yearly": [
+        {
+          "year": 2019,
+          "start": "2019-01-01",
+          "end_exclusive": "2020-01-01",
+          "events": 459608,
+          "exposure_days": 365,
+          "mean_daily_rate": 1259.2,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2020,
+          "start": "2020-01-01",
+          "end_exclusive": "2021-01-01",
+          "events": 414277,
+          "exposure_days": 366,
+          "mean_daily_rate": 1131.9043715846994,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2021,
+          "start": "2021-01-01",
+          "end_exclusive": "2022-01-01",
+          "events": 450331,
+          "exposure_days": 365,
+          "mean_daily_rate": 1233.7835616438356,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2022,
+          "start": "2022-01-01",
+          "end_exclusive": "2023-01-01",
+          "events": 531322,
+          "exposure_days": 365,
+          "mean_daily_rate": 1455.676712328767,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2023,
+          "start": "2023-01-01",
+          "end_exclusive": "2024-01-01",
+          "events": 553467,
+          "exposure_days": 365,
+          "mean_daily_rate": 1516.3479452054794,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2024,
+          "start": "2024-01-01",
+          "end_exclusive": "2025-01-01",
+          "events": 574192,
+          "exposure_days": 366,
+          "mean_daily_rate": 1568.8306010928961,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2025,
+          "start": "2025-01-01",
+          "end_exclusive": "2026-01-01",
+          "events": 567667,
+          "exposure_days": 365,
+          "mean_daily_rate": 1555.2520547945205,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2026,
+          "start": "2026-01-01",
+          "end_exclusive": "2026-10-01",
+          "events": 416073,
+          "exposure_days": 273,
+          "mean_daily_rate": 1524.076923076923,
+          "full_calendar_year": false
+        }
+      ],
+      "unit": "case/report, earliest observed time",
+      "timestamp_notes": "source local naive time; no UTC conversion or random jitter; equal timestamps stay equal; recorded date can be estimated"
+    },
+    {
+      "source": "portal:san_francisco",
+      "start": "2019-01-01",
+      "end_exclusive": "2026-10-01",
+      "raw_rows": 924203,
+      "invalid_timestamps": 0,
+      "missing_identifiers": 0,
+      "outside_requested_range": 0,
+      "duplicate_identifiers_removed": 158863,
+      "events": 765340,
+      "unique_timestamps": 450909,
+      "fraction_tied_records": 0.4108383202236914,
+      "fraction_midnight": 0.0372226722763739,
+      "source_files_sha256": {
+        "data\\raw\\expanded_20261110\\cities\\san_francisco_2019.csv.gz": "120a1f90f8b2c99c5bcc52a0eb3911ab40a979a678ab09cad51644811fc3a68a",
+        "data\\raw\\expanded_20261110\\cities\\san_francisco_2020.csv.gz": "b9eb975120d0357ad02e412f697383fd46d9716af7c61a33d14f2780df9520e9",
+        "data\\raw\\expanded_20261110\\cities\\san_francisco_2021.csv.gz": "46d7bfdecf0973ce6966525d3898073b791c2f73c17d795ec637121c28629b57",
+        "data\\raw\\expanded_20261110\\cities\\san_francisco_2022.csv.gz": "4c50f537865a34aac0c43d697b1ff3047fbfb68b861eb3887fd8193ffd9bf359",
+        "data\\raw\\expanded_20261110\\cities\\san_francisco_2023.csv.gz": "ce86be1e54c2921b98dec738f0017a07dcffce1acfa825d63a83ba32239b4935",
+        "data\\raw\\expanded_20261110\\cities\\san_francisco_2024.csv.gz": "376b4f9847c40d0c527e8b989ebf7012153df3c9c5958bb32aec0ab7abbe2d9c",
+        "data\\raw\\expanded_20261110\\cities\\san_francisco_2025.csv.gz": "9b0f7f0f4b27eab8633650d466fa21829c3cef56af75b0a91e9e3ac6b5eb2e84",
+        "data\\raw\\expanded_20261110\\cities\\san_francisco_2026.csv.gz": "850445a127da1e01c3bdb4b4978ce0505bf1d46c79e558cad1e9e6c7b0c42c2a"
+      },
+      "output_sha256": "c25d3a83040ad98652ba66de8d928399297f9f1f7191d00699fe8c62d056280c",
+      "events_npz_sha256": "7d82b65ca2e2cb2f850b3e4c88f9f702f0a9b0022bb1df4ec6f5636337e1d6dc",
+      "missing_calendar_months": [],
+      "eligible_for_full_history": true,
+      "yearly": [
+        {
+          "year": 2019,
+          "start": "2019-01-01",
+          "end_exclusive": "2020-01-01",
+          "events": 119150,
+          "exposure_days": 365,
+          "mean_daily_rate": 326.43835616438355,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2020,
+          "start": "2020-01-01",
+          "end_exclusive": "2021-01-01",
+          "events": 95444,
+          "exposure_days": 366,
+          "mean_daily_rate": 260.775956284153,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2021,
+          "start": "2021-01-01",
+          "end_exclusive": "2022-01-01",
+          "events": 106261,
+          "exposure_days": 365,
+          "mean_daily_rate": 291.12602739726026,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2022,
+          "start": "2022-01-01",
+          "end_exclusive": "2023-01-01",
+          "events": 112484,
+          "exposure_days": 365,
+          "mean_daily_rate": 308.17534246575343,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2023,
+          "start": "2023-01-01",
+          "end_exclusive": "2024-01-01",
+          "events": 110070,
+          "exposure_days": 365,
+          "mean_daily_rate": 301.56164383561645,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2024,
+          "start": "2024-01-01",
+          "end_exclusive": "2025-01-01",
+          "events": 90276,
+          "exposure_days": 366,
+          "mean_daily_rate": 246.65573770491804,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2025,
+          "start": "2025-01-01",
+          "end_exclusive": "2026-01-01",
+          "events": 76581,
+          "exposure_days": 365,
+          "mean_daily_rate": 209.81095890410958,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2026,
+          "start": "2026-01-01",
+          "end_exclusive": "2026-10-01",
+          "events": 55074,
+          "exposure_days": 273,
+          "mean_daily_rate": 201.73626373626374,
+          "full_calendar_year": false
+        }
+      ],
+      "unit": "case/report, earliest observed time",
+      "timestamp_notes": "source local naive time; no UTC conversion or random jitter; equal timestamps stay equal; recorded date can be estimated"
+    },
+    {
+      "source": "portal:seattle",
+      "start": "2019-01-01",
+      "end_exclusive": "2026-10-01",
+      "raw_rows": 642014,
+      "invalid_timestamps": 0,
+      "missing_identifiers": 0,
+      "outside_requested_range": 0,
+      "duplicate_identifiers_removed": 90490,
+      "events": 551524,
+      "unique_timestamps": 363186,
+      "fraction_tied_records": 0.3414864992275948,
+      "fraction_midnight": 0.09224077284034783,
+      "source_files_sha256": {
+        "data\\raw\\expanded_20261110\\cities\\seattle_2019.csv.gz": "926df477645b68153f2f018f5b2119cfb8abddf2af1a5d8f1c8599e5a8a4147a",
+        "data\\raw\\expanded_20261110\\cities\\seattle_2020.csv.gz": "54d4bc7c6299f36340c45ad7e52ae4f320200e851c0a897b2d3765eaff34e8ea",
+        "data\\raw\\expanded_20261110\\cities\\seattle_2021.csv.gz": "edc6dcc045669593980de2edb77ae653d4e521a16e23a1369b2848f9eb17e8d7",
+        "data\\raw\\expanded_20261110\\cities\\seattle_2022.csv.gz": "a005edcfe9bc7a1e87f7bbd3bc662af267902b5593d927b953dbc206c234bf39",
+        "data\\raw\\expanded_20261110\\cities\\seattle_2023.csv.gz": "e3b79eec29ff87dd57c540c7205671584857e345c8283c28763bc496a4c6619d",
+        "data\\raw\\expanded_20261110\\cities\\seattle_2024.csv.gz": "feaced172899eba864df88d094b4b58da38fa2cc6400ab7b372e65ac3e94aeed",
+        "data\\raw\\expanded_20261110\\cities\\seattle_2025.csv.gz": "f71b34a3a1dba56772d5af1a340da2aafd3822d359a7c819acaaa244c4a27d7b",
+        "data\\raw\\expanded_20261110\\cities\\seattle_2026.csv.gz": "3d3d4be2a504435c38cd2f0515232f1297a6bbf29a5838ca66ad916b373e8839"
+      },
+      "output_sha256": "031409eea6fbc847343fbcb9b8b8144e075d1c34ad3fd8356c9da2981eff02c8",
+      "events_npz_sha256": "d5e4bb81c698ea4c62876a1aed7c18218da7f56f07f6fa3af718b8023283cbad",
+      "missing_calendar_months": [],
+      "eligible_for_full_history": true,
+      "yearly": [
+        {
+          "year": 2019,
+          "start": "2019-01-01",
+          "end_exclusive": "2020-01-01",
+          "events": 73317,
+          "exposure_days": 365,
+          "mean_daily_rate": 200.86849315068494,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2020,
+          "start": "2020-01-01",
+          "end_exclusive": "2021-01-01",
+          "events": 76866,
+          "exposure_days": 366,
+          "mean_daily_rate": 210.01639344262296,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2021,
+          "start": "2021-01-01",
+          "end_exclusive": "2022-01-01",
+          "events": 71105,
+          "exposure_days": 365,
+          "mean_daily_rate": 194.8082191780822,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2022,
+          "start": "2022-01-01",
+          "end_exclusive": "2023-01-01",
+          "events": 74622,
+          "exposure_days": 365,
+          "mean_daily_rate": 204.44383561643835,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2023,
+          "start": "2023-01-01",
+          "end_exclusive": "2024-01-01",
+          "events": 70739,
+          "exposure_days": 365,
+          "mean_daily_rate": 193.80547945205478,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2024,
+          "start": "2024-01-01",
+          "end_exclusive": "2025-01-01",
+          "events": 70475,
+          "exposure_days": 366,
+          "mean_daily_rate": 192.55464480874318,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2025,
+          "start": "2025-01-01",
+          "end_exclusive": "2026-01-01",
+          "events": 66480,
+          "exposure_days": 365,
+          "mean_daily_rate": 182.13698630136986,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2026,
+          "start": "2026-01-01",
+          "end_exclusive": "2026-10-01",
+          "events": 47920,
+          "exposure_days": 273,
+          "mean_daily_rate": 175.53113553113553,
+          "full_calendar_year": false
+        }
+      ],
+      "unit": "case/report, earliest observed time",
+      "timestamp_notes": "source local naive time; no UTC conversion or random jitter; equal timestamps stay equal; recorded date can be estimated"
+    },
+    {
+      "source": "CODE:Austin",
+      "start": "2018-01-01",
+      "end_exclusive": "2023-01-01",
+      "raw_rows": 405928,
+      "invalid_timestamps": 0,
+      "missing_identifiers": 0,
+      "outside_requested_range": 0,
+      "duplicate_identifiers_removed": 0,
+      "events": 405928,
+      "unique_timestamps": 295977,
+      "fraction_tied_records": 0.2708633058079265,
+      "fraction_midnight": 0.030586705031434146,
+      "source_files_sha256": {
+        "data\\raw\\expanded_20261110\\crime_open_database_core_2018.csv.gz": "3609ed686efd071f0f88f3a3a8245eedeeb45a1c045f9b130b130c3f36d8de68",
+        "data\\raw\\expanded_20261110\\crime_open_database_core_2019.csv.gz": "601896337e1568d81d43ef074afed316fe72b9b8158ce6cf58026fc0c8e9051b",
+        "data\\raw\\crime_open_database_core_2020.csv.gz": "c1cac6466fc80e8d09bf4fe247af4887aefeafb4b68d1d4743e21400fa484ad2",
+        "data\\raw\\crime_open_database_core_2021.csv.gz": "48233850d06577d7cbf9ef7fd747f548a08a4b80f64c3161c9e2bb5fe3797de2",
+        "data\\raw\\expanded_20261110\\crime_open_database_core_2022.csv.gz": "41293986b2546fe2adccf3dc51908410e6b7ae91455bc6d85279b5c27062eb71"
+      },
+      "output_sha256": "7cc684731f4038327cb97ee14744f6ff44a2a09e972dc82ad06e7bbb2f15a26d",
+      "events_npz_sha256": "2b09da92d91bb1aca8a0d9f3bb5f31a5eccaa312f42b0b24be5ddc72bd50c6db",
+      "missing_calendar_months": [],
+      "eligible_for_full_history": true,
+      "yearly": [
+        {
+          "year": 2018,
+          "start": "2018-01-01",
+          "end_exclusive": "2019-01-01",
+          "events": 81659,
+          "exposure_days": 365,
+          "mean_daily_rate": 223.72328767123287,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2019,
+          "start": "2019-01-01",
+          "end_exclusive": "2020-01-01",
+          "events": 87094,
+          "exposure_days": 365,
+          "mean_daily_rate": 238.61369863013698,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2020,
+          "start": "2020-01-01",
+          "end_exclusive": "2021-01-01",
+          "events": 84355,
+          "exposure_days": 366,
+          "mean_daily_rate": 230.47814207650273,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2021,
+          "start": "2021-01-01",
+          "end_exclusive": "2022-01-01",
+          "events": 77732,
+          "exposure_days": 365,
+          "mean_daily_rate": 212.96438356164384,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2022,
+          "start": "2022-01-01",
+          "end_exclusive": "2023-01-01",
+          "events": 75088,
+          "exposure_days": 365,
+          "mean_daily_rate": 205.72054794520548,
+          "full_calendar_year": true
+        }
+      ],
+      "unit": "registered offense record, uid namespaced by source year",
+      "timestamp_notes": "source local naive time; no UTC conversion or random jitter; equal timestamps stay equal; recorded date can be estimated"
+    },
+    {
+      "source": "CODE:Boston",
+      "start": "2018-01-01",
+      "end_exclusive": "2023-01-01",
+      "raw_rows": 174586,
+      "invalid_timestamps": 0,
+      "missing_identifiers": 0,
+      "outside_requested_range": 0,
+      "duplicate_identifiers_removed": 0,
+      "events": 174586,
+      "unique_timestamps": 143183,
+      "fraction_tied_records": 0.17987123824361628,
+      "fraction_midnight": 0.044476647612065115,
+      "source_files_sha256": {
+        "data\\raw\\expanded_20261110\\crime_open_database_core_2018.csv.gz": "3609ed686efd071f0f88f3a3a8245eedeeb45a1c045f9b130b130c3f36d8de68",
+        "data\\raw\\expanded_20261110\\crime_open_database_core_2019.csv.gz": "601896337e1568d81d43ef074afed316fe72b9b8158ce6cf58026fc0c8e9051b",
+        "data\\raw\\crime_open_database_core_2020.csv.gz": "c1cac6466fc80e8d09bf4fe247af4887aefeafb4b68d1d4743e21400fa484ad2",
+        "data\\raw\\crime_open_database_core_2021.csv.gz": "48233850d06577d7cbf9ef7fd747f548a08a4b80f64c3161c9e2bb5fe3797de2",
+        "data\\raw\\expanded_20261110\\crime_open_database_core_2022.csv.gz": "41293986b2546fe2adccf3dc51908410e6b7ae91455bc6d85279b5c27062eb71"
+      },
+      "output_sha256": "c449edd985926302d26eb88a567d6b660f1ab695932150b7e6341d5e9afedd9c",
+      "events_npz_sha256": "d1f546347b05e6aac90a2eb42cb867e9b46a971240e8ac6c1ddad86fa82e240d",
+      "missing_calendar_months": [],
+      "eligible_for_full_history": true,
+      "yearly": [
+        {
+          "year": 2018,
+          "start": "2018-01-01",
+          "end_exclusive": "2019-01-01",
+          "events": 43230,
+          "exposure_days": 365,
+          "mean_daily_rate": 118.43835616438356,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2019,
+          "start": "2019-01-01",
+          "end_exclusive": "2020-01-01",
+          "events": 35125,
+          "exposure_days": 365,
+          "mean_daily_rate": 96.23287671232876,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2020,
+          "start": "2020-01-01",
+          "end_exclusive": "2021-01-01",
+          "events": 34517,
+          "exposure_days": 366,
+          "mean_daily_rate": 94.30874316939891,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2021,
+          "start": "2021-01-01",
+          "end_exclusive": "2022-01-01",
+          "events": 31342,
+          "exposure_days": 365,
+          "mean_daily_rate": 85.86849315068493,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2022,
+          "start": "2022-01-01",
+          "end_exclusive": "2023-01-01",
+          "events": 30372,
+          "exposure_days": 365,
+          "mean_daily_rate": 83.21095890410959,
+          "full_calendar_year": true
+        }
+      ],
+      "unit": "registered offense record, uid namespaced by source year",
+      "timestamp_notes": "source local naive time; no UTC conversion or random jitter; equal timestamps stay equal; recorded date can be estimated"
+    },
+    {
+      "source": "CODE:Charlotte",
+      "start": "2018-01-01",
+      "end_exclusive": "2023-01-01",
+      "raw_rows": 264405,
+      "invalid_timestamps": 0,
+      "missing_identifiers": 0,
+      "outside_requested_range": 0,
+      "duplicate_identifiers_removed": 0,
+      "events": 264405,
+      "unique_timestamps": 3652,
+      "fraction_tied_records": 0.9861878557515932,
+      "fraction_midnight": 0.7544335394565156,
+      "source_files_sha256": {
+        "data\\raw\\expanded_20261110\\crime_open_database_core_2018.csv.gz": "3609ed686efd071f0f88f3a3a8245eedeeb45a1c045f9b130b130c3f36d8de68",
+        "data\\raw\\expanded_20261110\\crime_open_database_core_2019.csv.gz": "601896337e1568d81d43ef074afed316fe72b9b8158ce6cf58026fc0c8e9051b",
+        "data\\raw\\crime_open_database_core_2020.csv.gz": "c1cac6466fc80e8d09bf4fe247af4887aefeafb4b68d1d4743e21400fa484ad2",
+        "data\\raw\\crime_open_database_core_2021.csv.gz": "48233850d06577d7cbf9ef7fd747f548a08a4b80f64c3161c9e2bb5fe3797de2",
+        "data\\raw\\expanded_20261110\\crime_open_database_core_2022.csv.gz": "41293986b2546fe2adccf3dc51908410e6b7ae91455bc6d85279b5c27062eb71"
+      },
+      "output_sha256": "7057dcb50c7877b4f6fe58e0201b04d5e9662fff1fa9ec20dbd2a4d4c9021b57",
+      "events_npz_sha256": "b9d53a3c780bf0a3d1bddf7c4d8babb8a00cd91b409bfb939cb866840c7e3a09",
+      "missing_calendar_months": [],
+      "eligible_for_full_history": true,
+      "yearly": [
+        {
+          "year": 2018,
+          "start": "2018-01-01",
+          "end_exclusive": "2019-01-01",
+          "events": 53162,
+          "exposure_days": 365,
+          "mean_daily_rate": 145.64931506849314,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2019,
+          "start": "2019-01-01",
+          "end_exclusive": "2020-01-01",
+          "events": 55286,
+          "exposure_days": 365,
+          "mean_daily_rate": 151.46849315068494,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2020,
+          "start": "2020-01-01",
+          "end_exclusive": "2021-01-01",
+          "events": 50106,
+          "exposure_days": 366,
+          "mean_daily_rate": 136.9016393442623,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2021,
+          "start": "2021-01-01",
+          "end_exclusive": "2022-01-01",
+          "events": 52032,
+          "exposure_days": 365,
+          "mean_daily_rate": 142.55342465753424,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2022,
+          "start": "2022-01-01",
+          "end_exclusive": "2023-01-01",
+          "events": 53819,
+          "exposure_days": 365,
+          "mean_daily_rate": 147.44931506849315,
+          "full_calendar_year": true
+        }
+      ],
+      "unit": "registered offense record, uid namespaced by source year",
+      "timestamp_notes": "source local naive time; no UTC conversion or random jitter; equal timestamps stay equal; recorded date can be estimated"
+    },
+    {
+      "source": "CODE:Chicago",
+      "start": "2018-01-01",
+      "end_exclusive": "2023-01-01",
+      "raw_rows": 1090454,
+      "invalid_timestamps": 0,
+      "missing_identifiers": 0,
+      "outside_requested_range": 0,
+      "duplicate_identifiers_removed": 0,
+      "events": 1090454,
+      "unique_timestamps": 538534,
+      "fraction_tied_records": 0.5061378104899428,
+      "fraction_midnight": 0.02309680188251866,
+      "source_files_sha256": {
+        "data\\raw\\expanded_20261110\\crime_open_database_core_2018.csv.gz": "3609ed686efd071f0f88f3a3a8245eedeeb45a1c045f9b130b130c3f36d8de68",
+        "data\\raw\\expanded_20261110\\crime_open_database_core_2019.csv.gz": "601896337e1568d81d43ef074afed316fe72b9b8158ce6cf58026fc0c8e9051b",
+        "data\\raw\\crime_open_database_core_2020.csv.gz": "c1cac6466fc80e8d09bf4fe247af4887aefeafb4b68d1d4743e21400fa484ad2",
+        "data\\raw\\crime_open_database_core_2021.csv.gz": "48233850d06577d7cbf9ef7fd747f548a08a4b80f64c3161c9e2bb5fe3797de2",
+        "data\\raw\\expanded_20261110\\crime_open_database_core_2022.csv.gz": "41293986b2546fe2adccf3dc51908410e6b7ae91455bc6d85279b5c27062eb71"
+      },
+      "output_sha256": "04ba024276c063ffd821e37b332bfe0684dfc9cb8b0cb6f433833ce427322a90",
+      "events_npz_sha256": "db28e5c373cd3dd139b4d7ef209d582fd994becd5792580637e6fab16a607ae0",
+      "missing_calendar_months": [
+        "2022-10",
+        "2022-11",
+        "2022-12"
+      ],
+      "eligible_for_full_history": false,
+      "yearly": [
+        {
+          "year": 2018,
+          "start": "2018-01-01",
+          "end_exclusive": "2019-01-01",
+          "events": 262742,
+          "exposure_days": 365,
+          "mean_daily_rate": 719.841095890411,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2019,
+          "start": "2019-01-01",
+          "end_exclusive": "2020-01-01",
+          "events": 258546,
+          "exposure_days": 365,
+          "mean_daily_rate": 708.345205479452,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2020,
+          "start": "2020-01-01",
+          "end_exclusive": "2021-01-01",
+          "events": 207853,
+          "exposure_days": 366,
+          "mean_daily_rate": 567.9043715846994,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2021,
+          "start": "2021-01-01",
+          "end_exclusive": "2022-01-01",
+          "events": 202312,
+          "exposure_days": 365,
+          "mean_daily_rate": 554.2794520547945,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2022,
+          "start": "2022-01-01",
+          "end_exclusive": "2023-01-01",
+          "events": 159001,
+          "exposure_days": 365,
+          "mean_daily_rate": 435.6191780821918,
+          "full_calendar_year": true
+        }
+      ],
+      "unit": "registered offense record, uid namespaced by source year",
+      "timestamp_notes": "source local naive time; no UTC conversion or random jitter; equal timestamps stay equal; recorded date can be estimated"
+    },
+    {
+      "source": "CODE:Colorado Springs",
+      "start": "2018-01-01",
+      "end_exclusive": "2023-01-01",
+      "raw_rows": 216909,
+      "invalid_timestamps": 0,
+      "missing_identifiers": 0,
+      "outside_requested_range": 0,
+      "duplicate_identifiers_removed": 0,
+      "events": 216909,
+      "unique_timestamps": 142113,
+      "fraction_tied_records": 0.3448266323665685,
+      "fraction_midnight": 0.017864634478053008,
+      "source_files_sha256": {
+        "data\\raw\\expanded_20261110\\crime_open_database_core_2018.csv.gz": "3609ed686efd071f0f88f3a3a8245eedeeb45a1c045f9b130b130c3f36d8de68",
+        "data\\raw\\expanded_20261110\\crime_open_database_core_2019.csv.gz": "601896337e1568d81d43ef074afed316fe72b9b8158ce6cf58026fc0c8e9051b",
+        "data\\raw\\crime_open_database_core_2020.csv.gz": "c1cac6466fc80e8d09bf4fe247af4887aefeafb4b68d1d4743e21400fa484ad2",
+        "data\\raw\\crime_open_database_core_2021.csv.gz": "48233850d06577d7cbf9ef7fd747f548a08a4b80f64c3161c9e2bb5fe3797de2",
+        "data\\raw\\expanded_20261110\\crime_open_database_core_2022.csv.gz": "41293986b2546fe2adccf3dc51908410e6b7ae91455bc6d85279b5c27062eb71"
+      },
+      "output_sha256": "cea37a68593d365621ef98b9d3e2e216eaaa107a89d94c1b18469abe7b120e5e",
+      "events_npz_sha256": "d6c4ee79bd358ef54ee0d9bcafba100c22e20d35ca3df24e9ac18e6590cc6bbc",
+      "missing_calendar_months": [],
+      "eligible_for_full_history": true,
+      "yearly": [
+        {
+          "year": 2018,
+          "start": "2018-01-01",
+          "end_exclusive": "2019-01-01",
+          "events": 40827,
+          "exposure_days": 365,
+          "mean_daily_rate": 111.85479452054794,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2019,
+          "start": "2019-01-01",
+          "end_exclusive": "2020-01-01",
+          "events": 43941,
+          "exposure_days": 365,
+          "mean_daily_rate": 120.38630136986302,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2020,
+          "start": "2020-01-01",
+          "end_exclusive": "2021-01-01",
+          "events": 42464,
+          "exposure_days": 366,
+          "mean_daily_rate": 116.02185792349727,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2021,
+          "start": "2021-01-01",
+          "end_exclusive": "2022-01-01",
+          "events": 44508,
+          "exposure_days": 365,
+          "mean_daily_rate": 121.93972602739726,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2022,
+          "start": "2022-01-01",
+          "end_exclusive": "2023-01-01",
+          "events": 45169,
+          "exposure_days": 365,
+          "mean_daily_rate": 123.75068493150685,
+          "full_calendar_year": true
+        }
+      ],
+      "unit": "registered offense record, uid namespaced by source year",
+      "timestamp_notes": "source local naive time; no UTC conversion or random jitter; equal timestamps stay equal; recorded date can be estimated"
+    },
+    {
+      "source": "CODE:Detroit",
+      "start": "2018-01-01",
+      "end_exclusive": "2023-01-01",
+      "raw_rows": 395746,
+      "invalid_timestamps": 0,
+      "missing_identifiers": 0,
+      "outside_requested_range": 0,
+      "duplicate_identifiers_removed": 0,
+      "events": 395746,
+      "unique_timestamps": 252901,
+      "fraction_tied_records": 0.3609512161841181,
+      "fraction_midnight": 0.015494787060387217,
+      "source_files_sha256": {
+        "data\\raw\\expanded_20261110\\crime_open_database_core_2018.csv.gz": "3609ed686efd071f0f88f3a3a8245eedeeb45a1c045f9b130b130c3f36d8de68",
+        "data\\raw\\expanded_20261110\\crime_open_database_core_2019.csv.gz": "601896337e1568d81d43ef074afed316fe72b9b8158ce6cf58026fc0c8e9051b",
+        "data\\raw\\crime_open_database_core_2020.csv.gz": "c1cac6466fc80e8d09bf4fe247af4887aefeafb4b68d1d4743e21400fa484ad2",
+        "data\\raw\\crime_open_database_core_2021.csv.gz": "48233850d06577d7cbf9ef7fd747f548a08a4b80f64c3161c9e2bb5fe3797de2",
+        "data\\raw\\expanded_20261110\\crime_open_database_core_2022.csv.gz": "41293986b2546fe2adccf3dc51908410e6b7ae91455bc6d85279b5c27062eb71"
+      },
+      "output_sha256": "d035547b5ee92b21728991ce0eb4d0339c9a9b66d4d576353e734dbce1cd7105",
+      "events_npz_sha256": "f039a11a52a022d325f9e4412fdf77263d8b97c99f163d370c1ab90f60870092",
+      "missing_calendar_months": [],
+      "eligible_for_full_history": true,
+      "yearly": [
+        {
+          "year": 2018,
+          "start": "2018-01-01",
+          "end_exclusive": "2019-01-01",
+          "events": 80803,
+          "exposure_days": 365,
+          "mean_daily_rate": 221.37808219178083,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2019,
+          "start": "2019-01-01",
+          "end_exclusive": "2020-01-01",
+          "events": 82682,
+          "exposure_days": 365,
+          "mean_daily_rate": 226.52602739726026,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2020,
+          "start": "2020-01-01",
+          "end_exclusive": "2021-01-01",
+          "events": 76758,
+          "exposure_days": 366,
+          "mean_daily_rate": 209.72131147540983,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2021,
+          "start": "2021-01-01",
+          "end_exclusive": "2022-01-01",
+          "events": 75444,
+          "exposure_days": 365,
+          "mean_daily_rate": 206.6958904109589,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2022,
+          "start": "2022-01-01",
+          "end_exclusive": "2023-01-01",
+          "events": 80059,
+          "exposure_days": 365,
+          "mean_daily_rate": 219.33972602739726,
+          "full_calendar_year": true
+        }
+      ],
+      "unit": "registered offense record, uid namespaced by source year",
+      "timestamp_notes": "source local naive time; no UTC conversion or random jitter; equal timestamps stay equal; recorded date can be estimated"
+    },
+    {
+      "source": "CODE:Houston",
+      "start": "2018-01-01",
+      "end_exclusive": "2023-01-01",
+      "raw_rows": 941003,
+      "invalid_timestamps": 0,
+      "missing_identifiers": 0,
+      "outside_requested_range": 0,
+      "duplicate_identifiers_removed": 0,
+      "events": 941003,
+      "unique_timestamps": 1461,
+      "fraction_tied_records": 0.9984474013366589,
+      "fraction_midnight": 1.0,
+      "source_files_sha256": {
+        "data\\raw\\expanded_20261110\\crime_open_database_core_2018.csv.gz": "3609ed686efd071f0f88f3a3a8245eedeeb45a1c045f9b130b130c3f36d8de68",
+        "data\\raw\\expanded_20261110\\crime_open_database_core_2019.csv.gz": "601896337e1568d81d43ef074afed316fe72b9b8158ce6cf58026fc0c8e9051b",
+        "data\\raw\\crime_open_database_core_2020.csv.gz": "c1cac6466fc80e8d09bf4fe247af4887aefeafb4b68d1d4743e21400fa484ad2",
+        "data\\raw\\crime_open_database_core_2021.csv.gz": "48233850d06577d7cbf9ef7fd747f548a08a4b80f64c3161c9e2bb5fe3797de2",
+        "data\\raw\\expanded_20261110\\crime_open_database_core_2022.csv.gz": "41293986b2546fe2adccf3dc51908410e6b7ae91455bc6d85279b5c27062eb71"
+      },
+      "output_sha256": "abaf6d414f5df4b3855181f76337ac8ebef96e1e15ff4e0459e1fd9da3bde76a",
+      "events_npz_sha256": "5328c1d93496b8d882d7bbd52e2c7a00a3952affea3ed4588ef4d1136b98e208",
+      "missing_calendar_months": [
+        "2018-01",
+        "2018-02",
+        "2018-03",
+        "2018-04",
+        "2018-05",
+        "2018-06",
+        "2018-07",
+        "2018-08",
+        "2018-09",
+        "2018-10",
+        "2018-11",
+        "2018-12"
+      ],
+      "eligible_for_full_history": false,
+      "yearly": [
+        {
+          "year": 2018,
+          "start": "2018-01-01",
+          "end_exclusive": "2019-01-01",
+          "events": 0,
+          "exposure_days": 365,
+          "mean_daily_rate": 0.0,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2019,
+          "start": "2019-01-01",
+          "end_exclusive": "2020-01-01",
+          "events": 210879,
+          "exposure_days": 365,
+          "mean_daily_rate": 577.7506849315068,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2020,
+          "start": "2020-01-01",
+          "end_exclusive": "2021-01-01",
+          "events": 234376,
+          "exposure_days": 366,
+          "mean_daily_rate": 640.3715846994536,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2021,
+          "start": "2021-01-01",
+          "end_exclusive": "2022-01-01",
+          "events": 240162,
+          "exposure_days": 365,
+          "mean_daily_rate": 657.9780821917808,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2022,
+          "start": "2022-01-01",
+          "end_exclusive": "2023-01-01",
+          "events": 255586,
+          "exposure_days": 365,
+          "mean_daily_rate": 700.2356164383561,
+          "full_calendar_year": true
+        }
+      ],
+      "unit": "registered offense record, uid namespaced by source year",
+      "timestamp_notes": "source local naive time; no UTC conversion or random jitter; equal timestamps stay equal; recorded date can be estimated"
+    },
+    {
+      "source": "CODE:Kansas City",
+      "start": "2018-01-01",
+      "end_exclusive": "2023-01-01",
+      "raw_rows": 452326,
+      "invalid_timestamps": 0,
+      "missing_identifiers": 0,
+      "outside_requested_range": 0,
+      "duplicate_identifiers_removed": 0,
+      "events": 452326,
+      "unique_timestamps": 193723,
+      "fraction_tied_records": 0.5717181855564349,
+      "fraction_midnight": 0.008378912554219744,
+      "source_files_sha256": {
+        "data\\raw\\expanded_20261110\\crime_open_database_core_2018.csv.gz": "3609ed686efd071f0f88f3a3a8245eedeeb45a1c045f9b130b130c3f36d8de68",
+        "data\\raw\\expanded_20261110\\crime_open_database_core_2019.csv.gz": "601896337e1568d81d43ef074afed316fe72b9b8158ce6cf58026fc0c8e9051b",
+        "data\\raw\\crime_open_database_core_2020.csv.gz": "c1cac6466fc80e8d09bf4fe247af4887aefeafb4b68d1d4743e21400fa484ad2",
+        "data\\raw\\crime_open_database_core_2021.csv.gz": "48233850d06577d7cbf9ef7fd747f548a08a4b80f64c3161c9e2bb5fe3797de2",
+        "data\\raw\\expanded_20261110\\crime_open_database_core_2022.csv.gz": "41293986b2546fe2adccf3dc51908410e6b7ae91455bc6d85279b5c27062eb71"
+      },
+      "output_sha256": "866b23d0f82c06f7eb6eb5e08d9223a26dbbfe61987297badcfae37eddb8c7a6",
+      "events_npz_sha256": "c74b1c1e3be24e537777a5f655413c86ad9aeeb2b1318532659452e3356d54c7",
+      "missing_calendar_months": [],
+      "eligible_for_full_history": true,
+      "yearly": [
+        {
+          "year": 2018,
+          "start": "2018-01-01",
+          "end_exclusive": "2019-01-01",
+          "events": 121038,
+          "exposure_days": 365,
+          "mean_daily_rate": 331.61095890410957,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2019,
+          "start": "2019-01-01",
+          "end_exclusive": "2020-01-01",
+          "events": 83811,
+          "exposure_days": 365,
+          "mean_daily_rate": 229.61917808219178,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2020,
+          "start": "2020-01-01",
+          "end_exclusive": "2021-01-01",
+          "events": 82988,
+          "exposure_days": 366,
+          "mean_daily_rate": 226.7431693989071,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2021,
+          "start": "2021-01-01",
+          "end_exclusive": "2022-01-01",
+          "events": 78748,
+          "exposure_days": 365,
+          "mean_daily_rate": 215.74794520547945,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2022,
+          "start": "2022-01-01",
+          "end_exclusive": "2023-01-01",
+          "events": 85741,
+          "exposure_days": 365,
+          "mean_daily_rate": 234.90684931506848,
+          "full_calendar_year": true
+        }
+      ],
+      "unit": "registered offense record, uid namespaced by source year",
+      "timestamp_notes": "source local naive time; no UTC conversion or random jitter; equal timestamps stay equal; recorded date can be estimated"
+    },
+    {
+      "source": "CODE:Los Angeles",
+      "start": "2018-01-01",
+      "end_exclusive": "2023-01-01",
+      "raw_rows": 1129210,
+      "invalid_timestamps": 0,
+      "missing_identifiers": 0,
+      "outside_requested_range": 0,
+      "duplicate_identifiers_removed": 0,
+      "events": 1129210,
+      "unique_timestamps": 360611,
+      "fraction_tied_records": 0.6806519602199768,
+      "fraction_midnight": 0.0,
+      "source_files_sha256": {
+        "data\\raw\\expanded_20261110\\crime_open_database_core_2018.csv.gz": "3609ed686efd071f0f88f3a3a8245eedeeb45a1c045f9b130b130c3f36d8de68",
+        "data\\raw\\expanded_20261110\\crime_open_database_core_2019.csv.gz": "601896337e1568d81d43ef074afed316fe72b9b8158ce6cf58026fc0c8e9051b",
+        "data\\raw\\crime_open_database_core_2020.csv.gz": "c1cac6466fc80e8d09bf4fe247af4887aefeafb4b68d1d4743e21400fa484ad2",
+        "data\\raw\\crime_open_database_core_2021.csv.gz": "48233850d06577d7cbf9ef7fd747f548a08a4b80f64c3161c9e2bb5fe3797de2",
+        "data\\raw\\expanded_20261110\\crime_open_database_core_2022.csv.gz": "41293986b2546fe2adccf3dc51908410e6b7ae91455bc6d85279b5c27062eb71"
+      },
+      "output_sha256": "3d7f1d6e99fd15659af0f85da480a29cab032ad3ad745137f8975eb9edf2a9e5",
+      "events_npz_sha256": "7b10363b6193743c50086bffa1da3b53645a330cf3b20707ddd821c9a498756c",
+      "missing_calendar_months": [],
+      "eligible_for_full_history": true,
+      "yearly": [
+        {
+          "year": 2018,
+          "start": "2018-01-01",
+          "end_exclusive": "2019-01-01",
+          "events": 240669,
+          "exposure_days": 365,
+          "mean_daily_rate": 659.3671232876712,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2019,
+          "start": "2019-01-01",
+          "end_exclusive": "2020-01-01",
+          "events": 228717,
+          "exposure_days": 365,
+          "mean_daily_rate": 626.6219178082192,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2020,
+          "start": "2020-01-01",
+          "end_exclusive": "2021-01-01",
+          "events": 208373,
+          "exposure_days": 366,
+          "mean_daily_rate": 569.3251366120219,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2021,
+          "start": "2021-01-01",
+          "end_exclusive": "2022-01-01",
+          "events": 214445,
+          "exposure_days": 365,
+          "mean_daily_rate": 587.5205479452055,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2022,
+          "start": "2022-01-01",
+          "end_exclusive": "2023-01-01",
+          "events": 237006,
+          "exposure_days": 365,
+          "mean_daily_rate": 649.331506849315,
+          "full_calendar_year": true
+        }
+      ],
+      "unit": "registered offense record, uid namespaced by source year",
+      "timestamp_notes": "source local naive time; no UTC conversion or random jitter; equal timestamps stay equal; recorded date can be estimated"
+    },
+    {
+      "source": "CODE:Louisville",
+      "start": "2018-01-01",
+      "end_exclusive": "2023-01-01",
+      "raw_rows": 185925,
+      "invalid_timestamps": 0,
+      "missing_identifiers": 0,
+      "outside_requested_range": 0,
+      "duplicate_identifiers_removed": 0,
+      "events": 185925,
+      "unique_timestamps": 115877,
+      "fraction_tied_records": 0.37675406750033613,
+      "fraction_midnight": 0.03188920263547129,
+      "source_files_sha256": {
+        "data\\raw\\expanded_20261110\\crime_open_database_core_2018.csv.gz": "3609ed686efd071f0f88f3a3a8245eedeeb45a1c045f9b130b130c3f36d8de68",
+        "data\\raw\\expanded_20261110\\crime_open_database_core_2019.csv.gz": "601896337e1568d81d43ef074afed316fe72b9b8158ce6cf58026fc0c8e9051b",
+        "data\\raw\\crime_open_database_core_2020.csv.gz": "c1cac6466fc80e8d09bf4fe247af4887aefeafb4b68d1d4743e21400fa484ad2",
+        "data\\raw\\crime_open_database_core_2021.csv.gz": "48233850d06577d7cbf9ef7fd747f548a08a4b80f64c3161c9e2bb5fe3797de2",
+        "data\\raw\\expanded_20261110\\crime_open_database_core_2022.csv.gz": "41293986b2546fe2adccf3dc51908410e6b7ae91455bc6d85279b5c27062eb71"
+      },
+      "output_sha256": "c2aa49f10e359fb9992f9746c3c28de8be5d1cc3eacbc8d9a0262d5fa8de8a7c",
+      "events_npz_sha256": "ff9bd8c58b6548adeee73a09e066385b8dab8e8b1d03a91e86a5f2c1013132fe",
+      "missing_calendar_months": [],
+      "eligible_for_full_history": true,
+      "yearly": [
+        {
+          "year": 2018,
+          "start": "2018-01-01",
+          "end_exclusive": "2019-01-01",
+          "events": 42098,
+          "exposure_days": 365,
+          "mean_daily_rate": 115.33698630136986,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2019,
+          "start": "2019-01-01",
+          "end_exclusive": "2020-01-01",
+          "events": 37494,
+          "exposure_days": 365,
+          "mean_daily_rate": 102.72328767123288,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2020,
+          "start": "2020-01-01",
+          "end_exclusive": "2021-01-01",
+          "events": 35863,
+          "exposure_days": 366,
+          "mean_daily_rate": 97.98633879781421,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2021,
+          "start": "2021-01-01",
+          "end_exclusive": "2022-01-01",
+          "events": 35535,
+          "exposure_days": 365,
+          "mean_daily_rate": 97.35616438356165,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2022,
+          "start": "2022-01-01",
+          "end_exclusive": "2023-01-01",
+          "events": 34935,
+          "exposure_days": 365,
+          "mean_daily_rate": 95.71232876712328,
+          "full_calendar_year": true
+        }
+      ],
+      "unit": "registered offense record, uid namespaced by source year",
+      "timestamp_notes": "source local naive time; no UTC conversion or random jitter; equal timestamps stay equal; recorded date can be estimated"
+    },
+    {
+      "source": "CODE:Memphis",
+      "start": "2018-01-01",
+      "end_exclusive": "2023-01-01",
+      "raw_rows": 470595,
+      "invalid_timestamps": 0,
+      "missing_identifiers": 0,
+      "outside_requested_range": 0,
+      "duplicate_identifiers_removed": 0,
+      "events": 470595,
+      "unique_timestamps": 249208,
+      "fraction_tied_records": 0.4704406124161965,
+      "fraction_midnight": 0.0229517950679459,
+      "source_files_sha256": {
+        "data\\raw\\expanded_20261110\\crime_open_database_core_2018.csv.gz": "3609ed686efd071f0f88f3a3a8245eedeeb45a1c045f9b130b130c3f36d8de68",
+        "data\\raw\\expanded_20261110\\crime_open_database_core_2019.csv.gz": "601896337e1568d81d43ef074afed316fe72b9b8158ce6cf58026fc0c8e9051b",
+        "data\\raw\\crime_open_database_core_2020.csv.gz": "c1cac6466fc80e8d09bf4fe247af4887aefeafb4b68d1d4743e21400fa484ad2",
+        "data\\raw\\crime_open_database_core_2021.csv.gz": "48233850d06577d7cbf9ef7fd747f548a08a4b80f64c3161c9e2bb5fe3797de2",
+        "data\\raw\\expanded_20261110\\crime_open_database_core_2022.csv.gz": "41293986b2546fe2adccf3dc51908410e6b7ae91455bc6d85279b5c27062eb71"
+      },
+      "output_sha256": "5af9db27009c6f293ad0607581732b78e39c22b320477b2e8a927fff65ecd079",
+      "events_npz_sha256": "a9e78d53b53cf0fe4d58ca5523e5b2621fc44057630eeb2cf421fa9454b753e0",
+      "missing_calendar_months": [],
+      "eligible_for_full_history": true,
+      "yearly": [
+        {
+          "year": 2018,
+          "start": "2018-01-01",
+          "end_exclusive": "2019-01-01",
+          "events": 96278,
+          "exposure_days": 365,
+          "mean_daily_rate": 263.7753424657534,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2019,
+          "start": "2019-01-01",
+          "end_exclusive": "2020-01-01",
+          "events": 92244,
+          "exposure_days": 365,
+          "mean_daily_rate": 252.72328767123287,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2020,
+          "start": "2020-01-01",
+          "end_exclusive": "2021-01-01",
+          "events": 89385,
+          "exposure_days": 366,
+          "mean_daily_rate": 244.22131147540983,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2021,
+          "start": "2021-01-01",
+          "end_exclusive": "2022-01-01",
+          "events": 88942,
+          "exposure_days": 365,
+          "mean_daily_rate": 243.6767123287671,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2022,
+          "start": "2022-01-01",
+          "end_exclusive": "2023-01-01",
+          "events": 103746,
+          "exposure_days": 365,
+          "mean_daily_rate": 284.23561643835615,
+          "full_calendar_year": true
+        }
+      ],
+      "unit": "registered offense record, uid namespaced by source year",
+      "timestamp_notes": "source local naive time; no UTC conversion or random jitter; equal timestamps stay equal; recorded date can be estimated"
+    },
+    {
+      "source": "CODE:Mesa",
+      "start": "2018-01-01",
+      "end_exclusive": "2023-01-01",
+      "raw_rows": 165061,
+      "invalid_timestamps": 0,
+      "missing_identifiers": 0,
+      "outside_requested_range": 0,
+      "duplicate_identifiers_removed": 0,
+      "events": 165061,
+      "unique_timestamps": 1826,
+      "fraction_tied_records": 0.9889374231344775,
+      "fraction_midnight": 1.0,
+      "source_files_sha256": {
+        "data\\raw\\expanded_20261110\\crime_open_database_core_2018.csv.gz": "3609ed686efd071f0f88f3a3a8245eedeeb45a1c045f9b130b130c3f36d8de68",
+        "data\\raw\\expanded_20261110\\crime_open_database_core_2019.csv.gz": "601896337e1568d81d43ef074afed316fe72b9b8158ce6cf58026fc0c8e9051b",
+        "data\\raw\\crime_open_database_core_2020.csv.gz": "c1cac6466fc80e8d09bf4fe247af4887aefeafb4b68d1d4743e21400fa484ad2",
+        "data\\raw\\crime_open_database_core_2021.csv.gz": "48233850d06577d7cbf9ef7fd747f548a08a4b80f64c3161c9e2bb5fe3797de2",
+        "data\\raw\\expanded_20261110\\crime_open_database_core_2022.csv.gz": "41293986b2546fe2adccf3dc51908410e6b7ae91455bc6d85279b5c27062eb71"
+      },
+      "output_sha256": "4e6f3f0e59e6ffe9b95bd4a438a2960ff71841d9bd1320065315816180a343a9",
+      "events_npz_sha256": "2374c51e963d70d48518b26272b2725ca00d4c0db6144b32d906a18be97e4e3d",
+      "missing_calendar_months": [],
+      "eligible_for_full_history": true,
+      "yearly": [
+        {
+          "year": 2018,
+          "start": "2018-01-01",
+          "end_exclusive": "2019-01-01",
+          "events": 29190,
+          "exposure_days": 365,
+          "mean_daily_rate": 79.97260273972603,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2019,
+          "start": "2019-01-01",
+          "end_exclusive": "2020-01-01",
+          "events": 29640,
+          "exposure_days": 365,
+          "mean_daily_rate": 81.20547945205479,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2020,
+          "start": "2020-01-01",
+          "end_exclusive": "2021-01-01",
+          "events": 36101,
+          "exposure_days": 366,
+          "mean_daily_rate": 98.63661202185793,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2021,
+          "start": "2021-01-01",
+          "end_exclusive": "2022-01-01",
+          "events": 32357,
+          "exposure_days": 365,
+          "mean_daily_rate": 88.64931506849315,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2022,
+          "start": "2022-01-01",
+          "end_exclusive": "2023-01-01",
+          "events": 37773,
+          "exposure_days": 365,
+          "mean_daily_rate": 103.4876712328767,
+          "full_calendar_year": true
+        }
+      ],
+      "unit": "registered offense record, uid namespaced by source year",
+      "timestamp_notes": "source local naive time; no UTC conversion or random jitter; equal timestamps stay equal; recorded date can be estimated"
+    },
+    {
+      "source": "CODE:Minneapolis",
+      "start": "2018-01-01",
+      "end_exclusive": "2023-01-01",
+      "raw_rows": 171571,
+      "invalid_timestamps": 0,
+      "missing_identifiers": 0,
+      "outside_requested_range": 0,
+      "duplicate_identifiers_removed": 0,
+      "events": 171571,
+      "unique_timestamps": 113151,
+      "fraction_tied_records": 0.3405004342225667,
+      "fraction_midnight": 0.05260795822137774,
+      "source_files_sha256": {
+        "data\\raw\\expanded_20261110\\crime_open_database_core_2018.csv.gz": "3609ed686efd071f0f88f3a3a8245eedeeb45a1c045f9b130b130c3f36d8de68",
+        "data\\raw\\expanded_20261110\\crime_open_database_core_2019.csv.gz": "601896337e1568d81d43ef074afed316fe72b9b8158ce6cf58026fc0c8e9051b",
+        "data\\raw\\crime_open_database_core_2020.csv.gz": "c1cac6466fc80e8d09bf4fe247af4887aefeafb4b68d1d4743e21400fa484ad2",
+        "data\\raw\\crime_open_database_core_2021.csv.gz": "48233850d06577d7cbf9ef7fd747f548a08a4b80f64c3161c9e2bb5fe3797de2",
+        "data\\raw\\expanded_20261110\\crime_open_database_core_2022.csv.gz": "41293986b2546fe2adccf3dc51908410e6b7ae91455bc6d85279b5c27062eb71"
+      },
+      "output_sha256": "797779ad136ec17b00566761b1a4a3e570020b25bb260ea77009500248bd405b",
+      "events_npz_sha256": "69818c1df36e5c06b3bdd8384fc90bc350d8a7fac71d12b27c904991aa10c64a",
+      "missing_calendar_months": [
+        "2018-01",
+        "2018-02",
+        "2018-03",
+        "2018-04",
+        "2018-05",
+        "2018-06",
+        "2018-07",
+        "2018-08",
+        "2018-09",
+        "2018-10",
+        "2018-11",
+        "2018-12"
+      ],
+      "eligible_for_full_history": false,
+      "yearly": [
+        {
+          "year": 2018,
+          "start": "2018-01-01",
+          "end_exclusive": "2019-01-01",
+          "events": 0,
+          "exposure_days": 365,
+          "mean_daily_rate": 0.0,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2019,
+          "start": "2019-01-01",
+          "end_exclusive": "2020-01-01",
+          "events": 42567,
+          "exposure_days": 365,
+          "mean_daily_rate": 116.62191780821918,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2020,
+          "start": "2020-01-01",
+          "end_exclusive": "2021-01-01",
+          "events": 43376,
+          "exposure_days": 366,
+          "mean_daily_rate": 118.51366120218579,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2021,
+          "start": "2021-01-01",
+          "end_exclusive": "2022-01-01",
+          "events": 40406,
+          "exposure_days": 365,
+          "mean_daily_rate": 110.7013698630137,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2022,
+          "start": "2022-01-01",
+          "end_exclusive": "2023-01-01",
+          "events": 45222,
+          "exposure_days": 365,
+          "mean_daily_rate": 123.8958904109589,
+          "full_calendar_year": true
+        }
+      ],
+      "unit": "registered offense record, uid namespaced by source year",
+      "timestamp_notes": "source local naive time; no UTC conversion or random jitter; equal timestamps stay equal; recorded date can be estimated"
+    },
+    {
+      "source": "CODE:Nashville",
+      "start": "2018-01-01",
+      "end_exclusive": "2023-01-01",
+      "raw_rows": 396248,
+      "invalid_timestamps": 0,
+      "missing_identifiers": 0,
+      "outside_requested_range": 0,
+      "duplicate_identifiers_removed": 0,
+      "events": 396248,
+      "unique_timestamps": 188051,
+      "fraction_tied_records": 0.5254209484969009,
+      "fraction_midnight": 0.025542084755001918,
+      "source_files_sha256": {
+        "data\\raw\\expanded_20261110\\crime_open_database_core_2018.csv.gz": "3609ed686efd071f0f88f3a3a8245eedeeb45a1c045f9b130b130c3f36d8de68",
+        "data\\raw\\expanded_20261110\\crime_open_database_core_2019.csv.gz": "601896337e1568d81d43ef074afed316fe72b9b8158ce6cf58026fc0c8e9051b",
+        "data\\raw\\crime_open_database_core_2020.csv.gz": "c1cac6466fc80e8d09bf4fe247af4887aefeafb4b68d1d4743e21400fa484ad2",
+        "data\\raw\\crime_open_database_core_2021.csv.gz": "48233850d06577d7cbf9ef7fd747f548a08a4b80f64c3161c9e2bb5fe3797de2",
+        "data\\raw\\expanded_20261110\\crime_open_database_core_2022.csv.gz": "41293986b2546fe2adccf3dc51908410e6b7ae91455bc6d85279b5c27062eb71"
+      },
+      "output_sha256": "227f5229e076be5308368498ddb5fa02a6c46fe5cce6d5a5972afb77412faf60",
+      "events_npz_sha256": "0dbbbc40e4ea32be90d83ae250e157585b3be4c44d8a12135ff5c53d0422d3a9",
+      "missing_calendar_months": [],
+      "eligible_for_full_history": true,
+      "yearly": [
+        {
+          "year": 2018,
+          "start": "2018-01-01",
+          "end_exclusive": "2019-01-01",
+          "events": 83025,
+          "exposure_days": 365,
+          "mean_daily_rate": 227.46575342465752,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2019,
+          "start": "2019-01-01",
+          "end_exclusive": "2020-01-01",
+          "events": 79669,
+          "exposure_days": 365,
+          "mean_daily_rate": 218.27123287671233,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2020,
+          "start": "2020-01-01",
+          "end_exclusive": "2021-01-01",
+          "events": 79190,
+          "exposure_days": 366,
+          "mean_daily_rate": 216.36612021857923,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2021,
+          "start": "2021-01-01",
+          "end_exclusive": "2022-01-01",
+          "events": 76113,
+          "exposure_days": 365,
+          "mean_daily_rate": 208.52876712328768,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2022,
+          "start": "2022-01-01",
+          "end_exclusive": "2023-01-01",
+          "events": 78251,
+          "exposure_days": 365,
+          "mean_daily_rate": 214.38630136986302,
+          "full_calendar_year": true
+        }
+      ],
+      "unit": "registered offense record, uid namespaced by source year",
+      "timestamp_notes": "source local naive time; no UTC conversion or random jitter; equal timestamps stay equal; recorded date can be estimated"
+    },
+    {
+      "source": "CODE:New York",
+      "start": "2018-01-01",
+      "end_exclusive": "2023-01-01",
+      "raw_rows": 2256708,
+      "invalid_timestamps": 0,
+      "missing_identifiers": 0,
+      "outside_requested_range": 0,
+      "duplicate_identifiers_removed": 0,
+      "events": 2256708,
+      "unique_timestamps": 1157302,
+      "fraction_tied_records": 0.487172465378773,
+      "fraction_midnight": 0.00628083030680088,
+      "source_files_sha256": {
+        "data\\raw\\expanded_20261110\\crime_open_database_core_2018.csv.gz": "3609ed686efd071f0f88f3a3a8245eedeeb45a1c045f9b130b130c3f36d8de68",
+        "data\\raw\\expanded_20261110\\crime_open_database_core_2019.csv.gz": "601896337e1568d81d43ef074afed316fe72b9b8158ce6cf58026fc0c8e9051b",
+        "data\\raw\\crime_open_database_core_2020.csv.gz": "c1cac6466fc80e8d09bf4fe247af4887aefeafb4b68d1d4743e21400fa484ad2",
+        "data\\raw\\crime_open_database_core_2021.csv.gz": "48233850d06577d7cbf9ef7fd747f548a08a4b80f64c3161c9e2bb5fe3797de2",
+        "data\\raw\\expanded_20261110\\crime_open_database_core_2022.csv.gz": "41293986b2546fe2adccf3dc51908410e6b7ae91455bc6d85279b5c27062eb71"
+      },
+      "output_sha256": "3eda57e35ca833c0c2bc339523ad08aa76b534c4d635db2843dda49161a86822",
+      "events_npz_sha256": "c8ef5dc34ccb9a3c01e6de06997d342da9436e964a3983b8e001f5627dd7d774",
+      "missing_calendar_months": [],
+      "eligible_for_full_history": true,
+      "yearly": [
+        {
+          "year": 2018,
+          "start": "2018-01-01",
+          "end_exclusive": "2019-01-01",
+          "events": 454888,
+          "exposure_days": 365,
+          "mean_daily_rate": 1246.268493150685,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2019,
+          "start": "2019-01-01",
+          "end_exclusive": "2020-01-01",
+          "events": 451189,
+          "exposure_days": 365,
+          "mean_daily_rate": 1236.1342465753426,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2020,
+          "start": "2020-01-01",
+          "end_exclusive": "2021-01-01",
+          "events": 405135,
+          "exposure_days": 366,
+          "mean_daily_rate": 1106.9262295081967,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2021,
+          "start": "2021-01-01",
+          "end_exclusive": "2022-01-01",
+          "events": 438932,
+          "exposure_days": 365,
+          "mean_daily_rate": 1202.5534246575342,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2022,
+          "start": "2022-01-01",
+          "end_exclusive": "2023-01-01",
+          "events": 506564,
+          "exposure_days": 365,
+          "mean_daily_rate": 1387.8465753424657,
+          "full_calendar_year": true
+        }
+      ],
+      "unit": "registered offense record, uid namespaced by source year",
+      "timestamp_notes": "source local naive time; no UTC conversion or random jitter; equal timestamps stay equal; recorded date can be estimated"
+    },
+    {
+      "source": "CODE:San Francisco",
+      "start": "2018-01-01",
+      "end_exclusive": "2023-01-01",
+      "raw_rows": 479824,
+      "invalid_timestamps": 0,
+      "missing_identifiers": 0,
+      "outside_requested_range": 0,
+      "duplicate_identifiers_removed": 0,
+      "events": 479824,
+      "unique_timestamps": 238396,
+      "fraction_tied_records": 0.503159491813665,
+      "fraction_midnight": 0.021053552969422122,
+      "source_files_sha256": {
+        "data\\raw\\expanded_20261110\\crime_open_database_core_2018.csv.gz": "3609ed686efd071f0f88f3a3a8245eedeeb45a1c045f9b130b130c3f36d8de68",
+        "data\\raw\\expanded_20261110\\crime_open_database_core_2019.csv.gz": "601896337e1568d81d43ef074afed316fe72b9b8158ce6cf58026fc0c8e9051b",
+        "data\\raw\\crime_open_database_core_2020.csv.gz": "c1cac6466fc80e8d09bf4fe247af4887aefeafb4b68d1d4743e21400fa484ad2",
+        "data\\raw\\crime_open_database_core_2021.csv.gz": "48233850d06577d7cbf9ef7fd747f548a08a4b80f64c3161c9e2bb5fe3797de2",
+        "data\\raw\\expanded_20261110\\crime_open_database_core_2022.csv.gz": "41293986b2546fe2adccf3dc51908410e6b7ae91455bc6d85279b5c27062eb71"
+      },
+      "output_sha256": "ba0d6851097cfc9b1c39a649f8ca3ca3214c3dc0c19d1b42c50baa99a398eaca",
+      "events_npz_sha256": "f2d6785bc7d0b63050431bda483942b1838e0b2e85b9ca992222db97a23f8a17",
+      "missing_calendar_months": [],
+      "eligible_for_full_history": true,
+      "yearly": [
+        {
+          "year": 2018,
+          "start": "2018-01-01",
+          "end_exclusive": "2019-01-01",
+          "events": 104867,
+          "exposure_days": 365,
+          "mean_daily_rate": 287.3068493150685,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2019,
+          "start": "2019-01-01",
+          "end_exclusive": "2020-01-01",
+          "events": 101858,
+          "exposure_days": 365,
+          "mean_daily_rate": 279.06301369863013,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2020,
+          "start": "2020-01-01",
+          "end_exclusive": "2021-01-01",
+          "events": 83434,
+          "exposure_days": 366,
+          "mean_daily_rate": 227.96174863387978,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2021,
+          "start": "2021-01-01",
+          "end_exclusive": "2022-01-01",
+          "events": 91940,
+          "exposure_days": 365,
+          "mean_daily_rate": 251.8904109589041,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2022,
+          "start": "2022-01-01",
+          "end_exclusive": "2023-01-01",
+          "events": 97725,
+          "exposure_days": 365,
+          "mean_daily_rate": 267.73972602739724,
+          "full_calendar_year": true
+        }
+      ],
+      "unit": "registered offense record, uid namespaced by source year",
+      "timestamp_notes": "source local naive time; no UTC conversion or random jitter; equal timestamps stay equal; recorded date can be estimated"
+    },
+    {
+      "source": "CODE:Seattle",
+      "start": "2018-01-01",
+      "end_exclusive": "2023-01-01",
+      "raw_rows": 346605,
+      "invalid_timestamps": 0,
+      "missing_identifiers": 0,
+      "outside_requested_range": 0,
+      "duplicate_identifiers_removed": 0,
+      "events": 346605,
+      "unique_timestamps": 268977,
+      "fraction_tied_records": 0.22396676331847487,
+      "fraction_midnight": 0.03382524776041892,
+      "source_files_sha256": {
+        "data\\raw\\expanded_20261110\\crime_open_database_core_2018.csv.gz": "3609ed686efd071f0f88f3a3a8245eedeeb45a1c045f9b130b130c3f36d8de68",
+        "data\\raw\\expanded_20261110\\crime_open_database_core_2019.csv.gz": "601896337e1568d81d43ef074afed316fe72b9b8158ce6cf58026fc0c8e9051b",
+        "data\\raw\\crime_open_database_core_2020.csv.gz": "c1cac6466fc80e8d09bf4fe247af4887aefeafb4b68d1d4743e21400fa484ad2",
+        "data\\raw\\crime_open_database_core_2021.csv.gz": "48233850d06577d7cbf9ef7fd747f548a08a4b80f64c3161c9e2bb5fe3797de2",
+        "data\\raw\\expanded_20261110\\crime_open_database_core_2022.csv.gz": "41293986b2546fe2adccf3dc51908410e6b7ae91455bc6d85279b5c27062eb71"
+      },
+      "output_sha256": "6269d91ae043431bd7f619355689edc5f5264994524507abbd7a7c30cb8504ef",
+      "events_npz_sha256": "59c2d43e61cfa213d29cd608e0292888c332cd7cfd952b824d92468233caa3f5",
+      "missing_calendar_months": [],
+      "eligible_for_full_history": true,
+      "yearly": [
+        {
+          "year": 2018,
+          "start": "2018-01-01",
+          "end_exclusive": "2019-01-01",
+          "events": 72486,
+          "exposure_days": 365,
+          "mean_daily_rate": 198.5917808219178,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2019,
+          "start": "2019-01-01",
+          "end_exclusive": "2020-01-01",
+          "events": 67362,
+          "exposure_days": 365,
+          "mean_daily_rate": 184.55342465753424,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2020,
+          "start": "2020-01-01",
+          "end_exclusive": "2021-01-01",
+          "events": 71602,
+          "exposure_days": 366,
+          "mean_daily_rate": 195.63387978142077,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2021,
+          "start": "2021-01-01",
+          "end_exclusive": "2022-01-01",
+          "events": 66188,
+          "exposure_days": 365,
+          "mean_daily_rate": 181.33698630136988,
+          "full_calendar_year": true
+        },
+        {
+          "year": 2022,
+          "start": "2022-01-01",
+          "end_exclusive": "2023-01-01",
+          "events": 68967,
+          "exposure_days": 365,
+          "mean_daily_rate": 188.95068493150686,
+          "full_calendar_year": true
+        }
+      ],
+      "unit": "registered offense record, uid namespaced by source year",
+      "timestamp_notes": "source local naive time; no UTC conversion or random jitter; equal timestamps stay equal; recorded date can be estimated"
+    }
+  ],
+  "raw_download_summary_sha256": "2b705e0c7078af6bf3c11f1968b45137d35c6957e48926bae5d44e08c217b879",
+  "code_latest_annual_file_at_discovery": 2022,
+  "city_period": "2019-01-01..2026-09-30",
+  "code_period": "2018-01-01..2022-12-31"
+}

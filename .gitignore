@@ -1,0 +1,53 @@
+# Local environments, caches and build outputs
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.nbc
+*.nbi
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.DS_Store
+.idea/
+.vscode/
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# Local logs; retain the final reproducible test receipt
+*.log
+!reproducibility/logs/final_tests_utf8.log
+
+# Public source data are downloaded separately, with manifests retained
+/data/**/*.csv
+/data/**/*.csv.gz
+/data/**/*.npz
+/data/**/*.partial
+
+# Large simulation caches are regenerated from the saved protocols
+/results/**/*.npz
+!/results/genealogical_clusters/clusters.npz
+!/results/indicators_final/counts.npz
+!/results/empirical_transfer/data/*.npz
+/runs/
+/.publication-review/
+
+# Large per-observation tables; summaries, operating metrics and models remain
+/results/**/trajectory_metrics.csv
+/results/**/trajectory_test_metrics.csv
+/results/**/estimation_windows.csv
+/results/**/replicates.csv
+/results/**/window_scores.csv
+
+# Files downloaded or generated only for exploratory CSV parsing
+/data/raw/test100.csv

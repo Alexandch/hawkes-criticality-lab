@@ -1,0 +1,24 @@
+{
+  "city": "nyc",
+  "host": "data.cityofnewyork.us",
+  "dataset": "5uac-w243",
+  "date": "cmplnt_fr_dt",
+  "id": "cmplnt_num",
+  "columns": "cmplnt_num,cmplnt_fr_dt,cmplnt_fr_tm",
+  "url": "https://data.cityofnewyork.us/resource/5uac-w243.csv?%24select=cmplnt_num%2Ccmplnt_fr_dt%2Ccmplnt_fr_tm&%24where=cmplnt_fr_dt+%3E%3D+%272026-01-01T00%3A00%3A00%27+AND+cmplnt_fr_dt+%3C+%272026-10-01T00%3A00%3A00%27&%24order=cmplnt_fr_dt%2Ccmplnt_num&%24limit=1000000",
+  "count_url": "https://data.cityofnewyork.us/resource/5uac-w243.json?%24select=count%28%2A%29+as+rows&%24where=cmplnt_fr_dt+%3E%3D+%272026-01-01T00%3A00%3A00%27+AND+cmplnt_fr_dt+%3C+%272026-10-01T00%3A00%3A00%27",
+  "columns_returned": [
+    "cmplnt_num",
+    "cmplnt_fr_dt",
+    "cmplnt_fr_tm"
+  ],
+  "start": "2026-01-01T00:00:00",
+  "end_exclusive": "2026-10-01T00:00:00",
+  "rows": 416073,
+  "count_before": 416073,
+  "count_after": 416073,
+  "downloaded_utc": "2026-11-10T15:23:36.724700+00:00",
+  "sha256": "5831d064fdbc827bb7f7ef65c027b90f14cbd66d8b1f2aa1d4d90663b06844b7",
+  "bytes": 2424936,
+  "notes": "registered incidents; one case may have multiple offense rows; local timestamps; deduplicate by case/report identifier during preparation"
+}

@@ -1,0 +1,47 @@
+{
+  "stage": "1_current_n_accuracy",
+  "ratios": [
+    0.0,
+    0.5,
+    0.8,
+    0.9,
+    0.95
+  ],
+  "target_rates": [
+    0.2,
+    2.0,
+    20.0,
+    50.0
+  ],
+  "windows_days": [
+    30,
+    90,
+    180,
+    360
+  ],
+  "replicates_per_parameter_pair": 500,
+  "independent_trajectories": 10000,
+  "window_fits": 40000,
+  "seed": 20261114,
+  "decay_per_day": 1.0,
+  "decay_known_to_estimator": true,
+  "baseline_known_to_estimator": false,
+  "baseline_design": "mu=target_rate*(1-true_n), so stationary expected rate is target_rate",
+  "history_days": 30,
+  "burn_in_relaxation_times": 8.0,
+  "burn_in_formula": "burn_in_times/(decay*(1-n))",
+  "nested_windows_share_trajectory": true,
+  "unique_uint32_simulator_seeds": true,
+  "failed_fits_are_not_zero_estimates": true,
+  "auc_bootstrap_samples": 500,
+  "workers": 2,
+  "estimator": "existing fixed-decay conditional window MLE; mu and n estimated jointly",
+  "n_parameter_bounds": [
+    0.0,
+    0.995
+  ],
+  "curvature_se_is_not_a_calibrated_confidence_interval": true,
+  "python_version": "3.14.7",
+  "numpy_version": "2.5.3",
+  "replicates_sha256": "9825fb871cd7d70b347ec4c0bf7b0c34c2edc8837735e8ca6100c9222a2d16f3"
+}

@@ -1,0 +1,23 @@
+{
+  "city": "san_francisco",
+  "host": "data.sfgov.org",
+  "dataset": "wg3w-h783",
+  "date": "incident_datetime",
+  "id": "incident_id",
+  "columns": "incident_id,incident_datetime",
+  "url": "https://data.sfgov.org/resource/wg3w-h783.csv?%24select=incident_id%2Cincident_datetime&%24where=incident_datetime+%3E%3D+%272026-01-01T00%3A00%3A00%27+AND+incident_datetime+%3C+%272026-10-01T00%3A00%3A00%27&%24order=incident_datetime%2Cincident_id&%24limit=1000000",
+  "count_url": "https://data.sfgov.org/resource/wg3w-h783.json?%24select=count%28%2A%29+as+rows&%24where=incident_datetime+%3E%3D+%272026-01-01T00%3A00%3A00%27+AND+incident_datetime+%3C+%272026-10-01T00%3A00%3A00%27",
+  "columns_returned": [
+    "incident_id",
+    "incident_datetime"
+  ],
+  "start": "2026-01-01T00:00:00",
+  "end_exclusive": "2026-10-01T00:00:00",
+  "rows": 71356,
+  "count_before": 71356,
+  "count_after": 71356,
+  "downloaded_utc": "2026-11-10T15:24:11.814529+00:00",
+  "sha256": "850445a127da1e01c3bdb4b4978ce0505bf1d46c79e558cad1e9e6c7b0c42c2a",
+  "bytes": 322970,
+  "notes": "registered incidents; one case may have multiple offense rows; local timestamps; deduplicate by case/report identifier during preparation"
+}

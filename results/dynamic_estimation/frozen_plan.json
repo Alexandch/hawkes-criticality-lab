@@ -1,0 +1,129 @@
+{
+  "protocol_sha256": "622761e8a2bb50ad023283e32b4ded36622f36adc423e8224f6fe7feda36d96e",
+  "pretest_dataset_sha256": {
+    "train": "fa4cb09fcdc730310b2292d2b98bb017ee7945ed53032de50ae005ebfae0cc5d",
+    "validation": "c872eea821123395337b122bb7c776131f758a79b12954bf2e8eda5328171dc0",
+    "calibration": "443f734d3db7a805118638c179f0138f6b7cdf4aa14114b16d5439e238ecdfa2"
+  },
+  "selected_filter": {
+    "method": "dynamic_calendar",
+    "macro_mae": 0.08174273473556327,
+    "maximum_family_mae": 0.1128935117003572,
+    "near_high_mae": 0.08614578069231717,
+    "mean_capped_abrupt_delay_days": 276.0,
+    "valid_fraction": 0.997897435897436,
+    "q": 0.1,
+    "damping": 0.9
+  },
+  "validation_baseline": {
+    "method": "calendar90",
+    "macro_mae": 0.08726835459273043,
+    "maximum_family_mae": 0.12243260054198203,
+    "near_high_mae": 0.09895597387828511,
+    "mean_capped_abrupt_delay_days": 188.4,
+    "valid_fraction": 0.9850769230769231
+  },
+  "validation_gate": {
+    "passed": true,
+    "checks": {
+      "near_high_mae_improves_at_least_5pct": true,
+      "macro_mae_no_more_than_5pct_worse": true,
+      "maximum_family_mae_no_more_than_002_worse": true,
+      "mean_capped_abrupt_delay_no_more_than_one_stage_worse": true
+    },
+    "decision_source": "validation only, before holdout generation"
+  },
+  "noise_sha256": "794d6747ce78ba21978cb0ca6f449fd568cad3bf15a68382fb0f263b0399568c",
+  "thresholds": {
+    "state__stat_constant90__family_confident": 0.9950000000000001,
+    "state__stat_constant90__family_nominal_sensitivity": 0.9901209220642793,
+    "state__stat_calendar90__family_confident": 0.9950000000000001,
+    "state__stat_calendar90__family_nominal_sensitivity": 0.9931170794394609,
+    "state__stat_calendar360__family_confident": 0.9900662488369891,
+    "state__stat_calendar360__family_nominal_sensitivity": 0.9833409474584873,
+    "state__stat_dynamic_calendar__family_confident": 0.9950000000000001,
+    "state__stat_dynamic_calendar__family_nominal_sensitivity": 0.9752642365719613,
+    "state__mlp_calendar90_s61__family_confident": 0.9954742789268495,
+    "state__mlp_calendar90_s61__family_nominal_sensitivity": 0.9920411705970765,
+    "state__mlp_calendar90_s73__family_confident": 0.99712473154068,
+    "state__mlp_calendar90_s73__family_nominal_sensitivity": 0.987796723842621,
+    "state__mlp_calendar90_s89__family_confident": 0.9938606023788453,
+    "state__mlp_calendar90_s89__family_nominal_sensitivity": 0.985697627067566,
+    "state__mlp_calendar90_ensemble__family_confident": 0.9950462579727174,
+    "state__mlp_calendar90_ensemble__family_nominal_sensitivity": 0.9886999726295472,
+    "state__mlp_dynamic_calendar_s61__family_confident": 0.9998817443847657,
+    "state__mlp_dynamic_calendar_s61__family_nominal_sensitivity": 0.9286732673645021,
+    "state__mlp_dynamic_calendar_s73__family_confident": 0.9999995231628419,
+    "state__mlp_dynamic_calendar_s73__family_nominal_sensitivity": 0.9409103393554689,
+    "state__mlp_dynamic_calendar_s89__family_confident": 0.9988547563552858,
+    "state__mlp_dynamic_calendar_s89__family_nominal_sensitivity": 0.938706398010254,
+    "state__mlp_dynamic_calendar_ensemble__family_confident": 0.9979178905487062,
+    "state__mlp_dynamic_calendar_ensemble__family_nominal_sensitivity": 0.9354893763860068,
+    "warning__stat_constant90__family_confident": 0.665551839464883,
+    "warning__stat_constant90__family_nominal_sensitivity": 0.6623197864213799,
+    "warning__stat_calendar90__family_confident": 0.665551839464883,
+    "warning__stat_calendar90__family_nominal_sensitivity": 0.6618745792085758,
+    "warning__stat_calendar360__family_confident": 0.6600551966556351,
+    "warning__stat_calendar360__family_nominal_sensitivity": 0.6544983322362081,
+    "warning__stat_dynamic_calendar__family_confident": 0.6018886321759341,
+    "warning__stat_dynamic_calendar__family_nominal_sensitivity": 0.5527662174981243,
+    "warning__mlp_calendar90_s61__family_confident": 0.8726717829704286,
+    "warning__mlp_calendar90_s61__family_nominal_sensitivity": 0.8592767715454103,
+    "warning__mlp_calendar90_s73__family_confident": 0.8773835301399232,
+    "warning__mlp_calendar90_s73__family_nominal_sensitivity": 0.8552165627479554,
+    "warning__mlp_calendar90_s89__family_confident": 0.9982028007507325,
+    "warning__mlp_calendar90_s89__family_nominal_sensitivity": 0.8753125667572023,
+    "warning__mlp_calendar90_ensemble__family_confident": 0.8558631141980491,
+    "warning__mlp_calendar90_ensemble__family_nominal_sensitivity": 0.8520443042119346,
+    "warning__mlp_dynamic_calendar_s61__family_confident": 0.9012622833251954,
+    "warning__mlp_dynamic_calendar_s61__family_nominal_sensitivity": 0.8786165118217469,
+    "warning__mlp_dynamic_calendar_s73__family_confident": 0.8941590785980226,
+    "warning__mlp_dynamic_calendar_s73__family_nominal_sensitivity": 0.8879128098487855,
+    "warning__mlp_dynamic_calendar_s89__family_confident": 0.8539894819259645,
+    "warning__mlp_dynamic_calendar_s89__family_nominal_sensitivity": 0.8492802977561952,
+    "warning__mlp_dynamic_calendar_ensemble__family_confident": 0.8760980367660524,
+    "warning__mlp_dynamic_calendar_ensemble__family_nominal_sensitivity": 0.869139850139618
+  },
+  "interval_multipliers": {
+    "constant90": {
+      "n": 19.76450612703606,
+      "n_full_domain": false,
+      "slope": 6.3984531101197595,
+      "slope_full_domain": false
+    },
+    "calendar90": {
+      "n": 19.76532805321461,
+      "n_full_domain": false,
+      "slope": 6.366414873979511,
+      "slope_full_domain": false
+    },
+    "calendar360": {
+      "n": 19.666818949169745,
+      "n_full_domain": false,
+      "slope": 6.366414873979511,
+      "slope_full_domain": false
+    },
+    "dynamic_calendar": {
+      "n": 5.572775628901984,
+      "n_full_domain": false,
+      "slope": 2.877855493656031,
+      "slope_full_domain": false
+    }
+  },
+  "model_sha256": {
+    "models/state_calendar90_s61.pt": "eb66401a0146ae26f73443a8c77955b89c97cc897732fa6a5fd2ff2a5f3aeec7",
+    "models/state_calendar90_s73.pt": "136553c0b81d26f4987379e90a03b07b561f1c4e65ed9beab794cb44284dc185",
+    "models/state_calendar90_s89.pt": "13a096dc226ac2b094fbb419ba681ec0da5a872b08a619a6c539bbb577063bad",
+    "models/state_dynamic_calendar_s61.pt": "177beb919d95905d21be90aec2e050db8eb5b8beec0c256ea2bee39ebbbfe77d",
+    "models/state_dynamic_calendar_s73.pt": "20604b803e452c59c80bee8b5c5dc2c8b7058e882ad1d5965b0fe4f26fc88937",
+    "models/state_dynamic_calendar_s89.pt": "d314885635eaf3cbc2b16da3fce2be313f11d60e668cabd79f13b4a44c668622",
+    "models/warning_calendar90_s61.pt": "c8f032217d32c05da400f9b6c438b5f6017d8e716e41d8a2ef94adff6d7ca8aa",
+    "models/warning_calendar90_s73.pt": "49306dfe4549d2c5b2ce6311fc90fdfb27c3fc92edb36d12fdace7329df81538",
+    "models/warning_calendar90_s89.pt": "529143ec2bb0456789d0a35513a22a8e10572693ed1419b8fda7cf38042b49d0",
+    "models/warning_dynamic_calendar_s61.pt": "91eab678137a6bc22199a3c7498fede99a3541642885797f6e4a72e69d25c356",
+    "models/warning_dynamic_calendar_s73.pt": "95986cdb79660166d1096ead7c813d3ec68d0c59d8fc862e29c83a8b29bd0367",
+    "models/warning_dynamic_calendar_s89.pt": "d5a68d27e85c5021eb8919ec94dd53beed4491327cbf32ffc98b98473e1f714f"
+  },
+  "calibration_scores_sha256": "b86bdb29fd97d64d9bd28d87566f2b3116dbedf2b343fb2e51f3a91cef8f43d3",
+  "holdout_used_for_selection": false
+}

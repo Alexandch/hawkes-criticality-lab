@@ -1,0 +1,78 @@
+{
+  "source": "CODE:Chicago",
+  "start": "2018-01-01",
+  "end_exclusive": "2023-01-01",
+  "raw_rows": 1090454,
+  "invalid_timestamps": 0,
+  "missing_identifiers": 0,
+  "outside_requested_range": 0,
+  "duplicate_identifiers_removed": 0,
+  "events": 1090454,
+  "unique_timestamps": 538534,
+  "fraction_tied_records": 0.5061378104899428,
+  "fraction_midnight": 0.02309680188251866,
+  "source_files_sha256": {
+    "data\\raw\\expanded_20261110\\crime_open_database_core_2018.csv.gz": "3609ed686efd071f0f88f3a3a8245eedeeb45a1c045f9b130b130c3f36d8de68",
+    "data\\raw\\expanded_20261110\\crime_open_database_core_2019.csv.gz": "601896337e1568d81d43ef074afed316fe72b9b8158ce6cf58026fc0c8e9051b",
+    "data\\raw\\crime_open_database_core_2020.csv.gz": "c1cac6466fc80e8d09bf4fe247af4887aefeafb4b68d1d4743e21400fa484ad2",
+    "data\\raw\\crime_open_database_core_2021.csv.gz": "48233850d06577d7cbf9ef7fd747f548a08a4b80f64c3161c9e2bb5fe3797de2",
+    "data\\raw\\expanded_20261110\\crime_open_database_core_2022.csv.gz": "41293986b2546fe2adccf3dc51908410e6b7ae91455bc6d85279b5c27062eb71"
+  },
+  "output_sha256": "04ba024276c063ffd821e37b332bfe0684dfc9cb8b0cb6f433833ce427322a90",
+  "events_npz_sha256": "db28e5c373cd3dd139b4d7ef209d582fd994becd5792580637e6fab16a607ae0",
+  "missing_calendar_months": [
+    "2022-10",
+    "2022-11",
+    "2022-12"
+  ],
+  "eligible_for_full_history": false,
+  "yearly": [
+    {
+      "year": 2018,
+      "start": "2018-01-01",
+      "end_exclusive": "2019-01-01",
+      "events": 262742,
+      "exposure_days": 365,
+      "mean_daily_rate": 719.841095890411,
+      "full_calendar_year": true
+    },
+    {
+      "year": 2019,
+      "start": "2019-01-01",
+      "end_exclusive": "2020-01-01",
+      "events": 258546,
+      "exposure_days": 365,
+      "mean_daily_rate": 708.345205479452,
+      "full_calendar_year": true
+    },
+    {
+      "year": 2020,
+      "start": "2020-01-01",
+      "end_exclusive": "2021-01-01",
+      "events": 207853,
+      "exposure_days": 366,
+      "mean_daily_rate": 567.9043715846994,
+      "full_calendar_year": true
+    },
+    {
+      "year": 2021,
+      "start": "2021-01-01",
+      "end_exclusive": "2022-01-01",
+      "events": 202312,
+      "exposure_days": 365,
+      "mean_daily_rate": 554.2794520547945,
+      "full_calendar_year": true
+    },
+    {
+      "year": 2022,
+      "start": "2022-01-01",
+      "end_exclusive": "2023-01-01",
+      "events": 159001,
+      "exposure_days": 365,
+      "mean_daily_rate": 435.6191780821918,
+      "full_calendar_year": true
+    }
+  ],
+  "unit": "registered offense record, uid namespaced by source year",
+  "timestamp_notes": "source local naive time; no UTC conversion or random jitter; equal timestamps stay equal; recorded date can be estimated"
+}

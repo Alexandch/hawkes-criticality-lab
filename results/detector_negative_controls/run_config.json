@@ -1,0 +1,39 @@
+{
+  "model_path": "results\\neural_detector_90d_multirate_500.pt",
+  "model_sha256": "e7951c5eb865343174a89bbc8bc5396f1fd5bd8c01b5b98309d6449934848fd4",
+  "model_config": {
+    "lookback": 3,
+    "stage_horizon": 90.0,
+    "threshold": 0.5049999999999999,
+    "critical_level": 0.9,
+    "forecast_stages": 2,
+    "rate_min": 0.2,
+    "rate_max": 50.0,
+    "feature_transform_version": 1
+  },
+  "model_retrained": false,
+  "threshold_recalibrated": false,
+  "rates": [
+    2.0,
+    20.0,
+    50.0,
+    680.0,
+    1560.0
+  ],
+  "replicates_per_scenario_and_rate": 300,
+  "stages": 12,
+  "horizon_days": 1080,
+  "seed": 20261110,
+  "bootstrap_samples": 1000,
+  "daily_aggregation": "independent Poisson counts with exact daily intensity integrals",
+  "intraday_homogeneous_pairing": "identical daily counts and scores by design; do not pool these controls",
+  "rate_profiles": {
+    "intraday": "q(h) = 1 + 0.8*cos(2*pi*(h+0.5)/24); daily integral unchanged",
+    "seasonal": "weekly amplitude 0.45, annual amplitude 0.60, random phases",
+    "trend": "geometric growth from 0.5 to 2.0, normalized to requested time-average rate",
+    "step": "4-fold change at a random point between 35% and 65% of the horizon"
+  },
+  "python_version": "3.14.7",
+  "numpy_version": "2.5.3",
+  "pandas_version": "3.0.6"
+}

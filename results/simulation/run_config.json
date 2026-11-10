@@ -1,0 +1,9 @@
+{
+  "command": "simulate",
+  "out": "results/simulation",
+  "replicates": 30,
+  "horizon": 365.0,
+  "rate": 2.0,
+  "decay": 1.0,
+  "seed": 42
+}

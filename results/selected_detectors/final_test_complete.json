@@ -1,0 +1,8 @@
+{
+  "completed_at_utc": "2026-11-10T12:47:04.543448+00:00",
+  "frozen_plan_sha256": "e0db063e4bd0cace893b94822e3e0f86d18c565af4eebbb83937ad3e8a9740ff",
+  "test_sha256": "42ca163d6d7db6a6ece414a817b9565e452bd62cee03a59b02b4374d3a931199",
+  "test_scores_sha256": "fe5835359f8c3600ab807ce002bad037b9f0ea05f2a56352154ded7cb601ef2d",
+  "metrics_sha256": "78ba8c2cce984bd42f2a18ee1c105824b18be9d6fd299d2c81a6eaae18397292",
+  "test_metrics_sha256": "0014de3b7f289df74ca54f6ee30f0710d0b06f3742badd3e12713eccd0215bd0"
+}

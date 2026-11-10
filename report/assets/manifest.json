@@ -1,0 +1,79 @@
+{
+  "assets": [
+    {
+      "source": "results/simulation_v2/indicators.png",
+      "copy": "report/assets/pilot_indicators.png",
+      "sha256": "8efce4d67f45d4e561bf7febdc9411e6551e8a27a13122eb5b17717937c0cc9c"
+    },
+    {
+      "source": "results/n_estimation_accuracy/mae_map.png",
+      "copy": "report/assets/n_accuracy_mae.png",
+      "sha256": "58b9587740e9da4e320e31a8ac8be02959f41d52a8bda9a3dacecbfa408c61e6"
+    },
+    {
+      "source": "results/n_estimation_accuracy/auc_map.png",
+      "copy": "report/assets/n_accuracy_auc.png",
+      "sha256": "40e81305b3625385d4689a3f4de07d1e522866f2ee51ed2f66b2f9956d7a184a"
+    },
+    {
+      "source": "results/background_comparison/n_background_comparison.png",
+      "copy": "report/assets/background_comparison.png",
+      "sha256": "7732fe959528f4c3f33630b011e3afe98743254272ef3e409cce0f99ab116eb9"
+    },
+    {
+      "source": "results/state_warning_audit/target_timeline.png",
+      "copy": "report/assets/target_timeline.png",
+      "sha256": "30da4b8364aed985500ce559345b7eab60fdd1dd745cf818fd51c2269a8c867b"
+    },
+    {
+      "source": "results/selected_detectors/final_comparison.png",
+      "copy": "report/assets/final_detector_comparison.png",
+      "sha256": "3bb635168b6f27beb6922570744fb5853657ee7129566c39a576de771c603c77"
+    },
+    {
+      "source": "results/sensitivity_diagnostics/threshold_tradeoff.png",
+      "copy": "report/assets/threshold_tradeoff.png",
+      "sha256": "cf44acb1496e29d054fc89137380a12599accc8650bb43e06cf219a4925eef4d"
+    },
+    {
+      "source": "results/sensitivity_diagnostics/n_overlap.png",
+      "copy": "report/assets/n_overlap.png",
+      "sha256": "93d732340c0901d0075833306c52a498aaa74564b027bc6c102ba55a53d23086"
+    },
+    {
+      "source": "results/intraday_comparison/intraday_comparison.png",
+      "copy": "report/assets/city_background_comparison.png",
+      "sha256": "f7608029180a0c674273dbe30dfde53d177b75bf9e1154bb9c3dd3ecb1edc299"
+    },
+    {
+      "source": "results/indicators_final/indicators.png",
+      "copy": "report/assets/final_indicators.png",
+      "sha256": "fab11753ec2f3f50f81e18f034d38a73f6b560227e41077922be5e9a1f5a6ccd"
+    },
+    {
+      "source": "results/dynamic_estimation/estimation_comparison.png",
+      "copy": "report/assets/dynamic_estimation.png",
+      "sha256": "1971d996b153956b0d34ae135a0468242735b3db10e41ae1de45d14948c63cf5"
+    },
+    {
+      "source": "results/dynamic_estimation/causal_examples.png",
+      "copy": "report/assets/dynamic_examples.png",
+      "sha256": "12e3d69abc6d2985253ca5bfa1bca9f8aabf1d0e197c6607fb4ce2a00ab3df03"
+    },
+    {
+      "source": "results/genealogical_clusters/genealogy.png",
+      "copy": "report/assets/genealogical_clusters.png",
+      "sha256": "00414f80dc7512baed43d58f8f6e9a5d98d9b72348c2cb71c5c29f5c7699470d"
+    },
+    {
+      "source": "results/project_completion/extended_detector_comparison.png",
+      "copy": "report/assets/extended_detector_comparison.png",
+      "sha256": "6aa166e0a6647496c52abdce3d48d701f856dbaeceddbcdecda3738c99456fc7"
+    },
+    {
+      "source": "results/project_completion/fresh_city_scores.png",
+      "copy": "report/assets/fresh_city_scores.png",
+      "sha256": "00ce05630ab80370ff8b6f698e3b819417cb15b0253a81aa1fb8e68eb89253e4"
+    }
+  ]
+}

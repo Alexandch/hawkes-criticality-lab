@@ -1,0 +1,47 @@
+{
+  "protocol_sha256": "d9210870618f404a37d103d1483e9a5e28293419462e90aa1374e4dd086cdfe3",
+  "new_dataset_sha256": {
+    "train": "badb506fcd9584c5e42a51976610cadeeee97d370131b862f9234a1812d81b90",
+    "validation": "6cc02ed835b4452df1f6491d077b27b88b8895365a34da36c2e4b398e11d8354",
+    "calibration": "20820984d64936ac2096819260f7f471a06b25cee4ed7d10767f5b469d886e67"
+  },
+  "source_train_sha256": {
+    "D:\\Проект ИиСМ\\results\\selected_detectors\\data\\train.npz": "d09aa32f839c0e018235841cfb2b6b3ff58fff7bf1b4f87e90a5245390b3da32",
+    "D:\\Проект ИиСМ\\results\\sensitivity_diagnostics\\data\\train.npz": "94ebe50c254c5fc8f9bc0162db881280e08024b0a632aeda845937a8d9494a4e",
+    "D:\\Проект ИиСМ\\results\\dynamic_estimation\\data\\train.npz": "fa4cb09fcdc730310b2292d2b98bb017ee7945ed53032de50ae005ebfae0cc5d"
+  },
+  "training_trajectories": 7800,
+  "training_features_sha256": "7aeff094a0197f404bceb7da589576ec7a4b79973d8693963f8eec6b9657ade8",
+  "thresholds": {
+    "state__s101__family_confident": 0.9960780739784242,
+    "state__s101__family_nominal_sensitivity": 0.9896548986434938,
+    "state__s113__family_confident": 0.9953826069831849,
+    "state__s113__family_nominal_sensitivity": 0.9896414875984193,
+    "state__s127__family_confident": 0.9980144500732423,
+    "state__s127__family_nominal_sensitivity": 0.9902263879776002,
+    "state__ensemble__family_confident": 0.9959572752316794,
+    "state__ensemble__family_nominal_sensitivity": 0.989888886610667,
+    "warning__s101__family_confident": 0.9323741793632508,
+    "warning__s101__family_nominal_sensitivity": 0.9189945459365846,
+    "warning__s113__family_confident": 0.9229787588119508,
+    "warning__s113__family_nominal_sensitivity": 0.9056982398033143,
+    "warning__s127__family_confident": 0.9290552735328675,
+    "warning__s127__family_nominal_sensitivity": 0.9204601645469667,
+    "warning__ensemble__family_confident": 0.9278703530629477,
+    "warning__ensemble__family_nominal_sensitivity": 0.9121089378992717,
+    "aux_n_state__s101__family_confident": 0.9967254400253297,
+    "aux_n_state__s101__family_nominal_sensitivity": 0.9909601211547853,
+    "aux_n_state__s113__family_confident": 0.997925639152527,
+    "aux_n_state__s113__family_nominal_sensitivity": 0.9912938475608827,
+    "aux_n_state__s127__family_confident": 0.9982627034187318,
+    "aux_n_state__s127__family_nominal_sensitivity": 0.9889857769012452,
+    "aux_n_state__ensemble__family_confident": 0.9969967007637025,
+    "aux_n_state__ensemble__family_nominal_sensitivity": 0.991071124871572
+  },
+  "model_sha256": {
+    "models/multitask_s101.pt": "1a00571d375fa4f9cd31cbc14f56228d10f875637d55e4dccf5fccf71e99bf87",
+    "models/multitask_s113.pt": "504962728d74b9ea1e83574893fd59a41086b52281b24707f65f682169f10d02",
+    "models/multitask_s127.pt": "74372a0e0f2407cfb6da92ef2f9ea049b307daee50d641f22e3ddf6af0cbcd71"
+  },
+  "test_used_for_selection": false
+}

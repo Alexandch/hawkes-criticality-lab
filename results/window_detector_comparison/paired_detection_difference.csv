@@ -1,0 +1,3 @@
+model,reference,trajectories,detection_probability_difference,paired_bootstrap_ci95_lower,paired_bootstrap_ci95_upper
+hawkes_mlp,count_mlp,200,0.04,0.0,0.08
+hawkes_trend,count_mlp,200,-0.025,-0.045,-0.005

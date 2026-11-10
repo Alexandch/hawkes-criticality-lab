@@ -1,0 +1,52 @@
+{
+  "baseline": {
+    "threshold": 0.5049999999999999,
+    "eligible_windows": 17000,
+    "true_positive": 110,
+    "false_positive": 1664,
+    "false_negative": 290,
+    "true_negative": 14936,
+    "window_sensitivity": 0.275,
+    "window_false_alarm_rate": 0.10024096385542168,
+    "precision": 0.06200676437429538,
+    "crossing_trajectories": 200,
+    "detected_trajectories": 84,
+    "event_detection_probability": 0.42,
+    "event_detection_ci95": [
+      0.35373599161616726,
+      0.4892792606041954
+    ],
+    "clean_event_detection_probability": 0.37,
+    "clean_detection_ci95": [
+      0.30612608409859116,
+      0.4387737007594981
+    ],
+    "median_lead_days_among_detected": 90.0,
+    "maximum_family_false_alarm_probability": 0.875
+  },
+  "robust": {
+    "threshold": 0.971766233444214,
+    "eligible_windows": 17000,
+    "true_positive": 7,
+    "false_positive": 29,
+    "false_negative": 393,
+    "true_negative": 16571,
+    "window_sensitivity": 0.0175,
+    "window_false_alarm_rate": 0.001746987951807229,
+    "precision": 0.19444444444444445,
+    "crossing_trajectories": 200,
+    "detected_trajectories": 7,
+    "event_detection_probability": 0.035,
+    "event_detection_ci95": [
+      0.017055542008567192,
+      0.07047061152229073
+    ],
+    "clean_event_detection_probability": 0.03,
+    "clean_detection_ci95": [
+      0.013820314340111346,
+      0.06389429245451925
+    ],
+    "median_lead_days_among_detected": 90.0,
+    "maximum_family_false_alarm_probability": 0.075
+  }
+}

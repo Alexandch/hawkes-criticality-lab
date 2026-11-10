@@ -1,0 +1,17 @@
+{
+  "command": "analyze-code",
+  "input": "data/raw/chicago_crimes_2024_2025.csv",
+  "date_column": "date",
+  "city_column": null,
+  "city": null,
+  "id_column": "case_number",
+  "category_column": null,
+  "category": null,
+  "start": "2024-01-01",
+  "end": "2026-01-01",
+  "window": 30,
+  "split_date": "2025-01-01",
+  "hour_of_day": true,
+  "quarterly": true,
+  "out": "results/chicago_2024_2025_hourly"
+}

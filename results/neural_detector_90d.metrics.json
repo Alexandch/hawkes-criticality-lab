@@ -1,0 +1,32 @@
+{
+  "seed": 42,
+  "trajectories": 120,
+  "stages": 12,
+  "lookback": 3,
+  "epochs": 80,
+  "stage_horizon": 90.0,
+  "forecast_stages": 2,
+  "critical_level": 0.9,
+  "training_windows": 840,
+  "validation_windows": 180,
+  "test_windows": 180.0,
+  "test_fixed_0_5": {
+    "threshold": 0.5,
+    "sensitivity": 0.8611111111111112,
+    "specificity": 0.6944444444444444,
+    "false_alarm_rate": 0.3055555555555556,
+    "precision": 0.41333333333333333,
+    "f1": 0.5585585585585585
+  },
+  "test_calibrated": {
+    "threshold": 0.615,
+    "sensitivity": 0.8055555555555556,
+    "specificity": 0.7638888888888888,
+    "false_alarm_rate": 0.23611111111111116,
+    "precision": 0.4603174603174603,
+    "f1": 0.5858585858585859
+  },
+  "validation_calibrated_threshold": 0.615,
+  "test_trajectories": 18.0,
+  "test_positive_fraction": 0.2
+}

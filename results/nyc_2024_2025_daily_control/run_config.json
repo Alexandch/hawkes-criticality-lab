@@ -1,0 +1,17 @@
+{
+  "command": "analyze-code",
+  "input": "data/processed/nypd_2024_2025_verified.csv",
+  "date_column": "date",
+  "city_column": null,
+  "city": null,
+  "id_column": null,
+  "category_column": null,
+  "category": null,
+  "start": "2024-01-01",
+  "end": "2026-01-01",
+  "window": 30,
+  "split_date": "2025-01-01",
+  "hour_of_day": false,
+  "quarterly": true,
+  "out": "results/nyc_2024_2025_daily_control"
+}

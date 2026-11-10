@@ -1,0 +1,46 @@
+{
+  "stages": 12,
+  "stage_days": 90,
+  "lookback": 3,
+  "forecast_stages": 2,
+  "critical_level": 0.9,
+  "rate_min": 0.2,
+  "rate_max": 50.0,
+  "seed": 20261111,
+  "epochs": 200,
+  "train_per_family": 300,
+  "calibration_per_family": 200,
+  "test_per_family": 200,
+  "families": [
+    "hawkes_rising",
+    "hawkes_stable",
+    "hawkes_subthreshold",
+    "homogeneous",
+    "seasonal",
+    "trend",
+    "step_up",
+    "step_down",
+    "seasonal_trend"
+  ],
+  "target_false_alarm_probability_per_trajectory_per_family": 0.05,
+  "threshold_rule": "maximum family quantile of trajectory negative maxima, rank ceil((m+1)*(1-alpha)), strict exceedance",
+  "baseline_model": "results/neural_detector_90d_multirate_500.pt",
+  "baseline_sha256": "e7951c5eb865343174a89bbc8bc5396f1fd5bd8c01b5b98309d6449934848fd4",
+  "model_sha256": "0cfdb10f5616745fc5f0967db368da2d1c9f0614e0eb714e55459eba3522191a",
+  "dataset_sha256": {
+    "train": "ee3c04fe8b66ded4931ea5b033944963eb82ff901106d425e1b8e05466bff70a",
+    "calibration": "748b83e9bfe81d69393f1b45edea2d4e4af39fb65a0a8767f1dd52b79bc69777",
+    "test": "f82ded7a094106ef544190889f6304e43f9cac4a7a9d5c561c26f98ff909870c"
+  },
+  "partition_seed_indices": {
+    "train": 0,
+    "calibration": 1,
+    "test": 2
+  },
+  "feature_transform_version": 2,
+  "hawkes_history_reset_between_stages": false,
+  "forecast_label": "0 < crossing_day - decision_end_day <= forecast_stages * stage_days",
+  "calibration_and_test_used_for_gradient_training": false,
+  "numpy_version": "2.5.3",
+  "torch_version": "2.14.1+cpu"
+}

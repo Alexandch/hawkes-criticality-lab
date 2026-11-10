@@ -1,0 +1,5 @@
+{
+  "threshold": 0.659576043481726,
+  "fixed_decay_per_day": 1.0,
+  "score": "max(0,n_hat+forecast_stages*slope)/(1+max(0,n_hat+forecast_stages*slope)); zero if fits invalid"
+}

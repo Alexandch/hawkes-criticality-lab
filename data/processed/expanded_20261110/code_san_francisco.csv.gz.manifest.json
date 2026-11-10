@@ -1,0 +1,74 @@
+{
+  "source": "CODE:San Francisco",
+  "start": "2018-01-01",
+  "end_exclusive": "2023-01-01",
+  "raw_rows": 479824,
+  "invalid_timestamps": 0,
+  "missing_identifiers": 0,
+  "outside_requested_range": 0,
+  "duplicate_identifiers_removed": 0,
+  "events": 479824,
+  "unique_timestamps": 238396,
+  "fraction_tied_records": 0.503159491813665,
+  "fraction_midnight": 0.021053552969422122,
+  "source_files_sha256": {
+    "data\\raw\\expanded_20261110\\crime_open_database_core_2018.csv.gz": "3609ed686efd071f0f88f3a3a8245eedeeb45a1c045f9b130b130c3f36d8de68",
+    "data\\raw\\expanded_20261110\\crime_open_database_core_2019.csv.gz": "601896337e1568d81d43ef074afed316fe72b9b8158ce6cf58026fc0c8e9051b",
+    "data\\raw\\crime_open_database_core_2020.csv.gz": "c1cac6466fc80e8d09bf4fe247af4887aefeafb4b68d1d4743e21400fa484ad2",
+    "data\\raw\\crime_open_database_core_2021.csv.gz": "48233850d06577d7cbf9ef7fd747f548a08a4b80f64c3161c9e2bb5fe3797de2",
+    "data\\raw\\expanded_20261110\\crime_open_database_core_2022.csv.gz": "41293986b2546fe2adccf3dc51908410e6b7ae91455bc6d85279b5c27062eb71"
+  },
+  "output_sha256": "ba0d6851097cfc9b1c39a649f8ca3ca3214c3dc0c19d1b42c50baa99a398eaca",
+  "events_npz_sha256": "f2d6785bc7d0b63050431bda483942b1838e0b2e85b9ca992222db97a23f8a17",
+  "missing_calendar_months": [],
+  "eligible_for_full_history": true,
+  "yearly": [
+    {
+      "year": 2018,
+      "start": "2018-01-01",
+      "end_exclusive": "2019-01-01",
+      "events": 104867,
+      "exposure_days": 365,
+      "mean_daily_rate": 287.3068493150685,
+      "full_calendar_year": true
+    },
+    {
+      "year": 2019,
+      "start": "2019-01-01",
+      "end_exclusive": "2020-01-01",
+      "events": 101858,
+      "exposure_days": 365,
+      "mean_daily_rate": 279.06301369863013,
+      "full_calendar_year": true
+    },
+    {
+      "year": 2020,
+      "start": "2020-01-01",
+      "end_exclusive": "2021-01-01",
+      "events": 83434,
+      "exposure_days": 366,
+      "mean_daily_rate": 227.96174863387978,
+      "full_calendar_year": true
+    },
+    {
+      "year": 2021,
+      "start": "2021-01-01",
+      "end_exclusive": "2022-01-01",
+      "events": 91940,
+      "exposure_days": 365,
+      "mean_daily_rate": 251.8904109589041,
+      "full_calendar_year": true
+    },
+    {
+      "year": 2022,
+      "start": "2022-01-01",
+      "end_exclusive": "2023-01-01",
+      "events": 97725,
+      "exposure_days": 365,
+      "mean_daily_rate": 267.73972602739724,
+      "full_calendar_year": true
+    }
+  ],
+  "unit": "registered offense record, uid namespaced by source year",
+  "timestamp_notes": "source local naive time; no UTC conversion or random jitter; equal timestamps stay equal; recorded date can be estimated"
+}

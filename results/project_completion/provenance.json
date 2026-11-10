@@ -1,0 +1,17 @@
+{
+  "source_sha256": {
+    "results/extended_neural/complete.json": "c97724211679bc493e5fae396033fe428992256ef5f35fb4ba3c073eea0bf78d",
+    "results/empirical_transfer/complete.json": "9fd5474987252ea6c5186768ade7ffd3c5c4804b64823953c080eb5eb0791b8c",
+    "results/genealogical_clusters/complete.json": "f86fc6dbda6d6b0775d97f822266bf84d3172b0fc4f2ace216609a446964edad",
+    "data/processed/expanded_20261110/panel_manifest.json": "8c4e7e473cb4bace09df8d9230e45130e79c15061483058302d6c11deb1986d9",
+    "results/empirical_transfer/decisions.csv": "96bf86ba3008561b198ece03d10ffe77baf2767eff5ba1f68030d948d1f5d6ff",
+    "scripts/summarize_completion.py": "a8f3049c4ba554708faeb7647a9f740f0635907927986226cf93de8f48a4a00e"
+  },
+  "artifact_sha256": {
+    "data_totals.json": "1500fe3a9c777d35e4d47e293737756e5574b47ba2c5696cf4f8dcce8d0a64ad",
+    "extended_detector_comparison.png": "6aa166e0a6647496c52abdce3d48d701f856dbaeceddbcdecda3738c99456fc7",
+    "fresh_city_scores.png": "00ce05630ab80370ff8b6f698e3b819417cb15b0253a81aa1fb8e68eb89253e4",
+    "paired_detector_differences.csv": "4560cba5d38aaefc1de92d1a50c430999a3c23da66ef3c90afaaa565992ae2a6",
+    "yearly_data_coverage.csv": "b75484f80cf18a51ca3afd91d27a8dc1c0fbba37f35be2c9cdb2f2060537b447"
+  }
+}

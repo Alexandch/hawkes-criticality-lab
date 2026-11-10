@@ -1,0 +1,69 @@
+{
+  "input": "data\\processed\\nypd_2024_2025_verified.csv",
+  "city": null,
+  "events": 1141860,
+  "horizon_days": 731.0,
+  "poisson": {
+    "rate": 1562.0519835841312,
+    "log_likelihood": 7255099.380822439
+  },
+  "calendar_poisson_backtest": {
+    "homogeneous": {
+      "test_days": 365.0,
+      "test_negative_log_likelihood": 4404.13218265116,
+      "test_nll_per_day": 12.06611556890729,
+      "improvement_vs_homogeneous": 0.0
+    },
+    "weekday": {
+      "test_days": 365.0,
+      "test_negative_log_likelihood": 3976.961682015173,
+      "test_nll_per_day": 10.895785430178556,
+      "improvement_vs_homogeneous": 427.1705006359871
+    },
+    "month": {
+      "test_days": 365.0,
+      "test_negative_log_likelihood": 3767.1588000866104,
+      "test_nll_per_day": 10.320983013935919,
+      "improvement_vs_homogeneous": 636.9733825645499
+    },
+    "weekday_month": {
+      "test_days": 365.0,
+      "test_negative_log_likelihood": 3349.5147758163803,
+      "test_nll_per_day": 9.176752810455836,
+      "improvement_vs_homogeneous": 1054.61740683478
+    }
+  },
+  "hawkes": {
+    "baseline": 375.75958934377013,
+    "branching_ratio": 0.7594240596599016,
+    "decay": 13.399771270219048,
+    "log_likelihood": 7296162.439706058,
+    "converged": 1.0
+  },
+  "comparison": {
+    "poisson_aic": -14510196.761644877,
+    "hawkes_aic": -14592318.879412116,
+    "hawkes_minus_poisson_aic": -82122.11776723899
+  },
+  "seasonal_hawkes_backtest": {
+    "training_days": 366.0,
+    "test_days": 365.0,
+    "training_events": 574192,
+    "test_events": 567668,
+    "converged": true,
+    "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+    "branching_ratio": 0.7478870426385833,
+    "branching_ratio_ci95_lower": 0.7406368984870623,
+    "branching_ratio_ci95_upper": 0.7552604903215591,
+    "branching_ratio_ci_method": "profile likelihood, 1 df, 95% LR cutoff",
+    "decay_per_day": 13.411375681563335,
+    "mean_calendar_baseline_rate": 395.75311388760247,
+    "train_log_likelihood": 3671489.3105604122,
+    "test_log_likelihood": 3624844.8212182545,
+    "test_log_likelihood_per_event": 6.385501421990062,
+    "calendar_poisson_test_log_likelihood": 3605381.286990718,
+    "homogeneous_poisson_test_log_likelihood": 3604326.669583883,
+    "test_ll_gain_vs_calendar_poisson": 19463.534227536526,
+    "test_ll_gain_vs_homogeneous_poisson": 20518.151634371374
+  }
+}

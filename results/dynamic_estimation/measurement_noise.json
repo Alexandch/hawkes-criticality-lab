@@ -1,0 +1,113 @@
+{
+  "global_mse": 0.02248551440251021,
+  "shrinkage": 100.0,
+  "variance_floor": 0.0025,
+  "n_edges": [
+    0.5,
+    0.8,
+    0.9
+  ],
+  "se_edges": [
+    0.05,
+    0.15,
+    0.5
+  ],
+  "cells": [
+    {
+      "cell": 0,
+      "count": 126,
+      "empirical_mse": 0.0020289516255628053,
+      "working_variance": 0.011080528075539532
+    },
+    {
+      "cell": 1,
+      "count": 8687,
+      "empirical_mse": 0.014911481230122235,
+      "working_variance": 0.014997677123742217
+    },
+    {
+      "cell": 2,
+      "count": 5263,
+      "empirical_mse": 0.02233422670704492,
+      "working_variance": 0.022337047659785277
+    },
+    {
+      "cell": 3,
+      "count": 70,
+      "empirical_mse": 0.3499998001502393,
+      "working_variance": 0.15734433794569277
+    },
+    {
+      "cell": 4,
+      "count": 0,
+      "empirical_mse": null,
+      "working_variance": 0.02248551440251021
+    },
+    {
+      "cell": 5,
+      "count": 3347,
+      "empirical_mse": 0.023717723217595063,
+      "working_variance": 0.023681975935463215
+    },
+    {
+      "cell": 6,
+      "count": 633,
+      "empirical_mse": 0.055950841089306015,
+      "working_variance": 0.051385312209797716
+    },
+    {
+      "cell": 7,
+      "count": 2,
+      "empirical_mse": 0.03323578355483933,
+      "working_variance": 0.02269630399373235
+    },
+    {
+      "cell": 8,
+      "count": 179,
+      "empirical_mse": 0.034037588339284816,
+      "working_variance": 0.029897060046534057
+    },
+    {
+      "cell": 9,
+      "count": 2172,
+      "empirical_mse": 0.01822642927803021,
+      "working_variance": 0.018413889010621756
+    },
+    {
+      "cell": 10,
+      "count": 170,
+      "empirical_mse": 0.008810835514678563,
+      "working_variance": 0.013875531399060654
+    },
+    {
+      "cell": 11,
+      "count": 1,
+      "empirical_mse": 0.011695969388101293,
+      "working_variance": 0.022378687224149724
+    },
+    {
+      "cell": 12,
+      "count": 1429,
+      "empirical_mse": 0.05309922280259143,
+      "working_variance": 0.051097018198269575
+    },
+    {
+      "cell": 13,
+      "count": 893,
+      "empirical_mse": 0.009998593975547011,
+      "working_variance": 0.011256088479772912
+    },
+    {
+      "cell": 14,
+      "count": 103,
+      "empirical_mse": 0.0018917179458788546,
+      "working_variance": 0.01203644526441647
+    },
+    {
+      "cell": 15,
+      "count": 2,
+      "empirical_mse": 0.0012421476105146587,
+      "working_variance": 0.02206897779874559
+    }
+  ]
+}

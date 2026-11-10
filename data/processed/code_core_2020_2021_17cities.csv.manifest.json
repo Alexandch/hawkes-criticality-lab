@@ -1,0 +1,227 @@
+{
+  "source": "Crime Open Database (CODE), core annual files",
+  "source_url": "https://osf.io/zyaqn/",
+  "years": [
+    2020,
+    2021
+  ],
+  "cities_requested": [
+    "Austin",
+    "Boston",
+    "Charlotte",
+    "Chicago",
+    "Colorado Springs",
+    "Detroit",
+    "Houston",
+    "Kansas City",
+    "Los Angeles",
+    "Louisville",
+    "Memphis",
+    "Mesa",
+    "Minneapolis",
+    "Nashville",
+    "New York",
+    "San Francisco",
+    "Seattle"
+  ],
+  "cities_present": [
+    "Austin",
+    "Boston",
+    "Charlotte",
+    "Chicago",
+    "Colorado Springs",
+    "Detroit",
+    "Houston",
+    "Kansas City",
+    "Los Angeles",
+    "Louisville",
+    "Memphis",
+    "Mesa",
+    "Minneapolis",
+    "Nashville",
+    "New York",
+    "San Francisco",
+    "Seattle"
+  ],
+  "rows_total": 3753014,
+  "rows_by_year_city": [
+    {
+      "year": 2020,
+      "city": "Austin",
+      "rows": 84355
+    },
+    {
+      "year": 2020,
+      "city": "Boston",
+      "rows": 34517
+    },
+    {
+      "year": 2020,
+      "city": "Charlotte",
+      "rows": 50106
+    },
+    {
+      "year": 2020,
+      "city": "Chicago",
+      "rows": 207853
+    },
+    {
+      "year": 2020,
+      "city": "Colorado Springs",
+      "rows": 42464
+    },
+    {
+      "year": 2020,
+      "city": "Detroit",
+      "rows": 76758
+    },
+    {
+      "year": 2020,
+      "city": "Houston",
+      "rows": 234376
+    },
+    {
+      "year": 2020,
+      "city": "Kansas City",
+      "rows": 82988
+    },
+    {
+      "year": 2020,
+      "city": "Los Angeles",
+      "rows": 208373
+    },
+    {
+      "year": 2020,
+      "city": "Louisville",
+      "rows": 35863
+    },
+    {
+      "year": 2020,
+      "city": "Memphis",
+      "rows": 89385
+    },
+    {
+      "year": 2020,
+      "city": "Mesa",
+      "rows": 36101
+    },
+    {
+      "year": 2020,
+      "city": "Minneapolis",
+      "rows": 43376
+    },
+    {
+      "year": 2020,
+      "city": "Nashville",
+      "rows": 79190
+    },
+    {
+      "year": 2020,
+      "city": "New York",
+      "rows": 405135
+    },
+    {
+      "year": 2020,
+      "city": "San Francisco",
+      "rows": 83434
+    },
+    {
+      "year": 2020,
+      "city": "Seattle",
+      "rows": 71602
+    },
+    {
+      "year": 2021,
+      "city": "Austin",
+      "rows": 77732
+    },
+    {
+      "year": 2021,
+      "city": "Boston",
+      "rows": 31342
+    },
+    {
+      "year": 2021,
+      "city": "Charlotte",
+      "rows": 52032
+    },
+    {
+      "year": 2021,
+      "city": "Chicago",
+      "rows": 202312
+    },
+    {
+      "year": 2021,
+      "city": "Colorado Springs",
+      "rows": 44508
+    },
+    {
+      "year": 2021,
+      "city": "Detroit",
+      "rows": 75444
+    },
+    {
+      "year": 2021,
+      "city": "Houston",
+      "rows": 240162
+    },
+    {
+      "year": 2021,
+      "city": "Kansas City",
+      "rows": 78748
+    },
+    {
+      "year": 2021,
+      "city": "Los Angeles",
+      "rows": 214445
+    },
+    {
+      "year": 2021,
+      "city": "Louisville",
+      "rows": 35535
+    },
+    {
+      "year": 2021,
+      "city": "Memphis",
+      "rows": 88942
+    },
+    {
+      "year": 2021,
+      "city": "Mesa",
+      "rows": 32357
+    },
+    {
+      "year": 2021,
+      "city": "Minneapolis",
+      "rows": 40406
+    },
+    {
+      "year": 2021,
+      "city": "Nashville",
+      "rows": 76113
+    },
+    {
+      "year": 2021,
+      "city": "New York",
+      "rows": 438932
+    },
+    {
+      "year": 2021,
+      "city": "San Francisco",
+      "rows": 91940
+    },
+    {
+      "year": 2021,
+      "city": "Seattle",
+      "rows": 66188
+    }
+  ],
+  "output": "data\\processed\\code_core_2020_2021_17cities.csv.gz",
+  "date_field": "date_single",
+  "city_field": "city_name",
+  "notes": [
+    "CODE contains police-recorded offenses and may have city- and year-specific coverage changes.",
+    "date_single may be an estimated date/time rather than the exact event time.",
+    "The added source_year field records the annual source file used."
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "source_rows": 1141860,
+  "missing_or_invalid_date_time": 0,
+  "missing_complaint_id": 0,
+  "duplicate_exact_rows": 0,
+  "duplicate_complaint_id_rows_after_exact_dedup": 2,
+  "timestamps_have_minute_precision": true,
+  "year_counts": {
+    "2024": 574192,
+    "2025": 567668
+  },
+  "normalized_events": 1141860,
+  "category_count": 58
+}

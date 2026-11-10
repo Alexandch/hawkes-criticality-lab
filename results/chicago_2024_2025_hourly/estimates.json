@@ -1,0 +1,196 @@
+{
+  "input": "data\\raw\\chicago_crimes_2024_2025.csv",
+  "city": null,
+  "events": 497737,
+  "horizon_days": 731.0,
+  "poisson": {
+    "rate": 680.8987688098496,
+    "log_likelihood": 2749207.337076292
+  },
+  "calendar_poisson_backtest": {
+    "homogeneous": {
+      "test_days": 365.0,
+      "test_negative_log_likelihood": 3868.798846950971,
+      "test_nll_per_day": 10.599448895756085,
+      "improvement_vs_homogeneous": 0.0
+    },
+    "weekday": {
+      "test_days": 365.0,
+      "test_negative_log_likelihood": 3830.4033200531185,
+      "test_nll_per_day": 10.494255671378406,
+      "improvement_vs_homogeneous": 38.395526897852505
+    },
+    "month": {
+      "test_days": 365.0,
+      "test_negative_log_likelihood": 3339.2528308078167,
+      "test_nll_per_day": 9.148637892624155,
+      "improvement_vs_homogeneous": 529.5460161431542
+    },
+    "weekday_month": {
+      "test_days": 365.0,
+      "test_negative_log_likelihood": 3299.672577204846,
+      "test_nll_per_day": 9.040198841657112,
+      "improvement_vs_homogeneous": 569.1262697461248
+    }
+  },
+  "hawkes": {
+    "baseline": 309.9763469568013,
+    "branching_ratio": 0.545288759701375,
+    "decay": 9.857682690842477,
+    "log_likelihood": 2754862.5999745447,
+    "converged": 1.0
+  },
+  "comparison": {
+    "poisson_aic": -5498412.674152584,
+    "hawkes_aic": -5509719.199949089,
+    "hawkes_minus_poisson_aic": -11306.525796505623
+  },
+  "seasonal_hawkes_backtest": {
+    "baseline_effects": "weekday+month+hour",
+    "baseline_interval_days": 0.041666666666666664,
+    "training_days": 366.0,
+    "test_days": 365.0,
+    "training_events": 259626,
+    "test_events": 238111,
+    "converged": true,
+    "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+    "branching_ratio": 0.03678799669846944,
+    "branching_ratio_ci95_lower": 0.0,
+    "branching_ratio_ci95_upper": 0.07289962786576941,
+    "branching_ratio_ci_method": "profile likelihood, 1 df, 95% LR cutoff",
+    "profile_interval_is_support_envelope": true,
+    "profile_grid": [
+      {
+        "branching_ratio": 0.0,
+        "log_likelihood": 1458916.8596648648
+      },
+      {
+        "branching_ratio": 0.03678799669846944,
+        "log_likelihood": 1458918.6556510476
+      },
+      {
+        "branching_ratio": 0.1,
+        "log_likelihood": 1458916.4094834093
+      },
+      {
+        "branching_ratio": 0.25,
+        "log_likelihood": 1458914.880968415
+      },
+      {
+        "branching_ratio": 0.5,
+        "log_likelihood": 1458909.9340767197
+      },
+      {
+        "branching_ratio": 0.75,
+        "log_likelihood": 1458901.779005322
+      },
+      {
+        "branching_ratio": 0.9,
+        "log_likelihood": 1458895.2420347563
+      },
+      {
+        "branching_ratio": 0.995,
+        "log_likelihood": 1458890.4325211975
+      }
+    ],
+    "profile_reaches_parameter_bound": true,
+    "excitation_at_zero_boundary": false,
+    "confidence_interval_caveat": "LR support envelope with cutoff 3.8415; nominal 95% coverage is not guaranteed at n=0 or under weak identification. Decay is unidentified when n=0.",
+    "decay_per_day": 0.013176546987308097,
+    "mean_calendar_baseline_rate": 688.4576324587139,
+    "train_log_likelihood": 1458918.6556104303,
+    "test_log_likelihood": 1317129.855786691,
+    "test_log_likelihood_per_event": 5.531579203760813,
+    "calendar_poisson_test_log_likelihood": 1317242.251954515,
+    "homogeneous_poisson_test_log_likelihood": 1304130.6559845204,
+    "test_ll_gain_vs_calendar_poisson": -112.39616782404482,
+    "test_ll_gain_per_event_vs_calendar_poisson": -0.0004720326562991413,
+    "test_ll_gain_vs_homogeneous_poisson": 12999.199802170508,
+    "hawkes_hour_of_day_multipliers": [
+      1.6959967394190192,
+      0.7939493499930244,
+      0.7185642767142544,
+      0.6077692750935665,
+      0.4990594041976352,
+      0.42376457441062926,
+      0.4395270843011678,
+      0.5880672795889423,
+      0.8247834649983241,
+      0.986904654846844,
+      1.0229273460083033,
+      1.050589316599904,
+      1.3987691028558031,
+      1.0844924038072499,
+      1.138330179228828,
+      1.2985820072721501,
+      1.291506473614081,
+      1.3052420629344623,
+      1.279489209815111,
+      1.2466802126459098,
+      1.1956628605224282,
+      1.1092910273692125,
+      1.057290495950778,
+      0.942761197812371
+    ],
+    "poisson_hour_of_day_multipliers": [
+      1.6753947748575972,
+      0.8002582228634321,
+      0.7271360500175221,
+      0.6193528793155076,
+      0.5138777788995292,
+      0.4407558358923948,
+      0.45601007954606665,
+      0.6002180918672108,
+      0.8296549607199873,
+      0.9868032254957457,
+      1.0219317331998208,
+      1.0488319008967806,
+      1.386887817752479,
+      1.0818331702628607,
+      1.13424706415356,
+      1.2897326193342997,
+      1.2827995584997518,
+      1.2962959161684409,
+      1.2714293370010872,
+      1.239537241603018,
+      1.189988919281032,
+      1.106237506651777,
+      1.0559498175130348,
+      0.9448354982070656
+    ],
+    "quarterly_test_windows": {
+      "2025-Q1": {
+        "days": 90.0,
+        "events": 54980.0,
+        "hawkes_log_likelihood": 300732.0409071938,
+        "calendar_poisson_log_likelihood": 300848.8693311928,
+        "homogeneous_poisson_log_likelihood": 297066.27807335235,
+        "hawkes_gain_vs_calendar_poisson": -116.8284239990171
+      },
+      "2025-Q2": {
+        "days": 91.0,
+        "events": 61481.0,
+        "hawkes_log_likelihood": 342226.41624573804,
+        "calendar_poisson_log_likelihood": 342244.31393476797,
+        "homogeneous_poisson_log_likelihood": 339031.8482983065,
+        "hawkes_gain_vs_calendar_poisson": -17.89768902992364
+      },
+      "2025-Q3": {
+        "days": 92.0,
+        "events": 64504.0,
+        "hawkes_log_likelihood": 361000.5022857054,
+        "calendar_poisson_log_likelihood": 360992.01025740564,
+        "homogeneous_poisson_log_likelihood": 358166.5602548333,
+        "hawkes_gain_vs_calendar_poisson": 8.492028299777303
+      },
+      "2025-Q4": {
+        "days": 91.99999999999999,
+        "events": 57146.0,
+        "hawkes_log_likelihood": 313170.8963480355,
+        "calendar_poisson_log_likelihood": 313157.0584311486,
+        "homogeneous_poisson_log_likelihood": 309865.96935802815,
+        "hawkes_gain_vs_calendar_poisson": 13.83791688689962
+      }
+    }
+  }
+}

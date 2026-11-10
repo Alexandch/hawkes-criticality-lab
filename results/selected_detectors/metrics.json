@@ -1,0 +1,1122 @@
+{
+  "state__counts__17": {
+    "task": "state",
+    "threshold": 0.999813735485077,
+    "all_abstain_threshold": false,
+    "eligible_windows": 39000,
+    "positive_windows": 6747,
+    "negative_windows": 32253,
+    "score_valid_fraction_eligible": 1.0,
+    "true_positive": 68,
+    "false_positive": 1,
+    "false_negative": 6679,
+    "true_negative": 32252,
+    "window_sensitivity": 0.010078553431154587,
+    "window_sensitivity_trajectory_bootstrap_ci95": [
+      0.00618902937589816,
+      0.014911716067413896
+    ],
+    "window_false_alarm_rate": 3.100486776423899e-05,
+    "window_false_alarm_rate_trajectory_bootstrap_ci95": [
+      0.0,
+      9.377879688195506e-05
+    ],
+    "precision": 0.9855072463768116,
+    "auc_valid_only": 0.9582535723115199,
+    "positive_trajectories": 1200,
+    "detected_trajectories": 33,
+    "event_detection_probability": 0.0275,
+    "event_detection_ci95": [
+      0.01964758615413982,
+      0.038367909415444684
+    ],
+    "clean_event_detection_probability": 0.0275,
+    "clean_detection_ci95": [
+      0.01964758615413982,
+      0.038367909415444684
+    ],
+    "median_warning_lead_days_detected_only": null,
+    "median_state_onset_delay_days_detected_only": 360.0,
+    "maximum_family_false_alarm_probability": 0.0033333333333333335
+  },
+  "state__counts__29": {
+    "task": "state",
+    "threshold": 0.9996553659439088,
+    "all_abstain_threshold": false,
+    "eligible_windows": 39000,
+    "positive_windows": 6747,
+    "negative_windows": 32253,
+    "score_valid_fraction_eligible": 1.0,
+    "true_positive": 94,
+    "false_positive": 1,
+    "false_negative": 6653,
+    "true_negative": 32252,
+    "window_sensitivity": 0.013932117978360753,
+    "window_sensitivity_trajectory_bootstrap_ci95": [
+      0.00935977584916431,
+      0.01897522932474931
+    ],
+    "window_false_alarm_rate": 3.100486776423899e-05,
+    "window_false_alarm_rate_trajectory_bootstrap_ci95": [
+      0.0,
+      9.377879688195506e-05
+    ],
+    "precision": 0.9894736842105263,
+    "auc_valid_only": 0.9581784635133618,
+    "positive_trajectories": 1200,
+    "detected_trajectories": 42,
+    "event_detection_probability": 0.035,
+    "event_detection_ci95": [
+      0.025996787429477218,
+      0.04697084313106626
+    ],
+    "clean_event_detection_probability": 0.035,
+    "clean_detection_ci95": [
+      0.025996787429477218,
+      0.04697084313106626
+    ],
+    "median_warning_lead_days_detected_only": null,
+    "median_state_onset_delay_days_detected_only": 360.0,
+    "maximum_family_false_alarm_probability": 0.0033333333333333335
+  },
+  "state__counts__41": {
+    "task": "state",
+    "threshold": 0.9995583891868592,
+    "all_abstain_threshold": false,
+    "eligible_windows": 39000,
+    "positive_windows": 6747,
+    "negative_windows": 32253,
+    "score_valid_fraction_eligible": 1.0,
+    "true_positive": 74,
+    "false_positive": 1,
+    "false_negative": 6673,
+    "true_negative": 32252,
+    "window_sensitivity": 0.010967837557432933,
+    "window_sensitivity_trajectory_bootstrap_ci95": [
+      0.007121815177884764,
+      0.01598034604073545
+    ],
+    "window_false_alarm_rate": 3.100486776423899e-05,
+    "window_false_alarm_rate_trajectory_bootstrap_ci95": [
+      0.0,
+      9.377879688195506e-05
+    ],
+    "precision": 0.9866666666666667,
+    "auc_valid_only": 0.955391292712784,
+    "positive_trajectories": 1200,
+    "detected_trajectories": 36,
+    "event_detection_probability": 0.03,
+    "event_detection_ci95": [
+      0.02174746653277537,
+      0.04125207403379545
+    ],
+    "clean_event_detection_probability": 0.03,
+    "clean_detection_ci95": [
+      0.02174746653277537,
+      0.04125207403379545
+    ],
+    "median_warning_lead_days_detected_only": null,
+    "median_state_onset_delay_days_detected_only": 360.0,
+    "maximum_family_false_alarm_probability": 0.0033333333333333335
+  },
+  "state__counts__ensemble": {
+    "task": "state",
+    "threshold": 0.9996782938639324,
+    "all_abstain_threshold": false,
+    "eligible_windows": 39000,
+    "positive_windows": 6747,
+    "negative_windows": 32253,
+    "score_valid_fraction_eligible": 1.0,
+    "true_positive": 72,
+    "false_positive": 1,
+    "false_negative": 6675,
+    "true_negative": 32252,
+    "window_sensitivity": 0.01067140951534015,
+    "window_sensitivity_trajectory_bootstrap_ci95": [
+      0.006788956532627221,
+      0.015246797003861723
+    ],
+    "window_false_alarm_rate": 3.100486776423899e-05,
+    "window_false_alarm_rate_trajectory_bootstrap_ci95": [
+      0.0,
+      9.377879688195506e-05
+    ],
+    "precision": 0.9863013698630136,
+    "auc_valid_only": 0.9578662274462046,
+    "positive_trajectories": 1200,
+    "detected_trajectories": 35,
+    "event_detection_probability": 0.029166666666666667,
+    "event_detection_ci95": [
+      0.02104550122322981,
+      0.04029269101101224
+    ],
+    "clean_event_detection_probability": 0.029166666666666667,
+    "clean_detection_ci95": [
+      0.02104550122322981,
+      0.04029269101101224
+    ],
+    "median_warning_lead_days_detected_only": null,
+    "median_state_onset_delay_days_detected_only": 360.0,
+    "maximum_family_false_alarm_probability": 0.0033333333333333335
+  },
+  "state__constant_mle__17": {
+    "task": "state",
+    "threshold": 0.9986935257911683,
+    "all_abstain_threshold": false,
+    "eligible_windows": 39000,
+    "positive_windows": 6747,
+    "negative_windows": 32253,
+    "score_valid_fraction_eligible": 1.0,
+    "true_positive": 113,
+    "false_positive": 4,
+    "false_negative": 6634,
+    "true_negative": 32249,
+    "window_sensitivity": 0.016748184378242183,
+    "window_sensitivity_trajectory_bootstrap_ci95": [
+      0.012377713729148304,
+      0.021939361768250013
+    ],
+    "window_false_alarm_rate": 0.00012401947105695595,
+    "window_false_alarm_rate_trajectory_bootstrap_ci95": [
+      3.079872811190496e-05,
+      0.0002763153830416726
+    ],
+    "precision": 0.9658119658119658,
+    "auc_valid_only": 0.9665256774645175,
+    "positive_trajectories": 1200,
+    "detected_trajectories": 73,
+    "event_detection_probability": 0.060833333333333336,
+    "event_detection_ci95": [
+      0.048659952771868555,
+      0.07580947609086694
+    ],
+    "clean_event_detection_probability": 0.060833333333333336,
+    "clean_detection_ci95": [
+      0.048659952771868555,
+      0.07580947609086694
+    ],
+    "median_warning_lead_days_detected_only": null,
+    "median_state_onset_delay_days_detected_only": 360.0,
+    "maximum_family_false_alarm_probability": 0.006666666666666667
+  },
+  "state__constant_mle__29": {
+    "task": "state",
+    "threshold": 0.9996851682662965,
+    "all_abstain_threshold": false,
+    "eligible_windows": 39000,
+    "positive_windows": 6747,
+    "negative_windows": 32253,
+    "score_valid_fraction_eligible": 1.0,
+    "true_positive": 61,
+    "false_positive": 3,
+    "false_negative": 6686,
+    "true_negative": 32250,
+    "window_sensitivity": 0.00904105528382985,
+    "window_sensitivity_trajectory_bootstrap_ci95": [
+      0.005826493942485464,
+      0.013282855519998539
+    ],
+    "window_false_alarm_rate": 9.301460329271696e-05,
+    "window_false_alarm_rate_trajectory_bootstrap_ci95": [
+      0.0,
+      0.00021588247348308843
+    ],
+    "precision": 0.953125,
+    "auc_valid_only": 0.9656433897679368,
+    "positive_trajectories": 1200,
+    "detected_trajectories": 42,
+    "event_detection_probability": 0.035,
+    "event_detection_ci95": [
+      0.025996787429477218,
+      0.04697084313106626
+    ],
+    "clean_event_detection_probability": 0.035,
+    "clean_detection_ci95": [
+      0.025996787429477218,
+      0.04697084313106626
+    ],
+    "median_warning_lead_days_detected_only": null,
+    "median_state_onset_delay_days_detected_only": 360.0,
+    "maximum_family_false_alarm_probability": 0.006666666666666667
+  },
+  "state__constant_mle__41": {
+    "task": "state",
+    "threshold": 0.9991971850395204,
+    "all_abstain_threshold": false,
+    "eligible_windows": 39000,
+    "positive_windows": 6747,
+    "negative_windows": 32253,
+    "score_valid_fraction_eligible": 1.0,
+    "true_positive": 63,
+    "false_positive": 3,
+    "false_negative": 6684,
+    "true_negative": 32250,
+    "window_sensitivity": 0.009337483325922631,
+    "window_sensitivity_trajectory_bootstrap_ci95": [
+      0.006335075875864445,
+      0.012849005260327907
+    ],
+    "window_false_alarm_rate": 9.301460329271696e-05,
+    "window_false_alarm_rate_trajectory_bootstrap_ci95": [
+      0.0,
+      0.00021639073902325837
+    ],
+    "precision": 0.9545454545454546,
+    "auc_valid_only": 0.9576261913167796,
+    "positive_trajectories": 1200,
+    "detected_trajectories": 44,
+    "event_detection_probability": 0.03666666666666667,
+    "event_detection_ci95": [
+      0.027426059843153,
+      0.048864267382048014
+    ],
+    "clean_event_detection_probability": 0.03666666666666667,
+    "clean_detection_ci95": [
+      0.027426059843153,
+      0.048864267382048014
+    ],
+    "median_warning_lead_days_detected_only": null,
+    "median_state_onset_delay_days_detected_only": 360.0,
+    "maximum_family_false_alarm_probability": 0.006666666666666667
+  },
+  "state__constant_mle__ensemble": {
+    "task": "state",
+    "threshold": 0.9991972446441652,
+    "all_abstain_threshold": false,
+    "eligible_windows": 39000,
+    "positive_windows": 6747,
+    "negative_windows": 32253,
+    "score_valid_fraction_eligible": 1.0,
+    "true_positive": 80,
+    "false_positive": 3,
+    "false_negative": 6667,
+    "true_negative": 32250,
+    "window_sensitivity": 0.011857121683711279,
+    "window_sensitivity_trajectory_bootstrap_ci95": [
+      0.008325007491555327,
+      0.01603381294083519
+    ],
+    "window_false_alarm_rate": 9.301460329271696e-05,
+    "window_false_alarm_rate_trajectory_bootstrap_ci95": [
+      0.0,
+      0.00021639073902325837
+    ],
+    "precision": 0.963855421686747,
+    "auc_valid_only": 0.965030185446837,
+    "positive_trajectories": 1200,
+    "detected_trajectories": 55,
+    "event_detection_probability": 0.04583333333333333,
+    "event_detection_ci95": [
+      0.035380848837991884,
+      0.05918431004282566
+    ],
+    "clean_event_detection_probability": 0.04583333333333333,
+    "clean_detection_ci95": [
+      0.035380848837991884,
+      0.05918431004282566
+    ],
+    "median_warning_lead_days_detected_only": null,
+    "median_state_onset_delay_days_detected_only": 360.0,
+    "maximum_family_false_alarm_probability": 0.006666666666666667
+  },
+  "state__calendar_mle__17": {
+    "task": "state",
+    "threshold": 0.9992056488990785,
+    "all_abstain_threshold": false,
+    "eligible_windows": 39000,
+    "positive_windows": 6747,
+    "negative_windows": 32253,
+    "score_valid_fraction_eligible": 1.0,
+    "true_positive": 98,
+    "false_positive": 4,
+    "false_negative": 6649,
+    "true_negative": 32249,
+    "window_sensitivity": 0.014524974062546317,
+    "window_sensitivity_trajectory_bootstrap_ci95": [
+      0.01067497172114068,
+      0.018519177725421106
+    ],
+    "window_false_alarm_rate": 0.00012401947105695595,
+    "window_false_alarm_rate_trajectory_bootstrap_ci95": [
+      3.0712986175283416e-05,
+      0.0002490536276633685
+    ],
+    "precision": 0.9607843137254902,
+    "auc_valid_only": 0.970062144057788,
+    "positive_trajectories": 1200,
+    "detected_trajectories": 74,
+    "event_detection_probability": 0.06166666666666667,
+    "event_detection_ci95": [
+      0.04940522288254483,
+      0.07672555431251947
+    ],
+    "clean_event_detection_probability": 0.06166666666666667,
+    "clean_detection_ci95": [
+      0.04940522288254483,
+      0.07672555431251947
+    ],
+    "median_warning_lead_days_detected_only": null,
+    "median_state_onset_delay_days_detected_only": 360.0,
+    "maximum_family_false_alarm_probability": 0.006666666666666667
+  },
+  "state__calendar_mle__29": {
+    "task": "state",
+    "threshold": 0.999303698539734,
+    "all_abstain_threshold": false,
+    "eligible_windows": 39000,
+    "positive_windows": 6747,
+    "negative_windows": 32253,
+    "score_valid_fraction_eligible": 1.0,
+    "true_positive": 138,
+    "false_positive": 4,
+    "false_negative": 6609,
+    "true_negative": 32249,
+    "window_sensitivity": 0.020453534904401955,
+    "window_sensitivity_trajectory_bootstrap_ci95": [
+      0.015144449352785538,
+      0.026867842683632154
+    ],
+    "window_false_alarm_rate": 0.00012401947105695595,
+    "window_false_alarm_rate_trajectory_bootstrap_ci95": [
+      0.0,
+      0.0003111107362714171
+    ],
+    "precision": 0.971830985915493,
+    "auc_valid_only": 0.9729114165010168,
+    "positive_trajectories": 1200,
+    "detected_trajectories": 79,
+    "event_detection_probability": 0.06583333333333333,
+    "event_detection_ci95": [
+      0.053141695581076766,
+      0.08129582327563135
+    ],
+    "clean_event_detection_probability": 0.06583333333333333,
+    "clean_detection_ci95": [
+      0.053141695581076766,
+      0.08129582327563135
+    ],
+    "median_warning_lead_days_detected_only": null,
+    "median_state_onset_delay_days_detected_only": 450.0,
+    "maximum_family_false_alarm_probability": 0.01
+  },
+  "state__calendar_mle__41": {
+    "task": "state",
+    "threshold": 0.9972493052482606,
+    "all_abstain_threshold": false,
+    "eligible_windows": 39000,
+    "positive_windows": 6747,
+    "negative_windows": 32253,
+    "score_valid_fraction_eligible": 1.0,
+    "true_positive": 232,
+    "false_positive": 6,
+    "false_negative": 6515,
+    "true_negative": 32247,
+    "window_sensitivity": 0.03438565288276271,
+    "window_sensitivity_trajectory_bootstrap_ci95": [
+      0.027024375187175938,
+      0.04127427380519661
+    ],
+    "window_false_alarm_rate": 0.00018602920658543392,
+    "window_false_alarm_rate_trajectory_bootstrap_ci95": [
+      3.1235221806121106e-05,
+      0.0003733120939029733
+    ],
+    "precision": 0.9747899159663865,
+    "auc_valid_only": 0.9728970652038434,
+    "positive_trajectories": 1200,
+    "detected_trajectories": 140,
+    "event_detection_probability": 0.11666666666666667,
+    "event_detection_ci95": [
+      0.0997144441069211,
+      0.13606532302184232
+    ],
+    "clean_event_detection_probability": 0.11666666666666667,
+    "clean_detection_ci95": [
+      0.0997144441069211,
+      0.13606532302184232
+    ],
+    "median_warning_lead_days_detected_only": null,
+    "median_state_onset_delay_days_detected_only": 360.0,
+    "maximum_family_false_alarm_probability": 0.016666666666666666
+  },
+  "state__calendar_mle__ensemble": {
+    "task": "state",
+    "threshold": 0.9978498021761577,
+    "all_abstain_threshold": false,
+    "eligible_windows": 39000,
+    "positive_windows": 6747,
+    "negative_windows": 32253,
+    "score_valid_fraction_eligible": 1.0,
+    "true_positive": 193,
+    "false_positive": 6,
+    "false_negative": 6554,
+    "true_negative": 32247,
+    "window_sensitivity": 0.02860530606195346,
+    "window_sensitivity_trajectory_bootstrap_ci95": [
+      0.022453402873597136,
+      0.0348102949681897
+    ],
+    "window_false_alarm_rate": 0.00018602920658543392,
+    "window_false_alarm_rate_trajectory_bootstrap_ci95": [
+      3.107431093397546e-05,
+      0.00037407366497115864
+    ],
+    "precision": 0.9698492462311558,
+    "auc_valid_only": 0.9724999942672933,
+    "positive_trajectories": 1200,
+    "detected_trajectories": 116,
+    "event_detection_probability": 0.09666666666666666,
+    "event_detection_ci95": [
+      0.08121148963232573,
+      0.11469591752054707
+    ],
+    "clean_event_detection_probability": 0.09666666666666666,
+    "clean_detection_ci95": [
+      0.08121148963232573,
+      0.11469591752054707
+    ],
+    "median_warning_lead_days_detected_only": null,
+    "median_state_onset_delay_days_detected_only": 360.0,
+    "maximum_family_false_alarm_probability": 0.01
+  },
+  "state__stat_constant__statistic": {
+    "task": "state",
+    "threshold": 0.9950000000000001,
+    "all_abstain_threshold": false,
+    "eligible_windows": 39000,
+    "positive_windows": 6747,
+    "negative_windows": 32253,
+    "score_valid_fraction_eligible": 0.9961282051282051,
+    "true_positive": 0,
+    "false_positive": 0,
+    "false_negative": 6747,
+    "true_negative": 32253,
+    "window_sensitivity": 0.0,
+    "window_sensitivity_trajectory_bootstrap_ci95": [
+      0.0,
+      0.0
+    ],
+    "window_false_alarm_rate": 0.0,
+    "window_false_alarm_rate_trajectory_bootstrap_ci95": [
+      0.0,
+      0.0
+    ],
+    "precision": null,
+    "auc_valid_only": 0.9029792486763909,
+    "positive_trajectories": 1200,
+    "detected_trajectories": 0,
+    "event_detection_probability": 0.0,
+    "event_detection_ci95": [
+      2.168404344971009e-19,
+      0.003191000602734924
+    ],
+    "clean_event_detection_probability": 0.0,
+    "clean_detection_ci95": [
+      2.168404344971009e-19,
+      0.003191000602734924
+    ],
+    "median_warning_lead_days_detected_only": null,
+    "median_state_onset_delay_days_detected_only": null,
+    "maximum_family_false_alarm_probability": 0.0
+  },
+  "state__stat_calendar__statistic": {
+    "task": "state",
+    "threshold": 0.9950000000000001,
+    "all_abstain_threshold": false,
+    "eligible_windows": 39000,
+    "positive_windows": 6747,
+    "negative_windows": 32253,
+    "score_valid_fraction_eligible": 0.9961282051282051,
+    "true_positive": 0,
+    "false_positive": 0,
+    "false_negative": 6747,
+    "true_negative": 32253,
+    "window_sensitivity": 0.0,
+    "window_sensitivity_trajectory_bootstrap_ci95": [
+      0.0,
+      0.0
+    ],
+    "window_false_alarm_rate": 0.0,
+    "window_false_alarm_rate_trajectory_bootstrap_ci95": [
+      0.0,
+      0.0
+    ],
+    "precision": null,
+    "auc_valid_only": 0.9351523733335213,
+    "positive_trajectories": 1200,
+    "detected_trajectories": 0,
+    "event_detection_probability": 0.0,
+    "event_detection_ci95": [
+      2.168404344971009e-19,
+      0.003191000602734924
+    ],
+    "clean_event_detection_probability": 0.0,
+    "clean_detection_ci95": [
+      2.168404344971009e-19,
+      0.003191000602734924
+    ],
+    "median_warning_lead_days_detected_only": null,
+    "median_state_onset_delay_days_detected_only": null,
+    "maximum_family_false_alarm_probability": 0.0
+  },
+  "warning__counts__17": {
+    "task": "warning",
+    "threshold": 0.8977826237678529,
+    "all_abstain_threshold": false,
+    "eligible_windows": 24616,
+    "positive_windows": 1200,
+    "negative_windows": 23416,
+    "score_valid_fraction_eligible": 1.0,
+    "true_positive": 2,
+    "false_positive": 9,
+    "false_negative": 1198,
+    "true_negative": 23407,
+    "window_sensitivity": 0.0016666666666666668,
+    "window_sensitivity_trajectory_bootstrap_ci95": [
+      0.0,
+      0.004244854721549637
+    ],
+    "window_false_alarm_rate": 0.0003843525794328664,
+    "window_false_alarm_rate_trajectory_bootstrap_ci95": [
+      0.00017100780874080472,
+      0.0006413321312462705
+    ],
+    "precision": 0.18181818181818182,
+    "auc_valid_only": 0.8350965329973807,
+    "positive_trajectories": 600,
+    "detected_trajectories": 2,
+    "event_detection_probability": 0.0033333333333333335,
+    "event_detection_ci95": [
+      0.0009145966868046472,
+      0.012071359653471395
+    ],
+    "clean_event_detection_probability": 0.0033333333333333335,
+    "clean_detection_ci95": [
+      0.0009145966868046472,
+      0.012071359653471395
+    ],
+    "median_warning_lead_days_detected_only": 135.0,
+    "median_state_onset_delay_days_detected_only": null,
+    "maximum_family_false_alarm_probability": 0.01
+  },
+  "warning__counts__29": {
+    "task": "warning",
+    "threshold": 0.9190082550048829,
+    "all_abstain_threshold": false,
+    "eligible_windows": 24616,
+    "positive_windows": 1200,
+    "negative_windows": 23416,
+    "score_valid_fraction_eligible": 1.0,
+    "true_positive": 5,
+    "false_positive": 6,
+    "false_negative": 1195,
+    "true_negative": 23410,
+    "window_sensitivity": 0.004166666666666667,
+    "window_sensitivity_trajectory_bootstrap_ci95": [
+      0.0008503401360544217,
+      0.008388825487131626
+    ],
+    "window_false_alarm_rate": 0.0002562350529552443,
+    "window_false_alarm_rate_trajectory_bootstrap_ci95": [
+      8.508447840494896e-05,
+      0.000514609595474515
+    ],
+    "precision": 0.45454545454545453,
+    "auc_valid_only": 0.8340321432638652,
+    "positive_trajectories": 600,
+    "detected_trajectories": 5,
+    "event_detection_probability": 0.008333333333333333,
+    "event_detection_ci95": [
+      0.0035646039280112004,
+      0.019357735402127832
+    ],
+    "clean_event_detection_probability": 0.008333333333333333,
+    "clean_detection_ci95": [
+      0.0035646039280112004,
+      0.019357735402127832
+    ],
+    "median_warning_lead_days_detected_only": 90.0,
+    "median_state_onset_delay_days_detected_only": null,
+    "maximum_family_false_alarm_probability": 0.006666666666666667
+  },
+  "warning__counts__41": {
+    "task": "warning",
+    "threshold": 0.9322859048843385,
+    "all_abstain_threshold": false,
+    "eligible_windows": 24616,
+    "positive_windows": 1200,
+    "negative_windows": 23416,
+    "score_valid_fraction_eligible": 1.0,
+    "true_positive": 1,
+    "false_positive": 2,
+    "false_negative": 1199,
+    "true_negative": 23414,
+    "window_sensitivity": 0.0008333333333333334,
+    "window_sensitivity_trajectory_bootstrap_ci95": [
+      0.0,
+      0.0025733704046957055
+    ],
+    "window_false_alarm_rate": 8.541168431841476e-05,
+    "window_false_alarm_rate_trajectory_bootstrap_ci95": [
+      0.0,
+      0.00021420707125879436
+    ],
+    "precision": 0.3333333333333333,
+    "auc_valid_only": 0.8371719657499146,
+    "positive_trajectories": 600,
+    "detected_trajectories": 1,
+    "event_detection_probability": 0.0016666666666666668,
+    "event_detection_ci95": [
+      0.0002942682008495647,
+      0.009379560476138811
+    ],
+    "clean_event_detection_probability": 0.0016666666666666668,
+    "clean_detection_ci95": [
+      0.0002942682008495647,
+      0.009379560476138811
+    ],
+    "median_warning_lead_days_detected_only": 90.0,
+    "median_state_onset_delay_days_detected_only": null,
+    "maximum_family_false_alarm_probability": 0.0033333333333333335
+  },
+  "warning__counts__ensemble": {
+    "task": "warning",
+    "threshold": 0.9066514174143474,
+    "all_abstain_threshold": false,
+    "eligible_windows": 24616,
+    "positive_windows": 1200,
+    "negative_windows": 23416,
+    "score_valid_fraction_eligible": 1.0,
+    "true_positive": 2,
+    "false_positive": 3,
+    "false_negative": 1198,
+    "true_negative": 23413,
+    "window_sensitivity": 0.0016666666666666668,
+    "window_sensitivity_trajectory_bootstrap_ci95": [
+      0.0,
+      0.004244854721549637
+    ],
+    "window_false_alarm_rate": 0.00012811752647762215,
+    "window_false_alarm_rate_trajectory_bootstrap_ci95": [
+      0.0,
+      0.00030122265113831023
+    ],
+    "precision": 0.4,
+    "auc_valid_only": 0.8369833482803781,
+    "positive_trajectories": 600,
+    "detected_trajectories": 2,
+    "event_detection_probability": 0.0033333333333333335,
+    "event_detection_ci95": [
+      0.0009145966868046472,
+      0.012071359653471395
+    ],
+    "clean_event_detection_probability": 0.0033333333333333335,
+    "clean_detection_ci95": [
+      0.0009145966868046472,
+      0.012071359653471395
+    ],
+    "median_warning_lead_days_detected_only": 135.0,
+    "median_state_onset_delay_days_detected_only": null,
+    "maximum_family_false_alarm_probability": 0.006666666666666667
+  },
+  "warning__constant_mle__17": {
+    "task": "warning",
+    "threshold": 0.9388303756713868,
+    "all_abstain_threshold": false,
+    "eligible_windows": 24616,
+    "positive_windows": 1200,
+    "negative_windows": 23416,
+    "score_valid_fraction_eligible": 1.0,
+    "true_positive": 2,
+    "false_positive": 5,
+    "false_negative": 1198,
+    "true_negative": 23411,
+    "window_sensitivity": 0.0016666666666666668,
+    "window_sensitivity_trajectory_bootstrap_ci95": [
+      0.0,
+      0.0042158516020236085
+    ],
+    "window_false_alarm_rate": 0.0002135292107960369,
+    "window_false_alarm_rate_trajectory_bootstrap_ci95": [
+      4.241916688221814e-05,
+      0.00046776477856727707
+    ],
+    "precision": 0.2857142857142857,
+    "auc_valid_only": 0.848435186766883,
+    "positive_trajectories": 600,
+    "detected_trajectories": 2,
+    "event_detection_probability": 0.0033333333333333335,
+    "event_detection_ci95": [
+      0.0009145966868046472,
+      0.012071359653471395
+    ],
+    "clean_event_detection_probability": 0.0033333333333333335,
+    "clean_detection_ci95": [
+      0.0009145966868046472,
+      0.012071359653471395
+    ],
+    "median_warning_lead_days_detected_only": 90.0,
+    "median_state_onset_delay_days_detected_only": null,
+    "maximum_family_false_alarm_probability": 0.006666666666666667
+  },
+  "warning__constant_mle__29": {
+    "task": "warning",
+    "threshold": 0.9657880663871766,
+    "all_abstain_threshold": false,
+    "eligible_windows": 24616,
+    "positive_windows": 1200,
+    "negative_windows": 23416,
+    "score_valid_fraction_eligible": 1.0,
+    "true_positive": 2,
+    "false_positive": 4,
+    "false_negative": 1198,
+    "true_negative": 23412,
+    "window_sensitivity": 0.0016666666666666668,
+    "window_sensitivity_trajectory_bootstrap_ci95": [
+      0.0,
+      0.00420539427892369
+    ],
+    "window_false_alarm_rate": 0.00017082336863682952,
+    "window_false_alarm_rate_trajectory_bootstrap_ci95": [
+      4.2340230356754435e-05,
+      0.0003437364024064384
+    ],
+    "precision": 0.3333333333333333,
+    "auc_valid_only": 0.8509922524484683,
+    "positive_trajectories": 600,
+    "detected_trajectories": 2,
+    "event_detection_probability": 0.0033333333333333335,
+    "event_detection_ci95": [
+      0.0009145966868046472,
+      0.012071359653471395
+    ],
+    "clean_event_detection_probability": 0.0033333333333333335,
+    "clean_detection_ci95": [
+      0.0009145966868046472,
+      0.012071359653471395
+    ],
+    "median_warning_lead_days_detected_only": 135.0,
+    "median_state_onset_delay_days_detected_only": null,
+    "maximum_family_false_alarm_probability": 0.006666666666666667
+  },
+  "warning__constant_mle__41": {
+    "task": "warning",
+    "threshold": 0.9784308075904847,
+    "all_abstain_threshold": false,
+    "eligible_windows": 24616,
+    "positive_windows": 1200,
+    "negative_windows": 23416,
+    "score_valid_fraction_eligible": 1.0,
+    "true_positive": 0,
+    "false_positive": 4,
+    "false_negative": 1200,
+    "true_negative": 23412,
+    "window_sensitivity": 0.0,
+    "window_sensitivity_trajectory_bootstrap_ci95": [
+      0.0,
+      0.0
+    ],
+    "window_false_alarm_rate": 0.00017082336863682952,
+    "window_false_alarm_rate_trajectory_bootstrap_ci95": [
+      4.233247717790078e-05,
+      0.00036573393501753196
+    ],
+    "precision": 0.0,
+    "auc_valid_only": 0.8488460525566565,
+    "positive_trajectories": 600,
+    "detected_trajectories": 0,
+    "event_detection_probability": 0.0,
+    "event_detection_ci95": [
+      4.336808689942018e-19,
+      0.00636170101370071
+    ],
+    "clean_event_detection_probability": 0.0,
+    "clean_detection_ci95": [
+      4.336808689942018e-19,
+      0.00636170101370071
+    ],
+    "median_warning_lead_days_detected_only": null,
+    "median_state_onset_delay_days_detected_only": null,
+    "maximum_family_false_alarm_probability": 0.013333333333333334
+  },
+  "warning__constant_mle__ensemble": {
+    "task": "warning",
+    "threshold": 0.9394953052202861,
+    "all_abstain_threshold": false,
+    "eligible_windows": 24616,
+    "positive_windows": 1200,
+    "negative_windows": 23416,
+    "score_valid_fraction_eligible": 1.0,
+    "true_positive": 0,
+    "false_positive": 1,
+    "false_negative": 1200,
+    "true_negative": 23415,
+    "window_sensitivity": 0.0,
+    "window_sensitivity_trajectory_bootstrap_ci95": [
+      0.0,
+      0.0
+    ],
+    "window_false_alarm_rate": 4.270584215920738e-05,
+    "window_false_alarm_rate_trajectory_bootstrap_ci95": [
+      0.0,
+      0.000128737274549944
+    ],
+    "precision": 0.0,
+    "auc_valid_only": 0.8524381832934745,
+    "positive_trajectories": 600,
+    "detected_trajectories": 0,
+    "event_detection_probability": 0.0,
+    "event_detection_ci95": [
+      4.336808689942018e-19,
+      0.00636170101370071
+    ],
+    "clean_event_detection_probability": 0.0,
+    "clean_detection_ci95": [
+      4.336808689942018e-19,
+      0.00636170101370071
+    ],
+    "median_warning_lead_days_detected_only": null,
+    "median_state_onset_delay_days_detected_only": null,
+    "maximum_family_false_alarm_probability": 0.0033333333333333335
+  },
+  "warning__calendar_mle__17": {
+    "task": "warning",
+    "threshold": 0.972631335258484,
+    "all_abstain_threshold": false,
+    "eligible_windows": 24616,
+    "positive_windows": 1200,
+    "negative_windows": 23416,
+    "score_valid_fraction_eligible": 1.0,
+    "true_positive": 0,
+    "false_positive": 1,
+    "false_negative": 1200,
+    "true_negative": 23415,
+    "window_sensitivity": 0.0,
+    "window_sensitivity_trajectory_bootstrap_ci95": [
+      0.0,
+      0.0
+    ],
+    "window_false_alarm_rate": 4.270584215920738e-05,
+    "window_false_alarm_rate_trajectory_bootstrap_ci95": [
+      0.0,
+      0.000128737274549944
+    ],
+    "precision": 0.0,
+    "auc_valid_only": 0.861998793559959,
+    "positive_trajectories": 600,
+    "detected_trajectories": 0,
+    "event_detection_probability": 0.0,
+    "event_detection_ci95": [
+      4.336808689942018e-19,
+      0.00636170101370071
+    ],
+    "clean_event_detection_probability": 0.0,
+    "clean_detection_ci95": [
+      4.336808689942018e-19,
+      0.00636170101370071
+    ],
+    "median_warning_lead_days_detected_only": null,
+    "median_state_onset_delay_days_detected_only": null,
+    "maximum_family_false_alarm_probability": 0.0033333333333333335
+  },
+  "warning__calendar_mle__29": {
+    "task": "warning",
+    "threshold": 0.9404513835906984,
+    "all_abstain_threshold": false,
+    "eligible_windows": 24616,
+    "positive_windows": 1200,
+    "negative_windows": 23416,
+    "score_valid_fraction_eligible": 1.0,
+    "true_positive": 4,
+    "false_positive": 6,
+    "false_negative": 1196,
+    "true_negative": 23410,
+    "window_sensitivity": 0.0033333333333333335,
+    "window_sensitivity_trajectory_bootstrap_ci95": [
+      0.0,
+      0.008126049288859322
+    ],
+    "window_false_alarm_rate": 0.0002562350529552443,
+    "window_false_alarm_rate_trajectory_bootstrap_ci95": [
+      4.3135043989049145e-05,
+      0.0004740025953294776
+    ],
+    "precision": 0.4,
+    "auc_valid_only": 0.8622330351042022,
+    "positive_trajectories": 600,
+    "detected_trajectories": 3,
+    "event_detection_probability": 0.005,
+    "event_detection_ci95": [
+      0.001701877658278013,
+      0.014596206345285693
+    ],
+    "clean_event_detection_probability": 0.005,
+    "clean_detection_ci95": [
+      0.001701877658278013,
+      0.014596206345285693
+    ],
+    "median_warning_lead_days_detected_only": 180.0,
+    "median_state_onset_delay_days_detected_only": null,
+    "maximum_family_false_alarm_probability": 0.01
+  },
+  "warning__calendar_mle__41": {
+    "task": "warning",
+    "threshold": 0.9583140611648561,
+    "all_abstain_threshold": false,
+    "eligible_windows": 24616,
+    "positive_windows": 1200,
+    "negative_windows": 23416,
+    "score_valid_fraction_eligible": 1.0,
+    "true_positive": 1,
+    "false_positive": 1,
+    "false_negative": 1199,
+    "true_negative": 23415,
+    "window_sensitivity": 0.0008333333333333334,
+    "window_sensitivity_trajectory_bootstrap_ci95": [
+      0.0,
+      0.0031618636884878067
+    ],
+    "window_false_alarm_rate": 4.270584215920738e-05,
+    "window_false_alarm_rate_trajectory_bootstrap_ci95": [
+      0.0,
+      0.00012998675711279527
+    ],
+    "precision": 0.5,
+    "auc_valid_only": 0.8575856963899328,
+    "positive_trajectories": 600,
+    "detected_trajectories": 1,
+    "event_detection_probability": 0.0016666666666666668,
+    "event_detection_ci95": [
+      0.0002942682008495647,
+      0.009379560476138811
+    ],
+    "clean_event_detection_probability": 0.0016666666666666668,
+    "clean_detection_ci95": [
+      0.0002942682008495647,
+      0.009379560476138811
+    ],
+    "median_warning_lead_days_detected_only": 180.0,
+    "median_state_onset_delay_days_detected_only": null,
+    "maximum_family_false_alarm_probability": 0.0033333333333333335
+  },
+  "warning__calendar_mle__ensemble": {
+    "task": "warning",
+    "threshold": 0.9381255904833476,
+    "all_abstain_threshold": false,
+    "eligible_windows": 24616,
+    "positive_windows": 1200,
+    "negative_windows": 23416,
+    "score_valid_fraction_eligible": 1.0,
+    "true_positive": 2,
+    "false_positive": 4,
+    "false_negative": 1198,
+    "true_negative": 23412,
+    "window_sensitivity": 0.0016666666666666668,
+    "window_sensitivity_trajectory_bootstrap_ci95": [
+      0.0,
+      0.006323727376975613
+    ],
+    "window_false_alarm_rate": 0.00017082336863682952,
+    "window_false_alarm_rate_trajectory_bootstrap_ci95": [
+      4.2072595656576736e-05,
+      0.00034150855014190786
+    ],
+    "precision": 0.3333333333333333,
+    "auc_valid_only": 0.8622028385149755,
+    "positive_trajectories": 600,
+    "detected_trajectories": 1,
+    "event_detection_probability": 0.0016666666666666668,
+    "event_detection_ci95": [
+      0.0002942682008495647,
+      0.009379560476138811
+    ],
+    "clean_event_detection_probability": 0.0016666666666666668,
+    "clean_detection_ci95": [
+      0.0002942682008495647,
+      0.009379560476138811
+    ],
+    "median_warning_lead_days_detected_only": 180.0,
+    "median_state_onset_delay_days_detected_only": null,
+    "maximum_family_false_alarm_probability": 0.01
+  },
+  "warning__stat_constant__statistic": {
+    "task": "warning",
+    "threshold": 0.6654950603311536,
+    "all_abstain_threshold": false,
+    "eligible_windows": 24616,
+    "positive_windows": 1200,
+    "negative_windows": 23416,
+    "score_valid_fraction_eligible": 0.9954501137471563,
+    "true_positive": 0,
+    "false_positive": 3,
+    "false_negative": 1200,
+    "true_negative": 23413,
+    "window_sensitivity": 0.0,
+    "window_sensitivity_trajectory_bootstrap_ci95": [
+      0.0,
+      0.0
+    ],
+    "window_false_alarm_rate": 0.00012811752647762215,
+    "window_false_alarm_rate_trajectory_bootstrap_ci95": [
+      0.0,
+      0.00029948647326507964
+    ],
+    "precision": 0.0,
+    "auc_valid_only": 0.6473261952792685,
+    "positive_trajectories": 600,
+    "detected_trajectories": 0,
+    "event_detection_probability": 0.0,
+    "event_detection_ci95": [
+      4.336808689942018e-19,
+      0.00636170101370071
+    ],
+    "clean_event_detection_probability": 0.0,
+    "clean_detection_ci95": [
+      4.336808689942018e-19,
+      0.00636170101370071
+    ],
+    "median_warning_lead_days_detected_only": null,
+    "median_state_onset_delay_days_detected_only": null,
+    "maximum_family_false_alarm_probability": 0.01
+  },
+  "warning__stat_calendar__statistic": {
+    "task": "warning",
+    "threshold": 0.6641149196959497,
+    "all_abstain_threshold": false,
+    "eligible_windows": 24616,
+    "positive_windows": 1200,
+    "negative_windows": 23416,
+    "score_valid_fraction_eligible": 0.9954501137471563,
+    "true_positive": 0,
+    "false_positive": 0,
+    "false_negative": 1200,
+    "true_negative": 23416,
+    "window_sensitivity": 0.0,
+    "window_sensitivity_trajectory_bootstrap_ci95": [
+      0.0,
+      0.0
+    ],
+    "window_false_alarm_rate": 0.0,
+    "window_false_alarm_rate_trajectory_bootstrap_ci95": [
+      0.0,
+      0.0
+    ],
+    "precision": null,
+    "auc_valid_only": 0.7208707065911363,
+    "positive_trajectories": 600,
+    "detected_trajectories": 0,
+    "event_detection_probability": 0.0,
+    "event_detection_ci95": [
+      4.336808689942018e-19,
+      0.00636170101370071
+    ],
+    "clean_event_detection_probability": 0.0,
+    "clean_detection_ci95": [
+      4.336808689942018e-19,
+      0.00636170101370071
+    ],
+    "median_warning_lead_days_detected_only": null,
+    "median_state_onset_delay_days_detected_only": null,
+    "maximum_family_false_alarm_probability": 0.0
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "stage": "7_frozen_real_application",
+  "panel_manifest_sha256": "8c4e7e473cb4bace09df8d9230e45130e79c15061483058302d6c11deb1986d9",
+  "old_plan_sha256": "e0db063e4bd0cace893b94822e3e0f86d18c565af4eebbb83937ad3e8a9740ff",
+  "new_plan_sha256": "974adbc2a22eab97fdb0458f869407d56497270e45138daaeb50ef7ff80a9b66",
+  "windows": [
+    90,
+    180,
+    360
+  ],
+  "prefix_days": 730,
+  "stage_days": 90,
+  "stages": 12,
+  "lookback": 3,
+  "forecast_stages": 2,
+  "period_rule": "CODE first complete1810 days, portals first and last complete1810 days; overlaps explicitly dependent",
+  "warning_rule": "operational threshold crossing; summarize full future horizon decisions only, unknown first critical transition never invented",
+  "labels": "none; no empirical accuracy/TPR/FPR claimed",
+  "thresholds": "old R4 frozen primary; R9 frozen primary ensemble family_confident",
+  "code_sha256": {
+    "empirical_transfer.py": "209aa9372d3f69ade16bb94ac9bcb0e295c30834ef63b15efc73f4d95b9ad5f6",
+    "selected_features.py": "9108fca0fe34fd07acbbeded94d1141fbdb65ffa76e064286c84655b105e391a",
+    "extended_training.py": "59391de2cb9389bb595dd59b89d8cb8f5a2609ab15fb6aa12f7dc64b7db5dbed",
+    "background_models.py": "ac731234dd3ecf60ec92ba402db91ddf6a946b179b14a31c93366db9b1c62f72",
+    "fast_window_mle.py": "26260ceaab9d039d94bf1cf6755fbabc11c7a68263ea1b150d4bdffd5c197ad9",
+    "window_features.py": "917c28b7881ab906ae8082bc6356baa0bc4b765a2db28c79499ffe34b95b5393"
+  }
+}

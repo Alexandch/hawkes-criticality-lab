@@ -1,0 +1,65 @@
+{
+  "stage": "2_background_misspecification",
+  "scenarios": [
+    "homogeneous",
+    "seasonal",
+    "trend",
+    "step_up",
+    "step_down",
+    "seasonal_trend",
+    "hawkes_n0p5",
+    "hawkes_n0p9"
+  ],
+  "methods": {
+    "constant_joint": "Постоянный фон, уровень свободен",
+    "oracle_fixed": "Истинный фон целиком",
+    "oracle_shape_joint": "Истинная форма, уровень свободен",
+    "past_fixed": "Прогноз по прошлому целиком",
+    "past_shape_joint": "Форма по прошлому, уровень свободен"
+  },
+  "target_rates": [
+    0.2,
+    2.0,
+    20.0,
+    50.0
+  ],
+  "windows_days": [
+    30,
+    90,
+    180,
+    360
+  ],
+  "prefix_days": 730,
+  "replicates_per_scenario_rate": 300,
+  "seed": 20261115,
+  "workers": 2,
+  "independent_trajectories": 9600,
+  "window_fits": 192000,
+  "decay_per_day": 1.0,
+  "decay_known_to_estimator": true,
+  "n_bounds": [
+    0,
+    0.995
+  ],
+  "forecast_training": "only counts[0:prefix_days]; no scenario, true n, true baseline or future counts",
+  "forecast_design": "Poisson GLM: intercept, 6 weekday dummies, annual Fourier harmonics 1 and 2, linear log trend",
+  "forecast_penalty": "1e-5 L2 except intercept; intercept bounds [-20,20], others [-5,5]",
+  "forecast_fixed_before_all_windows": true,
+  "past_shape_joint_level_fitted_on_current_window": true,
+  "oracle_is_privileged_diagnostic": true,
+  "poisson_intensity_piecewise_constant_per_day": true,
+  "poisson_time_average_rate_normalized_over_full_horizon": true,
+  "hawkes_mean_rate": "stationary mu/(1-n)=target_rate, burn_in=8/(decay*(1-n))",
+  "steps": "change after prefix at uniformly sampled integer offset 1..min(120,max_window-1)",
+  "conditional_likelihood": "observed prefix history; normalized loss/N; beta fixed; amplitude/n concave likelihood",
+  "joint_level_bounds_as_fraction_of_observed_rate": [
+    1e-08,
+    5
+  ],
+  "failed_estimates_are_missing": true,
+  "high_n_fractions_are_not_calibrated_detector_false_alarm_rates": true,
+  "python_version": "3.14.7",
+  "numpy_version": "2.5.3",
+  "replicates_sha256": "6e05e250a72db1ac84c876761e6844eafdd45ae53ba7b7191fce93c2f8c702d9",
+  "baseline_examples_sha256": "f7d92549e43cc3fc404d3271519ca7857b5c1549763156f067f35dc7aa14c85c"
+}

@@ -1,0 +1,77 @@
+{
+  "count_mlp": {
+    "threshold": 0.9746854901313783,
+    "eligible_windows": 16971,
+    "true_positive": 5,
+    "false_positive": 23,
+    "false_negative": 395,
+    "true_negative": 16548,
+    "window_sensitivity": 0.0125,
+    "window_false_alarm_rate": 0.0013879669301792288,
+    "precision": 0.17857142857142858,
+    "crossing_trajectories": 200,
+    "detected_trajectories": 5,
+    "event_detection_probability": 0.025,
+    "event_detection_ci95": [
+      0.010724719651761264,
+      0.05717834040664198
+    ],
+    "clean_event_detection_probability": 0.025,
+    "clean_detection_ci95": [
+      0.010724719651761264,
+      0.05717834040664198
+    ],
+    "median_lead_days_among_detected": 90.0,
+    "maximum_family_false_alarm_probability": 0.035
+  },
+  "hawkes_mlp": {
+    "threshold": 0.9626110792160035,
+    "eligible_windows": 16971,
+    "true_positive": 13,
+    "false_positive": 35,
+    "false_negative": 387,
+    "true_negative": 16536,
+    "window_sensitivity": 0.0325,
+    "window_false_alarm_rate": 0.0021121235894031743,
+    "precision": 0.2708333333333333,
+    "crossing_trajectories": 200,
+    "detected_trajectories": 13,
+    "event_detection_probability": 0.065,
+    "event_detection_ci95": [
+      0.03837635464915299,
+      0.10801907929906895
+    ],
+    "clean_event_detection_probability": 0.065,
+    "clean_detection_ci95": [
+      0.03837635464915299,
+      0.10801907929906895
+    ],
+    "median_lead_days_among_detected": 90.0,
+    "maximum_family_false_alarm_probability": 0.085
+  },
+  "hawkes_trend": {
+    "threshold": 0.659576043481726,
+    "eligible_windows": 16971,
+    "true_positive": 0,
+    "false_positive": 21,
+    "false_negative": 400,
+    "true_negative": 16550,
+    "window_sensitivity": 0.0,
+    "window_false_alarm_rate": 0.0012672741536419046,
+    "precision": 0.0,
+    "crossing_trajectories": 200,
+    "detected_trajectories": 0,
+    "event_detection_probability": 0.0,
+    "event_detection_ci95": [
+      1.734723475976807e-18,
+      0.018845326377266575
+    ],
+    "clean_event_detection_probability": 0.0,
+    "clean_detection_ci95": [
+      1.734723475976807e-18,
+      0.018845326377266575
+    ],
+    "median_lead_days_among_detected": null,
+    "maximum_family_false_alarm_probability": 0.065
+  }
+}

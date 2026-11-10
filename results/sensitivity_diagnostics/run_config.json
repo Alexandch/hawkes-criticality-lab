@@ -1,0 +1,39 @@
+{
+  "dataset_sha256": {
+    "train": "94ebe50c254c5fc8f9bc0162db881280e08024b0a632aeda845937a8d9494a4e",
+    "calibration": "87b4578e592e6ef7b297e9582da68adb004f21a2e8387bb17ab3408dc14c1c56",
+    "evaluation": "50feddb899e6da15646a709716b940113aa0a06e797913daf5f51987961bf220"
+  },
+  "old_experiment_unchanged": true,
+  "artifact_sha256": {
+    "operating_metrics.csv": "6195688db5dea07708b0c435e20e6660b8496294d9400fb55914338d4045b09a",
+    "family_metrics.csv": "ae2d2ae352aa8cf946ef8fb7ae697543a0b3555d8f159b29c4d74656fa268c02",
+    "calibration_policies.csv": "400b243e6701b223d38f4a0d3a42e9a31a4984b0db95e7cb6111fcb42c17e60c",
+    "threshold_curves.csv": "2c77946bf7ef384a8a200818d996b685a87185439b7cbc16eb4c120ae905d78d",
+    "estimation_windows.csv": "45c5e969057c0d1ce27cbb74ce8764d6da842baaac4d4387592437c18e6724e0",
+    "estimation_summary.csv": "d675e5931e44a17a680affa0bd21be1f26a41180c403ca7a7f8953795963b8ec",
+    "conditional_auc.csv": "a5a39a3339ded2f3fbc7eb121d642ddc2ff63e50ef1abef917ab27a9a90e8146",
+    "paired_effects.csv": "fd395b021ae7678bafa333d812b68c53c81daa09c73e4aa61541bf78670c396e",
+    "metrics.json": "5e6b6069fd3934d384bd45ac77af174167411d983e9c1ba16cff77b21f118d25"
+  },
+  "model_sha256": {
+    "models/state_calendar_mle_w360_s17.pt": "a31ac6a43c9999c5ed66b1cbe2f529640fbaa1da036752a9b0d11edfc0264347",
+    "models/state_calendar_mle_w360_s29.pt": "5479bccda625884622825f28679cb9a291eca4fc73967b765426712bff31fabe",
+    "models/state_calendar_mle_w360_s41.pt": "8be2767488ad3fcd1bb353e2b2006caa60ff9f3071c298a545aa6088819458f3",
+    "models/warning_constant_mle_w180_s17.pt": "5d0bcafa6a62ddbb3754178d1cffa6f66dfb80834e3e5878636ccf8925216bc8",
+    "models/warning_constant_mle_w180_s29.pt": "bdcf459809ace584038aee7f20c9df023f3fa82b50d28b3ddd7b85f82be977ba",
+    "models/warning_constant_mle_w180_s41.pt": "bd0b75b003f09d325d7e99d7634c9b424d6772183559dc046e34ce644b345463",
+    "paired_models/state_calendar.pt": "6c7f46a6033aa66be12134d293519def984b8df0ba57a16bc66056a22c20519d",
+    "paired_models/state_constant.pt": "7c18b5de42804a9f53a8bc099d78e89a6acd83e275c105b130a8f29c088e7b64",
+    "paired_models/state_known.pt": "6d77419f83d102fdf4eec109370543681c028b9e2b1d9f08028fce7055e75acf",
+    "paired_models/warning_calendar.pt": "0500df45497507b827a158817b379c284b39684b954d773291ec27d6576eb02e",
+    "paired_models/warning_constant.pt": "4f7f15153ca997a82acef5bc629b5c99aed7d424177d8a3687739550380709a5",
+    "paired_models/warning_known.pt": "afc1a17c7ed5e894834693e157a5ada225d5c8f91da96b93f4d434fd242a889f"
+  },
+  "scores_sha256": {
+    "calibration": "d8b7f3505ef2ab6e80d72b88847fe39194372675b59c8a8f841a3defa93845e8",
+    "evaluation": "c54f76bae48b875d92cc5919d5e789ba7c48d605bbd3ce6cd6528fa17291564d"
+  },
+  "numpy_version": "2.5.3",
+  "torch_version": "2.14.1+cpu"
+}

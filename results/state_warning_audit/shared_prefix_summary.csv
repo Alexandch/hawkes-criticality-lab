@@ -1,0 +1,6 @@
+method,independent_prefix_pairs,score_valid_fraction,threshold_warning,sensitivity_crossing_branch,false_alarm_probability_no_crossing_branch,auc_paired_possible_futures,difference_in_detection_and_false_alarm_probability
+count_mlp,300,1.0,0.9970431923866273,0.006666666666666667,0.006666666666666667,0.5,0.0
+hawkes_mlp,300,1.0,0.9669613242149354,0.06333333333333334,0.06333333333333334,0.5,0.0
+hawkes_trend,300,0.9733333333333334,0.6608150481872785,0.0,0.0,0.5,0.0
+current_mle,300,0.9766666666666667,0.9810678253175112,0.0033333333333333335,0.0033333333333333335,0.5,0.0
+oracle_current_n,300,1.0,0.8969781604102777,0.0,0.0,0.5,0.0

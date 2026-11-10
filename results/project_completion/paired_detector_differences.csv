@@ -1,0 +1,3 @@
+task,new_minus_old,paired_bootstrap_ci95_lower,paired_bootstrap_ci95_upper,bootstrap_samples,unit
+state,0.005571030640668524,0.0011463398794624492,0.009903911844254197,3000,"whole trajectory, same new test; conditional on fitted models and calibrations"
+warning,0.006666666666666667,0.0,0.01470648406662174,3000,"whole trajectory, same new test; conditional on fitted models and calibrations"

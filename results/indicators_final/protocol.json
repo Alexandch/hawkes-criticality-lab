@@ -1,0 +1,26 @@
+{
+  "ratios": [
+    0.0,
+    0.2,
+    0.4,
+    0.6,
+    0.75,
+    0.85,
+    0.92,
+    0.97
+  ],
+  "replicates": 500,
+  "horizon": 365,
+  "rate": 2.0,
+  "decay": 1.0,
+  "burn_in_times": 8.0,
+  "seed": 20261123,
+  "bootstrap_seed": 20261124,
+  "bootstrap_samples": 2000,
+  "cluster_proxy": "total events / occupied daily bins; not genealogy",
+  "code_sha256": {
+    "scripts/finalize_indicators.py": "7abc27f1c581ee72e2a1f2d1da7d6a07f44b46c8cf2c55da04177381e31cfa1e",
+    "src/critical_processes/indicators.py": "dd4ee2006dc75d8ec03c155754b0d2f132fff5668872e3417cbd61accf8cc017",
+    "src/critical_processes/simulation.py": "31719406df655d388d98b8e1f32125ad4f4e2244d0c986389782c0ebfc0ccfcd"
+  }
+}
