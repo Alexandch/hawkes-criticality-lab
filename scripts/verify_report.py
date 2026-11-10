@@ -18,7 +18,7 @@ def main():
     root = Path(__file__).resolve().parents[1]
     report = root / "report"
     test_result = json.loads((root / "reproducibility/test_result.json").read_text(encoding="utf-8"))
-    assert test_result["successful"] and test_result["tests_run"] == 82
+    assert test_result["successful"] and test_result["tests_run"] == 90
     assert test_result["failures"] == test_result["errors"] == 0
     documents = sorted(report.glob("*.md"))
     assert len(documents) >= 5
@@ -30,7 +30,7 @@ def main():
             assert text.count("$$") % 2 == 0, "unclosed display formula"
             assert "итоговая редакция" in text.lower()
             figures = [int(v) for v in re.findall(r"(?m)^\*Рисунок (\d+)\.", text)]
-            assert figures == list(range(1, 15)), "figure captions must be sequential"
+            assert figures == list(range(1, 18)), "figure captions must be sequential"
         table_width = None
         in_code = False
         for number, line in enumerate(text.splitlines(), 1):
@@ -140,7 +140,35 @@ def main():
     complete = json.loads((final_directory / "final_test_complete.json").read_text(encoding="utf-8"))
     assert digest(final_directory / "frozen_plan.json") == complete["frozen_plan_sha256"]
     assert digest(final_directory / "metrics.json") == complete["metrics_sha256"]
-    print(f"Verified {len(documents)} Markdown documents, {links} local links, {len(manifest['assets'])} figure copies, P1/R1-R9 result cells and unchanged frozen final metrics.")
+    spatial = root / "results/spatiotemporal_forecast"
+    spatial_protocol = json.loads((spatial / "protocol.json").read_text(encoding="utf-8"))
+    assert spatial_protocol["bin_hours"] == 6 and spatial_protocol["primary_information_lag_days"] == 7
+    for name, value in spatial_protocol["code_sha256"].items():
+        assert digest(root / "src/critical_processes" / name) == value
+    spatial_complete = json.loads((spatial / "complete.json").read_text(encoding="utf-8"))
+    for name, value in spatial_complete["artifact_sha256"].items():
+        assert digest(spatial / name) == value
+    spatial_metrics = pd.read_csv(spatial / "test_metrics.csv")
+    assert len(spatial_metrics) == 40
+    for city, expected in (("chicago", 1.8578675762290284), ("san_francisco", 1.4367698107119444)):
+        cell = spatial_metrics[(spatial_metrics.city == city) & (spatial_metrics.information_lag_days == 7)
+                               & (spatial_metrics.split == "test2026") & (spatial_metrics.method == "neural_ensemble")]
+        assert len(cell) == 1 and cell.count_primary.iloc[0]
+        np.testing.assert_allclose(cell.mae.iloc[0], expected, rtol=0, atol=1e-12)
+    spikes = spatial_metrics[(spatial_metrics.information_lag_days == 7) & (spatial_metrics.split == "test2026")
+                             & spatial_metrics.spike_primary].set_index("city")
+    assert spikes.loc["chicago", "spike_true_positive"] == 22
+    assert spikes.loc["san_francisco", "spike_true_positive"] == 0
+    summary_dir = root / "results/spatiotemporal_summary"
+    summary_provenance = json.loads((summary_dir / "provenance.json").read_text(encoding="utf-8"))
+    for name, value in summary_provenance["source_sha256"].items():
+        assert digest(root / name) == value
+    for name, value in summary_provenance["artifact_sha256"].items():
+        assert digest(summary_dir / name) == value
+    forecasts = pd.read_csv(summary_dir / "next_interval_forecasts.csv")
+    assert len(forecasts) == 32 and forecasts.observed_count.isna().all()
+    assert (forecasts.forecast_start == "2026-10-01 00:00:00").all()
+    print(f"Verified {len(documents)} Markdown documents, {links} local links, {len(manifest['assets'])} figure copies, P1/R1-R10 result cells and unchanged frozen final metrics.")
 
 
 if __name__ == "__main__":

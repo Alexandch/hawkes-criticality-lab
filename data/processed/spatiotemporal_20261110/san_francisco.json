@@ -1,0 +1,94 @@
+{
+  "city": "san_francisco",
+  "bin_hours": 6,
+  "districts": [
+    "BAYVIEW",
+    "CENTRAL",
+    "INGLESIDE",
+    "MISSION",
+    "NORTHERN",
+    "PARK",
+    "RICHMOND",
+    "SOUTHERN",
+    "TARAVAL",
+    "TENDERLOIN"
+  ],
+  "start": "2019-01-01 00:00:00",
+  "end_exclusive": "2026-10-01 00:00:00",
+  "raw_rows": 444465,
+  "invalid_rows": 0,
+  "unknown_district_rows": 4882,
+  "conflicting_district_cases": 0,
+  "duplicate_offense_rows": 15880,
+  "incidents": 423703,
+  "grid_cells": 113200,
+  "fraction_zero_cells": 0.09899293286219081,
+  "fraction_midnight": 0.030526099649990677,
+  "report_delay_available": true,
+  "report_delay_fraction_over6h": 0.5497435703783075,
+  "report_delay_fraction_over7days": 0.11445989289667527,
+  "report_time_missing_fraction": 0.0,
+  "category_scope": [
+    "Assault",
+    "Burglary",
+    "Robbery",
+    "Larceny Theft",
+    "Motor Vehicle Theft"
+  ],
+  "source_sha256": {
+    "data\\raw\\spatiotemporal_20261110\\san_francisco_2019.csv.gz": "e5a2e7988a2249a36859919052a25388c52576646a49e0d7fd58ba7759ae0a95",
+    "data\\raw\\spatiotemporal_20261110\\san_francisco_2020.csv.gz": "064086b56a1ca3cc27ce8c5d907a1355b6b578b71bc81fba25543a0eac4970b8",
+    "data\\raw\\spatiotemporal_20261110\\san_francisco_2021.csv.gz": "594e95a651a15615f090348facf9ac5a3a9e40c372092530f6b924082f95a2a8",
+    "data\\raw\\spatiotemporal_20261110\\san_francisco_2022.csv.gz": "196952524b65843952098c4285ae94874a765ae98ebfe71534d4c8c8b07bd940",
+    "data\\raw\\spatiotemporal_20261110\\san_francisco_2023.csv.gz": "23ccd8bf387aa370025bdb108f3fade901934d84d0659a91747a02a355d82052",
+    "data\\raw\\spatiotemporal_20261110\\san_francisco_2024.csv.gz": "677145c2253d3ed5f2a417792189299d3819d5b15a77dad06ddfcf72b9384952",
+    "data\\raw\\spatiotemporal_20261110\\san_francisco_2025.csv.gz": "1dec454ef5e057debe17e4aea8e330b07937a43e3ef6bd016af8e3e54f62fc7e",
+    "data\\raw\\spatiotemporal_20261110\\san_francisco_2026.csv.gz": "cbdc9c3d22ae98562f6faff35a0590541dd1f25994a0d063b5b0b50e59eecf66"
+  },
+  "output_sha256": "40088091775f498b88a44a0b667107f9f6a9d506e905b03196cb91fd74c531dc",
+  "centroid_url": "https://data.sfgov.org/resource/wg3w-h783.json?%24select=police_district%2Cavg%28latitude%29+as+center_latitude%2Cavg%28longitude%29+as+center_longitude&%24where=incident_datetime+%3E%3D+%272019-01-01T00%3A00%3A00%27+AND+incident_datetime+%3C+%272024-01-01T00%3A00%3A00%27+AND+incident_category+in%28%27Assault%27%2C%27Burglary%27%2C%27Robbery%27%2C%27Larceny+Theft%27%2C%27Motor+Vehicle+Theft%27%29+AND+latitude+is+not+null+AND+longitude+is+not+null+AND+report_datetime+%3C+%272024-01-01T00%3A00%3A00%27&%24group=police_district&%24limit=100",
+  "centroids": [
+    [
+      37.73788446800866,
+      -122.39525664921302
+    ],
+    [
+      37.796433562106905,
+      -122.41002747048526
+    ],
+    [
+      37.72929181117844,
+      -122.42948346684315
+    ],
+    [
+      37.75992760135352,
+      -122.42096860004811
+    ],
+    [
+      37.78739224407224,
+      -122.43006908541723
+    ],
+    [
+      37.76741532534849,
+      -122.44631285512327
+    ],
+    [
+      37.7787593096327,
+      -122.47510806845173
+    ],
+    [
+      37.77997171680859,
+      -122.40238500045905
+    ],
+    [
+      37.738977388861514,
+      -122.47819932169125
+    ],
+    [
+      37.78304882476647,
+      -122.41215987475842
+    ]
+  ],
+  "centroid_definition": "mean training-event coordinate per district, 2019-2023 only; not boundary adjacency",
+  "caveat": "retrospective incident-date snapshot; historical reporting vintages are unavailable, particularly for Chicago"
+}

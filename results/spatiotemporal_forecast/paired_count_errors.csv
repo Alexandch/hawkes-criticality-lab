@@ -1,0 +1,9 @@
+city,information_lag_days,split,primary,primary_minus_seasonal_mae,block_bootstrap_ci95_lower,block_bootstrap_ci95_upper,block_days,bootstrap_samples,method
+chicago,0,test2025,neural_ensemble,-0.14486275849269747,-0.174554644576729,-0.11473727380400908,14,1000,"resample complete14day blocks with all districts jointly, conditional on model selection"
+chicago,0,test2026,neural_ensemble,-0.13932380776067663,-0.17384132808032748,-0.10481907404849573,14,1000,"resample complete14day blocks with all districts jointly, conditional on model selection"
+chicago,7,test2025,neural_ensemble,-0.13248115531390856,-0.16124792138025015,-0.10493544163323128,14,1000,"resample complete14day blocks with all districts jointly, conditional on model selection"
+chicago,7,test2026,neural_ensemble,-0.1305101457012973,-0.1673911746210043,-0.09303425692737291,14,1000,"resample complete14day blocks with all districts jointly, conditional on model selection"
+san_francisco,0,test2025,neural_ensemble,-0.8979003428126604,-0.9539092285038164,-0.8359146955633274,14,1000,"resample complete14day blocks with all districts jointly, conditional on model selection"
+san_francisco,0,test2026,neural_ensemble,-1.089378656417777,-1.1534309151570277,-1.0183549404856842,14,1000,"resample complete14day blocks with all districts jointly, conditional on model selection"
+san_francisco,7,test2025,neural_ensemble,-0.8555381985607239,-0.9074421774545529,-0.7975793973820642,14,1000,"resample complete14day blocks with all districts jointly, conditional on model selection"
+san_francisco,7,test2026,neural_ensemble,-1.0308409070256772,-1.088081843324241,-0.965514337566362,14,1000,"resample complete14day blocks with all districts jointly, conditional on model selection"

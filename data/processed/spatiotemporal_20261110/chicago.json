@@ -1,0 +1,155 @@
+{
+  "city": "chicago",
+  "bin_hours": 6,
+  "districts": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09",
+    "10",
+    "11",
+    "12",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "22",
+    "24",
+    "25"
+  ],
+  "start": "2019-01-01 00:00:00",
+  "end_exclusive": "2026-10-01 00:00:00",
+  "raw_rows": 1176766,
+  "invalid_rows": 0,
+  "unknown_district_rows": 410,
+  "conflicting_district_cases": 0,
+  "duplicate_offense_rows": 0,
+  "incidents": 1176356,
+  "grid_cells": 249040,
+  "fraction_zero_cells": 0.03663668486990042,
+  "fraction_midnight": 0.024824967951878513,
+  "report_delay_available": false,
+  "report_delay_fraction_over6h": null,
+  "report_delay_fraction_over7days": null,
+  "report_time_missing_fraction": null,
+  "category_scope": [
+    "ASSAULT",
+    "BATTERY",
+    "BURGLARY",
+    "ROBBERY",
+    "THEFT",
+    "MOTOR VEHICLE THEFT"
+  ],
+  "source_sha256": {
+    "data\\raw\\spatiotemporal_20261110\\chicago_2019.csv.gz": "1ee5b5976f6b7c84e6315c4f6a28a6d675ca007b64e21837013b184d8de02d28",
+    "data\\raw\\spatiotemporal_20261110\\chicago_2020.csv.gz": "79cec028dea6c2d4a3a83bda3c658eb06fbb8c0d8e12f1aed0a4ad4e5739594e",
+    "data\\raw\\spatiotemporal_20261110\\chicago_2021.csv.gz": "1077cb97c07546f6b2abe2d6ed788be989630a0fba66b2b6888f38c0f76aebb5",
+    "data\\raw\\spatiotemporal_20261110\\chicago_2022.csv.gz": "437d8d0daa72e03e525c80f970abcc8867d28837870598cc94ed543f2baf7af2",
+    "data\\raw\\spatiotemporal_20261110\\chicago_2023.csv.gz": "4609cd2c8595fe2884fa15f8fe21dd04a6f5c5c7e22a9508e9d54eba09d118ff",
+    "data\\raw\\spatiotemporal_20261110\\chicago_2024.csv.gz": "f988156d63dd77a4cb551c4b488337e98ee29b2fccc848a834e5e617be0d7929",
+    "data\\raw\\spatiotemporal_20261110\\chicago_2025.csv.gz": "6af32a4ff03be3268a693f04430add38c868106d19ab0041df1cff7873bfbd14",
+    "data\\raw\\spatiotemporal_20261110\\chicago_2026.csv.gz": "3f016d1f0673dff239d5560e9fe5cc12cabcbbdb7b824882b189454a71771db7"
+  },
+  "output_sha256": "46b17e0f8e0e07be55a85fd065f5f44d6ae7ccc49be57b30add3536a3896aaf4",
+  "centroid_url": "https://data.cityofchicago.org/resource/ijzp-q8t2.json?%24select=district%2Cavg%28latitude%29+as+center_latitude%2Cavg%28longitude%29+as+center_longitude&%24where=date+%3E%3D+%272019-01-01T00%3A00%3A00%27+AND+date+%3C+%272024-01-01T00%3A00%3A00%27+AND+primary_type+in%28%27ASSAULT%27%2C%27BATTERY%27%2C%27BURGLARY%27%2C%27ROBBERY%27%2C%27THEFT%27%2C%27MOTOR+VEHICLE+THEFT%27%29+AND+latitude+is+not+null+AND+longitude+is+not+null&%24group=district&%24limit=100",
+  "centroids": [
+    [
+      41.87284201134312,
+      -87.62843306117037
+    ],
+    [
+      41.80997451641557,
+      -87.61000664814549
+    ],
+    [
+      41.77086455897314,
+      -87.59522385838576
+    ],
+    [
+      41.73393870790354,
+      -87.56407993448778
+    ],
+    [
+      41.68722543172796,
+      -87.62177411887592
+    ],
+    [
+      41.74560749111642,
+      -87.63065948499748
+    ],
+    [
+      41.774855829930395,
+      -87.65231089458041
+    ],
+    [
+      41.77810161199916,
+      -87.7159509878852
+    ],
+    [
+      41.817271375148295,
+      -87.66409302437685
+    ],
+    [
+      41.853573910920126,
+      -87.71279491243699
+    ],
+    [
+      41.88149964607218,
+      -87.71903129836248
+    ],
+    [
+      41.88085347583664,
+      -87.66867841938998
+    ],
+    [
+      41.91672836294111,
+      -87.69107513838007
+    ],
+    [
+      41.885348080923386,
+      -87.75897981398958
+    ],
+    [
+      41.985330448615386,
+      -87.82911591053846
+    ],
+    [
+      41.96106095365173,
+      -87.7206898343395
+    ],
+    [
+      41.900957103866986,
+      -87.63353183474494
+    ],
+    [
+      41.947097453013406,
+      -87.65827204626736
+    ],
+    [
+      41.97878061400424,
+      -87.67185324104717
+    ],
+    [
+      41.70958613476825,
+      -87.65824896839476
+    ],
+    [
+      42.005478816166615,
+      -87.67744995792017
+    ],
+    [
+      41.91970549405403,
+      -87.75321760776737
+    ]
+  ],
+  "centroid_definition": "mean training-event coordinate per district, 2019-2023 only; not boundary adjacency",
+  "caveat": "retrospective incident-date snapshot; historical reporting vintages are unavailable, particularly for Chicago"
+}

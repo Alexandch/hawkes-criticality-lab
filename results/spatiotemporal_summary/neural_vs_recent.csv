@@ -1,0 +1,5 @@
+city,split,neural_minus_recent_mae,block_ci95_lower,block_ci95_upper,interpretation
+chicago,test2025,-0.018568590329608912,-0.023829143164219756,-0.013210959101786789,descriptive paired comparison of prespecified methods; no new test-based model selection
+chicago,test2026,-0.013362202813997338,-0.018785103432887525,-0.008091835952603717,descriptive paired comparison of prespecified methods; no new test-based model selection
+san_francisco,test2025,0.00904471478281516,0.0014638322445313192,0.016316708940371138,descriptive paired comparison of prespecified methods; no new test-based model selection
+san_francisco,test2026,0.021280433022980223,0.009381671664944012,0.03409322724547487,descriptive paired comparison of prespecified methods; no new test-based model selection

@@ -1,0 +1,459 @@
+{
+  "records": [
+    {
+      "city": "chicago",
+      "year": 2020,
+      "url": "https://data.cityofchicago.org/resource/ijzp-q8t2.csv?%24select=case_number%2Cdate%2Cdistrict%2Cprimary_type&%24where=date+%3E%3D+%272020-01-01T00%3A00%3A00%27+AND+date+%3C+%272021-01-01T00%3A00%3A00%27+AND+primary_type+in%28%27ASSAULT%27%2C%27BATTERY%27%2C%27BURGLARY%27%2C%27ROBBERY%27%2C%27THEFT%27%2C%27MOTOR+VEHICLE+THEFT%27%29&%24order=date%2Ccase_number&%24limit=1000000",
+      "count_url": "https://data.cityofchicago.org/resource/ijzp-q8t2.json?%24select=count%28%2A%29+as+rows&%24where=date+%3E%3D+%272020-01-01T00%3A00%3A00%27+AND+date+%3C+%272021-01-01T00%3A00%3A00%27+AND+primary_type+in%28%27ASSAULT%27%2C%27BATTERY%27%2C%27BURGLARY%27%2C%27ROBBERY%27%2C%27THEFT%27%2C%27MOTOR+VEHICLE+THEFT%27%29",
+      "rows": 127779,
+      "columns": [
+        "case_number",
+        "date",
+        "district",
+        "primary_type"
+      ],
+      "sha256": "79cec028dea6c2d4a3a83bda3c658eb06fbb8c0d8e12f1aed0a4ad4e5739594e",
+      "retrieved_utc": "2026-11-10T18:53:15.523009+00:00",
+      "end_exclusive": "2021-01-01T00:00:00",
+      "scope": [
+        "ASSAULT",
+        "BATTERY",
+        "BURGLARY",
+        "ROBBERY",
+        "THEFT",
+        "MOTOR VEHICLE THEFT"
+      ]
+    },
+    {
+      "city": "chicago",
+      "year": 2021,
+      "url": "https://data.cityofchicago.org/resource/ijzp-q8t2.csv?%24select=case_number%2Cdate%2Cdistrict%2Cprimary_type&%24where=date+%3E%3D+%272021-01-01T00%3A00%3A00%27+AND+date+%3C+%272022-01-01T00%3A00%3A00%27+AND+primary_type+in%28%27ASSAULT%27%2C%27BATTERY%27%2C%27BURGLARY%27%2C%27ROBBERY%27%2C%27THEFT%27%2C%27MOTOR+VEHICLE+THEFT%27%29&%24order=date%2Ccase_number&%24limit=1000000",
+      "count_url": "https://data.cityofchicago.org/resource/ijzp-q8t2.json?%24select=count%28%2A%29+as+rows&%24where=date+%3E%3D+%272021-01-01T00%3A00%3A00%27+AND+date+%3C+%272022-01-01T00%3A00%3A00%27+AND+primary_type+in%28%27ASSAULT%27%2C%27BATTERY%27%2C%27BURGLARY%27%2C%27ROBBERY%27%2C%27THEFT%27%2C%27MOTOR+VEHICLE+THEFT%27%29",
+      "rows": 126881,
+      "columns": [
+        "case_number",
+        "date",
+        "district",
+        "primary_type"
+      ],
+      "sha256": "1077cb97c07546f6b2abe2d6ed788be989630a0fba66b2b6888f38c0f76aebb5",
+      "retrieved_utc": "2026-11-10T18:53:37.256271+00:00",
+      "end_exclusive": "2022-01-01T00:00:00",
+      "scope": [
+        "ASSAULT",
+        "BATTERY",
+        "BURGLARY",
+        "ROBBERY",
+        "THEFT",
+        "MOTOR VEHICLE THEFT"
+      ]
+    },
+    {
+      "city": "chicago",
+      "year": 2019,
+      "url": "https://data.cityofchicago.org/resource/ijzp-q8t2.csv?%24select=case_number%2Cdate%2Cdistrict%2Cprimary_type&%24where=date+%3E%3D+%272019-01-01T00%3A00%3A00%27+AND+date+%3C+%272020-01-01T00%3A00%3A00%27+AND+primary_type+in%28%27ASSAULT%27%2C%27BATTERY%27%2C%27BURGLARY%27%2C%27ROBBERY%27%2C%27THEFT%27%2C%27MOTOR+VEHICLE+THEFT%27%29&%24order=date%2Ccase_number&%24limit=1000000",
+      "count_url": "https://data.cityofchicago.org/resource/ijzp-q8t2.json?%24select=count%28%2A%29+as+rows&%24where=date+%3E%3D+%272019-01-01T00%3A00%3A00%27+AND+date+%3C+%272020-01-01T00%3A00%3A00%27+AND+primary_type+in%28%27ASSAULT%27%2C%27BATTERY%27%2C%27BURGLARY%27%2C%27ROBBERY%27%2C%27THEFT%27%2C%27MOTOR+VEHICLE+THEFT%27%29",
+      "rows": 159301,
+      "columns": [
+        "case_number",
+        "date",
+        "district",
+        "primary_type"
+      ],
+      "sha256": "1ee5b5976f6b7c84e6315c4f6a28a6d675ca007b64e21837013b184d8de02d28",
+      "retrieved_utc": "2026-11-10T18:53:23.182478+00:00",
+      "end_exclusive": "2020-01-01T00:00:00",
+      "scope": [
+        "ASSAULT",
+        "BATTERY",
+        "BURGLARY",
+        "ROBBERY",
+        "THEFT",
+        "MOTOR VEHICLE THEFT"
+      ]
+    },
+    {
+      "city": "chicago",
+      "year": 2022,
+      "url": "https://data.cityofchicago.org/resource/ijzp-q8t2.csv?%24select=case_number%2Cdate%2Cdistrict%2Cprimary_type&%24where=date+%3E%3D+%272022-01-01T00%3A00%3A00%27+AND+date+%3C+%272023-01-01T00%3A00%3A00%27+AND+primary_type+in%28%27ASSAULT%27%2C%27BATTERY%27%2C%27BURGLARY%27%2C%27ROBBERY%27%2C%27THEFT%27%2C%27MOTOR+VEHICLE+THEFT%27%29&%24order=date%2Ccase_number&%24limit=1000000",
+      "count_url": "https://data.cityofchicago.org/resource/ijzp-q8t2.json?%24select=count%28%2A%29+as+rows&%24where=date+%3E%3D+%272022-01-01T00%3A00%3A00%27+AND+date+%3C+%272023-01-01T00%3A00%3A00%27+AND+primary_type+in%28%27ASSAULT%27%2C%27BATTERY%27%2C%27BURGLARY%27%2C%27ROBBERY%27%2C%27THEFT%27%2C%27MOTOR+VEHICLE+THEFT%27%29",
+      "rows": 154766,
+      "columns": [
+        "case_number",
+        "date",
+        "district",
+        "primary_type"
+      ],
+      "sha256": "437d8d0daa72e03e525c80f970abcc8867d28837870598cc94ed543f2baf7af2",
+      "retrieved_utc": "2026-11-10T18:53:16.966847+00:00",
+      "end_exclusive": "2023-01-01T00:00:00",
+      "scope": [
+        "ASSAULT",
+        "BATTERY",
+        "BURGLARY",
+        "ROBBERY",
+        "THEFT",
+        "MOTOR VEHICLE THEFT"
+      ]
+    },
+    {
+      "city": "chicago",
+      "year": 2023,
+      "url": "https://data.cityofchicago.org/resource/ijzp-q8t2.csv?%24select=case_number%2Cdate%2Cdistrict%2Cprimary_type&%24where=date+%3E%3D+%272023-01-01T00%3A00%3A00%27+AND+date+%3C+%272024-01-01T00%3A00%3A00%27+AND+primary_type+in%28%27ASSAULT%27%2C%27BATTERY%27%2C%27BURGLARY%27%2C%27ROBBERY%27%2C%27THEFT%27%2C%27MOTOR+VEHICLE+THEFT%27%29&%24order=date%2Ccase_number&%24limit=1000000",
+      "count_url": "https://data.cityofchicago.org/resource/ijzp-q8t2.json?%24select=count%28%2A%29+as+rows&%24where=date+%3E%3D+%272023-01-01T00%3A00%3A00%27+AND+date+%3C+%272024-01-01T00%3A00%3A00%27+AND+primary_type+in%28%27ASSAULT%27%2C%27BATTERY%27%2C%27BURGLARY%27%2C%27ROBBERY%27%2C%27THEFT%27%2C%27MOTOR+VEHICLE+THEFT%27%29",
+      "rows": 172287,
+      "columns": [
+        "case_number",
+        "date",
+        "district",
+        "primary_type"
+      ],
+      "sha256": "4609cd2c8595fe2884fa15f8fe21dd04a6f5c5c7e22a9508e9d54eba09d118ff",
+      "retrieved_utc": "2026-11-10T18:53:39.349624+00:00",
+      "end_exclusive": "2024-01-01T00:00:00",
+      "scope": [
+        "ASSAULT",
+        "BATTERY",
+        "BURGLARY",
+        "ROBBERY",
+        "THEFT",
+        "MOTOR VEHICLE THEFT"
+      ]
+    },
+    {
+      "city": "chicago",
+      "year": 2024,
+      "url": "https://data.cityofchicago.org/resource/ijzp-q8t2.csv?%24select=case_number%2Cdate%2Cdistrict%2Cprimary_type&%24where=date+%3E%3D+%272024-01-01T00%3A00%3A00%27+AND+date+%3C+%272025-01-01T00%3A00%3A00%27+AND+primary_type+in%28%27ASSAULT%27%2C%27BATTERY%27%2C%27BURGLARY%27%2C%27ROBBERY%27%2C%27THEFT%27%2C%27MOTOR+VEHICLE+THEFT%27%29&%24order=date%2Ccase_number&%24limit=1000000",
+      "count_url": "https://data.cityofchicago.org/resource/ijzp-q8t2.json?%24select=count%28%2A%29+as+rows&%24where=date+%3E%3D+%272024-01-01T00%3A00%3A00%27+AND+date+%3C+%272025-01-01T00%3A00%3A00%27+AND+primary_type+in%28%27ASSAULT%27%2C%27BATTERY%27%2C%27BURGLARY%27%2C%27ROBBERY%27%2C%27THEFT%27%2C%27MOTOR+VEHICLE+THEFT%27%29",
+      "rows": 169508,
+      "columns": [
+        "case_number",
+        "date",
+        "district",
+        "primary_type"
+      ],
+      "sha256": "f988156d63dd77a4cb551c4b488337e98ee29b2fccc848a834e5e617be0d7929",
+      "retrieved_utc": "2026-11-10T18:53:44.403245+00:00",
+      "end_exclusive": "2025-01-01T00:00:00",
+      "scope": [
+        "ASSAULT",
+        "BATTERY",
+        "BURGLARY",
+        "ROBBERY",
+        "THEFT",
+        "MOTOR VEHICLE THEFT"
+      ]
+    },
+    {
+      "city": "chicago",
+      "year": 2025,
+      "url": "https://data.cityofchicago.org/resource/ijzp-q8t2.csv?%24select=case_number%2Cdate%2Cdistrict%2Cprimary_type&%24where=date+%3E%3D+%272025-01-01T00%3A00%3A00%27+AND+date+%3C+%272026-01-01T00%3A00%3A00%27+AND+primary_type+in%28%27ASSAULT%27%2C%27BATTERY%27%2C%27BURGLARY%27%2C%27ROBBERY%27%2C%27THEFT%27%2C%27MOTOR+VEHICLE+THEFT%27%29&%24order=date%2Ccase_number&%24limit=1000000",
+      "count_url": "https://data.cityofchicago.org/resource/ijzp-q8t2.json?%24select=count%28%2A%29+as+rows&%24where=date+%3E%3D+%272025-01-01T00%3A00%3A00%27+AND+date+%3C+%272026-01-01T00%3A00%3A00%27+AND+primary_type+in%28%27ASSAULT%27%2C%27BATTERY%27%2C%27BURGLARY%27%2C%27ROBBERY%27%2C%27THEFT%27%2C%27MOTOR+VEHICLE+THEFT%27%29",
+      "rows": 152305,
+      "columns": [
+        "case_number",
+        "date",
+        "district",
+        "primary_type"
+      ],
+      "sha256": "6af32a4ff03be3268a693f04430add38c868106d19ab0041df1cff7873bfbd14",
+      "retrieved_utc": "2026-11-10T18:53:50.121353+00:00",
+      "end_exclusive": "2026-01-01T00:00:00",
+      "scope": [
+        "ASSAULT",
+        "BATTERY",
+        "BURGLARY",
+        "ROBBERY",
+        "THEFT",
+        "MOTOR VEHICLE THEFT"
+      ]
+    },
+    {
+      "city": "chicago",
+      "year": 2026,
+      "url": "https://data.cityofchicago.org/resource/ijzp-q8t2.csv?%24select=case_number%2Cdate%2Cdistrict%2Cprimary_type&%24where=date+%3E%3D+%272026-01-01T00%3A00%3A00%27+AND+date+%3C+%272026-10-01T00%3A00%3A00%27+AND+primary_type+in%28%27ASSAULT%27%2C%27BATTERY%27%2C%27BURGLARY%27%2C%27ROBBERY%27%2C%27THEFT%27%2C%27MOTOR+VEHICLE+THEFT%27%29&%24order=date%2Ccase_number&%24limit=1000000",
+      "count_url": "https://data.cityofchicago.org/resource/ijzp-q8t2.json?%24select=count%28%2A%29+as+rows&%24where=date+%3E%3D+%272026-01-01T00%3A00%3A00%27+AND+date+%3C+%272026-10-01T00%3A00%3A00%27+AND+primary_type+in%28%27ASSAULT%27%2C%27BATTERY%27%2C%27BURGLARY%27%2C%27ROBBERY%27%2C%27THEFT%27%2C%27MOTOR+VEHICLE+THEFT%27%29",
+      "rows": 113939,
+      "columns": [
+        "case_number",
+        "date",
+        "district",
+        "primary_type"
+      ],
+      "sha256": "3f016d1f0673dff239d5560e9fe5cc12cabcbbdb7b824882b189454a71771db7",
+      "retrieved_utc": "2026-11-10T18:53:49.107610+00:00",
+      "end_exclusive": "2026-10-01T00:00:00",
+      "scope": [
+        "ASSAULT",
+        "BATTERY",
+        "BURGLARY",
+        "ROBBERY",
+        "THEFT",
+        "MOTOR VEHICLE THEFT"
+      ]
+    },
+    {
+      "city": "san_francisco",
+      "year": 2019,
+      "url": "https://data.sfgov.org/resource/wg3w-h783.csv?%24select=incident_id%2Cincident_datetime%2Creport_datetime%2Cpolice_district%2Cincident_category&%24where=incident_datetime+%3E%3D+%272019-01-01T00%3A00%3A00%27+AND+incident_datetime+%3C+%272020-01-01T00%3A00%3A00%27+AND+incident_category+in%28%27Assault%27%2C%27Burglary%27%2C%27Robbery%27%2C%27Larceny+Theft%27%2C%27Motor+Vehicle+Theft%27%29&%24order=incident_datetime%2Cincident_id&%24limit=1000000",
+      "count_url": "https://data.sfgov.org/resource/wg3w-h783.json?%24select=count%28%2A%29+as+rows&%24where=incident_datetime+%3E%3D+%272019-01-01T00%3A00%3A00%27+AND+incident_datetime+%3C+%272020-01-01T00%3A00%3A00%27+AND+incident_category+in%28%27Assault%27%2C%27Burglary%27%2C%27Robbery%27%2C%27Larceny+Theft%27%2C%27Motor+Vehicle+Theft%27%29",
+      "rows": 72273,
+      "columns": [
+        "incident_id",
+        "incident_datetime",
+        "report_datetime",
+        "police_district",
+        "incident_category"
+      ],
+      "sha256": "e5a2e7988a2249a36859919052a25388c52576646a49e0d7fd58ba7759ae0a95",
+      "retrieved_utc": "2026-11-10T18:53:57.602167+00:00",
+      "end_exclusive": "2020-01-01T00:00:00",
+      "scope": [
+        "Assault",
+        "Burglary",
+        "Robbery",
+        "Larceny Theft",
+        "Motor Vehicle Theft"
+      ]
+    },
+    {
+      "city": "san_francisco",
+      "year": 2020,
+      "url": "https://data.sfgov.org/resource/wg3w-h783.csv?%24select=incident_id%2Cincident_datetime%2Creport_datetime%2Cpolice_district%2Cincident_category&%24where=incident_datetime+%3E%3D+%272020-01-01T00%3A00%3A00%27+AND+incident_datetime+%3C+%272021-01-01T00%3A00%3A00%27+AND+incident_category+in%28%27Assault%27%2C%27Burglary%27%2C%27Robbery%27%2C%27Larceny+Theft%27%2C%27Motor+Vehicle+Theft%27%29&%24order=incident_datetime%2Cincident_id&%24limit=1000000",
+      "count_url": "https://data.sfgov.org/resource/wg3w-h783.json?%24select=count%28%2A%29+as+rows&%24where=incident_datetime+%3E%3D+%272020-01-01T00%3A00%3A00%27+AND+incident_datetime+%3C+%272021-01-01T00%3A00%3A00%27+AND+incident_category+in%28%27Assault%27%2C%27Burglary%27%2C%27Robbery%27%2C%27Larceny+Theft%27%2C%27Motor+Vehicle+Theft%27%29",
+      "rows": 56970,
+      "columns": [
+        "incident_id",
+        "incident_datetime",
+        "report_datetime",
+        "police_district",
+        "incident_category"
+      ],
+      "sha256": "064086b56a1ca3cc27ce8c5d907a1355b6b578b71bc81fba25543a0eac4970b8",
+      "retrieved_utc": "2026-11-10T18:53:53.721293+00:00",
+      "end_exclusive": "2021-01-01T00:00:00",
+      "scope": [
+        "Assault",
+        "Burglary",
+        "Robbery",
+        "Larceny Theft",
+        "Motor Vehicle Theft"
+      ]
+    },
+    {
+      "city": "san_francisco",
+      "year": 2021,
+      "url": "https://data.sfgov.org/resource/wg3w-h783.csv?%24select=incident_id%2Cincident_datetime%2Creport_datetime%2Cpolice_district%2Cincident_category&%24where=incident_datetime+%3E%3D+%272021-01-01T00%3A00%3A00%27+AND+incident_datetime+%3C+%272022-01-01T00%3A00%3A00%27+AND+incident_category+in%28%27Assault%27%2C%27Burglary%27%2C%27Robbery%27%2C%27Larceny+Theft%27%2C%27Motor+Vehicle+Theft%27%29&%24order=incident_datetime%2Cincident_id&%24limit=1000000",
+      "count_url": "https://data.sfgov.org/resource/wg3w-h783.json?%24select=count%28%2A%29+as+rows&%24where=incident_datetime+%3E%3D+%272021-01-01T00%3A00%3A00%27+AND+incident_datetime+%3C+%272022-01-01T00%3A00%3A00%27+AND+incident_category+in%28%27Assault%27%2C%27Burglary%27%2C%27Robbery%27%2C%27Larceny+Theft%27%2C%27Motor+Vehicle+Theft%27%29",
+      "rows": 64862,
+      "columns": [
+        "incident_id",
+        "incident_datetime",
+        "report_datetime",
+        "police_district",
+        "incident_category"
+      ],
+      "sha256": "594e95a651a15615f090348facf9ac5a3a9e40c372092530f6b924082f95a2a8",
+      "retrieved_utc": "2026-11-10T18:54:11.927340+00:00",
+      "end_exclusive": "2022-01-01T00:00:00",
+      "scope": [
+        "Assault",
+        "Burglary",
+        "Robbery",
+        "Larceny Theft",
+        "Motor Vehicle Theft"
+      ]
+    },
+    {
+      "city": "san_francisco",
+      "year": 2022,
+      "url": "https://data.sfgov.org/resource/wg3w-h783.csv?%24select=incident_id%2Cincident_datetime%2Creport_datetime%2Cpolice_district%2Cincident_category&%24where=incident_datetime+%3E%3D+%272022-01-01T00%3A00%3A00%27+AND+incident_datetime+%3C+%272023-01-01T00%3A00%3A00%27+AND+incident_category+in%28%27Assault%27%2C%27Burglary%27%2C%27Robbery%27%2C%27Larceny+Theft%27%2C%27Motor+Vehicle+Theft%27%29&%24order=incident_datetime%2Cincident_id&%24limit=1000000",
+      "count_url": "https://data.sfgov.org/resource/wg3w-h783.json?%24select=count%28%2A%29+as+rows&%24where=incident_datetime+%3E%3D+%272022-01-01T00%3A00%3A00%27+AND+incident_datetime+%3C+%272023-01-01T00%3A00%3A00%27+AND+incident_category+in%28%27Assault%27%2C%27Burglary%27%2C%27Robbery%27%2C%27Larceny+Theft%27%2C%27Motor+Vehicle+Theft%27%29",
+      "rows": 69489,
+      "columns": [
+        "incident_id",
+        "incident_datetime",
+        "report_datetime",
+        "police_district",
+        "incident_category"
+      ],
+      "sha256": "196952524b65843952098c4285ae94874a765ae98ebfe71534d4c8c8b07bd940",
+      "retrieved_utc": "2026-11-10T18:54:05.015887+00:00",
+      "end_exclusive": "2023-01-01T00:00:00",
+      "scope": [
+        "Assault",
+        "Burglary",
+        "Robbery",
+        "Larceny Theft",
+        "Motor Vehicle Theft"
+      ]
+    },
+    {
+      "city": "san_francisco",
+      "year": 2023,
+      "url": "https://data.sfgov.org/resource/wg3w-h783.csv?%24select=incident_id%2Cincident_datetime%2Creport_datetime%2Cpolice_district%2Cincident_category&%24where=incident_datetime+%3E%3D+%272023-01-01T00%3A00%3A00%27+AND+incident_datetime+%3C+%272024-01-01T00%3A00%3A00%27+AND+incident_category+in%28%27Assault%27%2C%27Burglary%27%2C%27Robbery%27%2C%27Larceny+Theft%27%2C%27Motor+Vehicle+Theft%27%29&%24order=incident_datetime%2Cincident_id&%24limit=1000000",
+      "count_url": "https://data.sfgov.org/resource/wg3w-h783.json?%24select=count%28%2A%29+as+rows&%24where=incident_datetime+%3E%3D+%272023-01-01T00%3A00%3A00%27+AND+incident_datetime+%3C+%272024-01-01T00%3A00%3A00%27+AND+incident_category+in%28%27Assault%27%2C%27Burglary%27%2C%27Robbery%27%2C%27Larceny+Theft%27%2C%27Motor+Vehicle+Theft%27%29",
+      "rows": 65842,
+      "columns": [
+        "incident_id",
+        "incident_datetime",
+        "report_datetime",
+        "police_district",
+        "incident_category"
+      ],
+      "sha256": "23ccd8bf387aa370025bdb108f3fade901934d84d0659a91747a02a355d82052",
+      "retrieved_utc": "2026-11-10T18:54:08.938166+00:00",
+      "end_exclusive": "2024-01-01T00:00:00",
+      "scope": [
+        "Assault",
+        "Burglary",
+        "Robbery",
+        "Larceny Theft",
+        "Motor Vehicle Theft"
+      ]
+    },
+    {
+      "city": "san_francisco",
+      "year": 2025,
+      "url": "https://data.sfgov.org/resource/wg3w-h783.csv?%24select=incident_id%2Cincident_datetime%2Creport_datetime%2Cpolice_district%2Cincident_category&%24where=incident_datetime+%3E%3D+%272025-01-01T00%3A00%3A00%27+AND+incident_datetime+%3C+%272026-01-01T00%3A00%3A00%27+AND+incident_category+in%28%27Assault%27%2C%27Burglary%27%2C%27Robbery%27%2C%27Larceny+Theft%27%2C%27Motor+Vehicle+Theft%27%29&%24order=incident_datetime%2Cincident_id&%24limit=1000000",
+      "count_url": "https://data.sfgov.org/resource/wg3w-h783.json?%24select=count%28%2A%29+as+rows&%24where=incident_datetime+%3E%3D+%272025-01-01T00%3A00%3A00%27+AND+incident_datetime+%3C+%272026-01-01T00%3A00%3A00%27+AND+incident_category+in%28%27Assault%27%2C%27Burglary%27%2C%27Robbery%27%2C%27Larceny+Theft%27%2C%27Motor+Vehicle+Theft%27%29",
+      "rows": 38459,
+      "columns": [
+        "incident_id",
+        "incident_datetime",
+        "report_datetime",
+        "police_district",
+        "incident_category"
+      ],
+      "sha256": "1dec454ef5e057debe17e4aea8e330b07937a43e3ef6bd016af8e3e54f62fc7e",
+      "retrieved_utc": "2026-11-10T18:54:15.119772+00:00",
+      "end_exclusive": "2026-01-01T00:00:00",
+      "scope": [
+        "Assault",
+        "Burglary",
+        "Robbery",
+        "Larceny Theft",
+        "Motor Vehicle Theft"
+      ]
+    },
+    {
+      "city": "san_francisco",
+      "year": 2024,
+      "url": "https://data.sfgov.org/resource/wg3w-h783.csv?%24select=incident_id%2Cincident_datetime%2Creport_datetime%2Cpolice_district%2Cincident_category&%24where=incident_datetime+%3E%3D+%272024-01-01T00%3A00%3A00%27+AND+incident_datetime+%3C+%272025-01-01T00%3A00%3A00%27+AND+incident_category+in%28%27Assault%27%2C%27Burglary%27%2C%27Robbery%27%2C%27Larceny+Theft%27%2C%27Motor+Vehicle+Theft%27%29&%24order=incident_datetime%2Cincident_id&%24limit=1000000",
+      "count_url": "https://data.sfgov.org/resource/wg3w-h783.json?%24select=count%28%2A%29+as+rows&%24where=incident_datetime+%3E%3D+%272024-01-01T00%3A00%3A00%27+AND+incident_datetime+%3C+%272025-01-01T00%3A00%3A00%27+AND+incident_category+in%28%27Assault%27%2C%27Burglary%27%2C%27Robbery%27%2C%27Larceny+Theft%27%2C%27Motor+Vehicle+Theft%27%29",
+      "rows": 50634,
+      "columns": [
+        "incident_id",
+        "incident_datetime",
+        "report_datetime",
+        "police_district",
+        "incident_category"
+      ],
+      "sha256": "677145c2253d3ed5f2a417792189299d3819d5b15a77dad06ddfcf72b9384952",
+      "retrieved_utc": "2026-11-10T18:54:14.400610+00:00",
+      "end_exclusive": "2025-01-01T00:00:00",
+      "scope": [
+        "Assault",
+        "Burglary",
+        "Robbery",
+        "Larceny Theft",
+        "Motor Vehicle Theft"
+      ]
+    },
+    {
+      "city": "san_francisco",
+      "year": 2026,
+      "url": "https://data.sfgov.org/resource/wg3w-h783.csv?%24select=incident_id%2Cincident_datetime%2Creport_datetime%2Cpolice_district%2Cincident_category&%24where=incident_datetime+%3E%3D+%272026-01-01T00%3A00%3A00%27+AND+incident_datetime+%3C+%272026-10-01T00%3A00%3A00%27+AND+incident_category+in%28%27Assault%27%2C%27Burglary%27%2C%27Robbery%27%2C%27Larceny+Theft%27%2C%27Motor+Vehicle+Theft%27%29&%24order=incident_datetime%2Cincident_id&%24limit=1000000",
+      "count_url": "https://data.sfgov.org/resource/wg3w-h783.json?%24select=count%28%2A%29+as+rows&%24where=incident_datetime+%3E%3D+%272026-01-01T00%3A00%3A00%27+AND+incident_datetime+%3C+%272026-10-01T00%3A00%3A00%27+AND+incident_category+in%28%27Assault%27%2C%27Burglary%27%2C%27Robbery%27%2C%27Larceny+Theft%27%2C%27Motor+Vehicle+Theft%27%29",
+      "rows": 25936,
+      "columns": [
+        "incident_id",
+        "incident_datetime",
+        "report_datetime",
+        "police_district",
+        "incident_category"
+      ],
+      "sha256": "cbdc9c3d22ae98562f6faff35a0590541dd1f25994a0d063b5b0b50e59eecf66",
+      "retrieved_utc": "2026-11-10T18:54:15.330410+00:00",
+      "end_exclusive": "2026-10-01T00:00:00",
+      "scope": [
+        "Assault",
+        "Burglary",
+        "Robbery",
+        "Larceny Theft",
+        "Motor Vehicle Theft"
+      ]
+    }
+  ],
+  "scope": {
+    "chicago": {
+      "host": "data.cityofchicago.org",
+      "dataset": "ijzp-q8t2",
+      "date": "date",
+      "identifier": "case_number",
+      "district": "district",
+      "category": "primary_type",
+      "columns": "case_number,date,district,primary_type",
+      "categories": [
+        "ASSAULT",
+        "BATTERY",
+        "BURGLARY",
+        "ROBBERY",
+        "THEFT",
+        "MOTOR VEHICLE THEFT"
+      ],
+      "districts": [
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+        "06",
+        "07",
+        "08",
+        "09",
+        "10",
+        "11",
+        "12",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "22",
+        "24",
+        "25"
+      ]
+    },
+    "san_francisco": {
+      "host": "data.sfgov.org",
+      "dataset": "wg3w-h783",
+      "date": "incident_datetime",
+      "identifier": "incident_id",
+      "district": "police_district",
+      "category": "incident_category",
+      "columns": "incident_id,incident_datetime,report_datetime,police_district,incident_category",
+      "categories": [
+        "Assault",
+        "Burglary",
+        "Robbery",
+        "Larceny Theft",
+        "Motor Vehicle Theft"
+      ],
+      "districts": [
+        "BAYVIEW",
+        "CENTRAL",
+        "INGLESIDE",
+        "MISSION",
+        "NORTHERN",
+        "PARK",
+        "RICHMOND",
+        "SOUTHERN",
+        "TARAVAL",
+        "TENDERLOIN"
+      ]
+    }
+  }
+}

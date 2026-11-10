@@ -1,0 +1,57 @@
+[
+  {
+    "police_district": "Bayview",
+    "center_latitude": "37.7378844680086612",
+    "center_longitude": "-122.3952566492130259"
+  },
+  {
+    "police_district": "Central",
+    "center_latitude": "37.7964335621069020",
+    "center_longitude": "-122.4100274704852567"
+  },
+  {
+    "police_district": "Ingleside",
+    "center_latitude": "37.7292918111784385",
+    "center_longitude": "-122.4294834668431570"
+  },
+  {
+    "police_district": "Mission",
+    "center_latitude": "37.7599276013535173",
+    "center_longitude": "-122.4209686000481083"
+  },
+  {
+    "police_district": "Northern",
+    "center_latitude": "37.7873922440722376",
+    "center_longitude": "-122.4300690854172346"
+  },
+  {
+    "police_district": "Out of SF",
+    "center_latitude": "37.7672918057401225",
+    "center_longitude": "-122.4148515464899288"
+  },
+  {
+    "police_district": "Park",
+    "center_latitude": "37.7674153253484852",
+    "center_longitude": "-122.4463128551232718"
+  },
+  {
+    "police_district": "Richmond",
+    "center_latitude": "37.7787593096326973",
+    "center_longitude": "-122.4751080684517349"
+  },
+  {
+    "police_district": "Southern",
+    "center_latitude": "37.7799717168085909",
+    "center_longitude": "-122.4023850004590538"
+  },
+  {
+    "police_district": "Taraval",
+    "center_latitude": "37.7389773888615169",
+    "center_longitude": "-122.4781993216912487"
+  },
+  {
+    "police_district": "Tenderloin",
+    "center_latitude": "37.7830488247664670",
+    "center_longitude": "-122.4121598747584189"
+  }
+]

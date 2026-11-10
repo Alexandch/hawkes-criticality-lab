@@ -74,6 +74,21 @@
       "source": "results/project_completion/fresh_city_scores.png",
       "copy": "report/assets/fresh_city_scores.png",
       "sha256": "00ce05630ab80370ff8b6f698e3b819417cb15b0253a81aa1fb8e68eb89253e4"
+    },
+    {
+      "source": "results/spatiotemporal_forecast/count_comparison.png",
+      "copy": "report/assets/district_count_comparison.png",
+      "sha256": "acad74a8f7ee902905c79ea54d1ba44e9df191e0afbf62c43c830afe6238a6b0"
+    },
+    {
+      "source": "results/spatiotemporal_forecast/district_time_example.png",
+      "copy": "report/assets/district_time_example.png",
+      "sha256": "2b48463d23592afa151e36f54915f5a245e232564c1889ea35fac616dc919479"
+    },
+    {
+      "source": "results/spatiotemporal_summary/district_forecast_example.png",
+      "copy": "report/assets/district_forecast_example.png",
+      "sha256": "33e928c16e0a666d2f1fd774ea24717356a152b7f9505f2a326cdea7412b621a"
     }
   ]
 }

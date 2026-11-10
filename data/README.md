@@ -1,5 +1,17 @@
 # CODE data
 
+## District × 6-hour snapshot R10 — 2026-11-10
+
+This additional task uses separate portal extracts with district fields: [raw manifests](raw/spatiotemporal_20261110/), [Chicago metadata](processed/spatiotemporal_20261110/chicago.json), [San Francisco metadata](processed/spatiotemporal_20261110/san_francisco.json). The 16 CSV.GZ files cover 2019–2025 and January–September 2026. They contain 1,621,231 selected offense rows, reduced to 1,176,356 Chicago cases and 423,703 SF reports after validation and case deduplication. The grid has 11,320 six-hour intervals, 22 Chicago police districts and 10 SF police districts.
+
+Chicago fields: `case_number,date,district,primary_type`; categories ASSAULT, BATTERY, BURGLARY, ROBBERY, THEFT, MOTOR VEHICLE THEFT. SF fields: `incident_id,incident_datetime,report_datetime,police_district,incident_category`; categories Assault, Burglary, Robbery, Larceny Theft, Motor Vehicle Theft. These are selected categories, not all recorded crime; city definitions are not identical. Unknown districts, invalid dates and conflicting district case IDs are explicitly counted and excluded. All district-months must be present. Local source timestamps are binned without jitter; DST repeated hours cannot be reconstructed from naive timestamps.
+
+Prepared NPZ arrays: `counts` (time × district), `time_ns` (local naive bin start), `districts`, `centroids`. SF also has per-case `event_bins,report_bins,area_indices` for report-aware histories and labels. No addresses or individual event coordinates are stored. Centroids are server-side mean coordinates of training events in 2019–2023; SF additionally restricts reports known before 2024. They define a coarse similarity graph, not boundary adjacency.
+
+SF report delays exceed six hours for 54.974% and seven days for 11.446% of included reports. Chicago lacks initial registration timestamps. A seven-day information lag and report-aware SF history partially address availability; neither reconstructs all historical record revisions. This is a retrospective evaluation, not a live operational guarantee. [Protocol and splits](../report/SPATIOTEMPORAL_PROTOCOL.md), [metrics](../results/spatiotemporal_forecast/test_metrics.csv).
+
+Large CSV.GZ/NPZ files are external to Git. For a new download use `python scripts/prepare_spatiotemporal_data.py --raw data/raw/spatial_local --out data/processed/spatial_local`; preserve archived manifests. New source vintages may differ.
+
 ## Final expanded snapshot — 2026-11-10
 
 The OSF file list was checked again and now includes `core_2022`. Additional CODE core files for 2018, 2019 and 2022 are stored in `raw/expanded_20261110/`, alongside discovery JSON, download URLs and SHA-256 manifests. Existing 2020/2021 archives were preserved. The prepared 2018–2022 panel contains 9,543,104 offense records in 17 cities. Annual filenames do not guarantee complete coverage: Chicago lacks 2022 Q4; Houston and Minneapolis lack 2018. Those three streams are excluded from the fixed long-history neural application, leaving 14 eligible CODE cities.

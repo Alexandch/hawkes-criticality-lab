@@ -14,12 +14,12 @@
       "bytes": 1114
     },
     "README.md": {
-      "sha256": "db9c5fcf11fc29252556adc18f65a93ecbf3882a493d5ccb6b9b03c5f1b30b95",
-      "bytes": 47562
+      "sha256": "1526d4f208641630c01de41efce6a6558990e44fc9dce32b442fd7aeb2117e7b",
+      "bytes": 49501
     },
     "data/README.md": {
-      "sha256": "5d34dcd54bff3e4d8a703cc6594a706b8254b995b3654ea9eda925072b21c359",
-      "bytes": 5764
+      "sha256": "49a26715ef71cf61db5dcd34bf76ed55b4ce74a7ef566915210d285bcffb3948",
+      "bytes": 8228
     },
     "data/processed/code_core_2020_2021_17cities.csv.manifest.json": {
       "sha256": "230388ebc2d10b726e57bf171d8173ae7dd2d3ee4f73028120942314960b776d",
@@ -116,6 +116,14 @@
     "data/processed/nypd_2024_2025_verified_quality.json": {
       "sha256": "2acf7b9e30a93050bb01b2dd0498b2b79c93da31aeeaf2fe332598ce1e77f5e9",
       "bytes": 353
+    },
+    "data/processed/spatiotemporal_20261110/chicago.json": {
+      "sha256": "5bd165e88170bc2d4c4b0c5916c2940dea9b951b42b50ba5c8f4ca80289212d6",
+      "bytes": 4369
+    },
+    "data/processed/spatiotemporal_20261110/san_francisco.json": {
+      "sha256": "05cc984a5a45b9f2eeb2d3d9ad78cffc96e7de531e56e1ea9236425979128be4",
+      "bytes": 3652
     },
     "data/raw/expanded_20261110/cities/chicago_2019.csv.gz.manifest.json": {
       "sha256": "2e152441e0ac3f3a93e8a01140ba6a791b03aabea9e6c09e73c209624cc5c5d0",
@@ -265,49 +273,133 @@
       "sha256": "2b705e0c7078af6bf3c11f1968b45137d35c6957e48926bae5d44e08c217b879",
       "bytes": 43352
     },
+    "data/raw/spatiotemporal_20261110/chicago_2019.csv.gz.manifest.json": {
+      "sha256": "e210171a402210203eb7c93f90b1daeb59d4bcf6cd1aeefd8267536244cd7bd6",
+      "bytes": 1181
+    },
+    "data/raw/spatiotemporal_20261110/chicago_2020.csv.gz.manifest.json": {
+      "sha256": "81c451ebf4b538d88b18f1bc7668fb0d6524340ac24f53d2b5927f2d04dfa597",
+      "bytes": 1181
+    },
+    "data/raw/spatiotemporal_20261110/chicago_2021.csv.gz.manifest.json": {
+      "sha256": "9c19ad4c21c622dc3359b7b74644e5c09802d2bea604f017d62d60e9bb5eb5e8",
+      "bytes": 1181
+    },
+    "data/raw/spatiotemporal_20261110/chicago_2022.csv.gz.manifest.json": {
+      "sha256": "d5ba68f0ccf1e11d49d95f65022833c4c508f55f4d67dbc70644f2c0df628fea",
+      "bytes": 1181
+    },
+    "data/raw/spatiotemporal_20261110/chicago_2023.csv.gz.manifest.json": {
+      "sha256": "d42900cdd75ed88ff8ec08bb26160aaffc88e0ef2401f6a1bc0a648deca2c7e1",
+      "bytes": 1181
+    },
+    "data/raw/spatiotemporal_20261110/chicago_2024.csv.gz.manifest.json": {
+      "sha256": "5cccb6a8a9d02dacf04836120f0da55d80c06bdd2d4052729af23d94f9e5eadf",
+      "bytes": 1181
+    },
+    "data/raw/spatiotemporal_20261110/chicago_2025.csv.gz.manifest.json": {
+      "sha256": "e0b8f830f01aa0c00151f3184c2fd4e3d51ba15f7c01d9b89443eec1ea2c5138",
+      "bytes": 1181
+    },
+    "data/raw/spatiotemporal_20261110/chicago_2026.csv.gz.manifest.json": {
+      "sha256": "26de19c9cf9572ea7a1f7f0a3b452feb8c2da1ca52a642c669ad38ef06add217",
+      "bytes": 1181
+    },
+    "data/raw/spatiotemporal_20261110/chicago_training_centroids.json": {
+      "sha256": "f736b0e90161fdfa2161800d2bd23cff3dddab3b98716df0a552930e51926ac8",
+      "bytes": 3122
+    },
+    "data/raw/spatiotemporal_20261110/download_summary.json": {
+      "sha256": "4027648390b3319e22b3e31506dec9ed884aad11d388fc0b4f7ba87d263609cb",
+      "bytes": 23118
+    },
+    "data/raw/spatiotemporal_20261110/san_francisco_2019.csv.gz.manifest.json": {
+      "sha256": "1e4725277683b1029cc181f09982186059e911ee0f27aa162c45870c371f32ef",
+      "bytes": 1313
+    },
+    "data/raw/spatiotemporal_20261110/san_francisco_2020.csv.gz.manifest.json": {
+      "sha256": "40be896c2701184079de7eff5883cc43ab9014f6f6bdc20fd8db27f3c0015dba",
+      "bytes": 1313
+    },
+    "data/raw/spatiotemporal_20261110/san_francisco_2021.csv.gz.manifest.json": {
+      "sha256": "84eab9e47e089e6874e6a8bd613f2828a9ca6974d4959e8eb808adf953c84437",
+      "bytes": 1313
+    },
+    "data/raw/spatiotemporal_20261110/san_francisco_2022.csv.gz.manifest.json": {
+      "sha256": "8662c8606d36d7367d80ea703aef0e7ab11491538aa7050b189d9ec39cfcf796",
+      "bytes": 1313
+    },
+    "data/raw/spatiotemporal_20261110/san_francisco_2023.csv.gz.manifest.json": {
+      "sha256": "d73ef563359789c556288ac0d20ef42496637af692281fb108466c3baa7effe6",
+      "bytes": 1313
+    },
+    "data/raw/spatiotemporal_20261110/san_francisco_2024.csv.gz.manifest.json": {
+      "sha256": "64b575a07a066f3143df835098a7eb7de1f97403157949a899169aad13460f67",
+      "bytes": 1313
+    },
+    "data/raw/spatiotemporal_20261110/san_francisco_2025.csv.gz.manifest.json": {
+      "sha256": "4b3232482ba1235a40ed73cba4f50fbf6781ea27268725e17ab752cdd2e3b28b",
+      "bytes": 1313
+    },
+    "data/raw/spatiotemporal_20261110/san_francisco_2026.csv.gz.manifest.json": {
+      "sha256": "0e456bbcfbab5fd411361a8802c830bb9ff75392bbda0282c5e4b791a68e101c",
+      "bytes": 1313
+    },
+    "data/raw/spatiotemporal_20261110/san_francisco_asof20240101_centroids.json": {
+      "sha256": "ab01cd151dbf2646ef1081655b99fdac3d2df3c2ab389e5e28da375f75fd685b",
+      "bytes": 1572
+    },
+    "data/raw/spatiotemporal_20261110/san_francisco_training_centroids.json": {
+      "sha256": "2fa38a8f6e537aed3f60baaedd17408c013818ffe5a99cba504250bc1e920e27",
+      "bytes": 1572
+    },
     "pyproject.toml": {
       "sha256": "1423d9d27635e8ad727df65edd5972989d52e74276f58ce83d4ada544e3a0e6d",
       "bytes": 632
     },
     "report/ACCEPTANCE.md": {
-      "sha256": "56f024b3c2a85a762781a0283ee101759faf6f563c19ea0297d7234eeb499fb2",
-      "bytes": 4861
+      "sha256": "3a438530cade345e87e1271b991405986d455a41e4efa22cbf3bd62ec3908dc4",
+      "bytes": 5791
     },
     "report/DEFENSE.md": {
-      "sha256": "0725cc07f0fe72b7ceb359d2eec223b94a80930fcf80e9d95f8a47d4db32a87a",
-      "bytes": 22166
+      "sha256": "6f67076808bccbc789625d5ee6ca08894c96bb254513ad58c4c5b058bf69d16e",
+      "bytes": 24850
     },
     "report/DYNAMIC_PROTOCOL.md": {
       "sha256": "97c7b22a196044fef29132fdbd73154237a3362428cc9be204ad20d41831fd81",
       "bytes": 10429
     },
     "report/EVIDENCE.md": {
-      "sha256": "b82270c8a04ac1dc80e38eaa0676e2521662b982e4b1e34165fab1c2598362e5",
-      "bytes": 18128
+      "sha256": "95f2598cdc8373517751f44578a3efa6b392e21afc03ea9238690691dabd2131",
+      "bytes": 22342
     },
     "report/EXTENDED_PROTOCOL.md": {
       "sha256": "c2a5a78fc3a50286a4a150dd3fac39861d153b962221373f7440689241f195ab",
       "bytes": 9810
     },
     "report/PLAN.md": {
-      "sha256": "5158b2514c8f0f5fa0592d85ae93acfddec68d189d76b21b357cd4607016e3d9",
-      "bytes": 12595
+      "sha256": "bb0d2adb12107ee5a8ccdbf0af466468bb7d6746dc46fb45a36da714d45d841d",
+      "bytes": 13323
     },
     "report/README.md": {
-      "sha256": "f8a32d4780ae7d2402a7dc7a1cf6a3c894352b9c60a6908e484b4c452e9bc045",
-      "bytes": 4611
+      "sha256": "3232feaf253709ec3830511f7248d5ae6f09029a9af8107dbd91156b80c20ecd",
+      "bytes": 5077
     },
     "report/REPORT.md": {
-      "sha256": "e91486d2bac44b2064c52b664001c66cc7f2d88c8215f312ff3331250302699e",
-      "bytes": 70479
+      "sha256": "28a6494afb3fa8c5f6a14d530232d108c81f539e8d56345676bde135485ed4bd",
+      "bytes": 88585
     },
     "report/RUN_GUIDE.md": {
-      "sha256": "29f3ca50e02028fb39b4c496042505c75d0ebf97d02e634db4367c9212f879d5",
-      "bytes": 8459
+      "sha256": "1b6ca9bab33d8a0a6a3be7867f3419948b2e7e647b3f8d82488f32b8f69b1986",
+      "bytes": 12523
+    },
+    "report/SPATIOTEMPORAL_PROTOCOL.md": {
+      "sha256": "2b07dd0f5855b4eab93bc4047ca0bbff54a125225b9bb9a6b748af6010ff7f19",
+      "bytes": 9800
     },
     "report/VALIDATION.md": {
-      "sha256": "a6db39749cccf8a77c85f4acc5f5d4cffacb1ca46798bb5d785906d6469d167d",
-      "bytes": 6115
+      "sha256": "a02bfda648c4f88cd2ac2e868a1ad28a40d39f91cf2d59112fb99f4ce518caa6",
+      "bytes": 7418
     },
     "report/assets/background_comparison.png": {
       "sha256": "7732fe959528f4c3f33630b011e3afe98743254272ef3e409cce0f99ab116eb9",
@@ -316,6 +408,18 @@
     "report/assets/city_background_comparison.png": {
       "sha256": "f7608029180a0c674273dbe30dfde53d177b75bf9e1154bb9c3dd3ecb1edc299",
       "bytes": 159104
+    },
+    "report/assets/district_count_comparison.png": {
+      "sha256": "acad74a8f7ee902905c79ea54d1ba44e9df191e0afbf62c43c830afe6238a6b0",
+      "bytes": 92089
+    },
+    "report/assets/district_forecast_example.png": {
+      "sha256": "33e928c16e0a666d2f1fd774ea24717356a152b7f9505f2a326cdea7412b621a",
+      "bytes": 120884
+    },
+    "report/assets/district_time_example.png": {
+      "sha256": "2b48463d23592afa151e36f54915f5a245e232564c1889ea35fac616dc919479",
+      "bytes": 150300
     },
     "report/assets/dynamic_estimation.png": {
       "sha256": "1971d996b153956b0d34ae135a0468242735b3db10e41ae1de45d14948c63cf5",
@@ -346,8 +450,8 @@
       "bytes": 145860
     },
     "report/assets/manifest.json": {
-      "sha256": "44667cf647b32fe793de07a1c3c563b3d1c33079e954e25c3615192014966d2b",
-      "bytes": 3358
+      "sha256": "2a89700256580efb77e27158406e11a47dfca5b3860e849d8d1e4ad655aab8dc",
+      "bytes": 4069
     },
     "report/assets/n_accuracy_auc.png": {
       "sha256": "40e81305b3625385d4689a3f4de07d1e522866f2ee51ed2f66b2f9956d7a184a",
@@ -378,11 +482,11 @@
       "bytes": 314
     },
     "reproducibility/logs/final_tests_utf8.log": {
-      "sha256": "39f7a7e4b7722e05b1869dfa55771f8f5ce562321cc314f2df638b5eda6f08bb",
-      "bytes": 14345
+      "sha256": "0aeed706c922f8b299c97b8d0d12d5751cc0a271e10c4ea6ae52d0fb04f759a3",
+      "bytes": 15631
     },
     "reproducibility/test_result.json": {
-      "sha256": "43852ba0d8f349913e446cf3622bcec7113a9a1cc869e612912f686ce6bc5f3e",
+      "sha256": "372e84641e3620ceeeebcf042515c9f7d595bfdcde545e7f6e154315197b976b",
       "bytes": 178
     },
     "requirements-lock.txt": {
@@ -1973,6 +2077,198 @@
       "sha256": "1f9904391b2e26faaf91ef48c83e650d818dabe3a1d3854b999095bf57afeaed",
       "bytes": 2854
     },
+    "results/spatiotemporal_forecast/analysis.md": {
+      "sha256": "7222ab08fcac57d74cdbc5ba0dc6778c16311217387097e1278bf4c16426ec4a",
+      "bytes": 12180
+    },
+    "results/spatiotemporal_forecast/chicago/hawkes_candidates_lag0.csv": {
+      "sha256": "9083f78802f869c0ef2f1b14937e31071a78371d75911d4eed7b56f8f16514e9",
+      "bytes": 24287
+    },
+    "results/spatiotemporal_forecast/chicago/hawkes_candidates_lag7.csv": {
+      "sha256": "4a909c15b3da3c13fd00a00ebe9f847c6ec5e39e3e18468b4c3e80aa23fe0c6f",
+      "bytes": 24271
+    },
+    "results/spatiotemporal_forecast/chicago/models/lag0_seed137.csv": {
+      "sha256": "92d6d7280af493cf5b2e89315f914c709ceda5ea01827ca54bf48bcf27aa281c",
+      "bytes": 2669
+    },
+    "results/spatiotemporal_forecast/chicago/models/lag0_seed137.pt": {
+      "sha256": "7d3d55787535da5f808cac18b193df09f463a4ce44471979a6f36912f1514376",
+      "bytes": 10450
+    },
+    "results/spatiotemporal_forecast/chicago/models/lag0_seed149.csv": {
+      "sha256": "490e504adb6fbae2e845477fe0b151b111227d123f42fd4db97f988a67bb957d",
+      "bytes": 2674
+    },
+    "results/spatiotemporal_forecast/chicago/models/lag0_seed149.pt": {
+      "sha256": "3cb9a4da6695e44da897d829e7cf46c713baaaede93570e5ed8527ceb603a91d",
+      "bytes": 10450
+    },
+    "results/spatiotemporal_forecast/chicago/models/lag0_seed163.csv": {
+      "sha256": "1b523827188eb1d9adc8b01c077e674aeb06a98b2b8203fc10d84bf853e90081",
+      "bytes": 2663
+    },
+    "results/spatiotemporal_forecast/chicago/models/lag0_seed163.pt": {
+      "sha256": "50f1987d6b4b61f8b10a141c28a80194745377815086ff85dfab8daef41d46ed",
+      "bytes": 10450
+    },
+    "results/spatiotemporal_forecast/chicago/models/lag7_seed137.csv": {
+      "sha256": "401849a55e6cb0bfa554231d8ff88ac0af2631912821c85eeeb557b28f8e638e",
+      "bytes": 2660
+    },
+    "results/spatiotemporal_forecast/chicago/models/lag7_seed137.pt": {
+      "sha256": "1dc02370c5b7da2d59e4812da28875f85d60cfd426a7106fe8f256b9900dd9fa",
+      "bytes": 10450
+    },
+    "results/spatiotemporal_forecast/chicago/models/lag7_seed149.csv": {
+      "sha256": "695d86615179de6deed91556c8d2d771100fd6fd583f566e03c5e9ebcafa01ba",
+      "bytes": 2664
+    },
+    "results/spatiotemporal_forecast/chicago/models/lag7_seed149.pt": {
+      "sha256": "0129ad6ba2162d0dbd029a30d93d2c355ce076315a7bfe22d8deced583cf58eb",
+      "bytes": 10450
+    },
+    "results/spatiotemporal_forecast/chicago/models/lag7_seed163.csv": {
+      "sha256": "dd0b68ad8aeab8851ba99cfff270f854546125bd467f6dc085a1ea7c51f6e9c2",
+      "bytes": 2668
+    },
+    "results/spatiotemporal_forecast/chicago/models/lag7_seed163.pt": {
+      "sha256": "ca457de099afed83a8b44700b7181e51052129acfc3466ac71e944aac8ef2057",
+      "bytes": 10450
+    },
+    "results/spatiotemporal_forecast/chicago/validation_lag0.csv": {
+      "sha256": "c4ab9b3f38d8a5d2caee7ecddc6a88463a1e04febb74b09430cf4e1b3f78d579",
+      "bytes": 2485
+    },
+    "results/spatiotemporal_forecast/chicago/validation_lag7.csv": {
+      "sha256": "9204b6096b2404b94abb58fb92de16c807179cca365673b7f82a7807a79f787b",
+      "bytes": 2488
+    },
+    "results/spatiotemporal_forecast/complete.json": {
+      "sha256": "46abf0d971a91082cd8209166ac810ab5d7e2cc0a5bf8dfb116d1cb98772fe49",
+      "bytes": 4952
+    },
+    "results/spatiotemporal_forecast/count_comparison.png": {
+      "sha256": "acad74a8f7ee902905c79ea54d1ba44e9df191e0afbf62c43c830afe6238a6b0",
+      "bytes": 92089
+    },
+    "results/spatiotemporal_forecast/district_metrics.csv": {
+      "sha256": "c458b3f43734232e868494b7e550e50ce0619c9980e6804362a205c34f657700",
+      "bytes": 240580
+    },
+    "results/spatiotemporal_forecast/district_time_example.png": {
+      "sha256": "2b48463d23592afa151e36f54915f5a245e232564c1889ea35fac616dc919479",
+      "bytes": 150300
+    },
+    "results/spatiotemporal_forecast/forecast_examples.csv": {
+      "sha256": "e8216643237772dfbdece2da8330d7851dea06d0a64085aaecd289a2354b6d08",
+      "bytes": 2441441
+    },
+    "results/spatiotemporal_forecast/frozen_plan.json": {
+      "sha256": "efe734539468694ada0a019ea162c278fbd69c892bbfb3e20f552115188e192e",
+      "bytes": 568088
+    },
+    "results/spatiotemporal_forecast/paired_count_errors.csv": {
+      "sha256": "62848ee49cb7ac5293744f577549bc5ba61327d6f38b15fe307336cadac01419",
+      "bytes": 1747
+    },
+    "results/spatiotemporal_forecast/protocol.json": {
+      "sha256": "9ba40049f6bf3e135454bb255c5e95d9ab71010dec79f2c45cbc37a04c5716d7",
+      "bytes": 2677
+    },
+    "results/spatiotemporal_forecast/san_francisco/hawkes_candidates_lag0.csv": {
+      "sha256": "86492bbd376a0930635204e3da52e8840577dc3b371689a1b46aae2b16db4ca5",
+      "bytes": 7884
+    },
+    "results/spatiotemporal_forecast/san_francisco/hawkes_candidates_lag7.csv": {
+      "sha256": "7e4678b36088516d7c725fc6bc6ff94a97c6d90c2742a2b75979ab7130c22e3b",
+      "bytes": 7870
+    },
+    "results/spatiotemporal_forecast/san_francisco/models/lag0_seed137.csv": {
+      "sha256": "5ff2d0bb272137d091aa27a76964d035d0a29e8f57a6269c153b391e515ea323",
+      "bytes": 2667
+    },
+    "results/spatiotemporal_forecast/san_francisco/models/lag0_seed137.pt": {
+      "sha256": "68cc9e1e7fe72e8db622c131b34c9be067d073bc21030e2ca9fb9442e3dae06d",
+      "bytes": 10066
+    },
+    "results/spatiotemporal_forecast/san_francisco/models/lag0_seed149.csv": {
+      "sha256": "ced2587442a151305630d49cb307da18387c9c15f016e05271c88321d77d96cf",
+      "bytes": 2667
+    },
+    "results/spatiotemporal_forecast/san_francisco/models/lag0_seed149.pt": {
+      "sha256": "8a5272a56202b9d57b3ccb33eec25e44b3265248f2fde1812ec09f43395a1cf5",
+      "bytes": 10066
+    },
+    "results/spatiotemporal_forecast/san_francisco/models/lag0_seed163.csv": {
+      "sha256": "07948923a7e8bc728a5cb22b2e1a63a826e7448a6095ad4b2a3c29e7c62ab3da",
+      "bytes": 2677
+    },
+    "results/spatiotemporal_forecast/san_francisco/models/lag0_seed163.pt": {
+      "sha256": "fe57fccc79355b1f4fa93f12115d490b619eb05adbb2b2e8a80a1bad5b2be30f",
+      "bytes": 10066
+    },
+    "results/spatiotemporal_forecast/san_francisco/models/lag7_seed137.csv": {
+      "sha256": "6e047f13dc9ee7932172d96c26321bf1c8fee4e71b79cadf3a7b96877e1aec4b",
+      "bytes": 2664
+    },
+    "results/spatiotemporal_forecast/san_francisco/models/lag7_seed137.pt": {
+      "sha256": "319e6081cb5446056d92ba5a3830b92a3c0fdbbdf4ab424767606ac743f5207c",
+      "bytes": 10066
+    },
+    "results/spatiotemporal_forecast/san_francisco/models/lag7_seed149.csv": {
+      "sha256": "42d19790335f88bdf772310dfef6a277a19eda63d99ef033d548581fc2a8ca46",
+      "bytes": 2671
+    },
+    "results/spatiotemporal_forecast/san_francisco/models/lag7_seed149.pt": {
+      "sha256": "da8ec904d2d8af75a6793adb6586385f8f2d320bb41bab9f51172a125643b0a0",
+      "bytes": 10066
+    },
+    "results/spatiotemporal_forecast/san_francisco/models/lag7_seed163.csv": {
+      "sha256": "890b3df93ea1cca11c022e0b019d7ceaece8533d5486c07b47924e97a949a9d1",
+      "bytes": 2677
+    },
+    "results/spatiotemporal_forecast/san_francisco/models/lag7_seed163.pt": {
+      "sha256": "6e49134b07f9279348dd16fed3086ef48af7a2b15efaefe8e11501213caef0ae",
+      "bytes": 10066
+    },
+    "results/spatiotemporal_forecast/san_francisco/validation_lag0.csv": {
+      "sha256": "7a640df764974bf982a0ba582a41771d8e834c54bf75bcb0f4adebcfcb3f8444",
+      "bytes": 2492
+    },
+    "results/spatiotemporal_forecast/san_francisco/validation_lag7.csv": {
+      "sha256": "6aadcbca850c6354a5b10705852f60c373868cb8086a0e52bc04fcae53bea570",
+      "bytes": 2480
+    },
+    "results/spatiotemporal_forecast/test_metrics.csv": {
+      "sha256": "cc54ca617f523425e85fc1248295a0df581ad243ddbfd774a03ce34e7566087e",
+      "bytes": 18133
+    },
+    "results/spatiotemporal_forecast/test_started.json": {
+      "sha256": "813fd8d2d95ff8eb9ced8ffb2216d7f655026c14254f51560cdef9d07c2aeed6",
+      "bytes": 96
+    },
+    "results/spatiotemporal_summary/district_forecast_example.png": {
+      "sha256": "33e928c16e0a666d2f1fd774ea24717356a152b7f9505f2a326cdea7412b621a",
+      "bytes": 120884
+    },
+    "results/spatiotemporal_summary/headline_metrics.csv": {
+      "sha256": "5e5843d2d23f0688e589b1fd6e0e4464341f95095b01cbfed1b534379baddc53",
+      "bytes": 464
+    },
+    "results/spatiotemporal_summary/neural_vs_recent.csv": {
+      "sha256": "ea56b0e8a2eff337dffd10883a99f7bf83cfda734d593304c39110ed95bfeeea",
+      "bytes": 782
+    },
+    "results/spatiotemporal_summary/next_interval_forecasts.csv": {
+      "sha256": "219ac681bc61ef07c87e976a68651536b6493069fed68984d4b7d6c5caf77617",
+      "bytes": 9230
+    },
+    "results/spatiotemporal_summary/provenance.json": {
+      "sha256": "47d7ce2185acdc2cab2c77986697a93ec95867f0a01eee098c2bf813beab07dd",
+      "bytes": 817
+    },
     "results/state_warning_audit/analysis.md": {
       "sha256": "3fffa9ba0c665ebd417816609bbd19ec8b07ea2ef51e688448104176fcb0386d",
       "bytes": 17423
@@ -2178,12 +2474,16 @@
       "bytes": 2526
     },
     "scripts/prepare_report_assets.py": {
-      "sha256": "9d1a94a76d3bf00b8d4e580b9726c718e4def38c5ef5691ecaece944b82e6439",
-      "bytes": 2341
+      "sha256": "44f85aa7309b43082aff0574095883ce57a87ba42497a8a45d0c0652cebe37b8",
+      "bytes": 2629
     },
     "scripts/prepare_repository_manifest.py": {
       "sha256": "6db887e0844fe5d51f7ae44c804d8579df62005c5c0eb2fd2b59ce3c5d6cda4a",
       "bytes": 2668
+    },
+    "scripts/prepare_spatiotemporal_data.py": {
+      "sha256": "b4561dfeb5c61cea33286373ab1c6a1d33111b7926b693c75abb07a6e8005729",
+      "bytes": 9946
     },
     "scripts/reproduce_neural_pipeline.py": {
       "sha256": "0e8b957b89bd06c72807b23abb056cc8be8afbad673bc37708497787d9f4aa16",
@@ -2192,6 +2492,10 @@
     "scripts/summarize_completion.py": {
       "sha256": "a8f3049c4ba554708faeb7647a9f740f0635907927986226cf93de8f48a4a00e",
       "bytes": 6646
+    },
+    "scripts/summarize_spatiotemporal.py": {
+      "sha256": "bc79921395f25bf4f7ec1a1c51a5496a43d995034b9b075dbff6ac78aa210816",
+      "bytes": 4043
     },
     "scripts/verify_background_comparison.py": {
       "sha256": "10ca65b23889daa5e39616545ea51183eeb72a5e7f5bee9713193a995a1cae86",
@@ -2214,12 +2518,12 @@
       "bytes": 2955
     },
     "scripts/verify_report.py": {
-      "sha256": "9e3417319213b62bd4b485b7f966ec5eff84e776e0ffb3def224ef941fba2910",
-      "bytes": 9121
+      "sha256": "141efcc92eef65e6d8d595bb894fee0ffdfe3c3d2fce0d7b5738f5f429cca5a8",
+      "bytes": 11215
     },
     "scripts/verify_repository_snapshot.py": {
-      "sha256": "88cc9322fcb5f426fd6638fa7113e5b6a0bd99372c0e241abd02182255ca7200",
-      "bytes": 3000
+      "sha256": "28807caddfae19e6d4272166cb5290cad799e090527d38d71c1ebdc58f986982",
+      "bytes": 4214
     },
     "scripts/verify_robust_experiment.py": {
       "sha256": "a596d394b51e8e06c5525e64440d992726ebcc27e143cee59e5a176845885089",
@@ -2232,6 +2536,10 @@
     "scripts/verify_sensitivity_diagnostics.py": {
       "sha256": "ebc5bc183034054d34a333e20395ec0d74da4dcbe71c533b28147a666d706937",
       "bytes": 9238
+    },
+    "scripts/verify_spatiotemporal.py": {
+      "sha256": "6aeee203f96bce8fef470968224b2c730cda2ec311e721be38f8e0598c9fdf34",
+      "bytes": 10109
     },
     "scripts/verify_task_audit.py": {
       "sha256": "3f9d1dbb4b8fbcce6bc99deabc45c6786a05cb1fcb8e191d046f601b9e986a74",
@@ -2276,6 +2584,10 @@
     "src/critical_processes/detector.py": {
       "sha256": "dbd2d22839d975cf31ceeb2dcc5047dc97d88f6b47fe5857b0bff7bdc550100f",
       "bytes": 12883
+    },
+    "src/critical_processes/district_forecast.py": {
+      "sha256": "921d87bd52abac9787e90b226796e9f0e787d0754c9e186e732bf67b33cbbaf8",
+      "bytes": 5386
     },
     "src/critical_processes/dynamic_estimation.py": {
       "sha256": "a212439bbed5ef296d7df21f95ad1b34d1b327a03341e0c4c0d4ba5d1f00bc4f",
@@ -2353,6 +2665,18 @@
       "sha256": "31719406df655d388d98b8e1f32125ad4f4e2244d0c986389782c0ebfc0ccfcd",
       "bytes": 5432
     },
+    "src/critical_processes/spatial_experiment.py": {
+      "sha256": "fcad9115ef04ea7b1b36ad5b19d66357bd2f6586c95f37a7547f1e4cdd6ee09f",
+      "bytes": 16126
+    },
+    "src/critical_processes/spatial_report.py": {
+      "sha256": "48760e7d346fa307f0809555d5467ee5ba6d6787e605f94a93d6464b29ab2145",
+      "bytes": 14062
+    },
+    "src/critical_processes/spatiotemporal.py": {
+      "sha256": "ae4327eed64df3eafea8441c29c22aee7b7664c83228abfe0b5de219d286c8c2",
+      "bytes": 13862
+    },
     "src/critical_processes/task_audit.py": {
       "sha256": "ca2b19c74798bada766d0edb2c58123d29970f5a567ae40651a74adce75e1e91",
       "bytes": 18341
@@ -2424,6 +2748,10 @@
     "tests/test_sensitivity_diagnostics.py": {
       "sha256": "97e1d3802b213f23d3e8edb47ac04297cd79fe11c4b1853aea68e53a3d4b71fc",
       "bytes": 7133
+    },
+    "tests/test_spatiotemporal.py": {
+      "sha256": "5586bf4710bfe5419957e7050da77dcccadf158db37dd58912c3072a01bd669c",
+      "bytes": 6349
     },
     "tests/test_task_audit.py": {
       "sha256": "648212dbd3be6b8cc527ef08fe4be25433354b028c01932b71fd2e44c6a47307",
@@ -2696,6 +3024,14 @@
       "bytes": 46117359
     },
     {
+      "path": "data/processed/spatiotemporal_20261110/chicago.npz",
+      "bytes": 229993
+    },
+    {
+      "path": "data/processed/spatiotemporal_20261110/san_francisco.npz",
+      "bytes": 807065
+    },
+    {
       "path": "data/raw/chicago_crimes_2024_2025.csv",
       "bytes": 143633009
     },
@@ -2850,6 +3186,70 @@
     {
       "path": "data/raw/nypd_complaints_2024_2025_verified.csv",
       "bytes": 81516235
+    },
+    {
+      "path": "data/raw/spatiotemporal_20261110/chicago_2019.csv.gz",
+      "bytes": 1068450
+    },
+    {
+      "path": "data/raw/spatiotemporal_20261110/chicago_2020.csv.gz",
+      "bytes": 872922
+    },
+    {
+      "path": "data/raw/spatiotemporal_20261110/chicago_2021.csv.gz",
+      "bytes": 870482
+    },
+    {
+      "path": "data/raw/spatiotemporal_20261110/chicago_2022.csv.gz",
+      "bytes": 1051367
+    },
+    {
+      "path": "data/raw/spatiotemporal_20261110/chicago_2023.csv.gz",
+      "bytes": 1172125
+    },
+    {
+      "path": "data/raw/spatiotemporal_20261110/chicago_2024.csv.gz",
+      "bytes": 1156556
+    },
+    {
+      "path": "data/raw/spatiotemporal_20261110/chicago_2025.csv.gz",
+      "bytes": 1046303
+    },
+    {
+      "path": "data/raw/spatiotemporal_20261110/chicago_2026.csv.gz",
+      "bytes": 782557
+    },
+    {
+      "path": "data/raw/spatiotemporal_20261110/san_francisco_2019.csv.gz",
+      "bytes": 724123
+    },
+    {
+      "path": "data/raw/spatiotemporal_20261110/san_francisco_2020.csv.gz",
+      "bytes": 580522
+    },
+    {
+      "path": "data/raw/spatiotemporal_20261110/san_francisco_2021.csv.gz",
+      "bytes": 659091
+    },
+    {
+      "path": "data/raw/spatiotemporal_20261110/san_francisco_2022.csv.gz",
+      "bytes": 708657
+    },
+    {
+      "path": "data/raw/spatiotemporal_20261110/san_francisco_2023.csv.gz",
+      "bytes": 672228
+    },
+    {
+      "path": "data/raw/spatiotemporal_20261110/san_francisco_2024.csv.gz",
+      "bytes": 523743
+    },
+    {
+      "path": "data/raw/spatiotemporal_20261110/san_francisco_2025.csv.gz",
+      "bytes": 405935
+    },
+    {
+      "path": "data/raw/spatiotemporal_20261110/san_francisco_2026.csv.gz",
+      "bytes": 274888
     },
     {
       "path": "data/raw/test100.csv",
@@ -3026,6 +3426,22 @@
     {
       "path": "results/sensitivity_diagnostics/estimation_windows.csv",
       "bytes": 51913951
+    },
+    {
+      "path": "results/spatiotemporal_forecast/chicago/predictions_lag0.npz",
+      "bytes": 7352182
+    },
+    {
+      "path": "results/spatiotemporal_forecast/chicago/predictions_lag7.npz",
+      "bytes": 7350555
+    },
+    {
+      "path": "results/spatiotemporal_forecast/san_francisco/predictions_lag0.npz",
+      "bytes": 3404428
+    },
+    {
+      "path": "results/spatiotemporal_forecast/san_francisco/predictions_lag7.npz",
+      "bytes": 3401541
     },
     {
       "path": "results/state_warning_audit/data/calibration.npz",

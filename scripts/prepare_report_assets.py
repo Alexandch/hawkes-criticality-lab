@@ -21,6 +21,9 @@ ASSETS = {
     "genealogical_clusters.png": "results/genealogical_clusters/genealogy.png",
     "extended_detector_comparison.png": "results/project_completion/extended_detector_comparison.png",
     "fresh_city_scores.png": "results/project_completion/fresh_city_scores.png",
+    "district_count_comparison.png": "results/spatiotemporal_forecast/count_comparison.png",
+    "district_time_example.png": "results/spatiotemporal_forecast/district_time_example.png",
+    "district_forecast_example.png": "results/spatiotemporal_summary/district_forecast_example.png",
 }
 
 

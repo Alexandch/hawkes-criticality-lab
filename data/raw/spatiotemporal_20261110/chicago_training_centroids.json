@@ -1,0 +1,122 @@
+[
+  {
+    "district": "001",
+    "center_latitude": "41.8728420113431195",
+    "center_longitude": "-87.6284330611703630"
+  },
+  {
+    "district": "002",
+    "center_latitude": "41.8099745164155717",
+    "center_longitude": "-87.6100066481454907"
+  },
+  {
+    "district": "003",
+    "center_latitude": "41.7708645589731369",
+    "center_longitude": "-87.5952238583857652"
+  },
+  {
+    "district": "004",
+    "center_latitude": "41.7339387079035394",
+    "center_longitude": "-87.5640799344877818"
+  },
+  {
+    "district": "005",
+    "center_latitude": "41.6872254317279614",
+    "center_longitude": "-87.6217741188759221"
+  },
+  {
+    "district": "006",
+    "center_latitude": "41.7456074911164198",
+    "center_longitude": "-87.6306594849974808"
+  },
+  {
+    "district": "007",
+    "center_latitude": "41.7748558299303917",
+    "center_longitude": "-87.6523108945804076"
+  },
+  {
+    "district": "008",
+    "center_latitude": "41.7781016119991614",
+    "center_longitude": "-87.7159509878851969"
+  },
+  {
+    "district": "009",
+    "center_latitude": "41.8172713751482938",
+    "center_longitude": "-87.6640930243768517"
+  },
+  {
+    "district": "010",
+    "center_latitude": "41.8535739109201274",
+    "center_longitude": "-87.7127949124369923"
+  },
+  {
+    "district": "011",
+    "center_latitude": "41.8814996460721765",
+    "center_longitude": "-87.7190312983624876"
+  },
+  {
+    "district": "012",
+    "center_latitude": "41.8808534758366355",
+    "center_longitude": "-87.6686784193899743"
+  },
+  {
+    "district": "014",
+    "center_latitude": "41.9167283629411091",
+    "center_longitude": "-87.6910751383800768"
+  },
+  {
+    "district": "015",
+    "center_latitude": "41.8853480809233844",
+    "center_longitude": "-87.7589798139895779"
+  },
+  {
+    "district": "016",
+    "center_latitude": "41.9658338287006991",
+    "center_longitude": "-87.7977491544824391"
+  },
+  {
+    "district": "017",
+    "center_latitude": "41.9610609536517349",
+    "center_longitude": "-87.7206898343394956"
+  },
+  {
+    "district": "018",
+    "center_latitude": "41.9009571038669879",
+    "center_longitude": "-87.6335318347449414"
+  },
+  {
+    "district": "019",
+    "center_latitude": "41.9470974530134061",
+    "center_longitude": "-87.6582720462673610"
+  },
+  {
+    "district": "020",
+    "center_latitude": "41.9787806140042460",
+    "center_longitude": "-87.6718532410471704"
+  },
+  {
+    "district": "022",
+    "center_latitude": "41.7095861347682480",
+    "center_longitude": "-87.6582489683947557"
+  },
+  {
+    "district": "024",
+    "center_latitude": "42.0054788161666142",
+    "center_longitude": "-87.6774499579201763"
+  },
+  {
+    "district": "025",
+    "center_latitude": "41.9197054940540275",
+    "center_longitude": "-87.7532176077673709"
+  },
+  {
+    "district": "031",
+    "center_latitude": "41.9867564780689655",
+    "center_longitude": "-87.8827816416206897"
+  },
+  {
+    "district": "16",
+    "center_latitude": "41.9853304486153846",
+    "center_longitude": "-87.8291159105384615"
+  }
+]

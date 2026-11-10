@@ -1,0 +1,24 @@
+{
+  "city": "chicago",
+  "year": 2019,
+  "url": "https://data.cityofchicago.org/resource/ijzp-q8t2.csv?%24select=case_number%2Cdate%2Cdistrict%2Cprimary_type&%24where=date+%3E%3D+%272019-01-01T00%3A00%3A00%27+AND+date+%3C+%272020-01-01T00%3A00%3A00%27+AND+primary_type+in%28%27ASSAULT%27%2C%27BATTERY%27%2C%27BURGLARY%27%2C%27ROBBERY%27%2C%27THEFT%27%2C%27MOTOR+VEHICLE+THEFT%27%29&%24order=date%2Ccase_number&%24limit=1000000",
+  "count_url": "https://data.cityofchicago.org/resource/ijzp-q8t2.json?%24select=count%28%2A%29+as+rows&%24where=date+%3E%3D+%272019-01-01T00%3A00%3A00%27+AND+date+%3C+%272020-01-01T00%3A00%3A00%27+AND+primary_type+in%28%27ASSAULT%27%2C%27BATTERY%27%2C%27BURGLARY%27%2C%27ROBBERY%27%2C%27THEFT%27%2C%27MOTOR+VEHICLE+THEFT%27%29",
+  "rows": 159301,
+  "columns": [
+    "case_number",
+    "date",
+    "district",
+    "primary_type"
+  ],
+  "sha256": "1ee5b5976f6b7c84e6315c4f6a28a6d675ca007b64e21837013b184d8de02d28",
+  "retrieved_utc": "2026-11-10T18:53:23.182478+00:00",
+  "end_exclusive": "2020-01-01T00:00:00",
+  "scope": [
+    "ASSAULT",
+    "BATTERY",
+    "BURGLARY",
+    "ROBBERY",
+    "THEFT",
+    "MOTOR VEHICLE THEFT"
+  ]
+}

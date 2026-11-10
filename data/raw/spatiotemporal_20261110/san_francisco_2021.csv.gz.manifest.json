@@ -1,0 +1,24 @@
+{
+  "city": "san_francisco",
+  "year": 2021,
+  "url": "https://data.sfgov.org/resource/wg3w-h783.csv?%24select=incident_id%2Cincident_datetime%2Creport_datetime%2Cpolice_district%2Cincident_category&%24where=incident_datetime+%3E%3D+%272021-01-01T00%3A00%3A00%27+AND+incident_datetime+%3C+%272022-01-01T00%3A00%3A00%27+AND+incident_category+in%28%27Assault%27%2C%27Burglary%27%2C%27Robbery%27%2C%27Larceny+Theft%27%2C%27Motor+Vehicle+Theft%27%29&%24order=incident_datetime%2Cincident_id&%24limit=1000000",
+  "count_url": "https://data.sfgov.org/resource/wg3w-h783.json?%24select=count%28%2A%29+as+rows&%24where=incident_datetime+%3E%3D+%272021-01-01T00%3A00%3A00%27+AND+incident_datetime+%3C+%272022-01-01T00%3A00%3A00%27+AND+incident_category+in%28%27Assault%27%2C%27Burglary%27%2C%27Robbery%27%2C%27Larceny+Theft%27%2C%27Motor+Vehicle+Theft%27%29",
+  "rows": 64862,
+  "columns": [
+    "incident_id",
+    "incident_datetime",
+    "report_datetime",
+    "police_district",
+    "incident_category"
+  ],
+  "sha256": "594e95a651a15615f090348facf9ac5a3a9e40c372092530f6b924082f95a2a8",
+  "retrieved_utc": "2026-11-10T18:54:11.927340+00:00",
+  "end_exclusive": "2022-01-01T00:00:00",
+  "scope": [
+    "Assault",
+    "Burglary",
+    "Robbery",
+    "Larceny Theft",
+    "Motor Vehicle Theft"
+  ]
+}

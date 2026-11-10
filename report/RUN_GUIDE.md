@@ -25,11 +25,36 @@ python -m venv .venv
 
 ```powershell
 .\.venv\Scripts\python.exe scripts/download_code_history.py
-.\.venv\Scripts\python.exe scripts/download_expanded_data.py
-.\.venv\Scripts\python.exe scripts/prepare_expanded_panel.py
+.\.venv\Scripts\python.exe scripts/download_expanded_data.py --out data/raw/expanded_local
+.\.venv\Scripts\python.exe scripts/prepare_expanded_panel.py --raw data/raw/expanded_local --out data/processed/expanded_local
 ```
 
 Повторная загрузка в другую дату создаёт новый снимок изменяющихся порталов, а не обещает побайтовое совпадение с выгрузкой 10 ноября 2026. Для применения к заново обученным моделям функция `run_transfer` принимает пути `old_model`, `new_model`, `panel` и отдельный `out`. Архивные веса и пороги не перенастраиваются на новых городских данных.
+
+## Прогноз район × 6 часов
+
+Данные R10 имеют отдельную схему с районом. Сохранённый снимок: [исходные манифесты](../data/raw/spatiotemporal_20261110/), [метаданные сеток](../data/processed/spatiotemporal_20261110/). Самих больших CSV.GZ и NPZ в Git нет. В свежем клоне следует скачать новый снимок в новые каталоги, затем обучить и проверить его отдельно:
+
+```powershell
+.\.venv\Scripts\python.exe scripts/prepare_spatiotemporal_data.py --raw data/raw/spatial_local --out data/processed/spatial_local
+.\.venv\Scripts\python.exe -m critical_processes.spatial_experiment --panel-dir data/processed/spatial_local --out runs/spatial_local
+.\.venv\Scripts\python.exe scripts/verify_spatiotemporal.py --out runs/spatial_local --panels data/processed/spatial_local
+.\.venv\Scripts\python.exe -m critical_processes.district_forecast --city chicago --models runs/spatial_local --panels data/processed/spatial_local --out runs/chicago_forecast.csv
+```
+
+Те же команды работают для `--city san_francisco`. Загрузка позднее 10 ноября создаёт другой снимок изменяемых источников; она не обещает совпадение с опубликованными числами. Архивные манифесты без исходных CSV нельзя считать полноценным кэшем и перезаписывать новыми данными. Основной прогон — до 100 эпох, три seed, оба города, два информационных лага; CPU-обучение требует времени.
+
+На этой машине полный сохранённый архив уже есть:
+
+```powershell
+.\.venv\Scripts\python.exe scripts/verify_spatiotemporal.py
+.\.venv\Scripts\python.exe -m critical_processes.district_forecast --city chicago --out runs/chicago_forecast.csv
+.\.venv\Scripts\python.exe -m critical_processes.district_forecast --city san_francisco --out runs/sf_forecast.csv
+```
+
+Полная независимая проверка пересобирает сетки из 16 исходных CSV, причинные признаки, выбранные параметры, прогнозы и все 40 сравнений. Выдача содержит округ, начало/конец интервала, ожидаемое количество, рабочие границы 95%, вероятность и сигнал всплеска. Модель количества и модель всплеска могут различаться. По умолчанию следующий интервал — **1 октября 2026, 00:00–06:00 местного времени**, граница архива; это не актуальный прогноз на ноябрь. `--asof` задаёт другую шестичасовую границу внутри доступного архива с достаточной предысторией. Фактическое будущее количество в выдаче пусто.
+
+Готовые материалы: [полное сравнение](../results/spatiotemporal_forecast/analysis.md), [первые недели отложенных периодов](../results/spatiotemporal_forecast/forecast_examples.csv), [выдача 32 округов](../results/spatiotemporal_summary/next_interval_forecasts.csv). Основные ограничения — задержки регистрации и исторические правки. Количество, эмпирический всплеск и скрытая критичность n имеют разные метки и метрики.
 
 ## Что открыть для защиты
 
@@ -57,6 +82,7 @@ CSV.GZ — обычный CSV, сжатый gzip. `pandas.read_csv` открыв
 .\.venv\Scripts\python.exe -m unittest discover -s tests -v
 .\.venv\Scripts\python.exe scripts/verify_extended_training.py
 .\.venv\Scripts\python.exe scripts/verify_empirical_transfer.py
+.\.venv\Scripts\python.exe scripts/verify_spatiotemporal.py
 .\.venv\Scripts\python.exe scripts/complete_genealogy.py --verify
 .\.venv\Scripts\python.exe scripts/finalize_indicators.py --verify
 .\.venv\Scripts\python.exe scripts/verify_report.py

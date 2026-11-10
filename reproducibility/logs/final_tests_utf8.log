@@ -66,6 +66,14 @@ test_error_summary_excludes_failed_parameter_estimates (test_sensitivity_diagnos
 test_paired_features_match_when_estimates_are_exact_and_do_not_use_future (test_sensitivity_diagnostics.SensitivityDiagnosticTests.test_paired_features_match_when_estimates_are_exact_and_do_not_use_future) ... ok
 test_removing_control_only_from_calibration_retains_its_false_alarms (test_sensitivity_diagnostics.SensitivityDiagnosticTests.test_removing_control_only_from_calibration_retains_its_false_alarms) ... ok
 test_stricter_confidence_policies_raise_thresholds_on_same_scores (test_sensitivity_diagnostics.SensitivityDiagnosticTests.test_stricter_confidence_policies_raise_thresholds_on_same_scores) ... ok
+test_calendar_does_not_fit_to_future_counts (test_spatiotemporal.SpatiotemporalTests.test_calendar_does_not_fit_to_future_counts) ... ok
+test_calibration_strict_ties_do_not_create_unbudgeted_alarms (test_spatiotemporal.SpatiotemporalTests.test_calibration_strict_ties_do_not_create_unbudgeted_alarms) ... ok
+test_complete_new_target_freezes_selection_and_repeats_without_refitting (test_spatiotemporal.SpatiotemporalTests.test_complete_new_target_freezes_selection_and_repeats_without_refitting) ... ok
+test_equal_score_average_precision_is_prevalence (test_spatiotemporal.SpatiotemporalTests.test_equal_score_average_precision_is_prevalence) ... ok
+test_graph_has_no_self_edges_and_preserves_probability_rows (test_spatiotemporal.SpatiotemporalTests.test_graph_has_no_self_edges_and_preserves_probability_rows) ... ok
+test_history_and_features_use_only_available_past (test_spatiotemporal.SpatiotemporalTests.test_history_and_features_use_only_available_past) ... ok
+test_late_reports_are_not_visible_before_registration (test_spatiotemporal.SpatiotemporalTests.test_late_reports_are_not_visible_before_registration) ... ok
+test_spatial_mle_is_stable_and_can_match_background (test_spatiotemporal.SpatiotemporalTests.test_spatial_mle_is_stable_and_can_match_background) ... ok
 test_full_audit_preserves_models_and_saves_separate_targets_and_shared_prefixes (test_task_audit.TaskAuditIntegrationTests.test_full_audit_preserves_models_and_saves_separate_targets_and_shared_prefixes) ... ok
 test_seeds_are_unique_across_splits_and_new_regimes_replay (test_task_audit.TaskAuditIntegrationTests.test_seeds_are_unique_across_splits_and_new_regimes_replay) ... ok
 test_abstention_is_missed_positive_and_auc_reports_valid_coverage (test_task_audit.TaskProtocolTests.test_abstention_is_missed_positive_and_auc_reports_valid_coverage) ... ok
@@ -82,6 +90,6 @@ test_likelihood_matches_existing_grouped_event_likelihood (test_window_features.
 test_recording_events_preserves_counts_and_simulator_stream (test_window_features.WindowFeatureTests.test_recording_events_preserves_counts_and_simulator_stream) ... ok
 
 ----------------------------------------------------------------------
-Ran 82 tests in 63.151s
+Ran 90 tests in 53.251s
 
 OK

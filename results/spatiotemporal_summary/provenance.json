@@ -1,0 +1,13 @@
+{
+  "source_sha256": {
+    "results/spatiotemporal_forecast/complete.json": "46abf0d971a91082cd8209166ac810ab5d7e2cc0a5bf8dfb116d1cb98772fe49",
+    "scripts/summarize_spatiotemporal.py": "bc79921395f25bf4f7ec1a1c51a5496a43d995034b9b075dbff6ac78aa210816",
+    "src/critical_processes/district_forecast.py": "921d87bd52abac9787e90b226796e9f0e787d0754c9e186e732bf67b33cbbaf8"
+  },
+  "artifact_sha256": {
+    "district_forecast_example.png": "33e928c16e0a666d2f1fd774ea24717356a152b7f9505f2a326cdea7412b621a",
+    "headline_metrics.csv": "5e5843d2d23f0688e589b1fd6e0e4464341f95095b01cbfed1b534379baddc53",
+    "neural_vs_recent.csv": "ea56b0e8a2eff337dffd10883a99f7bf83cfda734d593304c39110ed95bfeeea",
+    "next_interval_forecasts.csv": "219ac681bc61ef07c87e976a68651536b6493069fed68984d4b7d6c5caf77617"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "stage": "10_district_time_count_forecast",
+  "bin_hours": 6,
+  "city_names": [
+    "chicago",
+    "san_francisco"
+  ],
+  "model_seeds": [
+    137,
+    149,
+    163
+  ],
+  "epochs": 100,
+  "information_lags": [
+    0,
+    7
+  ],
+  "primary_information_lag_days": 7,
+  "bootstrap_samples": 1000,
+  "split": {
+    "train": "2019-03-02..2023-12-31",
+    "validation": "2024-01-01..2024-06-30",
+    "calibration": "2024-07-01..2024-12-31",
+    "test2025": "2025-01-01..2025-12-31",
+    "test2026": "2026-01-01..2026-09-30"
+  },
+  "target": "count of selected registered crime cases per police district in next interval; spike is strict exceedance of training95% weekday-slot district quantile",
+  "primary": "per-city and information-lag model selected on validation NB NLL for counts and AP for spikes; thresholds only calibration",
+  "alarm_control": "pooled negative district-time-cell FPR target5% on calibration, not whole-trajectory or simultaneous95% guarantee",
+  "spatial_graph": "three nearest training-event district centroids, exponential distance weights, row normalized; fixed before validation",
+  "models": [
+    "seasonal",
+    "recent_calendar",
+    "temporal_hawkes",
+    "spatial_hawkes",
+    "neural_ensemble"
+  ],
+  "hawkes": "nonnegative delayed discrete count Hawkes regression with free background multiplier and coefficient sum<=.99; not inferred continuous-time n",
+  "neural": "embedding6+MLP32-16, dropout.1, Poisson NLL, AdamW lr.002 wd.001, validation every10epochs; ensemble all3seeds",
+  "uncertainty": "working NB dispersion fit on train per model; observed interval coverage reported; paired14day-block bootstrap for test MAE differences",
+  "data_availability": "SF report-time-aware histories and fit-date-censored train/validation/calibration labels; historical edits unavailable. Chicago incident-date archive with lag7d approximation, not guaranteed real-time availability",
+  "panel_sha256": {
+    "chicago": "46b17e0f8e0e07be55a85fd065f5f44d6ae7ccc49be57b30add3536a3896aaf4",
+    "san_francisco": "40088091775f498b88a44a0b667107f9f6a9d506e905b03196cb91fd74c531dc"
+  },
+  "source_metadata_sha256": {
+    "chicago": "5bd165e88170bc2d4c4b0c5916c2940dea9b951b42b50ba5c8f4ca80289212d6",
+    "san_francisco": "05cc984a5a45b9f2eeb2d3d9ad78cffc96e7de531e56e1ea9236425979128be4"
+  },
+  "code_sha256": {
+    "spatiotemporal.py": "ae4327eed64df3eafea8441c29c22aee7b7664c83228abfe0b5de219d286c8c2",
+    "spatial_experiment.py": "fcad9115ef04ea7b1b36ad5b19d66357bd2f6586c95f37a7547f1e4cdd6ee09f",
+    "spatial_report.py": "48760e7d346fa307f0809555d5467ee5ba6d6787e605f94a93d6464b29ab2145"
+  }
+}
