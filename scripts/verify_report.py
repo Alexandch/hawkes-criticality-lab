@@ -28,18 +28,19 @@ def main():
         text = path.read_text(encoding="utf-8")
         assert text.count("```") % 2 == 0, f"unclosed code fence in {path.name}"
         if path.name == "README.md":
-            assert "$$" not in text, "use native GitHub math fences to avoid Markdown escaping"
-            formulas = re.findall(r"(?ms)^```math\s*\n(.*?)^```\s*$", text)
-            assert len(formulas) == 7, "all seven display equations must use math fences"
-            for number, formula in enumerate(formulas, 1):
-                depth = 0
-                for character in formula:
-                    depth += (character == "{") - (character == "}")
-                    assert depth >= 0, f"extra close brace in equation {number}"
-                assert depth == 0, f"unclosed brace in equation {number}"
-                assert r"\{" not in formula and r"\}" not in formula, "use explicit brackets for exponentials"
-            assert "n*" not in text, "critical threshold must use protected inline math"
-            assert len(re.findall(r"\$`[^`\n]+`\$", text)) == 2
+            assert "$" not in text and "```math" not in text, "README formulas must not depend on a browser TeX renderer"
+            formulas = re.findall(r'<img src="(report/assets/equation_[^"]+\.png)" alt="[^"]+" width="(\d+)">', text)
+            saved = json.loads((report / "assets/equations_manifest.json").read_text(encoding="utf-8"))
+            assert digest(root / "scripts/render_readme_equations.py") == saved["renderer_sha256"]
+            assert digest(report / "equations.json") == saved["source_sha256"]
+            assert len(formulas) == len(saved["equations"]) == 7
+            assert len(re.findall(r'(?ms)^<p align="center">\n\s*<img [^\n]+>\n</p>\n\n', text)) == 7, "formula HTML must be separated from Markdown"
+            for (name, width), record in zip(formulas, saved["equations"]):
+                assert name == record["file"] and int(width) == record["display_width"]
+                content = (root / name).read_bytes()
+                assert content.startswith(b"\x89PNG\r\n\x1a\n") and digest(root / name) == record["sha256"]
+                assert [int.from_bytes(content[16:20], "big"), int.from_bytes(content[20:24], "big")] == record["pixel_size"]
+            assert text.count("n<sup>*</sup>") == 2
             assert "итоговая редакция" in text.lower()
             figures = [int(v) for v in re.findall(r"(?m)^\*Рисунок (\d+)\.", text)]
             assert figures == list(range(1, 21)), "figure captions must be sequential"

@@ -1,0 +1,46 @@
+{
+  "equations": [
+    {
+      "id": "hawkes_intensity",
+      "file": "report/assets/equation_01_hawkes.png",
+      "latex": "\\lambda(t)=\\mu+n\\beta\\sum_{t_i<t}\\exp\\!\\left[-\\beta(t-t_i)\\right],",
+      "alt": "λ(t) = μ + nβ Σ(tᵢ < t) exp[-β(t - tᵢ)]"
+    },
+    {
+      "id": "stationary_mean",
+      "file": "report/assets/equation_02_mean.png",
+      "latex": "\\overline{\\lambda}=\\frac{\\mu}{1-n}.",
+      "alt": "Средняя интенсивность λ̄ = μ / (1 - n)"
+    },
+    {
+      "id": "changing_intensity",
+      "file": "report/assets/equation_03_changing.png",
+      "latex": "\\lambda(t)=\\mu(t)+\\beta\\sum_{t_i<t}n(t_i)\\exp\\!\\left[-\\beta(t-t_i)\\right].",
+      "alt": "λ(t) = μ(t) + β Σ(tᵢ < t) n(tᵢ) exp[-β(t - tᵢ)]"
+    },
+    {
+      "id": "log_likelihood",
+      "file": "report/assets/equation_04_likelihood.png",
+      "latex": "\\ell(\\theta)=\\sum_{a\\leq t_i<b}\\log\\lambda_{\\theta}(t_i)-\\int_a^b\\lambda_{\\theta}(t)\\,dt.",
+      "alt": "ℓ(θ) = Σ(a ≤ tᵢ < b) log λθ(tᵢ) минус интеграл λθ(t) от a до b"
+    },
+    {
+      "id": "warning_horizon",
+      "file": "report/assets/equation_05_horizon.png",
+      "latex": "0<\\tau-t\\leq H,",
+      "alt": "0 < τ - t ≤ H"
+    },
+    {
+      "id": "cluster_moments",
+      "file": "report/assets/equation_06_clusters.png",
+      "latex": "E[S]=\\frac{1}{1-n},\\qquad \\operatorname{Var}(S)=\\frac{n}{(1-n)^3}.",
+      "alt": "E[S] = 1 / (1 - n); Var(S) = n / (1 - n)³"
+    },
+    {
+      "id": "district_mean",
+      "file": "report/assets/equation_07_district.png",
+      "latex": "\\widehat{m}_{d,t}=cB_{d,t}+aX_{d,t}+b\\sum_j W'_{dj}X_{j,t},\\qquad a,b\\geq0,\\quad a+b\\leq0.99.",
+      "alt": "m̂(d,t) = cB(d,t) + aX(d,t) + bΣⱼW′(d,j)X(j,t); a,b ≥ 0; a+b ≤ 0.99"
+    }
+  ]
+}

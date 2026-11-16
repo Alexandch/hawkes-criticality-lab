@@ -1,0 +1,76 @@
+{
+  "source_sha256": "5410ff0df81643df9e3f722ead07ae907896c6204e21f1d6b7bc27b061d3478e",
+  "renderer_sha256": "f45f913ae1f0ab12ae9382a857dd92613b91689b0612e3ec09b1078862d34a20",
+  "equations": [
+    {
+      "id": "hawkes_intensity",
+      "file": "report/assets/equation_01_hawkes.png",
+      "sha256": "56d87eb07fe4b6999d7066ada04c70dcb997e8d0711052f4cb5904ee207d6f90",
+      "pixel_size": [
+        1018,
+        177
+      ],
+      "display_width": 271
+    },
+    {
+      "id": "stationary_mean",
+      "file": "report/assets/equation_02_mean.png",
+      "sha256": "14b5b35648e6042f6c2ade4c6b775e7023af5f5f3a657efd67cc83fdb5b2a3a4",
+      "pixel_size": [
+        334,
+        143
+      ],
+      "display_width": 89
+    },
+    {
+      "id": "changing_intensity",
+      "file": "report/assets/equation_03_changing.png",
+      "sha256": "50e747d951a86de78010815aee8bed46d822776fb23a0da303449d2fd9ec8b30",
+      "pixel_size": [
+        1180,
+        177
+      ],
+      "display_width": 315
+    },
+    {
+      "id": "log_likelihood",
+      "file": "report/assets/equation_04_likelihood.png",
+      "sha256": "66da2ecea91ad2be74ed6dbb9157eff382ac1cc7a49705176ce906d603322945",
+      "pixel_size": [
+        1130,
+        223
+      ],
+      "display_width": 301
+    },
+    {
+      "id": "warning_horizon",
+      "file": "report/assets/equation_05_horizon.png",
+      "sha256": "3485140969cfeef9710de445126973724b3e040bc41861f7546e393ce7cde2a3",
+      "pixel_size": [
+        489,
+        114
+      ],
+      "display_width": 130
+    },
+    {
+      "id": "cluster_moments",
+      "file": "report/assets/equation_06_clusters.png",
+      "sha256": "5f8ab4351b62d0a4f0e9bc5ed54b33bbfa57fb7f258996c6c13fd996860039f7",
+      "pixel_size": [
+        1072,
+        156
+      ],
+      "display_width": 286
+    },
+    {
+      "id": "district_mean",
+      "file": "report/assets/equation_07_district.png",
+      "sha256": "6e11bbf121e3bd6aa6adc4eb831a4c05e03201cd0575b8a5a250fd8ff42d5284",
+      "pixel_size": [
+        1989,
+        193
+      ],
+      "display_width": 530
+    }
+  ]
+}

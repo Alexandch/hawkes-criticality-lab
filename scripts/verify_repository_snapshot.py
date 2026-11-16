@@ -26,7 +26,8 @@ def main():
     for document in [root/'README.md']:
         content=document.read_text(encoding='utf-8')
         assert content.count('```')%2==0,document.name
-        for match in re.findall(r'\[[^\]]*\]\(([^)]+)\)',content):
+        targets=re.findall(r'\[[^\]]*\]\(([^)]+)\)',content)+re.findall(r'<img\s+src="([^"]+)"',content)
+        for match in targets:
             match=match.strip('<>')
             if re.match(r'[a-z]+://',match) or match.startswith('#'):continue
             path=(document.parent/unquote(match.split('#',1)[0])).resolve()

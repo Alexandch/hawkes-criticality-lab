@@ -14,8 +14,8 @@
       "bytes": 1132
     },
     "README.md": {
-      "sha256": "6a98edc5d067abfc5e280b94fd933f1f3332945e0982418821d4f74034e865f5",
-      "bytes": 106499
+      "sha256": "89e556d52ee5022db66b3fa84ddfaed6870fef5de9b20dbc175aa13fb01fc782",
+      "bytes": 107051
     },
     "data/processed/code_core_2020_2021_17cities.csv.manifest.json": {
       "sha256": "230388ebc2d10b726e57bf171d8173ae7dd2d3ee4f73028120942314960b776d",
@@ -413,6 +413,38 @@
       "sha256": "12e3d69abc6d2985253ca5bfa1bca9f8aabf1d0e197c6607fb4ce2a00ab3df03",
       "bytes": 146183
     },
+    "report/assets/equation_01_hawkes.png": {
+      "sha256": "56d87eb07fe4b6999d7066ada04c70dcb997e8d0711052f4cb5904ee207d6f90",
+      "bytes": 23204
+    },
+    "report/assets/equation_02_mean.png": {
+      "sha256": "14b5b35648e6042f6c2ade4c6b775e7023af5f5f3a657efd67cc83fdb5b2a3a4",
+      "bytes": 4397
+    },
+    "report/assets/equation_03_changing.png": {
+      "sha256": "50e747d951a86de78010815aee8bed46d822776fb23a0da303449d2fd9ec8b30",
+      "bytes": 28715
+    },
+    "report/assets/equation_04_likelihood.png": {
+      "sha256": "66da2ecea91ad2be74ed6dbb9157eff382ac1cc7a49705176ce906d603322945",
+      "bytes": 32230
+    },
+    "report/assets/equation_05_horizon.png": {
+      "sha256": "3485140969cfeef9710de445126973724b3e040bc41861f7546e393ce7cde2a3",
+      "bytes": 7648
+    },
+    "report/assets/equation_06_clusters.png": {
+      "sha256": "5f8ab4351b62d0a4f0e9bc5ed54b33bbfa57fb7f258996c6c13fd996860039f7",
+      "bytes": 17660
+    },
+    "report/assets/equation_07_district.png": {
+      "sha256": "6e11bbf121e3bd6aa6adc4eb831a4c05e03201cd0575b8a5a250fd8ff42d5284",
+      "bytes": 42594
+    },
+    "report/assets/equations_manifest.json": {
+      "sha256": "435fd513978b301ae3cbc00c51c7f7d078d61fc59676589dbf06641363f066f7",
+      "bytes": 2143
+    },
     "report/assets/extended_detector_comparison.png": {
       "sha256": "6aa166e0a6647496c52abdce3d48d701f856dbaeceddbcdecda3738c99456fc7",
       "bytes": 84827
@@ -472,6 +504,10 @@
     "report/assets/threshold_tradeoff.png": {
       "sha256": "cf44acb1496e29d054fc89137380a12599accc8650bb43e06cf219a4925eef4d",
       "bytes": 155308
+    },
+    "report/equations.json": {
+      "sha256": "5410ff0df81643df9e3f722ead07ae907896c6204e21f1d6b7bc27b061d3478e",
+      "bytes": 1843
     },
     "reproducibility/documentation_archive.json": {
       "sha256": "2af7098fab241e97576e8b8f29fc3d7daac5d0930b87621ef51ddc6ee09c6e09",
@@ -2685,6 +2721,10 @@
       "sha256": "b4561dfeb5c61cea33286373ab1c6a1d33111b7926b693c75abb07a6e8005729",
       "bytes": 9946
     },
+    "scripts/render_readme_equations.py": {
+      "sha256": "f45f913ae1f0ab12ae9382a857dd92613b91689b0612e3ec09b1078862d34a20",
+      "bytes": 2872
+    },
     "scripts/reproduce_neural_pipeline.py": {
       "sha256": "0e8b957b89bd06c72807b23abb056cc8be8afbad673bc37708497787d9f4aa16",
       "bytes": 1896
@@ -2726,12 +2766,12 @@
       "bytes": 10049
     },
     "scripts/verify_report.py": {
-      "sha256": "4352ae993be4e1284be0218b9c001470f6f0416acb05fd7578beec55a077589d",
-      "bytes": 13462
+      "sha256": "a21a8df0e6c654fcfbdbb75e3803603d31e2b4ae1158b8530dc6299f3e0d3593",
+      "bytes": 13825
     },
     "scripts/verify_repository_snapshot.py": {
-      "sha256": "0b4f3b1de7b6663f2e5f325fc5d3cfb8f1c525f65ae6f16e0a29fedcf1f65e68",
-      "bytes": 5370
+      "sha256": "812e841fcdb5a60911ace6653f0875dffb1629739fecbe0b24c34647e81bc3b2",
+      "bytes": 5438
     },
     "scripts/verify_robust_experiment.py": {
       "sha256": "a596d394b51e8e06c5525e64440d992726ebcc27e143cee59e5a176845885089",
