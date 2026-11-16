@@ -14,8 +14,8 @@
       "bytes": 1132
     },
     "README.md": {
-      "sha256": "7b8002f996f8e5dd684b058fc70bc558de5f1799f8a76a09443091c1b1fbbe20",
-      "bytes": 106412
+      "sha256": "6a98edc5d067abfc5e280b94fd933f1f3332945e0982418821d4f74034e865f5",
+      "bytes": 106499
     },
     "data/processed/code_core_2020_2021_17cities.csv.manifest.json": {
       "sha256": "230388ebc2d10b726e57bf171d8173ae7dd2d3ee4f73028120942314960b776d",
@@ -2726,8 +2726,8 @@
       "bytes": 10049
     },
     "scripts/verify_report.py": {
-      "sha256": "764a7a70a67f72a5381f5f446d52d5af397163c13f0d5b51633c24afb26421dc",
-      "bytes": 12658
+      "sha256": "4352ae993be4e1284be0218b9c001470f6f0416acb05fd7578beec55a077589d",
+      "bytes": 13462
     },
     "scripts/verify_repository_snapshot.py": {
       "sha256": "0b4f3b1de7b6663f2e5f325fc5d3cfb8f1c525f65ae6f16e0a29fedcf1f65e68",

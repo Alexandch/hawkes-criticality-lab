@@ -28,7 +28,18 @@ def main():
         text = path.read_text(encoding="utf-8")
         assert text.count("```") % 2 == 0, f"unclosed code fence in {path.name}"
         if path.name == "README.md":
-            assert text.count("$$") % 2 == 0, "unclosed display formula"
+            assert "$$" not in text, "use native GitHub math fences to avoid Markdown escaping"
+            formulas = re.findall(r"(?ms)^```math\s*\n(.*?)^```\s*$", text)
+            assert len(formulas) == 7, "all seven display equations must use math fences"
+            for number, formula in enumerate(formulas, 1):
+                depth = 0
+                for character in formula:
+                    depth += (character == "{") - (character == "}")
+                    assert depth >= 0, f"extra close brace in equation {number}"
+                assert depth == 0, f"unclosed brace in equation {number}"
+                assert r"\{" not in formula and r"\}" not in formula, "use explicit brackets for exponentials"
+            assert "n*" not in text, "critical threshold must use protected inline math"
+            assert len(re.findall(r"\$`[^`\n]+`\$", text)) == 2
             assert "итоговая редакция" in text.lower()
             figures = [int(v) for v in re.findall(r"(?m)^\*Рисунок (\d+)\.", text)]
             assert figures == list(range(1, 21)), "figure captions must be sequential"
