@@ -3,23 +3,27 @@ from __future__ import annotations
 import csv,hashlib,json,re
 from pathlib import Path
 from urllib.parse import unquote
+from critical_processes.documentation_archive import archive_index,read_artifact,verify_archive
 
 
 def digest(path):
-    with path.open('rb') as handle:return hashlib.file_digest(handle,'sha256').hexdigest()
+    return hashlib.sha256(read_artifact(path)).hexdigest()
 
 
 def main():
     root=Path(__file__).resolve().parents[1]
     manifest=json.loads((root/'reproducibility/repository_manifest.json').read_text(encoding='utf-8'))
     assert manifest['project']=='Hawkes Criticality Lab'
+    assert [name for name in manifest['files'] if name.lower().endswith('.md')]==['README.md']
+    archived=archive_index(root)['files']
+    assert verify_archive(root)==37
     for name,record in manifest['files'].items():
         path=root/name
         assert path.resolve().is_relative_to(root) and path.is_file(),name
         assert path.stat().st_size==record['bytes'] and digest(path)==record['sha256'],name
     external={item['path'] for item in manifest['external_artifacts']}
     missing_links=[];links=0
-    for document in [root/'README.md',*(root/'report').glob('*.md')]:
+    for document in [root/'README.md']:
         content=document.read_text(encoding='utf-8')
         assert content.count('```')%2==0,document.name
         for match in re.findall(r'\[[^\]]*\]\(([^)]+)\)',content):
@@ -47,7 +51,7 @@ def main():
     complete=json.loads((spatial/'complete.json').read_text(encoding='utf-8'))
     for name,value in complete['artifact_sha256'].items():
         relative=(spatial/name).relative_to(root).as_posix()
-        if relative in manifest['files']:assert digest(spatial/name)==value,name
+        if relative in manifest['files'] or relative in archived:assert digest(spatial/name)==value,name
         else:assert relative in external,name
     with (spatial/'test_metrics.csv').open(encoding='utf-8',newline='') as handle:rows=list(csv.DictReader(handle))
     assert len(rows)==40
@@ -62,7 +66,7 @@ def main():
     finished=json.loads((offline/'complete.json').read_text(encoding='utf-8'))
     for name,value in finished['artifact_sha256'].items():
         relative=(offline/name).relative_to(root).as_posix()
-        if relative in manifest['files']:assert digest(offline/name)==value,name
+        if relative in manifest['files'] or relative in archived:assert digest(offline/name)==value,name
         else:assert relative in external,name
     readiness=json.loads((offline/'readiness.json').read_text(encoding='utf-8'))
     assert not readiness['real_pilot_performed'] and not readiness['historical_publication_times_verified']

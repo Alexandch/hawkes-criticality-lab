@@ -3,6 +3,6 @@
   "failures": 0,
   "errors": 0,
   "successful": true,
-  "elapsed_seconds": 129.88632429996505,
+  "elapsed_seconds": 57.6279336999869,
   "log": "reproducibility\\logs\\final_tests_utf8.log"
 }

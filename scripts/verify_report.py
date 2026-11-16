@@ -8,10 +8,11 @@ from urllib.parse import unquote
 
 import numpy as np
 import pandas as pd
+from critical_processes.documentation_archive import read_artifact,verify_archive
 
 
 def digest(path):
-    return hashlib.sha256(path.read_bytes()).hexdigest()
+    return hashlib.sha256(read_artifact(path)).hexdigest()
 
 
 def main():
@@ -20,13 +21,13 @@ def main():
     test_result = json.loads((root / "reproducibility/test_result.json").read_text(encoding="utf-8"))
     assert test_result["successful"] and test_result["tests_run"] == 99
     assert test_result["failures"] == test_result["errors"] == 0
-    documents = sorted(report.glob("*.md"))
-    assert len(documents) >= 5
+    documents = [root / "README.md"]
+    assert verify_archive(root) == 37
     links = 0
     for path in documents:
         text = path.read_text(encoding="utf-8")
         assert text.count("```") % 2 == 0, f"unclosed code fence in {path.name}"
-        if path.name == "REPORT.md":
+        if path.name == "README.md":
             assert text.count("$$") % 2 == 0, "unclosed display formula"
             assert "итоговая редакция" in text.lower()
             figures = [int(v) for v in re.findall(r"(?m)^\*Рисунок (\d+)\.", text)]

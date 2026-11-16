@@ -99,6 +99,6 @@ test_likelihood_matches_existing_grouped_event_likelihood (test_window_features.
 test_recording_events_preserves_counts_and_simulator_stream (test_window_features.WindowFeatureTests.test_recording_events_preserves_counts_and_simulator_stream) ... ok
 
 ----------------------------------------------------------------------
-Ran 99 tests in 112.703s
+Ran 99 tests in 52.470s
 
 OK

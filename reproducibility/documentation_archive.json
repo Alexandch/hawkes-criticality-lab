@@ -1,0 +1,196 @@
+{
+  "archive": "reproducibility/documentation_archive.zip",
+  "archive_sha256": "242e44aabed059c358258afd95d25f9bc5a884d303f527699a28de8f4ccb478d",
+  "files": {
+    "README.md": {
+      "sha256": "8c2373a20ce961a52ad7b113a7eaebd63864ffd376f54ff8757bc57cc87a964f",
+      "bytes": 50895
+    },
+    "data/README.md": {
+      "sha256": "a6772d0ce1cbb2773aee200fab7825cca8d85b493874149c174e184abc897481",
+      "bytes": 9887
+    },
+    "report/ACCEPTANCE.md": {
+      "sha256": "9f81571a37c6bb3edaa02103d25731de192728f13d02f417f72812b788e786b6",
+      "bytes": 6570
+    },
+    "report/DEFENSE.md": {
+      "sha256": "45c26b7f440bc467d849c18c77d390972364e1957f9f7ef05d63b85585650ee6",
+      "bytes": 27248
+    },
+    "report/DYNAMIC_PROTOCOL.md": {
+      "sha256": "97c7b22a196044fef29132fdbd73154237a3362428cc9be204ad20d41831fd81",
+      "bytes": 10429
+    },
+    "report/EVIDENCE.md": {
+      "sha256": "255709650393ce92d519a12eb772f0f9225eeb8a2d710bd3f9faefa41a539a13",
+      "bytes": 26843
+    },
+    "report/EXTENDED_PROTOCOL.md": {
+      "sha256": "c2a5a78fc3a50286a4a150dd3fac39861d153b962221373f7440689241f195ab",
+      "bytes": 9810
+    },
+    "report/OFFLINE_GUIDE.md": {
+      "sha256": "109370239d90f3fb438ef3da8dc3b1a18790fda962266153337040859ad6126e",
+      "bytes": 7639
+    },
+    "report/OFFLINE_PROTOCOL.md": {
+      "sha256": "fc31bf9fa8469ab6c2b1a8b45d25415778e4ac5c6adf2cf2490b82795232a9b9",
+      "bytes": 10986
+    },
+    "report/PLAN.md": {
+      "sha256": "d84be97787fec094b3e79b37faffb1080d7b91e570460b10aa774eef73c72730",
+      "bytes": 14009
+    },
+    "report/README.md": {
+      "sha256": "9350be0c9e8ea816aa76a4dee6cae727887da147d72d654f97c2a54fbb509ae1",
+      "bytes": 5589
+    },
+    "report/REPORT.md": {
+      "sha256": "7b453d8d7f24cc8d351443fc3ffa51d2576ae224932d62c63f316a55b56a9b3c",
+      "bytes": 101678
+    },
+    "report/RUN_GUIDE.md": {
+      "sha256": "b0a6539e7797d1b955142264efe6e89e23ba84e7e111d101ebc25ebe0fd9f565",
+      "bytes": 13047
+    },
+    "report/SPATIOTEMPORAL_PROTOCOL.md": {
+      "sha256": "2b07dd0f5855b4eab93bc4047ca0bbff54a125225b9bb9a6b748af6010ff7f19",
+      "bytes": 9800
+    },
+    "report/VALIDATION.md": {
+      "sha256": "e40d2fc4eb894762d27f17da5132821e1f76218f90dd505e96bc27ac1e0d384e",
+      "bytes": 8785
+    },
+    "results/background_comparison/analysis.md": {
+      "sha256": "90e2a6f0f4dc62fd3920b23f849727c0bd966539db9d2c9af5839598ec1db2bf",
+      "bytes": 15492
+    },
+    "results/chicago_2024_2025/analysis.md": {
+      "sha256": "33d80bfc73e99fbc89f45b9eabb9d6917de08ae1628fa224694cf86eecea70fb",
+      "bytes": 4680
+    },
+    "results/chicago_robustness/analysis.md": {
+      "sha256": "88146d38607c4644b3162e2f1d9f409434832b5c8d7a60c6de4eccebdbfcaa41",
+      "bytes": 2189
+    },
+    "results/detector_negative_controls/analysis.md": {
+      "sha256": "717e5ed27b29e816960905f525a43f4bb1c75d527f61cd7a9cd40487eff983d0",
+      "bytes": 11029
+    },
+    "results/dynamic_estimation/analysis.md": {
+      "sha256": "022e295c90b5936110d6fcd499be0744668791ae67b2e279282dc8e0d125eda9",
+      "bytes": 11754
+    },
+    "results/empirical_transfer/analysis.md": {
+      "sha256": "1877bb487828393a25cbba80c1a59dae7dc9a2cd3bcec705cc7bfae63c6f3931",
+      "bytes": 5870
+    },
+    "results/extended_neural/analysis.md": {
+      "sha256": "b0bafecb60c0ff341b98c612f306acdb5b187c1b5c68f6795d0a744ec8ad8e09",
+      "bytes": 4095
+    },
+    "results/genealogical_clusters/analysis.md": {
+      "sha256": "ff217506b53c78478629187902a1ce36cf34099e2cfcd3453fb5a8ec4f8fc5f3",
+      "bytes": 3139
+    },
+    "results/indicators_final/analysis.md": {
+      "sha256": "a6c9cd4ecdcc42091cfacece13269e78983724bfd8d2f2a7a53ed1c579509423",
+      "bytes": 2408
+    },
+    "results/intraday_comparison/analysis.md": {
+      "sha256": "87ce8dc3b865fd18ad2b96763928bd4a1e0bd31b3da3db74d768ea39e3293a82",
+      "bytes": 8001
+    },
+    "results/n_estimation_accuracy/analysis.md": {
+      "sha256": "d995c4d81722fdcc074f3f8492479b5f17679c8682ce34d394a9c80fb5fbb0ea",
+      "bytes": 10011
+    },
+    "results/neural_detector_robust_90d/analysis.md": {
+      "sha256": "59237f17ca8322a7e628fc555d63f63aef430b825330ed13e9085768013f991e",
+      "bytes": 12317
+    },
+    "results/neural_detector_robust_90d/baseline_poisson_audit/analysis.md": {
+      "sha256": "5343f051e6dfacd23615a1994779002ddff7b0e93ba786b9a89a2fabc08c78d8",
+      "bytes": 10888
+    },
+    "results/neural_detector_robust_90d/poisson_audit/analysis.md": {
+      "sha256": "e01721c22d529e570a548e40f855dd263325de6a3340b25b6323d4047b690f27",
+      "bytes": 10484
+    },
+    "results/nyc_2024_2025/analysis.md": {
+      "sha256": "ac13535f7ccbea499b873d84f10f0323f379c352ae7736fc61d6f92f21a0fa6c",
+      "bytes": 6572
+    },
+    "results/offline_summary/analysis.md": {
+      "sha256": "6fc6d6d6d2d8fdcf966af456d2fc9deaedcf166e20b937451cece0f5a2ae21a4",
+      "bytes": 5547
+    },
+    "results/selected_detectors/analysis.md": {
+      "sha256": "6435f4244a130b15911ee768fb8cd00f685dacb6a4814a01d5586659b92176d1",
+      "bytes": 17051
+    },
+    "results/sensitivity_diagnostics/analysis.md": {
+      "sha256": "18764b11e6eed64b6e9a7ff17d1bbdab09b9b92f6fb70fcf81ca9d461e88dad6",
+      "bytes": 23666
+    },
+    "results/simulation_v2/analysis.md": {
+      "sha256": "8d7e951173f14e034cd97ea3c4a78972cee439eda9348d29606531e1734fcced",
+      "bytes": 7736
+    },
+    "results/spatiotemporal_forecast/analysis.md": {
+      "sha256": "7222ab08fcac57d74cdbc5ba0dc6778c16311217387097e1278bf4c16426ec4a",
+      "bytes": 12180
+    },
+    "results/state_warning_audit/analysis.md": {
+      "sha256": "3fffa9ba0c665ebd417816609bbd19ec8b07ea2ef51e688448104176fcb0386d",
+      "bytes": 17423
+    },
+    "results/window_detector_comparison/analysis.md": {
+      "sha256": "008faf8f57dcd874f3248c74f288844212c066ee75b17440b45769005fcd2fa2",
+      "bytes": 11321
+    }
+  },
+  "removed_paths": [
+    "data/README.md",
+    "report/ACCEPTANCE.md",
+    "report/DEFENSE.md",
+    "report/DYNAMIC_PROTOCOL.md",
+    "report/EVIDENCE.md",
+    "report/EXTENDED_PROTOCOL.md",
+    "report/OFFLINE_GUIDE.md",
+    "report/OFFLINE_PROTOCOL.md",
+    "report/PLAN.md",
+    "report/README.md",
+    "report/REPORT.md",
+    "report/RUN_GUIDE.md",
+    "report/SPATIOTEMPORAL_PROTOCOL.md",
+    "report/VALIDATION.md",
+    "results/background_comparison/analysis.md",
+    "results/chicago_2024_2025/analysis.md",
+    "results/chicago_robustness/analysis.md",
+    "results/detector_negative_controls/analysis.md",
+    "results/dynamic_estimation/analysis.md",
+    "results/empirical_transfer/analysis.md",
+    "results/extended_neural/analysis.md",
+    "results/genealogical_clusters/analysis.md",
+    "results/indicators_final/analysis.md",
+    "results/intraday_comparison/analysis.md",
+    "results/n_estimation_accuracy/analysis.md",
+    "results/neural_detector_robust_90d/analysis.md",
+    "results/neural_detector_robust_90d/baseline_poisson_audit/analysis.md",
+    "results/neural_detector_robust_90d/poisson_audit/analysis.md",
+    "results/nyc_2024_2025/analysis.md",
+    "results/offline_summary/analysis.md",
+    "results/selected_detectors/analysis.md",
+    "results/sensitivity_diagnostics/analysis.md",
+    "results/simulation_v2/analysis.md",
+    "results/spatiotemporal_forecast/analysis.md",
+    "results/state_warning_audit/analysis.md",
+    "results/window_detector_comparison/analysis.md"
+  ],
+  "readme_source": "report/REPORT.md",
+  "readme_source_sha256": "7b453d8d7f24cc8d351443fc3ffa51d2576ae224932d62c63f316a55b56a9b3c",
+  "consolidated_on": "2026-11-16",
+  "purpose": "byte-exact historical documentation for frozen checks; README is the sole active Markdown document"
+}
