@@ -1,0 +1,22 @@
+{
+  "successful": true,
+  "pages": 66,
+  "preserved_prefix_pages": 62,
+  "prefix_text_and_page_sizes_equal": true,
+  "out_of_bounds_pages": [],
+  "replacement_character_pages": [],
+  "sha256": "dd44a38a63948e658f1953d3d72dfe2b116aa92988c0f21cfaff09b223af5d4c",
+  "visual_reviewed_pages": [
+    63,
+    64,
+    65,
+    66
+  ],
+  "rendered_page_sha256": {
+    "page-63.png": "081fb63ffb3b3400f85471029e42fb46de62a23e4185d5f39f060b30b721830a",
+    "page-64.png": "21e7b5d0f90c6de40b7956e6daec4ed0cf362478ad57223bbfa10c3bd02d0b22",
+    "page-65.png": "92ad73a920383a44ee0619b6e462dbac7acd3337c9544bca1ffa70cd9854907f",
+    "page-66.png": "73aba30a4e9f90b5bd982f5991c020915ef37487e02adfbcd69a389c9055122c"
+  },
+  "notes": "All four appended pages rendered with Poppler at100dpi and visually inspected; tables, plots, text and margins clean."
+}

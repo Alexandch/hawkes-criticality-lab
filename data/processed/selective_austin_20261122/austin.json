@@ -1,0 +1,30 @@
+{
+  "raw_rows": 19905,
+  "new_cases": 19713,
+  "historical_cases": 169814,
+  "all_cases": 189527,
+  "invalid_rows": 0,
+  "unknown_sector_rows": 192,
+  "conflicting_cases": 0,
+  "duplicate_rows": 0,
+  "excluded_history_rows": 0,
+  "missing_report_time": 0,
+  "raw_sha256": "8624b7308403c9a3b188bdff464961f0809e30c21c49872226ca84102e16db35",
+  "history_sha256": "d17d74bb30ab97d259a2884dc5c96a3908e681b6bd9ce24131fd1059e8f69dbb",
+  "panel_sha256": "385acebf6ecec855e93e737c7beaf0ab2f8418872879b23242f7716b83f9220c",
+  "frozen_plan_sha256": "c6edd017b3f1bd4cacf20a28df72c2b7316400d5bfb09959f97954d9645b509e",
+  "start": "2021-04-01 00:00:00",
+  "end_exclusive": "2026-09-01",
+  "sectors": [
+    "AD",
+    "BA",
+    "CH",
+    "DA",
+    "ED",
+    "FR",
+    "GE",
+    "HE",
+    "ID"
+  ],
+  "warning": "same nine coarse sectors; late labels provisional, real publication times unknown"
+}

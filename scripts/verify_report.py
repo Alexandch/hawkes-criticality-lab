@@ -19,7 +19,7 @@ def main():
     root = Path(__file__).resolve().parents[1]
     report = root / "report"
     test_result = json.loads((root / "reproducibility/test_result.json").read_text(encoding="utf-8"))
-    assert test_result["successful"] and test_result["tests_run"] == 126
+    assert test_result["successful"] and test_result["tests_run"] == 133
     assert test_result["failures"] == test_result["errors"] == 0
     documents = [root / "README.md"]
     assert verify_archive(root) == 37
@@ -43,7 +43,7 @@ def main():
             assert text.count("n<sup>*</sup>") == 2
             assert "итоговая редакция" in text.lower()
             figures = [int(v) for v in re.findall(r"(?m)^\*Рисунок (\d+)\.", text)]
-            assert figures == list(range(1, 27)), "figure captions must be sequential"
+            assert figures == list(range(1, 29)), "figure captions must be sequential"
         table_width = None
         in_code = False
         for number, line in enumerate(text.splitlines(), 1):
@@ -263,12 +263,35 @@ def main():
     current_pdf = json.loads((root / 'output/pdf/r14_build.json').read_text(encoding='utf-8'))
     assert current_pdf['base_sha256'] == last_pdf['output_sha256']
     assert current_pdf['base_pages'] == 57 and current_pdf['total_pages'] == 62
-    assert digest(root / 'output/pdf/hawkes_criticality_report.pdf') == current_pdf['output_sha256']
     assert digest(root / 'scripts/append_delay_pdf.py') == current_pdf['builder_sha256']
     for name, value in current_pdf['source_sha256'].items():assert digest(root / name) == value
     current_qa = json.loads((root / 'output/pdf/r14_qa.json').read_text(encoding='utf-8'))
     assert current_qa['successful'] and current_qa['sha256'] == current_pdf['output_sha256']
-    print(f"Verified {len(documents)} Markdown documents, {links} local links, {len(manifest['assets'])+6} figure copies, P1/R1-R14 result cells and unchanged frozen final metrics.")
+    selective = root / 'results/selective_austin_detector'
+    protocol = json.loads((selective / 'protocol.json').read_text(encoding='utf-8'))
+    for name, value in protocol['code_sha256'].items():assert digest(root / 'src/critical_processes' / name) == value
+    assert digest(root / 'scripts/prepare_selective_data.py') == protocol['preparation_sha256']
+    assert digest(root / 'scripts/prepare_delay_forecast_data.py') == protocol['r14_preparation_sha256']
+    for name, value in json.loads((selective / 'complete.json').read_text(encoding='utf-8'))['artifact_sha256'].items():assert digest(selective / name) == value
+    check = json.loads((selective / 'verification.json').read_text(encoding='utf-8'))
+    assert check['successful'] and check['development_candidates'] == 6 and check['new_test_cases'] == 19713
+    assert digest(root / 'scripts/verify_selective_alarm.py') == check['verifier_sha256']
+    assert len(pd.read_csv(selective / 'metrics.csv')) == 30 and len(pd.read_csv(selective / 'monthly_metrics.csv')) == 240
+    row = pd.read_csv(selective / 'metrics.csv').query("scenario=='primary' and role=='selected' and group=='all'").iloc[0]
+    assert row.true_positives == 48 and row.positives == 935 and row.false_positives == 172 and not bool(row.full_screen_passed)
+    graph = json.loads((report / 'assets/selective_manifest.json').read_text(encoding='utf-8'))
+    assert digest(root / 'scripts/summarize_selective_alarm.py') == graph['renderer_sha256']
+    for name, value in graph['source_sha256'].items():assert digest(root / name) == value
+    for item in graph['assets']:assert digest(root / item['file']) == item['sha256']
+    newest_pdf = json.loads((root / 'output/pdf/r15_build.json').read_text(encoding='utf-8'))
+    assert newest_pdf['base_sha256'] == current_pdf['output_sha256']
+    assert newest_pdf['base_pages'] == 62 and newest_pdf['total_pages'] == 66
+    assert digest(root / 'output/pdf/hawkes_criticality_report.pdf') == newest_pdf['output_sha256']
+    assert digest(root / 'scripts/append_selective_pdf.py') == newest_pdf['builder_sha256']
+    for name, value in newest_pdf['source_sha256'].items():assert digest(root / name) == value
+    newest_qa = json.loads((root / 'output/pdf/r15_qa.json').read_text(encoding='utf-8'))
+    assert newest_qa['successful'] and newest_qa['sha256'] == newest_pdf['output_sha256']
+    print(f"Verified {len(documents)} Markdown documents, {links} local links, {len(manifest['assets'])+8} figure copies, P1/R1-R15 result cells and unchanged frozen final metrics.")
 
 
 if __name__ == "__main__":

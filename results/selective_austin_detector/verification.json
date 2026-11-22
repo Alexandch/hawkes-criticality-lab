@@ -1,0 +1,24 @@
+{
+  "successful": true,
+  "protocol_sha256": "2671d0e940970e880799f9a8389878b9b67f81d3f5ac635d35fd6bb607e470dd",
+  "complete_sha256": "2e7ac084f05fd0a20b4a84e2971444c17a9b6de0f072f3760f5104d6e696d0ff",
+  "verifier_sha256": "cb404e23b233f0bf738fbad98d95160c37515f94b648b4b69c3e6cfefceb1ad9",
+  "frozen_before_new_download": true,
+  "historical_cases": 169814,
+  "new_test_cases": 19713,
+  "development_candidates": 6,
+  "frozen_forecast_files": 2,
+  "metric_rows": 30,
+  "district_rows": 270,
+  "monthly_rows": 240,
+  "checks": [
+    "unchanged R14 source and weights",
+    "exact new CSV preparation and historical prefix",
+    "all6candidates and quarterly choice",
+    "maturity diagnostic",
+    "exact R14 monthly2025forecast replay",
+    "causal sector calibrations in both scenarios",
+    "both sealed forecasts and all metrics"
+  ],
+  "limitation": "retrospective and provisional labels; calibrated risk floor is not a precision guarantee"
+}

@@ -1,0 +1,19 @@
+{
+  "stage": "R15",
+  "renderer_sha256": "e3b5727d69ea2f79f6d589f980e459432a9fbc4a2411d47a63a47295c998a897",
+  "source_sha256": {
+    "results/selective_austin_detector/metrics.csv": "9297a68219a188c2d6886622c208e68dc72c6d7d8df01b28462568207db9ca2d",
+    "results/selective_austin_detector/maturity_diagnosis.csv": "8ba4f9c5546e0121d26362a48b8b0e02c55b6c58f5d8d34d7f28c39ea1dc6194",
+    "results/selective_austin_detector/frozen_plan.json": "c6edd017b3f1bd4cacf20a28df72c2b7316400d5bfb09959f97954d9645b509e"
+  },
+  "assets": [
+    {
+      "file": "report/assets/selective_operating.png",
+      "sha256": "be9e9e9937d50dbe257e3a46c53f9806f9d864fabe2599d44f7efe19f835c635"
+    },
+    {
+      "file": "report/assets/selective_maturity.png",
+      "sha256": "62eb23a0bb9c890389bda70eb5e9d235db05751eaea2c347ffeeff1cad7af2e1"
+    }
+  ]
+}

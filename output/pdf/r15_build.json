@@ -1,0 +1,18 @@
+{
+  "base_revision": "35c1882cd5fd2716e34357a3a9246c3e93972c49",
+  "base_pages": 62,
+  "base_sha256": "a0a60b6788c57f128b6af24a6c995a07ff27c67a8e11b60ea159744afd4991ae",
+  "supplement_pages": 4,
+  "total_pages": 66,
+  "output_sha256": "dd44a38a63948e658f1953d3d72dfe2b116aa92988c0f21cfaff09b223af5d4c",
+  "builder_sha256": "1f259cfb271d657c390996b3f3cf8abde6709ef2bd75db42040f9d6011fcddd7",
+  "source_sha256": {
+    "results/selective_austin_detector/metrics.csv": "9297a68219a188c2d6886622c208e68dc72c6d7d8df01b28462568207db9ca2d",
+    "results/selective_austin_detector/new_input.json": "f89a06fb10891cdf979ed2f74c9622c5ee249cc1a7b1a91463d725756a33fe85",
+    "results/selective_austin_detector/frozen_plan.json": "c6edd017b3f1bd4cacf20a28df72c2b7316400d5bfb09959f97954d9645b509e",
+    "results/selective_austin_detector/assessment.json": "5a7f8ef6996e7e19e0cea08175fa41aa0799a256f6480a92ee904f373127bac5",
+    "results/selective_austin_detector/verification.json": "2d0c18f680c9715ac2e793785aaa7a03641084304f3041ac398df57bb71eb6d5",
+    "report/assets/selective_operating.png": "be9e9e9937d50dbe257e3a46c53f9806f9d864fabe2599d44f7efe19f835c635",
+    "report/assets/selective_maturity.png": "62eb23a0bb9c890389bda70eb5e9d235db05751eaea2c347ffeeff1cad7af2e1"
+  }
+}

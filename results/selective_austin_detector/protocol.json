@@ -1,0 +1,72 @@
+{
+  "stage": "15_sector_calibration_selective_weekly",
+  "history_sha256": "d17d74bb30ab97d259a2884dc5c96a3908e681b6bd9ce24131fd1059e8f69dbb",
+  "r14_complete_sha256": "9bcff8208118b284f4afcd60e9826619016b694438eb094d5778fb8761b132a4",
+  "r14_plan_sha256": "ab7f37fb4472262648e8cebeba618f72b43520b539e9b553caf82894a933c18b",
+  "code_sha256": {
+    "selective_alarm.py": "cec7d68dd575428d7ab389553e082d44f9f5627668d7c6df978ba8d009f3c353",
+    "selective_experiment.py": "605caa78b98e5e41b9b92bd8d01901ebb6841522b6420039b641eff341758b57",
+    "delay_forecast.py": "5211eba08b4bdac69e98ea41438cc8f16ae12726f096e7c8a9fce0488b3fbed4",
+    "adaptive_alarm.py": "5ed0e9feef52d25e7c5b4efa776495c0313117d360f4c6bcc9ea1846ee220704",
+    "offline_forecast.py": "bb7be37ae37d0ea858637cc8d1af65ffe0b5bb119cbc7d381fc04b814cbb1db7",
+    "spatiotemporal.py": "ae4327eed64df3eafea8441c29c22aee7b7664c83228abfe0b5de219d286c8c2",
+    "expanded_forecast.py": "c84f66fd5234dfac6daa65259f52211ea5d0f87ab3008244e9be89a3d3646a4b"
+  },
+  "preparation_sha256": "c51547932b9164aeb85d5f3dd04121ee9e67687923d850b2c7a4ff798f88f43f",
+  "r14_preparation_sha256": "caa8c03d52695831a5db4b932eb785c48da9b747a4ce8ec7715a0d317349cd2c",
+  "configs": [
+    {
+      "id": "nb_plain_monthly",
+      "method": "nb_plain",
+      "policy": "monthly"
+    },
+    {
+      "id": "nb_plain_weekly_global",
+      "method": "nb_plain",
+      "policy": "weekly_global"
+    },
+    {
+      "id": "nb_plain_weekly_sector",
+      "method": "nb_plain",
+      "policy": "weekly_sector"
+    },
+    {
+      "id": "delay_nb_monthly",
+      "method": "delay_nb",
+      "policy": "monthly"
+    },
+    {
+      "id": "delay_nb_weekly_global",
+      "method": "delay_nb",
+      "policy": "weekly_global"
+    },
+    {
+      "id": "delay_nb_weekly_sector",
+      "method": "delay_nb",
+      "policy": "weekly_sector"
+    }
+  ],
+  "scenarios": {
+    "primary": {
+      "lag_days": 7,
+      "publication_days": 7
+    },
+    "delayed_stress": {
+      "lag_days": 14,
+      "publication_days": 14
+    }
+  },
+  "new_approach": "weekly selective alarms; maturity56days; positive shared logit slope with shrunk sector intercepts; calibrated risk floor30pct",
+  "calibration": "180days split90/90, chronological probability and negative raw-score quantile; alpha.05; hierarchical penalty.005 fixed",
+  "model": "frozen R14 NB2 no-weather three-seed ensemble; same features and corrected reference target; no retraining",
+  "selection": "all2025nowdevelopment; prefer FPR<=5pct and recall>=10pct in all four quarters; maximize overall precision; predeclared safeF0.5 fallback",
+  "new_test": "Austin2026Jan-Aug, first download only after freeze; 2026Sep-Nov excluded for label maturity",
+  "target": "same R14 background and exceedance; no true crime or criticality labels",
+  "criteria": {
+    "precision": 0.3,
+    "recall": 0.1,
+    "fpr": 0.05,
+    "ap_beats_baseline": true,
+    "brier_ci_high_below_zero": true
+  }
+}

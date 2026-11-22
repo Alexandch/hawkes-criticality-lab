@@ -1,0 +1,40 @@
+{
+  "protocol_sha256": "2671d0e940970e880799f9a8389878b9b67f81d3f5ac635d35fd6bb607e470dd",
+  "frozen_utc": "2026-11-22T13:58:36.550727+00:00",
+  "roles": {
+    "selected": {
+      "id": "nb_plain_weekly_sector",
+      "method": "nb_plain",
+      "policy": "weekly_sector",
+      "selection_status": "predeclared_fallback"
+    },
+    "neural": {
+      "id": "nb_plain_weekly_sector",
+      "method": "nb_plain",
+      "policy": "weekly_sector",
+      "selection_status": "predeclared_fallback"
+    },
+    "baseline": {
+      "id": "delay_nb_weekly_sector",
+      "method": "delay_nb",
+      "policy": "weekly_sector",
+      "selection_status": "predeclared_fallback"
+    },
+    "monthly_neural": {
+      "id": "nb_plain_monthly",
+      "method": "nb_plain",
+      "policy": "monthly"
+    },
+    "sector_neural": {
+      "id": "nb_plain_weekly_sector",
+      "method": "nb_plain",
+      "policy": "weekly_sector"
+    }
+  },
+  "new_2026_cases_downloaded": false,
+  "model_sha256": {
+    "models/nb_plain_s601.pt": "6c25db981754aedca01681c09eca8e6e2d018ff220480b1072e9deddc3e90cc5",
+    "models/nb_plain_s613.pt": "846cf860669596dc3a3ab9c83289cdb78d0ede8e00a9631ee797afff4ebc5c39",
+    "models/nb_plain_s619.pt": "251e279b26696a9dd8e1dd55c2be53f2d297fdb1ddadcd495125aa649fc54914"
+  }
+}

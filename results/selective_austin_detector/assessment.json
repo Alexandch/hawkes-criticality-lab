@@ -1,0 +1,16 @@
+{
+  "status": "retrospective_selective_alarm_research",
+  "selected": {
+    "id": "nb_plain_weekly_sector",
+    "method": "nb_plain",
+    "policy": "weekly_sector",
+    "selection_status": "predeclared_fallback"
+  },
+  "primary_point_passed": false,
+  "primary_full_screen_passed": false,
+  "blocks": 18,
+  "prospective": false,
+  "publication_times_verified": false,
+  "new_period": "Austin2026Jan-Aug;2025nowdevelopment",
+  "limitation": "risk floor is a decision rule, not a guaranteed precision or FPR bound; late2026labels provisional"
+}

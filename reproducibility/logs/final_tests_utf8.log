@@ -95,6 +95,13 @@ test_prefix_forecast_and_first_features_do_not_use_future_events (test_selected_
 test_tolerance_rank_matches_exact_binomial_coverage_and_is_monotone (test_selected_features.SelectedFeatureTests.test_tolerance_rank_matches_exact_binomial_coverage_and_is_monotone) ... ok
 test_selection_enforces_validation_constraint_and_fixed_ties (test_selected_training.SelectedTrainingTests.test_selection_enforces_validation_constraint_and_fixed_ties) ... ok
 test_training_freezes_before_test_and_normalizes_only_training_decisions (test_selected_training.SelectedTrainingTests.test_training_freezes_before_test_and_normalizes_only_training_decisions) ... ok
+test_constant_label_fallback_is_finite (test_selective_alarm.SelectiveAlarmTests.test_constant_label_fallback_is_finite) ... ok
+test_positive_slope_preserves_ranking (test_selective_alarm.SelectiveAlarmTests.test_positive_slope_preserves_ranking) ... ok
+test_post_asof_and_immature_labels_do_not_change_policy (test_selective_alarm.SelectiveAlarmTests.test_post_asof_and_immature_labels_do_not_change_policy) ... ok
+test_risk_floor_abstains_without_modifying_probability (test_selective_alarm.SelectiveAlarmTests.test_risk_floor_abstains_without_modifying_probability) ... ok
+test_sector_intercepts_capture_different_base_rates (test_selective_alarm.SelectiveAlarmTests.test_sector_intercepts_capture_different_base_rates) ... ok
+test_selection_uses_all_quarters (test_selective_alarm.SelectiveAlarmTests.test_selection_uses_all_quarters) ... ok
+test_tied_raw_threshold_is_conservative (test_selective_alarm.SelectiveAlarmTests.test_tied_raw_threshold_is_conservative) ... ok
 test_complete_diagnostics_preserve_old_final_test (test_sensitivity_diagnostics.SensitivityDiagnosticTests.test_complete_diagnostics_preserve_old_final_test) ... ok
 test_curve_grid_is_fixed_by_calibration_and_includes_named_thresholds (test_sensitivity_diagnostics.SensitivityDiagnosticTests.test_curve_grid_is_fixed_by_calibration_and_includes_named_thresholds) ... ok
 test_curves_match_full_evaluation_and_keep_clean_recall_nonmonotonic (test_sensitivity_diagnostics.SensitivityDiagnosticTests.test_curves_match_full_evaluation_and_keep_clean_recall_nonmonotonic) ... ok
@@ -126,6 +133,6 @@ test_likelihood_matches_existing_grouped_event_likelihood (test_window_features.
 test_recording_events_preserves_counts_and_simulator_stream (test_window_features.WindowFeatureTests.test_recording_events_preserves_counts_and_simulator_stream) ... ok
 
 ----------------------------------------------------------------------
-Ran 126 tests in 77.872s
+Ran 133 tests in 53.991s
 
 OK

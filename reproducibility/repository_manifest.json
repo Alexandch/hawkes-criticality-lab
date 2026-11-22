@@ -14,8 +14,8 @@
       "bytes": 1337
     },
     "README.md": {
-      "sha256": "6556299f25f4a9cbe007b784c2479b7147ab306df2a92cf12c1b8a3826102aa7",
-      "bytes": 149641
+      "sha256": "1492d83c66147ac15127a54ee1e741f40b44a9837802a4dd79ab299bcf978c9f",
+      "bytes": 161892
     },
     "data/processed/adaptive_seattle_20261122/seattle.json": {
       "sha256": "92877867bff54c0b6663bdf5cb4b30d80e2e33277c31e21d775322f6b3a788ab",
@@ -168,6 +168,10 @@
     "data/processed/offline_20261110/san_francisco.json": {
       "sha256": "4b41c172c133378f1410355288df6f15a12c23a69fcf5ed2529967c910dd5ace",
       "bytes": 2463
+    },
+    "data/processed/selective_austin_20261122/austin.json": {
+      "sha256": "eb5a5f800318eaa4b8f2ea939e23acce4dbc71e5fccf0e7f48665aa0c51751df",
+      "bytes": 909
     },
     "data/processed/spatiotemporal_20261110/chicago.json": {
       "sha256": "5bd165e88170bc2d4c4b0c5916c2940dea9b951b42b50ba5c8f4ca80289212d6",
@@ -493,6 +497,10 @@
       "sha256": "4a044d43e229671207b640a306e64e61975e9e36bcc8d0c29310ce1b1d191f2a",
       "bytes": 586
     },
+    "data/raw/selective_austin_20261122/austin_2026_jan_aug.csv.gz.manifest.json": {
+      "sha256": "fbff315c08a765437c154f33a8d003e0a30ca14f4b4f99814dc9d8741aad7796",
+      "bytes": 1228
+    },
     "data/raw/spatiotemporal_20261110/chicago_2019.csv.gz.manifest.json": {
       "sha256": "e210171a402210203eb7c93f90b1daeb59d4bcf6cd1aeefd8267536244cd7bd6",
       "bytes": 1181
@@ -574,8 +582,8 @@
       "bytes": 1572
     },
     "output/pdf/hawkes_criticality_report.pdf": {
-      "sha256": "a0a60b6788c57f128b6af24a6c995a07ff27c67a8e11b60ea159744afd4991ae",
-      "bytes": 5689035
+      "sha256": "dd44a38a63948e658f1953d3d72dfe2b116aa92988c0f21cfaff09b223af5d4c",
+      "bytes": 6066652
     },
     "output/pdf/r12_build.json": {
       "sha256": "528303ca36b373a7cb331ee24c44c59ded08358f62de961adf694cbcbb6bed18",
@@ -600,6 +608,14 @@
     "output/pdf/r14_qa.json": {
       "sha256": "3a0b93b723ef3beeb4a6afff655cae182514e45c942420aa5f18ad39cb459d2c",
       "bytes": 979
+    },
+    "output/pdf/r15_build.json": {
+      "sha256": "87ad53cc4012f72384a4a4622a219925ecc3f486000bb0810edc6af345cd23cb",
+      "bytes": 1281
+    },
+    "output/pdf/r15_qa.json": {
+      "sha256": "9bfdc330eb760c7c1e216e0fdceec63db9279d7f43e48d45ee0e63b22dbe4b1b",
+      "bytes": 859
     },
     "pyproject.toml": {
       "sha256": "f24f62e8bfc36bbb96e6b4dc2d9d9062d31a39cd5f91791df8b8c51ac9bb3fce",
@@ -753,6 +769,18 @@
       "sha256": "8efce4d67f45d4e561bf7febdc9411e6551e8a27a13122eb5b17717937c0cc9c",
       "bytes": 115340
     },
+    "report/assets/selective_manifest.json": {
+      "sha256": "5684603fd6679ca4932cbb3663e90c5de9b3c6f676c541033ffe1daeb0264684",
+      "bytes": 850
+    },
+    "report/assets/selective_maturity.png": {
+      "sha256": "62eb23a0bb9c890389bda70eb5e9d235db05751eaea2c347ffeeff1cad7af2e1",
+      "bytes": 129618
+    },
+    "report/assets/selective_operating.png": {
+      "sha256": "be9e9e9937d50dbe257e3a46c53f9806f9d864fabe2599d44f7efe19f835c635",
+      "bytes": 73276
+    },
     "report/assets/target_timeline.png": {
       "sha256": "30da4b8364aed985500ce559345b7eab60fdd1dd745cf818fd51c2269a8c867b",
       "bytes": 87945
@@ -778,8 +806,8 @@
       "bytes": 314
     },
     "reproducibility/logs/final_tests_utf8.log": {
-      "sha256": "f5c040081f31e5301eb98747eee7d09f11973b71d5f0836b3c90c34d8b2567eb",
-      "bytes": 21974
+      "sha256": "58ce0877fcaa740d738be699a44ad0d2e11f5aac217bd8fdd7cc549b6dfd6188",
+      "bytes": 22957
     },
     "reproducibility/r12_history_availability_amendment.json": {
       "sha256": "c2b0b6287bc1eac4dbf0778ff8a3f9c9fad16d67a1e629df21bb079f88e0c0eb",
@@ -790,7 +818,7 @@
       "bytes": 5514
     },
     "reproducibility/test_result.json": {
-      "sha256": "c8bba0bbc145d61e24fb2f4a098635b966ec9cd42f57ce8451c9c9c66f278476",
+      "sha256": "88f79b6506ef5d0f7d08ce57f646ced1b53f47cca00ed8a034ded2c28a270c63",
       "bytes": 179
     },
     "requirements-lock.txt": {
@@ -2845,6 +2873,78 @@
       "sha256": "cd4d9fd22d90058f0d6459ca9612bf58c3d2e9eaccdb20b614e7529fb0a81165",
       "bytes": 16489
     },
+    "results/selective_austin_detector/assessment.json": {
+      "sha256": "5a7f8ef6996e7e19e0cea08175fa41aa0799a256f6480a92ee904f373127bac5",
+      "bytes": 557
+    },
+    "results/selective_austin_detector/complete.json": {
+      "sha256": "2e7ac084f05fd0a20b4a84e2971444c17a9b6de0f072f3760f5104d6e696d0ff",
+      "bytes": 1823
+    },
+    "results/selective_austin_detector/delayed_stress_policy_journal.json": {
+      "sha256": "3e2b8daa3646ace6733691ba7ea823265de39814d61fd1edf24a3cebe85cbfbe",
+      "bytes": 679890
+    },
+    "results/selective_austin_detector/development_candidates.json": {
+      "sha256": "c72312544ee9e8bd8109b596969dcfa62855f0a10250b8fadf08698156bb9bcd",
+      "bytes": 15468
+    },
+    "results/selective_austin_detector/development_metrics.csv": {
+      "sha256": "959cf621a0b4bcd46da387577bc63872c3ed8758e22ab48d5a8b74e1fd05489c",
+      "bytes": 1435
+    },
+    "results/selective_austin_detector/development_policy_journal.json": {
+      "sha256": "5fb895e64ab3189a994ede179d359fb42e7cfcec3a4f7f46ee29268f7660abb1",
+      "bytes": 963921
+    },
+    "results/selective_austin_detector/district_metrics.csv": {
+      "sha256": "dc115063f301560ee6f34468f0c2e1eb167e98ae50df8ad749b8911e6e2fbe19",
+      "bytes": 43207
+    },
+    "results/selective_austin_detector/forecast_journal.json": {
+      "sha256": "0f3551bf6651461534a2c7d2f6713414b90300c4e4e977322d3de282a8583e10",
+      "bytes": 570
+    },
+    "results/selective_austin_detector/frozen_plan.json": {
+      "sha256": "c6edd017b3f1bd4cacf20a28df72c2b7316400d5bfb09959f97954d9645b509e",
+      "bytes": 1320
+    },
+    "results/selective_austin_detector/maturity_diagnosis.csv": {
+      "sha256": "8ba4f9c5546e0121d26362a48b8b0e02c55b6c58f5d8d34d7f28c39ea1dc6194",
+      "bytes": 1782
+    },
+    "results/selective_austin_detector/maturity_summary.csv": {
+      "sha256": "a423bedae6cec0b1b8073c1ca64b1ba44e8fecc8de98a5acca4fc11a0ad38e5e",
+      "bytes": 178
+    },
+    "results/selective_austin_detector/metrics.csv": {
+      "sha256": "9297a68219a188c2d6886622c208e68dc72c6d7d8df01b28462568207db9ca2d",
+      "bytes": 14587
+    },
+    "results/selective_austin_detector/monthly_metrics.csv": {
+      "sha256": "a72922ca983637e661f8f9cbb048a61468803cb4815bc83944b8235b9cded2db",
+      "bytes": 43261
+    },
+    "results/selective_austin_detector/new_input.json": {
+      "sha256": "f89a06fb10891cdf979ed2f74c9622c5ee249cc1a7b1a91463d725756a33fe85",
+      "bytes": 999
+    },
+    "results/selective_austin_detector/primary_policy_journal.json": {
+      "sha256": "4a8fdb9d8e7ef8f96a047d0ec73da87ef9aebc455e83186f475a9b150b199797",
+      "bytes": 679868
+    },
+    "results/selective_austin_detector/protocol.json": {
+      "sha256": "2671d0e940970e880799f9a8389878b9b67f81d3f5ac635d35fd6bb607e470dd",
+      "bytes": 3016
+    },
+    "results/selective_austin_detector/test_started.json": {
+      "sha256": "c9a0e8709850b0926b509128711b55ac6fa31d7a33e31a12ccb88876b7a97fc8",
+      "bytes": 101
+    },
+    "results/selective_austin_detector/verification.json": {
+      "sha256": "2d0c18f680c9715ac2e793785aaa7a03641084304f3041ac398df57bb71eb6d5",
+      "bytes": 970
+    },
     "results/sensitivity_diagnostics/calibration_policies.csv": {
       "sha256": "400b243e6701b223d38f4a0d3a42e9a31a4984b0db95e7cb6111fcb42c17e60c",
       "bytes": 118475
@@ -3361,6 +3461,10 @@
       "sha256": "fcc3ae2f669d7dd9c4d903733f08afded64e26a371fb2d380a2e2e9d6b9f3664",
       "bytes": 17734
     },
+    "scripts/append_selective_pdf.py": {
+      "sha256": "1f259cfb271d657c390996b3f3cf8abde6709ef2bd75db42040f9d6011fcddd7",
+      "bytes": 14434
+    },
     "scripts/capture_expanded_observations.py": {
       "sha256": "eceba7f8f6ba9e4bc4b31891702143c0589e0130ce30c0cf00099c91a0212853",
       "bytes": 4490
@@ -3429,6 +3533,10 @@
       "sha256": "6db887e0844fe5d51f7ae44c804d8579df62005c5c0eb2fd2b59ce3c5d6cda4a",
       "bytes": 2668
     },
+    "scripts/prepare_selective_data.py": {
+      "sha256": "c51547932b9164aeb85d5f3dd04121ee9e67687923d850b2c7a4ff798f88f43f",
+      "bytes": 5911
+    },
     "scripts/prepare_spatiotemporal_data.py": {
       "sha256": "b4561dfeb5c61cea33286373ab1c6a1d33111b7926b693c75abb07a6e8005729",
       "bytes": 9946
@@ -3460,6 +3568,10 @@
     "scripts/summarize_offline.py": {
       "sha256": "fbfb223f45ca4e0ad8eb63ea0da004ab33c87e8ded32957ffe0e771a6dd6078c",
       "bytes": 13735
+    },
+    "scripts/summarize_selective_alarm.py": {
+      "sha256": "e3b5727d69ea2f79f6d589f980e459432a9fbc4a2411d47a63a47295c998a897",
+      "bytes": 3908
     },
     "scripts/summarize_spatiotemporal.py": {
       "sha256": "bc79921395f25bf4f7ec1a1c51a5496a43d995034b9b075dbff6ac78aa210816",
@@ -3502,12 +3614,12 @@
       "bytes": 10049
     },
     "scripts/verify_report.py": {
-      "sha256": "3f3298a0dbc89e3cccd09390d83d2a9cb8f3b00fc0cf58b12334c1256fc3af17",
-      "bytes": 19654
+      "sha256": "fbfe504f5b0c40d358a4ab7f2ad72d6bce122884cf361ef412e64afcdc698c99",
+      "bytes": 21911
     },
     "scripts/verify_repository_snapshot.py": {
-      "sha256": "55c5c1d3be7e105dd69f0c5ddc4b914ebfd22fcc471ddbe358a6b582a55deaa1",
-      "bytes": 10454
+      "sha256": "fe3ffca5e4ed6764a48672ccc25158ae412b9b14e96343ea9c9ee7a435e98d26",
+      "bytes": 12736
     },
     "scripts/verify_robust_experiment.py": {
       "sha256": "a596d394b51e8e06c5525e64440d992726ebcc27e143cee59e5a176845885089",
@@ -3516,6 +3628,10 @@
     "scripts/verify_selected_training.py": {
       "sha256": "8d014514903bf276881a12cdb0cc1552368226569e36777e28e4baf8abbad7f8",
       "bytes": 12997
+    },
+    "scripts/verify_selective_alarm.py": {
+      "sha256": "cb404e23b233f0bf738fbad98d95160c37515f94b648b4b69c3e6cfefceb1ad9",
+      "bytes": 7170
     },
     "scripts/verify_sensitivity_diagnostics.py": {
       "sha256": "ebc5bc183034054d34a333e20395ec0d74da4dcbe71c533b28147a666d706937",
@@ -3681,6 +3797,14 @@
       "sha256": "d786657556518056fd6a03f2160cb7cb042cedb202b0bd0d1c852003c26de0db",
       "bytes": 23328
     },
+    "src/critical_processes/selective_alarm.py": {
+      "sha256": "cec7d68dd575428d7ab389553e082d44f9f5627668d7c6df978ba8d009f3c353",
+      "bytes": 5462
+    },
+    "src/critical_processes/selective_experiment.py": {
+      "sha256": "605caa78b98e5e41b9b92bd8d01901ebb6841522b6420039b641eff341758b57",
+      "bytes": 11603
+    },
     "src/critical_processes/sensitivity_diagnostics.py": {
       "sha256": "2d4538b11d4140ad18d49f68aa81111f082d5c99ef61ef2a0a58e71cd7eafe8b",
       "bytes": 25604
@@ -3788,6 +3912,10 @@
     "tests/test_selected_training.py": {
       "sha256": "15edf558695e7ce2cc33dde699f986e1553be9c2630aae066bf9614b4f736127",
       "bytes": 4323
+    },
+    "tests/test_selective_alarm.py": {
+      "sha256": "a609369a61dbb1b8f641374f90ceccd55b2738bc0058aefc0acf97422bf70c05",
+      "bytes": 2796
     },
     "tests/test_sensitivity_diagnostics.py": {
       "sha256": "97e1d3802b213f23d3e8edb47ac04297cd79fe11c4b1853aea68e53a3d4b71fc",
@@ -4132,6 +4260,10 @@
       "bytes": 499712
     },
     {
+      "path": "data/processed/selective_austin_20261122/austin.npz",
+      "bytes": 470157
+    },
+    {
       "path": "data/processed/spatiotemporal_20261110/chicago.npz",
       "bytes": 229993
     },
@@ -4446,6 +4578,10 @@
     {
       "path": "data/raw/public_observed_r12_20261119/seattle.csv.gz",
       "bytes": 43068
+    },
+    {
+      "path": "data/raw/selective_austin_20261122/austin_2026_jan_aug.csv.gz",
+      "bytes": 218146
     },
     {
       "path": "data/raw/spatiotemporal_20261110/chicago_2019.csv.gz",
@@ -5254,6 +5390,14 @@
     {
       "path": "results/selected_detectors/trajectory_test_metrics.csv",
       "bytes": 16428716
+    },
+    {
+      "path": "results/selective_austin_detector/forecasts/delayed_stress.npz",
+      "bytes": 1008035
+    },
+    {
+      "path": "results/selective_austin_detector/forecasts/primary.npz",
+      "bytes": 1008171
     },
     {
       "path": "results/sensitivity_diagnostics/data/calibration.npz",

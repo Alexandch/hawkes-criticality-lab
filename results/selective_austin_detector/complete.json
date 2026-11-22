@@ -1,0 +1,23 @@
+{
+  "successful_execution": true,
+  "protocol_sha256": "2671d0e940970e880799f9a8389878b9b67f81d3f5ac635d35fd6bb607e470dd",
+  "artifact_sha256": {
+    "assessment.json": "5a7f8ef6996e7e19e0cea08175fa41aa0799a256f6480a92ee904f373127bac5",
+    "delayed_stress_policy_journal.json": "3e2b8daa3646ace6733691ba7ea823265de39814d61fd1edf24a3cebe85cbfbe",
+    "development_candidates.json": "c72312544ee9e8bd8109b596969dcfa62855f0a10250b8fadf08698156bb9bcd",
+    "development_metrics.csv": "959cf621a0b4bcd46da387577bc63872c3ed8758e22ab48d5a8b74e1fd05489c",
+    "development_policy_journal.json": "5fb895e64ab3189a994ede179d359fb42e7cfcec3a4f7f46ee29268f7660abb1",
+    "district_metrics.csv": "dc115063f301560ee6f34468f0c2e1eb167e98ae50df8ad749b8911e6e2fbe19",
+    "forecast_journal.json": "0f3551bf6651461534a2c7d2f6713414b90300c4e4e977322d3de282a8583e10",
+    "frozen_plan.json": "c6edd017b3f1bd4cacf20a28df72c2b7316400d5bfb09959f97954d9645b509e",
+    "maturity_diagnosis.csv": "8ba4f9c5546e0121d26362a48b8b0e02c55b6c58f5d8d34d7f28c39ea1dc6194",
+    "metrics.csv": "9297a68219a188c2d6886622c208e68dc72c6d7d8df01b28462568207db9ca2d",
+    "monthly_metrics.csv": "a72922ca983637e661f8f9cbb048a61468803cb4815bc83944b8235b9cded2db",
+    "new_input.json": "f89a06fb10891cdf979ed2f74c9622c5ee249cc1a7b1a91463d725756a33fe85",
+    "primary_policy_journal.json": "4a8fdb9d8e7ef8f96a047d0ec73da87ef9aebc455e83186f475a9b150b199797",
+    "protocol.json": "2671d0e940970e880799f9a8389878b9b67f81d3f5ac635d35fd6bb607e470dd",
+    "test_started.json": "c9a0e8709850b0926b509128711b55ac6fa31d7a33e31a12ccb88876b7a97fc8",
+    "forecasts/delayed_stress.npz": "8624391133d364d7e54af1202786245745e644879c442e8b6e73b9e138b3d61e",
+    "forecasts/primary.npz": "7a721916a14bca31de58612f33fdf9a4669b9b53cb64ffd4f152d719c840d8d1"
+  }
+}
