@@ -10,12 +10,12 @@
       "bytes": 246
     },
     ".gitignore": {
-      "sha256": "5d6babb2e8c921044f92ae7b270e49fdc4fa99411469fcc2a144bd03019a1a3e",
-      "bytes": 1158
+      "sha256": "0794b90dc5254a2c304306b8b6a4b4d57bb9ead818a26fd1347379de5d7a9c1e",
+      "bytes": 1337
     },
     "README.md": {
-      "sha256": "77666693fdc6813a1cf72c644cb44338a913c10c0d685bbc831f6bd4a0174ceb",
-      "bytes": 134151
+      "sha256": "6556299f25f4a9cbe007b784c2479b7147ab306df2a92cf12c1b8a3826102aa7",
+      "bytes": 149641
     },
     "data/processed/adaptive_seattle_20261122/seattle.json": {
       "sha256": "92877867bff54c0b6663bdf5cb4b30d80e2e33277c31e21d775322f6b3a788ab",
@@ -24,6 +24,22 @@
     "data/processed/code_core_2020_2021_17cities.csv.manifest.json": {
       "sha256": "230388ebc2d10b726e57bf171d8173ae7dd2d3ee4f73028120942314960b776d",
       "bytes": 4166
+    },
+    "data/processed/delay_forecast_20261122/development/austin.json": {
+      "sha256": "d8268fd15a8aa95135f69eaef53cf0959553b72246ae91a5d94793f705696a05",
+      "bytes": 1381
+    },
+    "data/processed/delay_forecast_20261122/development/austin_weather.json": {
+      "sha256": "af2176b6e056b537b7ed990d306721689469dbe5a067f15eb48d4e442d63fd12",
+      "bytes": 1144
+    },
+    "data/processed/delay_forecast_20261122/final/austin.json": {
+      "sha256": "3ba04f426e73de7cc804a89b04793ea77cf3fd1d7ec8360fddd2f5ec8c92a3cc",
+      "bytes": 1056
+    },
+    "data/processed/delay_forecast_20261122/final/austin_weather.json": {
+      "sha256": "825ba4d7c9d7032bd531672d915dbe5814b353095e25001430c31cb1ab2e9646",
+      "bytes": 1340
     },
     "data/processed/expanded_20261110/code_austin.csv.gz.manifest.json": {
       "sha256": "bed4e0ab2a3f8c8fbbcf559a68fb77ae01d68c73ebb20084670da17e97093351",
@@ -164,6 +180,54 @@
     "data/raw/adaptive_seattle_20261122/seattle_october.csv.gz.manifest.json": {
       "sha256": "1dfbe7226c93939385e48cfab433c446310e7a5096ae2a015906379cb9e1fd65",
       "bytes": 1206
+    },
+    "data/raw/delay_forecast_20261122/austin_2021.csv.gz.manifest.json": {
+      "sha256": "5f16495c673d4acf888bb03791641a409a2f7187088ef91c7d2dd3eabca15eae",
+      "bytes": 1105
+    },
+    "data/raw/delay_forecast_20261122/austin_2022.csv.gz.manifest.json": {
+      "sha256": "6c48027decfea5b9a11520763373a9fc546b3a8bf28875fef6cc05ac33f7b382",
+      "bytes": 1105
+    },
+    "data/raw/delay_forecast_20261122/austin_2023.csv.gz.manifest.json": {
+      "sha256": "a4a78402a616f21909b4f95389a3e4e221f1d1a2ce38584d907bfd40fb2e2526",
+      "bytes": 1105
+    },
+    "data/raw/delay_forecast_20261122/austin_2024.csv.gz.manifest.json": {
+      "sha256": "c0feac5f1cdd50769636125fcad247381e77c5437fce2fc00d51fb972cf7c7f5",
+      "bytes": 1105
+    },
+    "data/raw/delay_forecast_20261122/austin_2025.csv.gz.manifest.json": {
+      "sha256": "eddd5088d4fd25aee85ef82629349e4512459ea02ffd8050cf3eeb4f2c651fad",
+      "bytes": 1167
+    },
+    "data/raw/delay_forecast_20261122/austin_weather_2021.json.manifest.json": {
+      "sha256": "6043fce2d0a59c14c38f75808071e407322a5e72efbeabbc4e9b7ff0753b9e26",
+      "bytes": 709
+    },
+    "data/raw/delay_forecast_20261122/austin_weather_2022.json.manifest.json": {
+      "sha256": "d5d401dba19ec735e21ce78c09967518111e0d9243877c841ce9d33816686f09",
+      "bytes": 709
+    },
+    "data/raw/delay_forecast_20261122/austin_weather_2023.json.manifest.json": {
+      "sha256": "79014cf780d9be3826b6dd91e8128a0be8cbe42063e3a95f03746d5053f8af5e",
+      "bytes": 709
+    },
+    "data/raw/delay_forecast_20261122/austin_weather_2024.json.manifest.json": {
+      "sha256": "3be19d2ef3376b3391efe175f9bee852e0d39c94a7135ef06bf2700ebc10504b",
+      "bytes": 709
+    },
+    "data/raw/delay_forecast_20261122/austin_weather_2025.json.manifest.json": {
+      "sha256": "ac89f95c055c2c581ebc3507ce70ef4aeecbed6161f78af29395aacff45e7ccd",
+      "bytes": 771
+    },
+    "data/raw/delay_forecast_20261122/austin_weather_boundary_2024.json.manifest.json": {
+      "sha256": "b96b53521e4957be1f44bb680dc9fa8aabe59a3ae92cdd850ab35db94fc4598e",
+      "bytes": 445
+    },
+    "data/raw/delay_forecast_20261122/austin_weather_boundary_2025.json.manifest.json": {
+      "sha256": "504c73a80176748ff627f6d79b44748f25f6ace292c4a8ae9b70ac0d4df7f3ad",
+      "bytes": 507
     },
     "data/raw/expanded_20261110/cities/chicago_2019.csv.gz.manifest.json": {
       "sha256": "2e152441e0ac3f3a93e8a01140ba6a791b03aabea9e6c09e73c209624cc5c5d0",
@@ -510,8 +574,8 @@
       "bytes": 1572
     },
     "output/pdf/hawkes_criticality_report.pdf": {
-      "sha256": "caec20cd6fd903d92639b765b85ccc1325524c0934ccde372832e28bf79ebdee",
-      "bytes": 5235965
+      "sha256": "a0a60b6788c57f128b6af24a6c995a07ff27c67a8e11b60ea159744afd4991ae",
+      "bytes": 5689035
     },
     "output/pdf/r12_build.json": {
       "sha256": "528303ca36b373a7cb331ee24c44c59ded08358f62de961adf694cbcbb6bed18",
@@ -528,6 +592,14 @@
     "output/pdf/r13_qa.json": {
       "sha256": "9dfd4c891ead6d2b1ebe32460803e93cb1bdd1535dba279edc4ed0e2b5db7ea2",
       "bytes": 317
+    },
+    "output/pdf/r14_build.json": {
+      "sha256": "2a472c2aa86e69a79f0d0cb507177a7532f944fef691f3943504514d3695aa90",
+      "bytes": 1282
+    },
+    "output/pdf/r14_qa.json": {
+      "sha256": "3a0b93b723ef3beeb4a6afff655cae182514e45c942420aa5f18ad39cb459d2c",
+      "bytes": 979
     },
     "pyproject.toml": {
       "sha256": "f24f62e8bfc36bbb96e6b4dc2d9d9062d31a39cd5f91791df8b8c51ac9bb3fce",
@@ -552,6 +624,18 @@
     "report/assets/city_background_comparison.png": {
       "sha256": "f7608029180a0c674273dbe30dfde53d177b75bf9e1154bb9c3dd3ecb1edc299",
       "bytes": 159104
+    },
+    "report/assets/delay_forecast_manifest.json": {
+      "sha256": "9dc36fffea58295602186d44b67042bde0ee811075b5d83779a2573a753a6607",
+      "bytes": 850
+    },
+    "report/assets/delay_forecast_monthly.png": {
+      "sha256": "0b1a2434dc5e92ccc4d4752cb42e7406cb3a1353373da5feb55c5c334a8117ea",
+      "bytes": 164941
+    },
+    "report/assets/delay_forecast_operating.png": {
+      "sha256": "a30fd49e47ae2569114b70b26a65c88e88e0daf6c30acaaf4177de6587c4b6d7",
+      "bytes": 87110
     },
     "report/assets/district_count_comparison.png": {
       "sha256": "acad74a8f7ee902905c79ea54d1ba44e9df191e0afbf62c43c830afe6238a6b0",
@@ -694,8 +778,8 @@
       "bytes": 314
     },
     "reproducibility/logs/final_tests_utf8.log": {
-      "sha256": "e9b82eae41de5b88487ad4aa04406e0983bf9922d99bb23004c0cd10ccf48bb2",
-      "bytes": 20594
+      "sha256": "f5c040081f31e5301eb98747eee7d09f11973b71d5f0836b3c90c34d8b2567eb",
+      "bytes": 21974
     },
     "reproducibility/r12_history_availability_amendment.json": {
       "sha256": "c2b0b6287bc1eac4dbf0778ff8a3f9c9fad16d67a1e629df21bb079f88e0c0eb",
@@ -706,7 +790,7 @@
       "bytes": 5514
     },
     "reproducibility/test_result.json": {
-      "sha256": "cd73b329b9f89cf78471b4a2f5f5aeb256aff8d6ca88276cee5e1c67a67843aa",
+      "sha256": "c8bba0bbc145d61e24fb2f4a098635b966ec9cd42f57ce8451c9c9c66f278476",
       "bytes": 179
     },
     "requirements-lock.txt": {
@@ -864,6 +948,158 @@
     "results/chicago_robustness/quarterly_robustness.csv": {
       "sha256": "b07779e81c33646556da939103b0a18f694796a99f090732f5db1ec94506404e",
       "bytes": 1822
+    },
+    "results/delay_forecast_detector/assessment.json": {
+      "sha256": "416cdfa7aaf24c7aacb0954967360a36374e62a9a273e3a96e9e50ad6a195dab",
+      "bytes": 676
+    },
+    "results/delay_forecast_detector/complete.json": {
+      "sha256": "9bcff8208118b284f4afcd60e9826619016b694438eb094d5778fb8761b132a4",
+      "bytes": 3865
+    },
+    "results/delay_forecast_detector/data_summary.csv": {
+      "sha256": "2321d33fac02abc104d2f41bb55f0b96f112652eff332d18a15ec5fb84df7128",
+      "bytes": 369
+    },
+    "results/delay_forecast_detector/delayed_stress_policy_journal.json": {
+      "sha256": "b47218d1de80e43f7a51a7f8529a95e3cc5abce49cc9d457a31ba6fb173eabf3",
+      "bytes": 219950
+    },
+    "results/delay_forecast_detector/development_candidates.json": {
+      "sha256": "d65c591a12d9873ab6fe179ceb979ff58dd183ad476d99378af529a1ee45f854",
+      "bytes": 12799
+    },
+    "results/delay_forecast_detector/development_metrics.csv": {
+      "sha256": "c0a089288915374e9a282458efc8daebf737a5da34d48ea5928c5fa61678f3b5",
+      "bytes": 5278
+    },
+    "results/delay_forecast_detector/development_policy_journal.json": {
+      "sha256": "5c26aa1e6992cd73f8080dbd653e92748e835c8c744b6a7af759f405fdfcd517",
+      "bytes": 220215
+    },
+    "results/delay_forecast_detector/district_metrics.csv": {
+      "sha256": "729c62f7dbab6713d8962cabb0cc5d65bf2e07428157dc0a661074cf5722fac2",
+      "bytes": 56243
+    },
+    "results/delay_forecast_detector/forecast_journal.json": {
+      "sha256": "df7936989b2d9de33820fd8f8ca1592306f05cbbe30620b72508fe347334bc51",
+      "bytes": 570
+    },
+    "results/delay_forecast_detector/frozen_plan.json": {
+      "sha256": "ab7f37fb4472262648e8cebeba618f72b43520b539e9b553caf82894a933c18b",
+      "bytes": 42797
+    },
+    "results/delay_forecast_detector/metrics.csv": {
+      "sha256": "ef2260b7883a7e286dffe76c750be8e25b1ebab238b80623aabd404587c6d931",
+      "bytes": 16986
+    },
+    "results/delay_forecast_detector/models/bce_forecast_s601.csv": {
+      "sha256": "d160c2025cbc628783623501fc79e36010e3c33ac807eb0f55b25e41839c9d1e",
+      "bytes": 2645
+    },
+    "results/delay_forecast_detector/models/bce_forecast_s601.pt": {
+      "sha256": "f56b9ef84de7dc5976c3fe318c4e3e498d30273707cf2f143d878404550939ef",
+      "bytes": 16281
+    },
+    "results/delay_forecast_detector/models/bce_forecast_s613.csv": {
+      "sha256": "4f0a56de072af677b1f8fc3aa47f0634e6b59d61e3c6e6227251fef99e4f8cd2",
+      "bytes": 2648
+    },
+    "results/delay_forecast_detector/models/bce_forecast_s613.pt": {
+      "sha256": "c68c18bd55784add738d5b256ededee95ef3c7135d07eb35061581ddf5b54328",
+      "bytes": 16281
+    },
+    "results/delay_forecast_detector/models/bce_forecast_s619.csv": {
+      "sha256": "29e29da7154c39df06a6cfb66fb67026cdd3ead147fa5688a11678849c5f0553",
+      "bytes": 2648
+    },
+    "results/delay_forecast_detector/models/bce_forecast_s619.pt": {
+      "sha256": "3c94405874f435875ce86ffd7d482d25feb4d463e1568bf178f6adc674da54e7",
+      "bytes": 16281
+    },
+    "results/delay_forecast_detector/models/nb_forecast_s601.csv": {
+      "sha256": "4ea52e361e4829bd8963c08d7335bde1ea42304af1accd8c8e2778b1edd16c60",
+      "bytes": 2583
+    },
+    "results/delay_forecast_detector/models/nb_forecast_s601.pt": {
+      "sha256": "23a664331c594973134da8f7ef8c5b5cc7698cb597b77b3d909de1de7124e1ac",
+      "bytes": 16267
+    },
+    "results/delay_forecast_detector/models/nb_forecast_s613.csv": {
+      "sha256": "3b6c42f9e2592696cbbf51a42fbb133fbd0d7bbfb382bfc48e409e9ca7f35b00",
+      "bytes": 2584
+    },
+    "results/delay_forecast_detector/models/nb_forecast_s613.pt": {
+      "sha256": "75dbf6dc10e12576cd70fdc5c9f040da1d89dc05ca183afd9bc41d7e3fff56e2",
+      "bytes": 16267
+    },
+    "results/delay_forecast_detector/models/nb_forecast_s619.csv": {
+      "sha256": "a35265f9f73764167277eba05ae640da414d113c50db623ce126542cc62047c1",
+      "bytes": 2566
+    },
+    "results/delay_forecast_detector/models/nb_forecast_s619.pt": {
+      "sha256": "db266269404e90c160938fb728a8bfc429dd0ec999454355a1188573d4889251",
+      "bytes": 16267
+    },
+    "results/delay_forecast_detector/models/nb_plain_s601.csv": {
+      "sha256": "d4ff2343344a88e0ae10fc7aab3b9d6fa22c7eaf28b601d1492cdeea9e983d39",
+      "bytes": 2578
+    },
+    "results/delay_forecast_detector/models/nb_plain_s601.pt": {
+      "sha256": "6c25db981754aedca01681c09eca8e6e2d018ff220480b1072e9deddc3e90cc5",
+      "bytes": 15585
+    },
+    "results/delay_forecast_detector/models/nb_plain_s613.csv": {
+      "sha256": "c4d9b66bdbf7afdc879e0cf95b07e57db7e5c88ccbd12499450e7194b3e19379",
+      "bytes": 2580
+    },
+    "results/delay_forecast_detector/models/nb_plain_s613.pt": {
+      "sha256": "846cf860669596dc3a3ab9c83289cdb78d0ede8e00a9631ee797afff4ebc5c39",
+      "bytes": 15585
+    },
+    "results/delay_forecast_detector/models/nb_plain_s619.csv": {
+      "sha256": "73d7eb0933987d9e97a42c9373e6dcd4077348220bd0faad7f03ca910dff01f8",
+      "bytes": 2582
+    },
+    "results/delay_forecast_detector/models/nb_plain_s619.pt": {
+      "sha256": "251e279b26696a9dd8e1dd55c2be53f2d297fdb1ddadcd495125aa649fc54914",
+      "bytes": 15585
+    },
+    "results/delay_forecast_detector/monthly_metrics.csv": {
+      "sha256": "7bd0fca03761723ef7d1b48355fe0be35e02b63532d3c782e4682e785d89d223",
+      "bytes": 74840
+    },
+    "results/delay_forecast_detector/new_input.json": {
+      "sha256": "f5d886e75ba80834b3f33768c6876e2baefb0b7d8286515dc4299eef4b313d3b",
+      "bytes": 555
+    },
+    "results/delay_forecast_detector/primary_policy_journal.json": {
+      "sha256": "703d34cdc11dbcedebb63db36abaf1b22a225a352df2838bf357e4912aea9e2b",
+      "bytes": 219908
+    },
+    "results/delay_forecast_detector/protocol.json": {
+      "sha256": "34b133b124f4b653f00c0003c1a3269d4434f852a218626df3b6957bf735e05e",
+      "bytes": 2571
+    },
+    "results/delay_forecast_detector/reporting_cdf.npz": {
+      "sha256": "cb96b5c99e1413bb1cfd7ad92c777e60672d15155a442df6e38473d3f3e73739",
+      "bytes": 143619
+    },
+    "results/delay_forecast_detector/reporting_profile.json": {
+      "sha256": "0e2bb2976fcb00a0bc5f3fc5a5a308b7b79beb4f39c920b300bd50b375af6f37",
+      "bytes": 804
+    },
+    "results/delay_forecast_detector/test_started.json": {
+      "sha256": "58017567d4fcb97286855c2107f4aed37e451a28e4a1fcd4565e8f26422af46f",
+      "bytes": 194
+    },
+    "results/delay_forecast_detector/training_summary.csv": {
+      "sha256": "7b56f59a6a10b985a56dc7d05d3eac87d08a1165f3485b4df20a47ffabc8ad31",
+      "bytes": 379
+    },
+    "results/delay_forecast_detector/verification.json": {
+      "sha256": "dfb4e3587be77e59ab6e913083b1bc2b409bf63b28226fd3dbb2f287554e7792",
+      "bytes": 1097
     },
     "results/detector_negative_controls/false_alarms.png": {
       "sha256": "d191e4a55827ca8c27c7552067a6acc6e17db165f7b13f88ad48d36635dd030b",
@@ -3117,6 +3353,10 @@
       "sha256": "9cdc30612f02cd38321f2def4e33438ddea54ac31a2e6a4421a13f04aae249c2",
       "bytes": 12274
     },
+    "scripts/append_delay_pdf.py": {
+      "sha256": "a4226eb8df1fa7f03b0f7092b82aa935e79e4a389ed3dbb3374942de594b4eb9",
+      "bytes": 17417
+    },
     "scripts/append_expanded_pdf.py": {
       "sha256": "fcc3ae2f669d7dd9c4d903733f08afded64e26a371fb2d380a2e2e9d6b9f3664",
       "bytes": 17734
@@ -3160,6 +3400,10 @@
     "scripts/prepare_code_subset.py": {
       "sha256": "c2e433636f0b5de014ba81a184668375ddbb9d32348d1145c1a1fad10c618a85",
       "bytes": 3836
+    },
+    "scripts/prepare_delay_forecast_data.py": {
+      "sha256": "caa8c03d52695831a5db4b932eb785c48da9b747a4ce8ec7715a0d317349cd2c",
+      "bytes": 13246
     },
     "scripts/prepare_expanded_districts.py": {
       "sha256": "985e8cf8968b7fd5d282697c64d8198a29554ad511b9e12f8365cf37de836e2c",
@@ -3205,6 +3449,10 @@
       "sha256": "a8f3049c4ba554708faeb7647a9f740f0635907927986226cf93de8f48a4a00e",
       "bytes": 6646
     },
+    "scripts/summarize_delay_forecast.py": {
+      "sha256": "ea7bb857a65ce873d0a5e07d285f5fc947ee7e6975d73b90cf06e38c874b0119",
+      "bytes": 4649
+    },
     "scripts/summarize_expanded_detector.py": {
       "sha256": "e95e911912a4d3bb9f41a88718f4d0530e406e9589a0308d29bcd2ec102b3b85",
       "bytes": 5130
@@ -3224,6 +3472,10 @@
     "scripts/verify_background_comparison.py": {
       "sha256": "10ca65b23889daa5e39616545ea51183eeb72a5e7f5bee9713193a995a1cae86",
       "bytes": 4293
+    },
+    "scripts/verify_delay_forecast.py": {
+      "sha256": "39da3003633914e232eff31fda014e1df9e93132c7ff3f6c28de16f875e75369",
+      "bytes": 9335
     },
     "scripts/verify_dynamic_estimation.py": {
       "sha256": "7f7fa2826ba56c2b5ceeae195d95060ad11e91e585ed6c596d7310de42982150",
@@ -3250,12 +3502,12 @@
       "bytes": 10049
     },
     "scripts/verify_report.py": {
-      "sha256": "69414493bfae4aa1c132490ccd6c34d4b2178c92ee91c4e913b02e5b358ce50d",
-      "bytes": 17436
+      "sha256": "3f3298a0dbc89e3cccd09390d83d2a9cb8f3b00fc0cf58b12334c1256fc3af17",
+      "bytes": 19654
     },
     "scripts/verify_repository_snapshot.py": {
-      "sha256": "5a6655856942a30c73ed03196e2face91d4e80c505665e945f93c0fec30c9ac5",
-      "bytes": 8263
+      "sha256": "55c5c1d3be7e105dd69f0c5ddc4b914ebfd22fcc471ddbe358a6b582a55deaa1",
+      "bytes": 10454
     },
     "scripts/verify_robust_experiment.py": {
       "sha256": "a596d394b51e8e06c5525e64440d992726ebcc27e143cee59e5a176845885089",
@@ -3324,6 +3576,14 @@
     "src/critical_processes/data.py": {
       "sha256": "b2f11402c8a61d7f80a86d88c15fb6d4138e615e149fccee4f082cb47a9b5096",
       "bytes": 3235
+    },
+    "src/critical_processes/delay_forecast.py": {
+      "sha256": "5211eba08b4bdac69e98ea41438cc8f16ae12726f096e7c8a9fce0488b3fbed4",
+      "bytes": 9941
+    },
+    "src/critical_processes/delay_forecast_experiment.py": {
+      "sha256": "05af0f9808a23b1fdf0386b41c3ee78a08505659edd752ae1346057facb3d383",
+      "bytes": 16424
     },
     "src/critical_processes/detector.py": {
       "sha256": "dbd2d22839d975cf31ceeb2dcc5047dc97d88f6b47fe5857b0bff7bdc550100f",
@@ -3477,6 +3737,10 @@
       "sha256": "0c57a6817dc37f6dbb381565d29df4516fe1c80a33c33a30d4c48e6a5751059d",
       "bytes": 4031
     },
+    "tests/test_delay_forecast.py": {
+      "sha256": "78bb68cb269c57f8fd77b1f62c68eba5c0d0fcb83c63d41b2e27cbf0854daf5e",
+      "bytes": 5116
+    },
     "tests/test_detector_controls.py": {
       "sha256": "207952c6f24f62c36b67fbf21566b3267b6b64b813467b18edd7132b29e2603e",
       "bytes": 7582
@@ -3550,6 +3814,22 @@
     {
       "path": "data/processed/code_core_2020_2021_17cities.csv.gz",
       "bytes": 72519418
+    },
+    {
+      "path": "data/processed/delay_forecast_20261122/development/austin.npz",
+      "bytes": 336718
+    },
+    {
+      "path": "data/processed/delay_forecast_20261122/development/austin_weather.npz",
+      "bytes": 84116
+    },
+    {
+      "path": "data/processed/delay_forecast_20261122/final/austin.npz",
+      "bytes": 419640
+    },
+    {
+      "path": "data/processed/delay_forecast_20261122/final/austin_weather.npz",
+      "bytes": 106373
     },
     {
       "path": "data/processed/expanded_20261110/code_austin.csv.gz",
@@ -3876,6 +4156,54 @@
       "bytes": 40160230
     },
     {
+      "path": "data/raw/delay_forecast_20261122/austin_2021.csv.gz",
+      "bytes": 401023
+    },
+    {
+      "path": "data/raw/delay_forecast_20261122/austin_2022.csv.gz",
+      "bytes": 415254
+    },
+    {
+      "path": "data/raw/delay_forecast_20261122/austin_2023.csv.gz",
+      "bytes": 401638
+    },
+    {
+      "path": "data/raw/delay_forecast_20261122/austin_2024.csv.gz",
+      "bytes": 385112
+    },
+    {
+      "path": "data/raw/delay_forecast_20261122/austin_2025.csv.gz",
+      "bytes": 366730
+    },
+    {
+      "path": "data/raw/delay_forecast_20261122/austin_weather_2021.json",
+      "bytes": 350710
+    },
+    {
+      "path": "data/raw/delay_forecast_20261122/austin_weather_2022.json",
+      "bytes": 349743
+    },
+    {
+      "path": "data/raw/delay_forecast_20261122/austin_weather_2023.json",
+      "bytes": 350269
+    },
+    {
+      "path": "data/raw/delay_forecast_20261122/austin_weather_2024.json",
+      "bytes": 351489
+    },
+    {
+      "path": "data/raw/delay_forecast_20261122/austin_weather_2025.json",
+      "bytes": 350048
+    },
+    {
+      "path": "data/raw/delay_forecast_20261122/austin_weather_boundary_2024.json",
+      "bytes": 1345
+    },
+    {
+      "path": "data/raw/delay_forecast_20261122/austin_weather_boundary_2025.json",
+      "bytes": 1352
+    },
+    {
       "path": "data/raw/expanded_20261110/cities/chicago_2019.csv.gz",
       "bytes": 1321360
     },
@@ -4198,6 +4526,14 @@
     {
       "path": "results/background_comparison/replicates.csv",
       "bytes": 44094391
+    },
+    {
+      "path": "results/delay_forecast_detector/forecasts/delayed_stress.npz",
+      "bytes": 1516813
+    },
+    {
+      "path": "results/delay_forecast_detector/forecasts/primary.npz",
+      "bytes": 1516911
     },
     {
       "path": "results/detector_negative_controls/trajectory_metrics.csv",

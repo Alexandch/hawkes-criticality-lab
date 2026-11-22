@@ -1,0 +1,41 @@
+{
+  "start": "2021-04-01",
+  "end_exclusive": "2025-01-01",
+  "raw_rows": 147313,
+  "new_cases": 136581,
+  "all_cases": 136581,
+  "invalid_rows": 0,
+  "unknown_sector_rows": 1611,
+  "conflicting_cases": 0,
+  "duplicate_rows": 0,
+  "excluded_history_rows": 0,
+  "missing_report_time": 0,
+  "raw_sha256": {
+    "data/raw/delay_forecast_20261122/austin_2021.csv.gz": "5a9582ce203774e4536551316314df4f10dce16e5e17f22b4497192e5a8a9f90",
+    "data/raw/delay_forecast_20261122/austin_2022.csv.gz": "44b0b6774749888d8cd61b972d7d59649e883a0dc25441dc053d7d69d5827322",
+    "data/raw/delay_forecast_20261122/austin_2023.csv.gz": "14247814285c740dd2bb78888431ea6a196b45276ef459cf4d637b77f61cf6c2",
+    "data/raw/delay_forecast_20261122/austin_2024.csv.gz": "037b8c689824e25813329a55aff2487aad2c8485d2598d428b8ddd9090c18395"
+  },
+  "panel_sha256": "959cb6e301721c2af2100beab5a28f0f0711a94d1ddd5b5c6f0d3fa754105216",
+  "frozen_plan_sha256": null,
+  "timestamp": "local naive America/Chicago wall-clock bins; exact source publication history unknown",
+  "sectors": [
+    "AD",
+    "BA",
+    "CH",
+    "DA",
+    "ED",
+    "FR",
+    "GE",
+    "HE",
+    "ID"
+  ],
+  "scope": [
+    "Theft",
+    "Auto Theft",
+    "Burglary",
+    "Aggravated Assault",
+    "Robbery"
+  ],
+  "warning": "coarse recorded sectors; original historical boundaries not reconstructed"
+}

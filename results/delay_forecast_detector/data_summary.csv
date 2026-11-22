@@ -1,0 +1,7 @@
+split,start,end_exclusive,cases,sector_cells,sectors
+development_total,2021-04-01,2025-01-01,136581,49356,9
+network_train,2021-10-01,2024-01-01,83819,29592,9
+checkpoint_validation,2024-02-01,2024-04-01,5878,2160,9
+operating_selection,2024-07-01,2024-10-01,8328,3312,9
+confirmation,2024-10-01,2024-12-01,5760,2196,9
+final_test,2025-01-01,2026-01-01,33233,13140,9

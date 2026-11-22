@@ -35,12 +35,15 @@ secrets.json
 /data/**/*.sqlite
 /data/**/*.partial
 /data/**/*.dly
+/data/raw/delay_forecast_20261122/austin_weather_20??.json
+/data/raw/delay_forecast_20261122/austin_weather_boundary_20??.json
 
 # Large simulation caches are regenerated from the saved protocols
 /results/**/*.npz
 !/results/genealogical_clusters/clusters.npz
 !/results/indicators_final/counts.npz
 !/results/empirical_transfer/data/*.npz
+!/results/delay_forecast_detector/reporting_cdf.npz
 /runs/
 /.publication-review/
 /tmp/pdfs/

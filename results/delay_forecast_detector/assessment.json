@@ -1,0 +1,17 @@
+{
+  "status": "research_prototype_retrospective_new_city_test",
+  "selected": {
+    "id": "bce_forecast_a050",
+    "method": "bce_forecast",
+    "alpha": 0.05,
+    "selection_status": "predeclared_fallback_no_joint_point"
+  },
+  "primary_point_passed": false,
+  "primary_full_screen_passed": false,
+  "blocks": 27,
+  "new_geography": "Austin, nine predeclared patrol sectors",
+  "new_period": "2025 full year, first district forecast test in this project",
+  "source_publication_times_verified": false,
+  "prospective_forecasts_issued": false,
+  "warning": "registered reports; assumed weekly publication; retrospective corrections and reporting bias remain"
+}

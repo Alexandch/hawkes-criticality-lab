@@ -1,0 +1,18 @@
+{
+  "frozen_plan_sha256": "ab7f37fb4472262648e8cebeba618f72b43520b539e9b553caf82894a933c18b",
+  "contains_outcomes": false,
+  "entries": [
+    {
+      "file": "forecasts/primary.npz",
+      "scenario": "primary",
+      "sha256": "a64060b65088dc1c921645283606e0be4d779b6efa66d1e1022bdc97ea9a3e54",
+      "contains_outcomes": false
+    },
+    {
+      "file": "forecasts/delayed_stress.npz",
+      "scenario": "delayed_stress",
+      "sha256": "da63fe4f8dc2fc6b05c42fd524ed679fff8a7de91a7071c2ab4c952155906c61",
+      "contains_outcomes": false
+    }
+  ]
+}

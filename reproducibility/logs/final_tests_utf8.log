@@ -17,6 +17,14 @@ test_deduplicates_known_ids_but_keeps_rows_without_id (test_data_and_estimation.
 test_seasonal_hawkes_gradient_matches_finite_difference (test_data_and_estimation.EventDataTests.test_seasonal_hawkes_gradient_matches_finite_difference) ... ok
 test_tied_timestamps_do_not_trigger_each_other_instantly (test_data_and_estimation.EventDataTests.test_tied_timestamps_do_not_trigger_each_other_instantly) ... ok
 test_weekday_baseline_improves_forecast_for_weekly_pattern (test_data_and_estimation.EventDataTests.test_weekday_baseline_improves_forecast_for_weekly_pattern) ... ok
+test_complete_reporting_exposure_equals_complete_past_window (test_delay_forecast.DelayForecastTests.test_complete_reporting_exposure_equals_complete_past_window) ... ok
+test_delay_profile_excludes_future_cohorts_and_is_monotone (test_delay_forecast.DelayForecastTests.test_delay_profile_excludes_future_cohorts_and_is_monotone) ... ok
+test_distribution_network_produces_finite_positive_mean_and_dispersion (test_delay_forecast.DelayForecastTests.test_distribution_network_produces_finite_positive_mean_and_dispersion) ... ok
+test_forecast_lead_is_past_even_across_dst_and_later_bins_do_not_change_it (test_delay_forecast.DelayForecastTests.test_forecast_lead_is_past_even_across_dst_and_later_bins_do_not_change_it) ... ok
+test_local_hhmm_does_not_invent_invalid_times (test_delay_forecast.DelayForecastTests.test_local_hhmm_does_not_invent_invalid_times) ... ok
+test_nb2_likelihood_matches_scipy_and_has_finite_gradients (test_delay_forecast.DelayForecastTests.test_nb2_likelihood_matches_scipy_and_has_finite_gradients) ... ok
+test_no_publication_information_keeps_ratio_neutral (test_delay_forecast.DelayForecastTests.test_no_publication_information_keeps_ratio_neutral) ... ok
+test_partial_reporting_corrects_missing_exposure_instead_of_zero_crime (test_delay_forecast.DelayForecastTests.test_partial_reporting_corrects_missing_exposure_instead_of_zero_crime) ... ok
 test_all_lags_are_normalized_and_legacy_transform_is_preserved (test_detector_controls.NegativeControlTests.test_all_lags_are_normalized_and_legacy_transform_is_preserved) ... ok
 test_features_do_not_cross_stage_boundaries (test_detector_controls.NegativeControlTests.test_features_do_not_cross_stage_boundaries) ... ok
 test_intraday_profile_preserves_the_daily_count_distribution (test_detector_controls.NegativeControlTests.test_intraday_profile_preserves_the_daily_count_distribution) ... ok
@@ -118,6 +126,6 @@ test_likelihood_matches_existing_grouped_event_likelihood (test_window_features.
 test_recording_events_preserves_counts_and_simulator_stream (test_window_features.WindowFeatureTests.test_recording_events_preserves_counts_and_simulator_stream) ... ok
 
 ----------------------------------------------------------------------
-Ran 118 tests in 74.821s
+Ran 126 tests in 77.872s
 
 OK

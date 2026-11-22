@@ -1,0 +1,20 @@
+{
+  "features": [
+    "forecast24h_temperature_mean",
+    "forecast24h_temperature_range",
+    "missing_fraction"
+  ],
+  "raw_sha256": {
+    "data/raw/delay_forecast_20261122/austin_weather_2021.json": "8bcbecab86011318ac6247796912a2ded60078b37c24991f48ba841efa17e1f0",
+    "data/raw/delay_forecast_20261122/austin_weather_2022.json": "3a9b8d2369c56d0e909ba8f666a1c316950ed29433f87945a98c80a2f77932bd",
+    "data/raw/delay_forecast_20261122/austin_weather_2023.json": "e0c7a422a2a22168c2d6111ce656491637d31713fe2378283f0883ede3235e75",
+    "data/raw/delay_forecast_20261122/austin_weather_2024.json": "b826ae998c12de92da8429e9b335cc2cf22e0a3f68401e1cfe430f5400ae389b",
+    "data/raw/delay_forecast_20261122/austin_weather_boundary_2024.json": "73c2b7ca6dadae38e3f7f14c8f53060750ceb415444865a07aa41521f43c3048"
+  },
+  "panel_sha256": "bd68dd61d81a9740a6858c1b3044d213c367cbc1654dfcdd721b51572e921ce4",
+  "frozen_plan_sha256": null,
+  "nominal_latest_issue_before_bin_hours": 12,
+  "model": "gfs_global",
+  "not_observed_future_weather": true,
+  "warning": "nominal lead-time archive; actual dissemination times not provided"
+}

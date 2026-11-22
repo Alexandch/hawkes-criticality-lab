@@ -1,0 +1,12 @@
+{
+  "year": 2024,
+  "rows": 8784,
+  "non_missing": 8340,
+  "url": "https://previous-runs-api.open-meteo.com/v1/forecast?latitude=30.2672&longitude=-97.7431&start_date=2024-01-01&end_date=2024-12-31&hourly=temperature_2m_previous_day1&models=gfs_global&timezone=UTC",
+  "sha256": "b826ae998c12de92da8429e9b335cc2cf22e0a3f68401e1cfe430f5400ae389b",
+  "retrieved_utc": "2026-11-22T13:20:54.774022+00:00",
+  "frozen_plan_sha256": null,
+  "source": "Open-Meteo Previous Runs, GFS Global, nominal24h lead",
+  "documentation": "https://open-meteo.com/en/docs/previous-runs-api",
+  "warning": "archived operational forecasts, not reanalysis; model versions change; exact delivery timestamps not supplied"
+}

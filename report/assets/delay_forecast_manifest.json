@@ -1,0 +1,19 @@
+{
+  "stage": "R14",
+  "renderer_sha256": "ea7bb857a65ce873d0a5e07d285f5fc947ee7e6975d73b90cf06e38c874b0119",
+  "source_sha256": {
+    "results/delay_forecast_detector/metrics.csv": "ef2260b7883a7e286dffe76c750be8e25b1ebab238b80623aabd404587c6d931",
+    "results/delay_forecast_detector/monthly_metrics.csv": "7bd0fca03761723ef7d1b48355fe0be35e02b63532d3c782e4682e785d89d223",
+    "results/delay_forecast_detector/frozen_plan.json": "ab7f37fb4472262648e8cebeba618f72b43520b539e9b553caf82894a933c18b"
+  },
+  "assets": [
+    {
+      "file": "report/assets/delay_forecast_operating.png",
+      "sha256": "a30fd49e47ae2569114b70b26a65c88e88e0daf6c30acaaf4177de6587c4b6d7"
+    },
+    {
+      "file": "report/assets/delay_forecast_monthly.png",
+      "sha256": "0b1a2434dc5e92ccc4d4752cb42e7406cb3a1353373da5feb55c5c334a8117ea"
+    }
+  ]
+}

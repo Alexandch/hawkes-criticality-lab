@@ -1,0 +1,10 @@
+{
+  "year": 2025,
+  "rows": 33513,
+  "sha256": "b68b4eebd28f6b5a2e7e22917dd9bd8990d85a4ca821494b44d9a0526ed0436d",
+  "url": "https://data.austintexas.gov/resource/fdj4-gpfu.csv?%24select=incident_report_number%2Cocc_date%2Cocc_time%2Crep_date%2Crep_time%2Csector%2Ccategory_description&%24where=occ_date+%3E%3D+%272025-01-01T00%3A00%3A00%27+AND+occ_date+%3C+%272026-01-01T00%3A00%3A00%27+AND+category_description+in%28%27Theft%27%2C%27Auto+Theft%27%2C%27Burglary%27%2C%27Aggravated+Assault%27%2C%27Robbery%27%29&%24order=occ_date%2Cincident_report_number&%24limit=100000",
+  "count_url": "https://data.austintexas.gov/resource/fdj4-gpfu.json?%24select=count%28%2A%29+as+n&%24where=occ_date+%3E%3D+%272025-01-01T00%3A00%3A00%27+AND+occ_date+%3C+%272026-01-01T00%3A00%3A00%27+AND+category_description+in%28%27Theft%27%2C%27Auto+Theft%27%2C%27Burglary%27%2C%27Aggravated+Assault%27%2C%27Robbery%27%29",
+  "retrieved_utc": "2026-11-22T13:32:12.469276+00:00",
+  "frozen_plan_sha256": "ab7f37fb4472262648e8cebeba618f72b43520b539e9b553caf82894a933c18b",
+  "warning": "registered written police reports; weekly public updates; historical publication times unknown"
+}

@@ -1,0 +1,7 @@
+{
+  "url": "https://previous-runs-api.open-meteo.com/v1/forecast?latitude=30.2672&longitude=-97.7431&start_date=2025-01-01&end_date=2025-01-01&hourly=temperature_2m_previous_day1&models=gfs_global&timezone=UTC",
+  "sha256": "73c2b7ca6dadae38e3f7f14c8f53060750ceb415444865a07aa41521f43c3048",
+  "retrieved_utc": "2026-11-22T13:27:06.629757+00:00",
+  "purpose": "UTC padding for the last old-year local6h bin",
+  "frozen_plan_sha256": null
+}

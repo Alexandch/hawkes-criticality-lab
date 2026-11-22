@@ -1,0 +1,8 @@
+{
+  "panel_sha256": "d17d74bb30ab97d259a2884dc5c96a3908e681b6bd9ce24131fd1059e8f69dbb",
+  "weather_sha256": "8ffd55ccaa622a475bc3d596b249812d572908bac9c42418b97a31135677c8ff",
+  "metadata_sha256": "3ba04f426e73de7cc804a89b04793ea77cf3fd1d7ec8360fddd2f5ec8c92a3cc",
+  "case_manifest_sha256": "eddd5088d4fd25aee85ef82629349e4512459ea02ffd8050cf3eeb4f2c651fad",
+  "weather_manifest_sha256": "ac89f95c055c2c581ebc3507ce70ef4aeecbed6161f78af29395aacff45e7ccd",
+  "frozen_plan_sha256": "ab7f37fb4472262648e8cebeba618f72b43520b539e9b553caf82894a933c18b"
+}

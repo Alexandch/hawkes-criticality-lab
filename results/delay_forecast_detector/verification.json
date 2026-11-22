@@ -1,0 +1,28 @@
+{
+  "successful": true,
+  "protocol_sha256": "34b133b124f4b653f00c0003c1a3269d4434f852a218626df3b6957bf735e05e",
+  "complete_sha256": "9bcff8208118b284f4afcd60e9826619016b694438eb094d5778fb8761b132a4",
+  "verifier_sha256": "39da3003633914e232eff31fda014e1df9e93132c7ff3f6c28de16f875e75369",
+  "frozen_before_new_download": true,
+  "development_cases": 136581,
+  "new_test_cases": 33233,
+  "development_candidates": 12,
+  "models": 9,
+  "forecast_files": 2,
+  "metric_rows": 30,
+  "district_rows": 270,
+  "monthly_rows": 360,
+  "time_blocks": 27,
+  "checks": [
+    "raw snapshot and source hashes",
+    "exact case and weather re-preparation",
+    "unchanged historical prefix",
+    "mature-cohort reporting CDF",
+    "all12selection candidates and confirmation metrics",
+    "nine frozen models inference",
+    "all monthly causal policies in both scenarios",
+    "two sealed forecast files",
+    "all30/270/360result rows"
+  ],
+  "limitation": "retrospective registered reports; assumed publication delay and nominal forecast availability; not prospective deployment"
+}

@@ -1,0 +1,56 @@
+{
+  "fit_asof": "2024-07-01",
+  "event_cohort_end": "2023-07-05 00:00:00",
+  "publication_days": 7,
+  "mature_cohort_days": 180,
+  "counts": [
+    [
+      11526,
+      10817,
+      709
+    ],
+    [
+      10690,
+      10297,
+      393
+    ],
+    [
+      7473,
+      6373,
+      1100
+    ],
+    [
+      12490,
+      11709,
+      781
+    ],
+    [
+      10759,
+      8973,
+      1786
+    ],
+    [
+      9180,
+      8095,
+      1085
+    ],
+    [
+      5371,
+      4840,
+      531
+    ],
+    [
+      8508,
+      7405,
+      1103
+    ],
+    [
+      7924,
+      6875,
+      1049
+    ]
+  ],
+  "shrinkage": 200,
+  "max_age_bins": 4380,
+  "assumption": "past registered-case delay CDF transports to future cohorts; never-registered crimes are not identified"
+}

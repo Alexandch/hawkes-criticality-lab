@@ -1,0 +1,53 @@
+{
+  "stage": "14_delay_aware_distributional_forecast",
+  "development_panel_sha256": "959cb6e301721c2af2100beab5a28f0f0711a94d1ddd5b5c6f0d3fa754105216",
+  "weather_sha256": "bd68dd61d81a9740a6858c1b3044d213c367cbc1654dfcdd721b51572e921ce4",
+  "code_sha256": {
+    "delay_forecast.py": "5211eba08b4bdac69e98ea41438cc8f16ae12726f096e7c8a9fce0488b3fbed4",
+    "delay_forecast_experiment.py": "05af0f9808a23b1fdf0386b41c3ee78a08505659edd752ae1346057facb3d383",
+    "adaptive_alarm.py": "5ed0e9feef52d25e7c5b4efa776495c0313117d360f4c6bcc9ea1846ee220704",
+    "offline_forecast.py": "bb7be37ae37d0ea858637cc8d1af65ffe0b5bb119cbc7d381fc04b814cbb1db7",
+    "spatiotemporal.py": "ae4327eed64df3eafea8441c29c22aee7b7664c83228abfe0b5de219d286c8c2",
+    "expanded_forecast.py": "c84f66fd5234dfac6daa65259f52211ea5d0f87ab3008244e9be89a3d3646a4b"
+  },
+  "preparation_sha256": "caa8c03d52695831a5db4b932eb785c48da9b747a4ce8ec7715a0d317349cd2c",
+  "methods": [
+    "calendar_nb",
+    "naive_nb",
+    "delay_nb",
+    "bce_forecast",
+    "nb_plain",
+    "nb_forecast"
+  ],
+  "seeds": [
+    601,
+    613,
+    619
+  ],
+  "epochs": 100,
+  "scenarios": {
+    "primary": {
+      "lag_days": 7,
+      "publication_days": 7
+    },
+    "delayed_stress": {
+      "lag_days": 14,
+      "publication_days": 14
+    }
+  },
+  "new_information": "public archived GFS24h temperature forecasts; mean/range/missing flag, not actual future weather",
+  "reporting": "mature pre2024 cohorts only; sector/group empirical delay CDF shrunk200cases; expected observed exposure in past windows",
+  "background": "fixed training calendar plus delay-corrected past28day ratio; all methods share this causal reference target",
+  "training": "events2021Oct-2023; targets known by2024Jul1; NN checkpoint validation2024Feb-Mar; January2024 excluded for forecast archive gaps",
+  "operating_choice": "Jul-Sep2024 only; same180day mature-past calibration as R13; alpha.025/.05; FPR<=.05 & recall>=.10, maximize precision; predeclared F0.5 fallback",
+  "confirmation": "Oct-Nov2024 reported but never changes selected policy",
+  "final_test": "Austin2025 full year, downloaded only after final model/operating freeze; monthly updates use only mature past labels",
+  "criteria": {
+    "precision": 0.3,
+    "recall": 0.1,
+    "fpr": 0.05,
+    "ap_above_best_simple": true,
+    "brier_paired_ci_high_below_zero": true
+  },
+  "note": "new city and corrected background; percentages are not direct improvements on Seattle/R13 targets; registered cases, not true criticality"
+}

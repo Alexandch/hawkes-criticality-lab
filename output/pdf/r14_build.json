@@ -1,0 +1,18 @@
+{
+  "base_revision": "89c2cf681313ec067aecf588cc32134d9da2586f",
+  "base_pages": 57,
+  "base_sha256": "caec20cd6fd903d92639b765b85ccc1325524c0934ccde372832e28bf79ebdee",
+  "supplement_pages": 5,
+  "total_pages": 62,
+  "output_sha256": "a0a60b6788c57f128b6af24a6c995a07ff27c67a8e11b60ea159744afd4991ae",
+  "builder_sha256": "a4226eb8df1fa7f03b0f7092b82aa935e79e4a389ed3dbb3374942de594b4eb9",
+  "source_sha256": {
+    "results/delay_forecast_detector/metrics.csv": "ef2260b7883a7e286dffe76c750be8e25b1ebab238b80623aabd404587c6d931",
+    "results/delay_forecast_detector/frozen_plan.json": "ab7f37fb4472262648e8cebeba618f72b43520b539e9b553caf82894a933c18b",
+    "results/delay_forecast_detector/assessment.json": "416cdfa7aaf24c7aacb0954967360a36374e62a9a273e3a96e9e50ad6a195dab",
+    "results/delay_forecast_detector/data_summary.csv": "2321d33fac02abc104d2f41bb55f0b96f112652eff332d18a15ec5fb84df7128",
+    "results/delay_forecast_detector/verification.json": "dfb4e3587be77e59ab6e913083b1bc2b409bf63b28226fd3dbb2f287554e7792",
+    "report/assets/delay_forecast_operating.png": "a30fd49e47ae2569114b70b26a65c88e88e0daf6c30acaaf4177de6587c4b6d7",
+    "report/assets/delay_forecast_monthly.png": "0b1a2434dc5e92ccc4d4752cb42e7406cb3a1353373da5feb55c5c334a8117ea"
+  }
+}

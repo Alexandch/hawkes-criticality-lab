@@ -1,0 +1,38 @@
+{
+  "start": "2021-04-01",
+  "end_exclusive": "2026-01-01",
+  "raw_rows": 33513,
+  "new_cases": 33233,
+  "all_cases": 169814,
+  "invalid_rows": 0,
+  "unknown_sector_rows": 280,
+  "conflicting_cases": 0,
+  "duplicate_rows": 0,
+  "excluded_history_rows": 0,
+  "missing_report_time": 0,
+  "raw_sha256": {
+    "data/raw/delay_forecast_20261122/austin_2025.csv.gz": "b68b4eebd28f6b5a2e7e22917dd9bd8990d85a4ca821494b44d9a0526ed0436d"
+  },
+  "panel_sha256": "d17d74bb30ab97d259a2884dc5c96a3908e681b6bd9ce24131fd1059e8f69dbb",
+  "frozen_plan_sha256": "ab7f37fb4472262648e8cebeba618f72b43520b539e9b553caf82894a933c18b",
+  "timestamp": "local naive America/Chicago wall-clock bins; exact source publication history unknown",
+  "sectors": [
+    "AD",
+    "BA",
+    "CH",
+    "DA",
+    "ED",
+    "FR",
+    "GE",
+    "HE",
+    "ID"
+  ],
+  "scope": [
+    "Theft",
+    "Auto Theft",
+    "Burglary",
+    "Aggravated Assault",
+    "Robbery"
+  ],
+  "warning": "coarse recorded sectors; original historical boundaries not reconstructed"
+}
