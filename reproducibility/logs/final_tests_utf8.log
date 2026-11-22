@@ -13,6 +13,12 @@ test_shape_rescaling_is_irrelevant_and_constant_matches_existing_mle (test_backg
 test_shaped_likelihood_gradient_and_day_integral (test_background_models.BackgroundModelsTests.test_shaped_likelihood_gradient_and_day_integral) ... ok
 test_small_complete_experiment (test_background_models.BackgroundModelsTests.test_small_complete_experiment) ... ok
 test_step_occurs_after_prefix_and_seeds_replay (test_background_models.BackgroundModelsTests.test_step_occurs_after_prefix_and_seeds_replay) ... ok
+test_categories_are_initial_context_channels (test_cad_context.CadContextTests.test_categories_are_initial_context_channels) ... ok
+test_future_values_do_not_change_earlier_features (test_cad_context.CadContextTests.test_future_values_do_not_change_earlier_features) ... ok
+test_invalid_closure_order_rejected (test_cad_context.CadContextTests.test_invalid_closure_order_rejected) ... ok
+test_late_closed_call_is_not_visible_early (test_cad_context.CadContextTests.test_late_closed_call_is_not_visible_early) ... ok
+test_longer_publication_delay_never_exposes_recent_month (test_cad_context.CadContextTests.test_longer_publication_delay_never_exposes_recent_month) ... ok
+test_nothing_before_first_month_publication (test_cad_context.CadContextTests.test_nothing_before_first_month_publication) ... ok
 test_deduplicates_known_ids_but_keeps_rows_without_id (test_data_and_estimation.EventDataTests.test_deduplicates_known_ids_but_keeps_rows_without_id) ... ok
 test_seasonal_hawkes_gradient_matches_finite_difference (test_data_and_estimation.EventDataTests.test_seasonal_hawkes_gradient_matches_finite_difference) ... ok
 test_tied_timestamps_do_not_trigger_each_other_instantly (test_data_and_estimation.EventDataTests.test_tied_timestamps_do_not_trigger_each_other_instantly) ... ok
@@ -133,6 +139,6 @@ test_likelihood_matches_existing_grouped_event_likelihood (test_window_features.
 test_recording_events_preserves_counts_and_simulator_stream (test_window_features.WindowFeatureTests.test_recording_events_preserves_counts_and_simulator_stream) ... ok
 
 ----------------------------------------------------------------------
-Ran 133 tests in 53.991s
+Ran 139 tests in 57.059s
 
 OK

@@ -1,0 +1,18 @@
+{
+  "base_revision": "38171525d53ca5e70cac18d4c1ffecba0b8b64eb",
+  "base_pages": 66,
+  "base_sha256": "dd44a38a63948e658f1953d3d72dfe2b116aa92988c0f21cfaff09b223af5d4c",
+  "supplement_pages": 4,
+  "total_pages": 70,
+  "output_sha256": "8506a2367310cb5a17f81065b0bfd3d7e9afb77e368ff0a9171a05ef011ecaee",
+  "builder_sha256": "983dcf94ccb767761b8455c2a103be4ad8349df93676d9a2649c6ea01a7dd189",
+  "source_sha256": {
+    "results/cad_context_detector/metrics.csv": "5d602a3a0a67982a74653590237443c8aaf4f3e9992aa8ad97c0f3d713edfbec",
+    "results/cad_context_detector/paired_summary.csv": "7476330630b63d0c99de659ed626f90f7b3e26b62bc454794f26c6b8b2412c3b",
+    "results/cad_context_detector/frozen_plan.json": "f52808cb2d518d4001d3b8582fc9339ba69aef2a47527b80782cc26b0fcc0fe9",
+    "results/cad_context_detector/assessment.json": "94a10d12528c2a2d7f931dd3534adbe7fcbb5e198d192f880afcc36f6a8607b8",
+    "results/cad_context_detector/verification.json": "2da5588b00199313a355e6172742fd476bc717683a0d645955fa3f0f546ce57a",
+    "report/assets/cad_operating.png": "0a7082d88c4161dd8ead9977597bf772dcdb3e63caf7e856f56a683d77fa4b25",
+    "report/assets/cad_paired.png": "2c86f28fd8dd9290d5953b31cbcedd232a436a9035007cda8aa71ffd7580e4a8"
+  }
+}

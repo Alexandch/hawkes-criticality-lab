@@ -39,7 +39,7 @@ def main():
             links+=1
     assets=json.loads((root/'report/assets/manifest.json').read_text(encoding='utf-8'))
     for item in assets['assets']:assert digest(root/item['source'])==digest(root/item['copy'])==item['sha256']
-    for folder in ('dynamic_estimation','extended_neural','empirical_transfer','spatiotemporal_forecast','offline_readiness','expanded_district_detector','adaptive_seattle_detector','delay_forecast_detector','selective_austin_detector'):
+    for folder in ('dynamic_estimation','extended_neural','empirical_transfer','spatiotemporal_forecast','offline_readiness','expanded_district_detector','adaptive_seattle_detector','delay_forecast_detector','selective_austin_detector','cad_context_detector'):
         protocol=json.loads((root/'results'/folder/'protocol.json').read_text(encoding='utf-8'))
         for name,value in protocol['code_sha256'].items():assert digest(root/'src/critical_processes'/name)==value,(folder,name)
     metrics=json.loads((root/'results/extended_neural/metrics.json').read_text(encoding='utf-8'))
@@ -47,7 +47,7 @@ def main():
     assert metrics['warning__ensemble__family_confident']['positive_trajectories']==600
     assert metrics['warning__ensemble__family_nominal_sensitivity']['detected_trajectories']==27
     tests=json.loads((root/'reproducibility/test_result.json').read_text(encoding='utf-8'))
-    assert tests['successful'] and tests['tests_run']==133 and tests['failures']==tests['errors']==0
+    assert tests['successful'] and tests['tests_run']==139 and tests['failures']==tests['errors']==0
     spatial=root/'results/spatiotemporal_forecast'
     complete=json.loads((spatial/'complete.json').read_text(encoding='utf-8'))
     for name,value in complete['artifact_sha256'].items():
@@ -155,12 +155,37 @@ def main():
     newest_pdf=json.loads((root/'output/pdf/r15_build.json').read_text(encoding='utf-8'))
     assert newest_pdf['base_sha256']==current_pdf['output_sha256']
     assert newest_pdf['base_pages']==62 and newest_pdf['total_pages']==66
-    assert digest(root/'output/pdf/hawkes_criticality_report.pdf')==newest_pdf['output_sha256']
     assert digest(root/'scripts/append_selective_pdf.py')==newest_pdf['builder_sha256']
     for name,value in newest_pdf['source_sha256'].items():assert digest(root/name)==value
     newest_qa=json.loads((root/'output/pdf/r15_qa.json').read_text(encoding='utf-8'))
     assert newest_qa['successful'] and newest_qa['sha256']==newest_pdf['output_sha256']
-    print(f'Verified {len(manifest["files"])} published files, {len(assets["assets"])+8} figures, {links} documentation links and frozen source hashes.')
+    cad=root/'results/cad_context_detector'
+    for name,value in json.loads((cad/'complete.json').read_text(encoding='utf-8'))['artifact_sha256'].items():
+        relative=(cad/name).relative_to(root).as_posix()
+        if relative in manifest['files']:assert digest(cad/name)==value,name
+        else:assert relative in external,name
+    protocol=json.loads((cad/'protocol.json').read_text(encoding='utf-8'))
+    assert protocol['independent_test'] is False and digest(root/'scripts/prepare_cad_data.py')==protocol['preparation_sha256']
+    check=json.loads((cad/'verification.json').read_text(encoding='utf-8'))
+    assert check['successful'] and check['models']==6 and check['included_cad_incidents']==1614776 and check['independent_test'] is False
+    assert digest(root/'scripts/verify_cad_context.py')==check['verifier_sha256']
+    with (cad/'metrics.csv').open(encoding='utf-8',newline='') as handle:rows=list(csv.DictReader(handle))
+    assert len(rows)==36 and all(r['independent_test']=='False' and r['full_screen_passed']=='False' for r in rows)
+    row=next(r for r in rows if r['split']=='reused2026' and r['scenario']=='primary' and r['method']=='cad_nb' and r['group']=='all')
+    assert row['true_positives']=='189' and row['false_positives']=='1058' and row['positives']=='935'
+    graphs=json.loads((root/'report/assets/cad_manifest.json').read_text(encoding='utf-8'))
+    assert digest(root/'scripts/summarize_cad_context.py')==graphs['renderer_sha256']
+    for name,value in graphs['source_sha256'].items():assert digest(root/name)==value
+    for item in graphs['assets']:assert digest(root/item['file'])==item['sha256']
+    cad_pdf=json.loads((root/'output/pdf/r16_build.json').read_text(encoding='utf-8'))
+    assert cad_pdf['base_sha256']==newest_pdf['output_sha256']
+    assert cad_pdf['base_pages']==66 and cad_pdf['total_pages']==70
+    assert digest(root/'output/pdf/hawkes_criticality_report.pdf')==cad_pdf['output_sha256']
+    assert digest(root/'scripts/append_cad_pdf.py')==cad_pdf['builder_sha256']
+    for name,value in cad_pdf['source_sha256'].items():assert digest(root/name)==value
+    cad_qa=json.loads((root/'output/pdf/r16_qa.json').read_text(encoding='utf-8'))
+    assert cad_qa['successful'] and cad_qa['sha256']==cad_pdf['output_sha256']
+    print(f'Verified {len(manifest["files"])} published files, {len(assets["assets"])+10} figures, {links} documentation links and frozen source hashes.')
     print(f'External artifacts intentionally not part of Git: {len(external)}; missing documentation targets declared external: {len(missing_links)}. Full raw-data verification was not run.')
 
 

@@ -1,0 +1,15 @@
+{
+  "protocol_sha256": "2842146f3d1ce043a412392d05f083ed450c3f3f72380e854d838e7c10fd9f5d",
+  "frozen_utc": "2026-11-22T14:15:58.582198+00:00",
+  "independent_test": false,
+  "primary_method": "cad_nb",
+  "model_sha256": {
+    "models/base_nb_s701.pt": "cf08e4953dded79b97dfa0c756ecfcafbde840aad87b0a2a9756705462ff336d",
+    "models/base_nb_s709.pt": "32e5548dd7927a38f1546788d9f3070d756be1c86b14cea91cdb98ae00236246",
+    "models/base_nb_s719.pt": "c409fccd268360dc106e37d3907bb8db92e7bf3d36fccc90ba77bf8caefbd568",
+    "models/cad_nb_s701.pt": "254eb2fd4ffefe664729ba1ff8bd9ba1f7a142aa7adf0f0bcb3ae29c87a00438",
+    "models/cad_nb_s709.pt": "d8e047477a4376177c5fe040666d0374e1fca840f927f54812023ac3eecc7557",
+    "models/cad_nb_s719.pt": "21f7c5a0f6d45e95976ec10f5aea33af4f0dd0dcb35356510c3c5c3874933f59"
+  },
+  "note": "frozen before new ablation metrics, but outcomes already known from previous experiments"
+}

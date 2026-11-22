@@ -1,0 +1,22 @@
+{
+  "successful": true,
+  "pages": 70,
+  "preserved_prefix_pages": 66,
+  "prefix_text_and_page_sizes_equal": true,
+  "out_of_bounds_pages": [],
+  "replacement_character_pages": [],
+  "sha256": "8506a2367310cb5a17f81065b0bfd3d7e9afb77e368ff0a9171a05ef011ecaee",
+  "visual_reviewed_pages": [
+    67,
+    68,
+    69,
+    70
+  ],
+  "rendered_page_sha256": {
+    "page-67.png": "a0df61440398d73237facc6c0b351fe2369a9ee3be93e650bdc36facc17a264e",
+    "page-68.png": "64f90cecb0ccdfdb46f691b1762507ddcaaad367c9536783fb2093ac30dd231f",
+    "page-69.png": "580fc5b7cb717752fc7e306a81049d1b0327a76419db2b5807adf9ff7e8c463f",
+    "page-70.png": "60fffb4319505e75f660f5fafb320fc9ef06a0b96b38536fc1d9ee36214ef451"
+  },
+  "notes": "All four appended pages rendered with Poppler at100dpi and visually inspected; readable tables, charts and text, no clipping or overlaps; exploratory status explicit."
+}

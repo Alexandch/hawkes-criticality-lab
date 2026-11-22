@@ -1,0 +1,9 @@
+{
+  "status": "exploratory_reused_outcomes_no_independent_validation",
+  "independent_test": false,
+  "new_information": "monthly dispatched CAD context, initial categories only",
+  "point_screen_passed": false,
+  "paired_screen_passed": false,
+  "deployment_supported": false,
+  "limitation": "2025and2026labels already inspected in R14/R15; any promising effect needs an untouched future period or geography"
+}

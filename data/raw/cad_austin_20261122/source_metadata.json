@@ -1,0 +1,137 @@
+{
+  "dataset": "22de-7rzg",
+  "rows_updated_at": 1794331628,
+  "description": "DATASET DESCRIPTION\nThis dataset contains information on both 911 calls (usually referred to as Calls for Service or Dispatched Incidents) and officer-initiated incidents recorded in the Computer Aided Dispatch (CAD) system. These are differentiated by the Incident Type field, defined below. \n\nThis data excludes records that were cancelled after being identified as duplicates of the same incident, such as when two 911 calls are made for the same incident. It also excludes records that were cancelled because they were handled by another agency such as Austin Fire or Austin-Travis County Emergency Medical Services or because they were found to not require a police response. \n\nGENERAL ORDERS RELATING TO THIS DATA:\nAustin Police has a responsibility to protect life and property and to provide service to the residents of Austin. To fulfill this obligation, it must provide an appropriate response to calls.\n\nAUSTIN POLICE DATA DISCLAIMER\n1. The data provided is for informational use only and may differ from official Austin Police crime data.\n\n2. APD’s databases are continuously updated, and changes can be made due to a variety of investigative factors including but not limited to offense reclassification and dates.\n\n3. Reports run at different times may produce different results. Care should be taken when comparing against other reports as different data collection methods and different systems of record may have been used.\n\n4. APD does not assume any liability for any decision made or action taken or not taken by the recipient in reliance upon any information or data provided.\n\n<a aria-label=\"City of Austin Open Data Terms of Use\" href=\"https://data.austintexas.gov/stories/s/ranj-cccq\" target=_blank\">City of Austin Open Data Terms of Use</a>",
+  "columns": [
+    {
+      "field": "incident_number",
+      "description": "An unique integer identifying a computer-aided dispatch incident, consisting of a two-digit year number, three-digit day-of-year and four-digit incident-count number. "
+    },
+    {
+      "field": "incident_type",
+      "description": "A flag indicating whether a given incident was dispatched or officer-initiated. Dispatched incidents are received via 911 calls while officer-initiated incidents are created by officers in the field. "
+    },
+    {
+      "field": "council_district",
+      "description": "The council district where the offense occurred."
+    },
+    {
+      "field": "mental_health_flag",
+      "description": "A flag indicating whether a given incident was mental-health related or not. A given incident may be flagged as mental-health-related due to the initial problem description, the final problem description, the call disposition, because a crisis counselor was assigned to the call, because the caller asked for mental health services, because a 911 call taker assessed mental health played a role in the call or because the subject of a use of force related to the incident displayed \"Emotionally Disturbed Person\" conduct. Please note that multiple of the preceding conditions are often true for mental-health related calls. Problem descriptions related to mental health may indicate the call is related to an \"Emotionally Disturbed Person\" or an attempted suicide. Call dispositions that indicate a call is mental-health-related will contain an \"MH\" in the call disposition description and indicate that a responding officer assessed that mental health had a role in the incident."
+    },
+    {
+      "field": "priority_level",
+      "description": "The priority level assigned to the incident at the time of the first officer's arrival. Priority levels range between 0 and 4, with 0 being the highest priority and 4 being the lowest priority. "
+    },
+    {
+      "field": "response_datetime",
+      "description": "The date and time that the 911 call-takers Emergency Call Taker (ECT) screen opened following the 911 call being answered in the case of dispatched incidents. In the case of officer-initiated incidents, this field indicates the time the incident was created and sent to the incident queue if it was created via the officer's onboard computer or the time the dispatcher opened their ECT screen and created the incident if the officer created the incident through dispatch."
+    },
+    {
+      "field": "response_year",
+      "description": "Year incident occurred."
+    },
+    {
+      "field": "response_month",
+      "description": "Month incident occurred."
+    },
+    {
+      "field": "response_day_of_week",
+      "description": "The three-character day of week of the Response Datetime. "
+    },
+    {
+      "field": "response_hour",
+      "description": "An integer representing the hour of day of the Response Datetime"
+    },
+    {
+      "field": "first_unit_arrived_datetime",
+      "description": "The date and time that the first APD unit arrived on scene to the incident. This is the endpoint for response time calculations. Multiple units may arrive on a single incident, while individual units may be made up of one or more officers. "
+    },
+    {
+      "field": "call_closed_datetime",
+      "description": "The date and time that the incident was closed, indicating that all units have left the scene and it is no longer active. "
+    },
+    {
+      "field": "sector",
+      "description": "The Austin Police Department patrol sector where the incident occurred."
+    },
+    {
+      "field": "initial_problem_description",
+      "description": "A preliminary description of the problem meant to be addressed by the CAD incident based on either the information given to the 911 call taker in the case of dispatched incidents, or information collected by officers in the case of officer-initiated incidents. Initial problem descriptions may differ from final problem descriptions based on additional information that comes to light during the call-taking and response processes. "
+    },
+    {
+      "field": "initial_problem_category",
+      "description": "A general category describing the problem that the CAD incident was meant to address based on the Initial Problem Description value. "
+    },
+    {
+      "field": "final_problem_description",
+      "description": "A description of the ultimate issue that was meant to be addressed by the CAD incident. This may differ from the initial problem description based on additional information that comes to light during the call-taking and response processes. Certain final problem descriptions may describe specific criminal offenses from the Texas Penal Code."
+    },
+    {
+      "field": "final_problem_category",
+      "description": "A general category describing the problem that the CAD incident was meant to address based on the Final Problem Description value. "
+    },
+    {
+      "field": "number_of_units_arrived",
+      "description": "A count of the number of APD units that arrived on scene in response to the CAD incident. Please note that some units may consist of more than one APD officer, while certain units may also include civilian personnel such as crime scene technicians. Moreover, this count may include a variety of type of personnel including patrol officers, investigators, supervisors and public information officers if such personnel are required for the incident response."
+    },
+    {
+      "field": "unit_time_on_scene",
+      "description": "The total amount of time spent on scene by all APD units in seconds. "
+    },
+    {
+      "field": "call_disposition_description",
+      "description": "A description of the outcome of the call."
+    },
+    {
+      "field": "report_written_flag",
+      "description": "A flag indicating that a responding unit wrote a report in the Records Management System based on this CAD incident. Note that a report being written does not necessarily mean that a criminal offense took place. "
+    },
+    {
+      "field": "response_time",
+      "description": "The amount of time between when the 911 call was answered and when the first officer arrived on scene in seconds. Please note that this field is not applicable to officer-initiated incidents and is left blank for such incidents. "
+    },
+    {
+      "field": "officer_injured_killed_count",
+      "description": "A count of officers seriously injured or killed in a use of force related to this CAD incident where the subject of the use of force was a person with mental illness."
+    },
+    {
+      "field": "subject_injured_killed_count",
+      "description": "A count of the subjects of a use of force who were seriously injured or killed in a use of force related to this CAD incident where those subjects had a mental illness. "
+    },
+    {
+      "field": "other_injured_killed_count",
+      "description": "The number of persons seriously injured or killed in an incident related to this CAD incident where there was also a use of force against an individual with mental illness where either the subject of that use of force or the officer involved in that use of force were seriously injured or killed. "
+    },
+    {
+      "field": "geoid",
+      "description": "A Census Block Group identifier; a concatenation of the current state FIPS code, county FIPS code, census tract code, and block group number."
+    },
+    {
+      "field": "blkgpnm",
+      "description": "Shortened Block Group Name based on the Census Bureau's Geo ID. State digits have been removed due to system limitations."
+    }
+  ],
+  "metadata": {
+    "custom_fields": {
+      "Ownership": {
+        "Program Name": "Communications, City Council Resolution 20230914-132",
+        "Department name": "Austin Police"
+      },
+      "Publishing Information": {
+        "Update Frequency": "Monthly",
+        "Time range of data": "January 1, 2017 - October 31, 2026"
+      },
+      "Citywide Strategic Plan": {
+        "Strategic Priority": "Public Safety"
+      }
+    },
+    "rowLabel": "Computer Aided Dispatch Incident",
+    "availableDisplayTypes": [
+      "table",
+      "fatrow",
+      "page"
+    ]
+  },
+  "retrieved_utc": "2026-11-22T14:12:36.179167+00:00"
+}

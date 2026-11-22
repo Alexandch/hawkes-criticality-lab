@@ -1,0 +1,50 @@
+{
+  "stage": "16_new_monthly_dispatch_information",
+  "independent_test": false,
+  "outcome_status": "2025and2026Jan-Aug already inspected; exploratory reuse only",
+  "code_sha256": {
+    "cad_forecast.py": "47e6638fb7565d506c0f23c22a5e2f08ae4e39619e7e63c95bb119d3264b678f",
+    "cad_experiment.py": "e42a8009fe18eb07833f2171ab0b82ff6cc2db2cb4a913f81441a79abfaa80ae",
+    "delay_forecast.py": "5211eba08b4bdac69e98ea41438cc8f16ae12726f096e7c8a9fce0488b3fbed4",
+    "delay_forecast_experiment.py": "05af0f9808a23b1fdf0386b41c3ee78a08505659edd752ae1346057facb3d383",
+    "adaptive_alarm.py": "5ed0e9feef52d25e7c5b4efa776495c0313117d360f4c6bcc9ea1846ee220704",
+    "offline_forecast.py": "bb7be37ae37d0ea858637cc8d1af65ffe0b5bb119cbc7d381fc04b814cbb1db7",
+    "spatiotemporal.py": "ae4327eed64df3eafea8441c29c22aee7b7664c83228abfe0b5de219d286c8c2",
+    "expanded_forecast.py": "c84f66fd5234dfac6daa65259f52211ea5d0f87ab3008244e9be89a3d3646a4b"
+  },
+  "preparation_sha256": "f285dae6ef380c070135cddc33b33436890c8b5682cd3497d08f6befe390cf9f",
+  "panel_sha256": "385acebf6ecec855e93e737c7beaf0ab2f8418872879b23242f7716b83f9220c",
+  "cad_sha256": "7a2c281a927398098e71cdd636702e6644b636f9e6af3ec343fee410c0481d36",
+  "cad_metadata_sha256": "eee94db0f7f749c147713f1f391d01d93f93694758afd2836d1223dfb991238f",
+  "r14_plan_sha256": "ab7f37fb4472262648e8cebeba618f72b43520b539e9b553caf82894a933c18b",
+  "methods": [
+    "base_nb",
+    "cad_nb",
+    "delay_nb"
+  ],
+  "seeds": [
+    701,
+    709,
+    719
+  ],
+  "epochs": 100,
+  "scenarios": {
+    "primary": {
+      "lag_days": 7,
+      "publication_days": 7,
+      "cad_publication_days": 15
+    },
+    "delayed_stress": {
+      "lag_days": 14,
+      "publication_days": 14,
+      "cad_publication_days": 45
+    }
+  },
+  "features": "13CAD context features: log daily rates over1/3published response months, ratio, age; only dispatched calls closed in an available month",
+  "publication": "CAD closure-month end plus15days primary or45days stress; current archive revisions and first-seen unknown",
+  "training": "same R14 NB2 architecture and schedule; paired base/CAD retraining2021Oct-2023; checkpoint2024Feb-Mar; targets known2024Jul1",
+  "operating_rule": "fixed R14monthly180day calibration,maturity28,alpha.05; no post-outcome model/threshold selection",
+  "comparison": "CAD against identically scheduled base network and simple delay-corrected background; unchanged R14reference target",
+  "primary_method": "cad_nb, all categories, primary scenario; recorded before any new ablation metrics",
+  "readiness": "no operational or independent validation claim, regardless of point screen"
+}

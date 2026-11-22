@@ -1,0 +1,35 @@
+{
+  "source_incidents": 1641637,
+  "included_incidents": 1614776,
+  "excluded_incidents": 26861,
+  "aggregate_rows": 18511,
+  "channels": [
+    "all_dispatched",
+    "disturbance",
+    "alarm",
+    "traffic"
+  ],
+  "sectors": [
+    "AD",
+    "BA",
+    "CH",
+    "DA",
+    "ED",
+    "FR",
+    "GE",
+    "HE",
+    "ID"
+  ],
+  "raw_sha256": {
+    "data/raw/cad_austin_20261122/cad_2021.csv.gz": "8594c40bc0760742ee038cac55789af3044082a10ea05aa96dd244d1c9375ec0",
+    "data/raw/cad_austin_20261122/cad_2022.csv.gz": "9aeeb972899e8f0876d0fd8159f6c485e818df2f6cc0731bbbd647f51f565724",
+    "data/raw/cad_austin_20261122/cad_2023.csv.gz": "8096d8dfbf2464ba3d97fafb7604e33552d8c1f8762c71070a0db2deea3eccb8",
+    "data/raw/cad_austin_20261122/cad_2024.csv.gz": "7c91d9bea296d089cbddd9688f923d8bcf91b6f03be9e10b0ba5c1f12f4742ac",
+    "data/raw/cad_austin_20261122/cad_2025.csv.gz": "57f7445a53eee2d02136c767b40d7cda473b973140d43b9fc9c358b4559c93f9",
+    "data/raw/cad_austin_20261122/cad_2026.csv.gz": "a82de98d13adfb8ae68d4f15a7d2c934aeda59f532200c48b293ce96bf6d4b96"
+  },
+  "panel_sha256": "7a2c281a927398098e71cdd636702e6644b636f9e6af3ec343fee410c0481d36",
+  "scope": "2021Jan-2026Aug; monthly response and closure aggregates of dispatched incidents",
+  "publication": "month following closure plus15days primary; plus45days stress; assumptions, not historical first-seen",
+  "limitation": "monthly public source cannot support real-time911claims; current archive can contain retrospective revisions"
+}

@@ -1,0 +1,30 @@
+{
+  "successful_execution": true,
+  "protocol_sha256": "2842146f3d1ce043a412392d05f083ed450c3f3f72380e854d838e7c10fd9f5d",
+  "artifact_sha256": {
+    "assessment.json": "94a10d12528c2a2d7f931dd3534adbe7fcbb5e198d192f880afcc36f6a8607b8",
+    "delayed_stress_policy_journal.json": "35539e23bd0cf477c4dedb579203731a95ae4742ba1fdb2c7f068b6cf9d21dca",
+    "district_metrics.csv": "195d0c82f4af0a14a77c534c53a8146435fffa8344c18ca3e0400874da857ad8",
+    "forecast_journal.json": "a44a0d8a233e4f1afb6f80bb9656b532120580c78b9303e53ccc5b5c2fc6714e",
+    "frozen_plan.json": "f52808cb2d518d4001d3b8582fc9339ba69aef2a47527b80782cc26b0fcc0fe9",
+    "metrics.csv": "5d602a3a0a67982a74653590237443c8aaf4f3e9992aa8ad97c0f3d713edfbec",
+    "monthly_metrics.csv": "6d7277a7a1af79f2995de2434676ef31cd1b1fd41ffff04a892fedae23468b39",
+    "primary_policy_journal.json": "dfb452f437b46397507b9ee834107b8319025ae30ee4b61ec1c781fad8201ddd",
+    "protocol.json": "2842146f3d1ce043a412392d05f083ed450c3f3f72380e854d838e7c10fd9f5d",
+    "training_summary.csv": "c3ea79db870a95a3ea2c0917457c918131907cad0416662aca3cf3e61aa61518",
+    "forecasts/delayed_stress.npz": "24dcc65ca8689799d7ec0d070a7f6428721dc51e2df82072d96398f4ef384504",
+    "forecasts/primary.npz": "a56c78cf289ff3a1cb60cb696342103e699470edc7ccfce17b221433bc9e2b75",
+    "models/base_nb_s701.csv": "43f439b5b3fc2c2ac2b0ff291d5d8f5a5478903ed1cfbec3b0336d13db756672",
+    "models/base_nb_s701.pt": "cf08e4953dded79b97dfa0c756ecfcafbde840aad87b0a2a9756705462ff336d",
+    "models/base_nb_s709.csv": "d8d89d573a16b2ce7d40c96bd64f72fae640b6227e728837238d9bd8f5504b9f",
+    "models/base_nb_s709.pt": "32e5548dd7927a38f1546788d9f3070d756be1c86b14cea91cdb98ae00236246",
+    "models/base_nb_s719.csv": "68bc18e1111bc2e4d12c9242712e3c98f7b0dcf1722f168ba03dbfedbffd25b4",
+    "models/base_nb_s719.pt": "c409fccd268360dc106e37d3907bb8db92e7bf3d36fccc90ba77bf8caefbd568",
+    "models/cad_nb_s701.csv": "78211a37c1b5ed7f50d6585f8c51fa6e47e84b47df3dabafc55d5f77971bcb0e",
+    "models/cad_nb_s701.pt": "254eb2fd4ffefe664729ba1ff8bd9ba1f7a142aa7adf0f0bcb3ae29c87a00438",
+    "models/cad_nb_s709.csv": "b12d3857c3a2aaa9e20cec7a2844103d3654941491f5b325c954c74af537cf3c",
+    "models/cad_nb_s709.pt": "d8e047477a4376177c5fe040666d0374e1fca840f927f54812023ac3eecc7557",
+    "models/cad_nb_s719.csv": "88c707c0c809ccfea158fa48e8fd21c23cdbfef9a47da06b0b66f37eee736372",
+    "models/cad_nb_s719.pt": "21f7c5a0f6d45e95976ec10f5aea33af4f0dd0dcb35356510c3c5c3874933f59"
+  }
+}

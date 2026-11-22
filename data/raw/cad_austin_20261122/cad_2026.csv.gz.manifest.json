@@ -1,0 +1,11 @@
+{
+  "year": 2026,
+  "aggregate_rows": 2338,
+  "dispatched_incidents": 191791,
+  "url": "https://data.austintexas.gov/resource/22de-7rzg.csv?%24where=response_datetime+%3E%3D+%272026-01-01T00%3A00%3A00%27+AND+response_datetime+%3C+%272026-09-01T00%3A00%3A00%27+AND+incident_type%3D%27Dispatched+Incident%27&%24select=date_trunc_ym%28response_datetime%29+as+response_month%2Cdate_trunc_ym%28call_closed_datetime%29+as+closed_month%2Csector%2Cinitial_problem_category%2Ccount%28%2A%29+as+n&%24group=response_month%2Cclosed_month%2Csector%2Cinitial_problem_category&%24order=response_month%2Cclosed_month%2Csector%2Cinitial_problem_category&%24limit=100000",
+  "count_url": "https://data.austintexas.gov/resource/22de-7rzg.json?%24where=response_datetime+%3E%3D+%272026-01-01T00%3A00%3A00%27+AND+response_datetime+%3C+%272026-09-01T00%3A00%3A00%27+AND+incident_type%3D%27Dispatched+Incident%27&%24select=count%28%2A%29+as+n",
+  "sha256": "a82de98d13adfb8ae68d4f15a7d2c934aeda59f532200c48b293ce96bf6d4b96",
+  "retrieved_utc": "2026-11-22T14:12:29.862495+00:00",
+  "source": "APD Computer Aided Dispatch Incidents; monthly publication; counts by response/closure month, sector, initial category",
+  "note": "only dispatched incidents; no officer-initiated events, personal data, outcomes or final classifications"
+}
