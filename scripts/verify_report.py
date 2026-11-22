@@ -9,6 +9,7 @@ from urllib.parse import unquote
 import numpy as np
 import pandas as pd
 from critical_processes.documentation_archive import read_artifact,verify_archive
+from verify_short_report import verify as verify_short
 
 
 def digest(path):
@@ -40,10 +41,10 @@ def main():
                 content = (root / name).read_bytes()
                 assert content.startswith(b"\x89PNG\r\n\x1a\n") and digest(root / name) == record["sha256"]
                 assert [int.from_bytes(content[16:20], "big"), int.from_bytes(content[20:24], "big")] == record["pixel_size"]
-            assert text.count("n<sup>*</sup>") == 2
+            assert text.count("n<sup>*</sup>") == 1
             assert "итоговая редакция" in text.lower()
             figures = [int(v) for v in re.findall(r"(?m)^\*Рисунок (\d+)\.", text)]
-            assert figures == list(range(1, 31)), "figure captions must be sequential"
+            assert figures == list(range(1, 8)), "figure captions must be sequential"
         table_width = None
         in_code = False
         for number, line in enumerate(text.splitlines(), 1):
@@ -311,12 +312,13 @@ def main():
     cad_pdf = json.loads((root / 'output/pdf/r16_build.json').read_text(encoding='utf-8'))
     assert cad_pdf['base_sha256'] == newest_pdf['output_sha256']
     assert cad_pdf['base_pages'] == 66 and cad_pdf['total_pages'] == 70
-    assert digest(root / 'output/pdf/hawkes_criticality_report.pdf') == cad_pdf['output_sha256']
+    concise = verify_short(root)
+    assert concise['archive_pdf_sha256'] == cad_pdf['output_sha256']
     assert digest(root / 'scripts/append_cad_pdf.py') == cad_pdf['builder_sha256']
     for name, value in cad_pdf['source_sha256'].items():assert digest(root / name) == value
     cad_qa = json.loads((root / 'output/pdf/r16_qa.json').read_text(encoding='utf-8'))
     assert cad_qa['successful'] and cad_qa['sha256'] == cad_pdf['output_sha256']
-    print(f"Verified {len(documents)} Markdown documents, {links} local links, {len(manifest['assets'])+10} figure copies, P1/R1-R16 result cells and unchanged frozen final metrics.")
+    print(f"Verified {len(documents)} Markdown documents, {links} local links, {len(manifest['assets'])+10} preserved figure copies, P1/R1-R16 results, concise20-page edition and full70-page archive.")
 
 
 if __name__ == "__main__":

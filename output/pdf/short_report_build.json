@@ -1,0 +1,124 @@
+{
+  "edition": "concise_main_20261122",
+  "pages": 20,
+  "full_edition_pages": 70,
+  "readme_words": 4236,
+  "readme_sha256": "2aab45c09a98e57f3932015ba906db12acac6329ab44b528a547121bbc728461",
+  "output_sha256": "1ccca861f7ba6921814f8b49967a84d8804f29f936c1d71192849105eb2da855",
+  "builder_sha256": "02eb61e2777f191aa2d03ec3773ded6eb200367056cc28b4eabe03ca01f78687",
+  "archive_sha256": "7601015ca34b0dcbe3cb5491f4c1408ba7420a43ca6957357a0c7da81fd543e5",
+  "source_sha256": {
+    "report/short_report.json": "a468cbe276be7f8a1302b077098c2043b6e3031352c02f6d027f72ed4aabe53f",
+    "scripts/compose_short_report.py": "512cb9ec332b7e4f9da0864efe0f0cbb2fa7d4945ddfbcd2f51cff07d011fa1b",
+    "reproducibility/full_report_archive.json": "d1743974986ab3ce2e36c3bbe658bc9b7b01127055c0da3791df129a2a73558b",
+    "report/equations.json": "5410ff0df81643df9e3f722ead07ae907896c6204e21f1d6b7bc27b061d3478e",
+    "report/assets/equations_manifest.json": "435fd513978b301ae3cbc00c51c7f7d078d61fc59676589dbf06641363f066f7",
+    "report/assets/equation_01_hawkes.png": "56d87eb07fe4b6999d7066ada04c70dcb997e8d0711052f4cb5904ee207d6f90",
+    "report/assets/equation_02_mean.png": "14b5b35648e6042f6c2ade4c6b775e7023af5f5f3a657efd67cc83fdb5b2a3a4",
+    "report/assets/equation_03_changing.png": "50e747d951a86de78010815aee8bed46d822776fb23a0da303449d2fd9ec8b30",
+    "report/assets/equation_04_likelihood.png": "66da2ecea91ad2be74ed6dbb9157eff382ac1cc7a49705176ce906d603322945",
+    "report/assets/equation_05_horizon.png": "3485140969cfeef9710de445126973724b3e040bc41861f7546e393ce7cde2a3",
+    "report/assets/final_indicators.png": "fab11753ec2f3f50f81e18f034d38a73f6b560227e41077922be5e9a1f5a6ccd",
+    "report/assets/equation_06_clusters.png": "5f8ab4351b62d0a4f0e9bc5ed54b33bbfa57fb7f258996c6c13fd996860039f7",
+    "report/assets/genealogical_clusters.png": "00414f80dc7512baed43d58f8f6e9a5d98d9b72348c2cb71c5c29f5c7699470d",
+    "report/assets/n_accuracy_mae.png": "58b9587740e9da4e320e31a8ac8be02959f41d52a8bda9a3dacecbfa408c61e6",
+    "report/assets/background_comparison.png": "7732fe959528f4c3f33630b011e3afe98743254272ef3e409cce0f99ab116eb9",
+    "report/assets/extended_detector_comparison.png": "6aa166e0a6647496c52abdce3d48d701f856dbaeceddbcdecda3738c99456fc7",
+    "report/assets/equation_07_district.png": "6e11bbf121e3bd6aa6adc4eb831a4c05e03201cd0575b8a5a250fd8ff42d5284",
+    "report/assets/selective_operating.png": "be9e9e9937d50dbe257e3a46c53f9806f9d864fabe2599d44f7efe19f835c635",
+    "report/assets/cad_paired.png": "2c86f28fd8dd9290d5953b31cbcedd232a436a9035007cda8aa71ffd7580e4a8",
+    "results/n_estimation_accuracy/summary.csv": "a71e44d7a4af6f16ed705ce52985a68260a5e0516721074ffd386a34c2ba4451",
+    "results/background_comparison/summary.csv": "986a1db7e73a2447b70f9b54c1d28dd717d6fb868a5cea282550040381b8c355",
+    "results/indicators_final/summary.csv": "dd96d57fc54dd72bd2f3d51cbef9bcfe05ad99688d131340914eb528f42f99f6",
+    "results/genealogical_clusters/summary.csv": "7896c11997b0bf6a0d0029eade23a627cce7aeb8f455dededa8c872a2c247715",
+    "results/extended_neural/metrics.json": "cfa0189a6b501065ed276d2765bb92669c5af4dadddf60213ecb4b19b36621eb",
+    "results/spatiotemporal_forecast/test_metrics.csv": "cc54ca617f523425e85fc1248295a0df581ad243ddbfd774a03ce34e7566087e",
+    "results/expanded_district_detector/headline.csv": "3148eb793eeb5d28717da7bdfdd057cbe4d8eb8fa9a2717d3876f5936c737482",
+    "results/delay_forecast_detector/metrics.csv": "ef2260b7883a7e286dffe76c750be8e25b1ebab238b80623aabd404587c6d931",
+    "results/selective_austin_detector/metrics.csv": "9297a68219a188c2d6886622c208e68dc72c6d7d8df01b28462568207db9ca2d",
+    "results/cad_context_detector/metrics.csv": "5d602a3a0a67982a74653590237443c8aaf4f3e9992aa8ad97c0f3d713edfbec"
+  },
+  "sections": [
+    {
+      "title": "Исследование критических режимов самовозбуждающихся случайных процессов и методов их раннего обнаружения",
+      "page": 1
+    },
+    {
+      "title": "1. Цель и постановка задачи",
+      "page": 2
+    },
+    {
+      "title": "2. Математическая модель",
+      "page": 3
+    },
+    {
+      "title": "3. Имитация и оценивание параметров",
+      "page": 4
+    },
+    {
+      "title": "4. План проверки и показатели качества",
+      "page": 5
+    },
+    {
+      "title": "5. Результаты на синтетических потоках",
+      "page": 6
+    },
+    {
+      "title": "5.1. Полные генеалогические кластеры",
+      "page": 7
+    },
+    {
+      "title": "5.2. Точность восстановления коэффициента ветвления",
+      "page": 8
+    },
+    {
+      "title": "5.3. Влияние фоновой интенсивности",
+      "page": 9
+    },
+    {
+      "title": "6. Нейросетевые детекторы состояния и предупреждения",
+      "page": 10
+    },
+    {
+      "title": "6.1. Причины низкой чувствительности",
+      "page": 11
+    },
+    {
+      "title": "7. Реальные данные и границы эмпирической проверки",
+      "page": 12
+    },
+    {
+      "title": "8. Наблюдаемая задача «район × 6 часов»",
+      "page": 13
+    },
+    {
+      "title": "8.1. Районные результаты и расширение городов",
+      "page": 14
+    },
+    {
+      "title": "8.2. Отдельные проверки на Austin",
+      "page": 15
+    },
+    {
+      "title": "8.3. Задержки регистрации и калибровка тревог",
+      "page": 16
+    },
+    {
+      "title": "8.4. Внешние признаки: месячный CAD-контекст",
+      "page": 17
+    },
+    {
+      "title": "9. Обсуждение и практические ограничения",
+      "page": 18
+    },
+    {
+      "title": "10. Итоговые выводы и воспроизведение",
+      "page": 19
+    },
+    {
+      "title": "Литература и материалы исследования",
+      "page": 20
+    }
+  ],
+  "experimental_results_changed": false
+}

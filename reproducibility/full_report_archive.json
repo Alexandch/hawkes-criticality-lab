@@ -1,0 +1,17 @@
+{
+  "revision": "ecf0f70790a52d666c7677bc2bbdbf6a2d568492",
+  "pages": 70,
+  "archive": "reproducibility/full_report_archive.zip",
+  "archive_sha256": "7601015ca34b0dcbe3cb5491f4c1408ba7420a43ca6957357a0c7da81fd543e5",
+  "files": {
+    "full_report/README.md": {
+      "sha256": "7b78161cf70f0cd5e6b63afd4a48d83d37e8cbe12e1c05b0cf1a6cb00f68a650",
+      "bytes": 174323
+    },
+    "full_report/hawkes_criticality_report.pdf": {
+      "sha256": "8506a2367310cb5a17f81065b0bfd3d7e9afb77e368ff0a9171a05ef011ecaee",
+      "bytes": 6403337
+    }
+  },
+  "purpose": "byte-exact full README and70-page PDF; current README/PDF are a shorter main edition"
+}

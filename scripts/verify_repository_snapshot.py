@@ -4,6 +4,7 @@ import csv,hashlib,json,re
 from pathlib import Path
 from urllib.parse import unquote
 from critical_processes.documentation_archive import archive_index,read_artifact,verify_archive
+from verify_short_report import verify as verify_short
 
 
 def digest(path):
@@ -180,7 +181,8 @@ def main():
     cad_pdf=json.loads((root/'output/pdf/r16_build.json').read_text(encoding='utf-8'))
     assert cad_pdf['base_sha256']==newest_pdf['output_sha256']
     assert cad_pdf['base_pages']==66 and cad_pdf['total_pages']==70
-    assert digest(root/'output/pdf/hawkes_criticality_report.pdf')==cad_pdf['output_sha256']
+    concise=verify_short(root)
+    assert concise['archive_pdf_sha256']==cad_pdf['output_sha256']
     assert digest(root/'scripts/append_cad_pdf.py')==cad_pdf['builder_sha256']
     for name,value in cad_pdf['source_sha256'].items():assert digest(root/name)==value
     cad_qa=json.loads((root/'output/pdf/r16_qa.json').read_text(encoding='utf-8'))
