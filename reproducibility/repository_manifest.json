@@ -14,8 +14,12 @@
       "bytes": 1158
     },
     "README.md": {
-      "sha256": "1f422348970891d1b988ad8d95cb8e78cb4472a18efe5de330af0c51ffb5f67a",
-      "bytes": 123900
+      "sha256": "77666693fdc6813a1cf72c644cb44338a913c10c0d685bbc831f6bd4a0174ceb",
+      "bytes": 134151
+    },
+    "data/processed/adaptive_seattle_20261122/seattle.json": {
+      "sha256": "92877867bff54c0b6663bdf5cb4b30d80e2e33277c31e21d775322f6b3a788ab",
+      "bytes": 718
     },
     "data/processed/code_core_2020_2021_17cities.csv.manifest.json": {
       "sha256": "230388ebc2d10b726e57bf171d8173ae7dd2d3ee4f73028120942314960b776d",
@@ -156,6 +160,10 @@
     "data/processed/spatiotemporal_20261110/san_francisco.json": {
       "sha256": "05cc984a5a45b9f2eeb2d3d9ad78cffc96e7de531e56e1ea9236425979128be4",
       "bytes": 3652
+    },
+    "data/raw/adaptive_seattle_20261122/seattle_october.csv.gz.manifest.json": {
+      "sha256": "1dfbe7226c93939385e48cfab433c446310e7a5096ae2a015906379cb9e1fd65",
+      "bytes": 1206
     },
     "data/raw/expanded_20261110/cities/chicago_2019.csv.gz.manifest.json": {
       "sha256": "2e152441e0ac3f3a93e8a01140ba6a791b03aabea9e6c09e73c209624cc5c5d0",
@@ -502,8 +510,8 @@
       "bytes": 1572
     },
     "output/pdf/hawkes_criticality_report.pdf": {
-      "sha256": "e84744fb1511e5738f03cc97be9cc744adae3b15ae1fb08b2096734e323f9224",
-      "bytes": 4882902
+      "sha256": "caec20cd6fd903d92639b765b85ccc1325524c0934ccde372832e28bf79ebdee",
+      "bytes": 5235965
     },
     "output/pdf/r12_build.json": {
       "sha256": "528303ca36b373a7cb331ee24c44c59ded08358f62de961adf694cbcbb6bed18",
@@ -513,9 +521,29 @@
       "sha256": "4b51e306d2344780452a89052d6b6b2859eecbaddd61780a5ba0efcf35d414c1",
       "bytes": 326
     },
+    "output/pdf/r13_build.json": {
+      "sha256": "4abe80dd191778743e218c9797d32f7c3b56c62771159d95f6d328de722687a9",
+      "bytes": 1028
+    },
+    "output/pdf/r13_qa.json": {
+      "sha256": "9dfd4c891ead6d2b1ebe32460803e93cb1bdd1535dba279edc4ed0e2b5db7ea2",
+      "bytes": 317
+    },
     "pyproject.toml": {
       "sha256": "f24f62e8bfc36bbb96e6b4dc2d9d9062d31a39cd5f91791df8b8c51ac9bb3fce",
       "bytes": 741
+    },
+    "report/assets/adaptive_development.png": {
+      "sha256": "39abe11859c8ef6ff65af86ef02e5bfb5407519ce32ed0b4dd364ee4c1759779",
+      "bytes": 81483
+    },
+    "report/assets/adaptive_manifest.json": {
+      "sha256": "9d24634229ccc7c8df0134aebe152decae35c24cca644bcb777c4791857fd0d5",
+      "bytes": 850
+    },
+    "report/assets/adaptive_october.png": {
+      "sha256": "10428aa5a0d627183eb8e6939fe3a3b20706cf9271e504e58fc4b76d1de50bbd",
+      "bytes": 112003
     },
     "report/assets/background_comparison.png": {
       "sha256": "7732fe959528f4c3f33630b011e3afe98743254272ef3e409cce0f99ab116eb9",
@@ -666,8 +694,8 @@
       "bytes": 314
     },
     "reproducibility/logs/final_tests_utf8.log": {
-      "sha256": "4bb14985b9e6e656d94693a8dae819e823b65619df83bb0ebc2a99a2a7419cf8",
-      "bytes": 19271
+      "sha256": "e9b82eae41de5b88487ad4aa04406e0983bf9922d99bb23004c0cd10ccf48bb2",
+      "bytes": 20594
     },
     "reproducibility/r12_history_availability_amendment.json": {
       "sha256": "c2b0b6287bc1eac4dbf0778ff8a3f9c9fad16d67a1e629df21bb079f88e0c0eb",
@@ -678,8 +706,8 @@
       "bytes": 5514
     },
     "reproducibility/test_result.json": {
-      "sha256": "8a2c9b927d0614373db68c34c5e23d3199aff15d7811450622659a73fa27be66",
-      "bytes": 180
+      "sha256": "cd73b329b9f89cf78471b4a2f5f5aeb256aff8d6ca88276cee5e1c67a67843aa",
+      "bytes": 179
     },
     "requirements-lock.txt": {
       "sha256": "a3994c6b4683da0e7d4cca20426498ba19046e30e38f0b674a581b9c7935f734",
@@ -688,6 +716,62 @@
     "requirements.txt": {
       "sha256": "1f76488e273c375f163a1657f0f18748384dc72307ccee59600dc7b065eba3e8",
       "bytes": 63
+    },
+    "results/adaptive_seattle_detector/assessment.json": {
+      "sha256": "a0ed9e1d14d0c591575f48b3012c6f43cc20e5ad64bdc59c0e4471781863764a",
+      "bytes": 727
+    },
+    "results/adaptive_seattle_detector/complete.json": {
+      "sha256": "daa4e7167f2395dd25f5a788fa2c6c6545bd825bd43907b9b03816bef2296ed7",
+      "bytes": 1413
+    },
+    "results/adaptive_seattle_detector/development_candidates.json": {
+      "sha256": "c9a4838b56deb0020847faa1fcbd5fb7fa768cb330197a1bc4ccfa444f54db17",
+      "bytes": 44416
+    },
+    "results/adaptive_seattle_detector/development_metrics.csv": {
+      "sha256": "5d37079248df175e578d46f9b28a5fabeac2263269a49f458df344961563eb89",
+      "bytes": 19988
+    },
+    "results/adaptive_seattle_detector/development_policy_journal.json": {
+      "sha256": "9c22cdf88b41372b28df40af4184dc23d9a8e2de3e37462cc1b338126cfff0f4",
+      "bytes": 1430665
+    },
+    "results/adaptive_seattle_detector/district_metrics.csv": {
+      "sha256": "6ede00a92495d2846a43e9f3a7b4c6f345f10170f81bcfa105bc30796d435ea6",
+      "bytes": 57156
+    },
+    "results/adaptive_seattle_detector/forecast_journal.json": {
+      "sha256": "02fd28423f00ba4e0ea0f24b3c195bf38360bd065b7350ed7c2de73d522c5ef4",
+      "bytes": 570
+    },
+    "results/adaptive_seattle_detector/frozen_plan.json": {
+      "sha256": "f6e5e86e70b873580040b086f553af26a6dfd7f1a1fc070df2d37a92f2e3075f",
+      "bytes": 17776
+    },
+    "results/adaptive_seattle_detector/headline.csv": {
+      "sha256": "125ad39ec9eda642a58b03cda670d3f0f514046bee1ca65f57eade12594ef2ad",
+      "bytes": 4349
+    },
+    "results/adaptive_seattle_detector/metrics.csv": {
+      "sha256": "f9acd6bbde412b56e93ce7c245b55f53bbf823d28a27393f94cc33780662cd82",
+      "bytes": 24417
+    },
+    "results/adaptive_seattle_detector/new_input.json": {
+      "sha256": "5b93a5dcce5940b7d7d1d950749e97e5b54e6437d349ea5949cd30769e633ee4",
+      "bytes": 367
+    },
+    "results/adaptive_seattle_detector/protocol.json": {
+      "sha256": "9d08c305aefacabd048d84a81becd5a0335ebb1dc098045955ae20b40cf67646",
+      "bytes": 5792
+    },
+    "results/adaptive_seattle_detector/test_started.json": {
+      "sha256": "e9f5511935987501d5a5a8685d4f2c2c741b460b6d2f3e64b2a6c74a72f59c29",
+      "bytes": 194
+    },
+    "results/adaptive_seattle_detector/verification.json": {
+      "sha256": "35be2b0b78bc6d315245cf5420b653116c09d23671ee8dba3728c64ec24003a8",
+      "bytes": 921
     },
     "results/background_comparison/baseline_examples.csv": {
       "sha256": "f7d92549e43cc3fc404d3271519ca7857b5c1549763156f067f35dc7aa14c85c",
@@ -3029,6 +3113,10 @@
       "sha256": "6dbb4c035388d340a5b087d69f70bbf41854ecdbe070e16662f0b502c8881846",
       "bytes": 2645
     },
+    "scripts/append_adaptive_pdf.py": {
+      "sha256": "9cdc30612f02cd38321f2def4e33438ddea54ac31a2e6a4421a13f04aae249c2",
+      "bytes": 12274
+    },
     "scripts/append_expanded_pdf.py": {
       "sha256": "fcc3ae2f669d7dd9c4d903733f08afded64e26a371fb2d380a2e2e9d6b9f3664",
       "bytes": 17734
@@ -3109,6 +3197,10 @@
       "sha256": "0e8b957b89bd06c72807b23abb056cc8be8afbad673bc37708497787d9f4aa16",
       "bytes": 1896
     },
+    "scripts/summarize_adaptive_alarm.py": {
+      "sha256": "3b7e265fc9c5e3d0e9c4d9c2ec59d160aa71096ba47707a2e22cfe3c5d701d74",
+      "bytes": 4291
+    },
     "scripts/summarize_completion.py": {
       "sha256": "a8f3049c4ba554708faeb7647a9f740f0635907927986226cf93de8f48a4a00e",
       "bytes": 6646
@@ -3124,6 +3216,10 @@
     "scripts/summarize_spatiotemporal.py": {
       "sha256": "bc79921395f25bf4f7ec1a1c51a5496a43d995034b9b075dbff6ac78aa210816",
       "bytes": 4043
+    },
+    "scripts/verify_adaptive_alarm.py": {
+      "sha256": "2a9069cd249906a1e4c815909515dfc317e88edb05f45968909a444a35e1ec61",
+      "bytes": 7725
     },
     "scripts/verify_background_comparison.py": {
       "sha256": "10ca65b23889daa5e39616545ea51183eeb72a5e7f5bee9713193a995a1cae86",
@@ -3154,12 +3250,12 @@
       "bytes": 10049
     },
     "scripts/verify_report.py": {
-      "sha256": "50d723e205fab87148956227888669aad74d38d9d394c77ab413105bb3c416b8",
-      "bytes": 15906
+      "sha256": "69414493bfae4aa1c132490ccd6c34d4b2178c92ee91c4e913b02e5b358ce50d",
+      "bytes": 17436
     },
     "scripts/verify_repository_snapshot.py": {
-      "sha256": "7879fb9bdd2ee01944b76858db13e90462a2f151c487824f4f4eeb6663d03113",
-      "bytes": 6861
+      "sha256": "5a6655856942a30c73ed03196e2face91d4e80c505665e945f93c0fec30c9ac5",
+      "bytes": 8263
     },
     "scripts/verify_robust_experiment.py": {
       "sha256": "a596d394b51e8e06c5525e64440d992726ebcc27e143cee59e5a176845885089",
@@ -3192,6 +3288,14 @@
     "src/critical_processes/__init__.py": {
       "sha256": "0b40ac7d482f58e14d9652ede7529bf3ef8a03a9708221b920d0d1d343177953",
       "bytes": 95
+    },
+    "src/critical_processes/adaptive_alarm.py": {
+      "sha256": "5ed0e9feef52d25e7c5b4efa776495c0313117d360f4c6bcc9ea1846ee220704",
+      "bytes": 5712
+    },
+    "src/critical_processes/adaptive_alarm_experiment.py": {
+      "sha256": "393647072177727eaa560d90dd8895b84783151799d92c2c7f81f59c7a73a412",
+      "bytes": 21819
     },
     "src/critical_processes/background_comparison.py": {
       "sha256": "d8b6513d909d936644e505c16ebda001d3ec018d2d909dd490cdc9a58e585875",
@@ -3361,6 +3465,10 @@
       "sha256": "917c28b7881ab906ae8082bc6356baa0bc4b765a2db28c79499ffe34b95b5393",
       "bytes": 7140
     },
+    "tests/test_adaptive_alarm.py": {
+      "sha256": "8f1d23ce8846759b7e9399952b5db5b68ec5c2a59270766a112ca781f2785d23",
+      "bytes": 5045
+    },
     "tests/test_background_models.py": {
       "sha256": "41de0aa7c816b8980fd4cc10704856b5912adae0eeaa2eb8e5e2d4d45cd67e35",
       "bytes": 7627
@@ -3435,6 +3543,10 @@
     }
   },
   "external_artifacts": [
+    {
+      "path": "data/processed/adaptive_seattle_20261122/seattle.npz",
+      "bytes": 780778
+    },
     {
       "path": "data/processed/code_core_2020_2021_17cities.csv.gz",
       "bytes": 72519418
@@ -3746,6 +3858,10 @@
     {
       "path": "data/processed/spatiotemporal_20261110/san_francisco.npz",
       "bytes": 807065
+    },
+    {
+      "path": "data/raw/adaptive_seattle_20261122/seattle_october.csv.gz",
+      "bytes": 45404
     },
     {
       "path": "data/raw/chicago_crimes_2024_2025.csv",
@@ -4070,6 +4186,14 @@
     {
       "path": "data/raw/test100.csv",
       "bytes": 61
+    },
+    {
+      "path": "results/adaptive_seattle_detector/forecasts/delayed_stress.npz",
+      "bytes": 74606
+    },
+    {
+      "path": "results/adaptive_seattle_detector/forecasts/primary.npz",
+      "bytes": 74598
     },
     {
       "path": "results/background_comparison/replicates.csv",

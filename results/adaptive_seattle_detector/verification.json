@@ -1,0 +1,20 @@
+{
+  "successful": true,
+  "protocol_sha256": "9d08c305aefacabd048d84a81becd5a0335ebb1dc098045955ae20b40cf67646",
+  "complete_sha256": "daa4e7167f2395dd25f5a788fa2c6c6545bd825bd43907b9b03816bef2296ed7",
+  "verifier_sha256": "2a9069cd249906a1e4c815909515dfc317e88edb05f45968909a444a35e1ec61",
+  "frozen_before_new_download": true,
+  "history_cases": 383703,
+  "new_october_cases": 3564,
+  "development_candidates": 27,
+  "forecast_files": 2,
+  "checks": [
+    "unchanged R12 inputs and forecast replay",
+    "new CSV case preparation and exact historical prefix",
+    "all27operating candidates and monthly past-only policies",
+    "selected configuration frozen before new download",
+    "both October scenario forecasts without outcomes",
+    "all metrics and regional tables"
+  ],
+  "limitation": "October has only2-3time blocks; retrospective and preliminary, no operational/prospective validation"
+}

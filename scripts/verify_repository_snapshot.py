@@ -39,7 +39,7 @@ def main():
             links+=1
     assets=json.loads((root/'report/assets/manifest.json').read_text(encoding='utf-8'))
     for item in assets['assets']:assert digest(root/item['source'])==digest(root/item['copy'])==item['sha256']
-    for folder in ('dynamic_estimation','extended_neural','empirical_transfer','spatiotemporal_forecast','offline_readiness','expanded_district_detector'):
+    for folder in ('dynamic_estimation','extended_neural','empirical_transfer','spatiotemporal_forecast','offline_readiness','expanded_district_detector','adaptive_seattle_detector'):
         protocol=json.loads((root/'results'/folder/'protocol.json').read_text(encoding='utf-8'))
         for name,value in protocol['code_sha256'].items():assert digest(root/'src/critical_processes'/name)==value,(folder,name)
     metrics=json.loads((root/'results/extended_neural/metrics.json').read_text(encoding='utf-8'))
@@ -47,7 +47,7 @@ def main():
     assert metrics['warning__ensemble__family_confident']['positive_trajectories']==600
     assert metrics['warning__ensemble__family_nominal_sensitivity']['detected_trajectories']==27
     tests=json.loads((root/'reproducibility/test_result.json').read_text(encoding='utf-8'))
-    assert tests['successful'] and tests['tests_run']==110 and tests['failures']==tests['errors']==0
+    assert tests['successful'] and tests['tests_run']==118 and tests['failures']==tests['errors']==0
     spatial=root/'results/spatiotemporal_forecast'
     complete=json.loads((spatial/'complete.json').read_text(encoding='utf-8'))
     for name,value in complete['artifact_sha256'].items():
@@ -87,12 +87,29 @@ def main():
     for item in figure_manifest['assets']:assert digest(root/item['file'])==item['sha256']
     pdf_build=json.loads((root/'output/pdf/r12_build.json').read_text(encoding='utf-8'))
     assert pdf_build['total_pages']==53 and pdf_build['base_pages']==48
-    assert digest(root/'output/pdf/hawkes_criticality_report.pdf')==pdf_build['output_sha256']
     assert digest(root/'scripts/append_expanded_pdf.py')==pdf_build['builder_sha256']
     for name,value in pdf_build['source_sha256'].items():assert digest(root/name)==value
     qa=json.loads((root/'output/pdf/r12_qa.json').read_text(encoding='utf-8'))
     assert qa['successful'] and qa['sha256']==pdf_build['output_sha256']
-    print(f'Verified {len(manifest["files"])} published files, {len(assets["assets"])+2} figures, {links} documentation links and frozen source hashes.')
+    adaptive=root/'results/adaptive_seattle_detector'
+    for name,value in json.loads((adaptive/'complete.json').read_text(encoding='utf-8'))['artifact_sha256'].items():
+        relative=(adaptive/name).relative_to(root).as_posix()
+        if relative in manifest['files']:assert digest(adaptive/name)==value,name
+        else:assert relative in external,name
+    check=json.loads((adaptive/'verification.json').read_text(encoding='utf-8'))
+    assert check['successful'] and check['development_candidates']==27 and check['new_october_cases']==3564
+    graphs=json.loads((root/'report/assets/adaptive_manifest.json').read_text(encoding='utf-8'))
+    for name,value in graphs['source_sha256'].items():assert digest(root/name)==value
+    for item in graphs['assets']:assert digest(root/item['file'])==item['sha256']
+    last_pdf=json.loads((root/'output/pdf/r13_build.json').read_text(encoding='utf-8'))
+    assert last_pdf['base_sha256']==pdf_build['output_sha256']
+    assert last_pdf['base_pages']==53 and last_pdf['total_pages']==57
+    assert digest(root/'output/pdf/hawkes_criticality_report.pdf')==last_pdf['output_sha256']
+    assert digest(root/'scripts/append_adaptive_pdf.py')==last_pdf['builder_sha256']
+    for name,value in last_pdf['source_sha256'].items():assert digest(root/name)==value
+    last_qa=json.loads((root/'output/pdf/r13_qa.json').read_text(encoding='utf-8'))
+    assert last_qa['successful'] and last_qa['sha256']==last_pdf['output_sha256']
+    print(f'Verified {len(manifest["files"])} published files, {len(assets["assets"])+4} figures, {links} documentation links and frozen source hashes.')
     print(f'External artifacts intentionally not part of Git: {len(external)}; missing documentation targets declared external: {len(missing_links)}. Full raw-data verification was not run.')
 
 

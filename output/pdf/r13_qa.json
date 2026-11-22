@@ -1,0 +1,14 @@
+{
+  "successful": true,
+  "pages": 57,
+  "base_text_preserved_pages": 53,
+  "visually_reviewed_supplement_pages": [
+    54,
+    55,
+    56,
+    57
+  ],
+  "out_of_bounds_characters": false,
+  "replacement_characters": false,
+  "sha256": "caec20cd6fd903d92639b765b85ccc1325524c0934ccde372832e28bf79ebdee"
+}

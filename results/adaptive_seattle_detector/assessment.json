@@ -1,0 +1,23 @@
+{
+  "status": "research_prototype_preliminary_new_control",
+  "primary_selection": {
+    "candidate": "local_neural_w90_a025",
+    "method": "local_neural",
+    "window_days": 90,
+    "alpha": 0.025,
+    "selection_status": "fallback_no_joint_feasible_point"
+  },
+  "new_control": "October2026, full month provisional; first21days more mature",
+  "source_publication_times_verified": false,
+  "prospective_forecasts_issued": false,
+  "minimum_blocks_for_intervals": 4,
+  "primary_point_conditions_passed": [
+    false,
+    false
+  ],
+  "primary_full_conditions_passed": [
+    false,
+    false
+  ],
+  "interpretation": "short new period cannot establish durable usefulness; no tuning on October outcomes"
+}

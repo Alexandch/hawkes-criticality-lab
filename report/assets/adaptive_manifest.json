@@ -1,0 +1,19 @@
+{
+  "stage": "R13",
+  "renderer_sha256": "3b7e265fc9c5e3d0e9c4d9c2ec59d160aa71096ba47707a2e22cfe3c5d701d74",
+  "source_sha256": {
+    "results/adaptive_seattle_detector/metrics.csv": "f9acd6bbde412b56e93ce7c245b55f53bbf823d28a27393f94cc33780662cd82",
+    "results/adaptive_seattle_detector/development_metrics.csv": "5d37079248df175e578d46f9b28a5fabeac2263269a49f458df344961563eb89",
+    "results/adaptive_seattle_detector/frozen_plan.json": "f6e5e86e70b873580040b086f553af26a6dfd7f1a1fc070df2d37a92f2e3075f"
+  },
+  "assets": [
+    {
+      "file": "report/assets/adaptive_october.png",
+      "sha256": "10428aa5a0d627183eb8e6939fe3a3b20706cf9271e504e58fc4b76d1de50bbd"
+    },
+    {
+      "file": "report/assets/adaptive_development.png",
+      "sha256": "39abe11859c8ef6ff65af86ef02e5bfb5407519ce32ed0b4dd364ee4c1759779"
+    }
+  ]
+}

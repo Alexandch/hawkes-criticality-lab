@@ -1,0 +1,9 @@
+{
+  "url": "https://data.seattle.gov/resource/tazs-3rd5.csv?%24select=report_number%2Coffense_date%2Creport_date_time%2Cprecinct%2Coffense_sub_category&%24where=offense_date+%3E%3D+%272026-10-01T00%3A00%3A00%27+AND+offense_date+%3C+%272026-11-01T00%3A00%3A00%27+AND+offense_sub_category+in%28%27LARCENY-THEFT%27%2C%27MOTOR+VEHICLE+THEFT%27%2C%27BURGLARY%27%2C%27ASSAULT+OFFENSES%27%2C%27AGGRAVATED+ASSAULT%27%2C%27ROBBERY%27%29&%24order=offense_date%2Creport_number&%24limit=100000",
+  "count_url": "https://data.seattle.gov/resource/tazs-3rd5.json?%24select=count%28%2A%29+as+rows&%24where=offense_date+%3E%3D+%272026-10-01T00%3A00%3A00%27+AND+offense_date+%3C+%272026-11-01T00%3A00%3A00%27+AND+offense_sub_category+in%28%27LARCENY-THEFT%27%2C%27MOTOR+VEHICLE+THEFT%27%2C%27BURGLARY%27%2C%27ASSAULT+OFFENSES%27%2C%27AGGRAVATED+ASSAULT%27%2C%27ROBBERY%27%29",
+  "rows": 3708,
+  "sha256": "c8564b99131aa3f98cff3aab001446693dae0ab59756b442b2492e5d097999fb",
+  "retrieved_utc": "2026-11-22T12:34:42.622658+00:00",
+  "frozen_plan_sha256": "f6e5e86e70b873580040b086f553af26a6dfd7f1a1fc070df2d37a92f2e3075f",
+  "label_status": "retrospective registered-case snapshot; late reporting and edits possible"
+}

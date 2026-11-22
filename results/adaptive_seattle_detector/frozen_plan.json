@@ -1,0 +1,738 @@
+{
+  "protocol_sha256": "9d08c305aefacabd048d84a81becd5a0335ebb1dc098045955ae20b40cf67646",
+  "frozen_utc": "2026-11-22T12:34:35.532783+00:00",
+  "roles": {
+    "selected": {
+      "candidate": "local_neural_w90_a025",
+      "method": "local_neural",
+      "window_days": 90,
+      "alpha": 0.025,
+      "selection_status": "fallback_no_joint_feasible_point"
+    },
+    "rolling_neural": {
+      "candidate": "local_neural_w90_a025",
+      "method": "local_neural",
+      "window_days": 90,
+      "alpha": 0.025,
+      "selection_status": "fallback_no_joint_feasible_point"
+    },
+    "rolling_baseline": {
+      "candidate": "recent_calendar_w90_a025",
+      "method": "recent_calendar",
+      "window_days": 90,
+      "alpha": 0.025,
+      "selection_status": "fallback_no_joint_feasible_point"
+    },
+    "static_neural": {
+      "method": "local_neural"
+    },
+    "static_adaptive": {
+      "method": "recent_calendar"
+    }
+  },
+  "test_policies": {
+    "primary": {
+      "selected": {
+        "probability": [
+          {
+            "slope": 1.094316648344271,
+            "intercept": 0.2843168780987563,
+            "fallback": false
+          },
+          {
+            "slope": 1.1216251160505282,
+            "intercept": 0.29280946022183596,
+            "fallback": false
+          },
+          {
+            "slope": 0.968440525201811,
+            "intercept": -0.0174177305297115,
+            "fallback": false
+          }
+        ],
+        "threshold": [
+          [
+            0.3554605927492232,
+            0.4378331140526527,
+            0.1717876226691458
+          ],
+          [
+            0.3639790309648218,
+            0.4262794087368557,
+            0.1788406873525932
+          ],
+          [
+            0.32373445836735487,
+            0.2892147019063575,
+            0.11270388321587761
+          ],
+          [
+            0.2526571005318239,
+            0.2088204517090173,
+            0.07512973752964518
+          ],
+          [
+            0.39835398284032075,
+            0.392375841015908,
+            0.21609539831889446
+          ]
+        ],
+        "threshold_notes": {
+          "fallback": [
+            [
+              false,
+              false,
+              false
+            ],
+            [
+              false,
+              false,
+              false
+            ],
+            [
+              false,
+              false,
+              false
+            ],
+            [
+              false,
+              false,
+              false
+            ],
+            [
+              false,
+              false,
+              false
+            ]
+          ],
+          "negative_counts": [
+            [
+              144,
+              143,
+              167
+            ],
+            [
+              157,
+              145,
+              155
+            ],
+            [
+              140,
+              140,
+              171
+            ],
+            [
+              150,
+              158,
+              173
+            ],
+            [
+              149,
+              135,
+              167
+            ]
+          ],
+          "unit": "district-group negative cells",
+          "target_fpr": 0.025
+        },
+        "window_days": 90,
+        "alpha": 0.025,
+        "maturity_days": 28,
+        "asof": "2026-10-01 00:00:00",
+        "probability_start": "2026-06-05 00:00:00",
+        "probability_end": "2026-07-20 00:00:00",
+        "threshold_end_exclusive": "2026-09-03 00:00:00",
+        "last_label_time": "2026-09-02 18:00:00",
+        "label_counts": {
+          "probability_cells": 2700,
+          "threshold_cells": 2700
+        }
+      },
+      "rolling_neural": {
+        "probability": [
+          {
+            "slope": 1.094316648344271,
+            "intercept": 0.2843168780987563,
+            "fallback": false
+          },
+          {
+            "slope": 1.1216251160505282,
+            "intercept": 0.29280946022183596,
+            "fallback": false
+          },
+          {
+            "slope": 0.968440525201811,
+            "intercept": -0.0174177305297115,
+            "fallback": false
+          }
+        ],
+        "threshold": [
+          [
+            0.3554605927492232,
+            0.4378331140526527,
+            0.1717876226691458
+          ],
+          [
+            0.3639790309648218,
+            0.4262794087368557,
+            0.1788406873525932
+          ],
+          [
+            0.32373445836735487,
+            0.2892147019063575,
+            0.11270388321587761
+          ],
+          [
+            0.2526571005318239,
+            0.2088204517090173,
+            0.07512973752964518
+          ],
+          [
+            0.39835398284032075,
+            0.392375841015908,
+            0.21609539831889446
+          ]
+        ],
+        "threshold_notes": {
+          "fallback": [
+            [
+              false,
+              false,
+              false
+            ],
+            [
+              false,
+              false,
+              false
+            ],
+            [
+              false,
+              false,
+              false
+            ],
+            [
+              false,
+              false,
+              false
+            ],
+            [
+              false,
+              false,
+              false
+            ]
+          ],
+          "negative_counts": [
+            [
+              144,
+              143,
+              167
+            ],
+            [
+              157,
+              145,
+              155
+            ],
+            [
+              140,
+              140,
+              171
+            ],
+            [
+              150,
+              158,
+              173
+            ],
+            [
+              149,
+              135,
+              167
+            ]
+          ],
+          "unit": "district-group negative cells",
+          "target_fpr": 0.025
+        },
+        "window_days": 90,
+        "alpha": 0.025,
+        "maturity_days": 28,
+        "asof": "2026-10-01 00:00:00",
+        "probability_start": "2026-06-05 00:00:00",
+        "probability_end": "2026-07-20 00:00:00",
+        "threshold_end_exclusive": "2026-09-03 00:00:00",
+        "last_label_time": "2026-09-02 18:00:00",
+        "label_counts": {
+          "probability_cells": 2700,
+          "threshold_cells": 2700
+        }
+      },
+      "rolling_baseline": {
+        "probability": [
+          {
+            "slope": 0.8002795649917152,
+            "intercept": -0.20345216701629382,
+            "fallback": false
+          },
+          {
+            "slope": 0.8927511431715065,
+            "intercept": -0.052699500940700035,
+            "fallback": false
+          },
+          {
+            "slope": 0.9920552304398748,
+            "intercept": 0.05031801966567356,
+            "fallback": false
+          }
+        ],
+        "threshold": [
+          [
+            0.22417314273602945,
+            0.23419465485324448,
+            0.14785724048933319
+          ],
+          [
+            0.1723952960598595,
+            0.21675626557251462,
+            0.1780918964711945
+          ],
+          [
+            0.2284412760887079,
+            0.20930607688141095,
+            0.13953500903140817
+          ],
+          [
+            0.22767367499449923,
+            0.1963539121211206,
+            0.08355815083444178
+          ],
+          [
+            0.1850824511812428,
+            0.2297259559361488,
+            0.19043149230526238
+          ]
+        ],
+        "threshold_notes": {
+          "fallback": [
+            [
+              false,
+              false,
+              false
+            ],
+            [
+              false,
+              false,
+              false
+            ],
+            [
+              false,
+              false,
+              false
+            ],
+            [
+              false,
+              false,
+              false
+            ],
+            [
+              false,
+              false,
+              false
+            ]
+          ],
+          "negative_counts": [
+            [
+              144,
+              143,
+              167
+            ],
+            [
+              157,
+              145,
+              155
+            ],
+            [
+              140,
+              140,
+              171
+            ],
+            [
+              150,
+              158,
+              173
+            ],
+            [
+              149,
+              135,
+              167
+            ]
+          ],
+          "unit": "district-group negative cells",
+          "target_fpr": 0.025
+        },
+        "window_days": 90,
+        "alpha": 0.025,
+        "maturity_days": 28,
+        "asof": "2026-10-01 00:00:00",
+        "probability_start": "2026-06-05 00:00:00",
+        "probability_end": "2026-07-20 00:00:00",
+        "threshold_end_exclusive": "2026-09-03 00:00:00",
+        "last_label_time": "2026-09-02 18:00:00",
+        "label_counts": {
+          "probability_cells": 2700,
+          "threshold_cells": 2700
+        }
+      }
+    },
+    "delayed_stress": {
+      "selected": {
+        "probability": [
+          {
+            "slope": 1.0784210897768123,
+            "intercept": 0.2235057878608112,
+            "fallback": false
+          },
+          {
+            "slope": 1.0684578667984255,
+            "intercept": 0.17488543883572574,
+            "fallback": false
+          },
+          {
+            "slope": 0.9915730234659472,
+            "intercept": 0.02837584977569254,
+            "fallback": false
+          }
+        ],
+        "threshold": [
+          [
+            0.36969370118772477,
+            0.3759244465574305,
+            0.1708794789186792
+          ],
+          [
+            0.30756380774948877,
+            0.3228152950458283,
+            0.18135807454067313
+          ],
+          [
+            0.31325612815165216,
+            0.27015704451031036,
+            0.12495214362305686
+          ],
+          [
+            0.23288474304084034,
+            0.19309184773519694,
+            0.07392446428550431
+          ],
+          [
+            0.3250533485302534,
+            0.34016362602967987,
+            0.21625228314609005
+          ]
+        ],
+        "threshold_notes": {
+          "fallback": [
+            [
+              false,
+              false,
+              false
+            ],
+            [
+              false,
+              false,
+              false
+            ],
+            [
+              false,
+              false,
+              false
+            ],
+            [
+              false,
+              false,
+              false
+            ],
+            [
+              false,
+              false,
+              false
+            ]
+          ],
+          "negative_counts": [
+            [
+              146,
+              145,
+              167
+            ],
+            [
+              157,
+              145,
+              155
+            ],
+            [
+              141,
+              140,
+              171
+            ],
+            [
+              151,
+              158,
+              173
+            ],
+            [
+              151,
+              135,
+              167
+            ]
+          ],
+          "unit": "district-group negative cells",
+          "target_fpr": 0.025
+        },
+        "window_days": 90,
+        "alpha": 0.025,
+        "maturity_days": 28,
+        "asof": "2026-10-01 00:00:00",
+        "probability_start": "2026-06-05 00:00:00",
+        "probability_end": "2026-07-20 00:00:00",
+        "threshold_end_exclusive": "2026-09-03 00:00:00",
+        "last_label_time": "2026-09-02 18:00:00",
+        "label_counts": {
+          "probability_cells": 2700,
+          "threshold_cells": 2700
+        }
+      },
+      "rolling_neural": {
+        "probability": [
+          {
+            "slope": 1.0784210897768123,
+            "intercept": 0.2235057878608112,
+            "fallback": false
+          },
+          {
+            "slope": 1.0684578667984255,
+            "intercept": 0.17488543883572574,
+            "fallback": false
+          },
+          {
+            "slope": 0.9915730234659472,
+            "intercept": 0.02837584977569254,
+            "fallback": false
+          }
+        ],
+        "threshold": [
+          [
+            0.36969370118772477,
+            0.3759244465574305,
+            0.1708794789186792
+          ],
+          [
+            0.30756380774948877,
+            0.3228152950458283,
+            0.18135807454067313
+          ],
+          [
+            0.31325612815165216,
+            0.27015704451031036,
+            0.12495214362305686
+          ],
+          [
+            0.23288474304084034,
+            0.19309184773519694,
+            0.07392446428550431
+          ],
+          [
+            0.3250533485302534,
+            0.34016362602967987,
+            0.21625228314609005
+          ]
+        ],
+        "threshold_notes": {
+          "fallback": [
+            [
+              false,
+              false,
+              false
+            ],
+            [
+              false,
+              false,
+              false
+            ],
+            [
+              false,
+              false,
+              false
+            ],
+            [
+              false,
+              false,
+              false
+            ],
+            [
+              false,
+              false,
+              false
+            ]
+          ],
+          "negative_counts": [
+            [
+              146,
+              145,
+              167
+            ],
+            [
+              157,
+              145,
+              155
+            ],
+            [
+              141,
+              140,
+              171
+            ],
+            [
+              151,
+              158,
+              173
+            ],
+            [
+              151,
+              135,
+              167
+            ]
+          ],
+          "unit": "district-group negative cells",
+          "target_fpr": 0.025
+        },
+        "window_days": 90,
+        "alpha": 0.025,
+        "maturity_days": 28,
+        "asof": "2026-10-01 00:00:00",
+        "probability_start": "2026-06-05 00:00:00",
+        "probability_end": "2026-07-20 00:00:00",
+        "threshold_end_exclusive": "2026-09-03 00:00:00",
+        "last_label_time": "2026-09-02 18:00:00",
+        "label_counts": {
+          "probability_cells": 2700,
+          "threshold_cells": 2700
+        }
+      },
+      "rolling_baseline": {
+        "probability": [
+          {
+            "slope": 0.6758250026855829,
+            "intercept": -0.5023697737667918,
+            "fallback": false
+          },
+          {
+            "slope": 0.7317870375431779,
+            "intercept": -0.41384949749548683,
+            "fallback": false
+          },
+          {
+            "slope": 0.9715172401915743,
+            "intercept": 0.01189487169391194,
+            "fallback": false
+          }
+        ],
+        "threshold": [
+          [
+            0.23531559929789597,
+            0.24985343256230033,
+            0.17074937984461092
+          ],
+          [
+            0.18815870401306545,
+            0.24232545119029958,
+            0.17904167257387446
+          ],
+          [
+            0.22606349838438444,
+            0.22676941527145814,
+            0.14478881305720304
+          ],
+          [
+            0.22429691527115117,
+            0.2016075408584978,
+            0.09195830951080107
+          ],
+          [
+            0.22116279186878507,
+            0.2541796501879037,
+            0.21948757738222363
+          ]
+        ],
+        "threshold_notes": {
+          "fallback": [
+            [
+              false,
+              false,
+              false
+            ],
+            [
+              false,
+              false,
+              false
+            ],
+            [
+              false,
+              false,
+              false
+            ],
+            [
+              false,
+              false,
+              false
+            ],
+            [
+              false,
+              false,
+              false
+            ]
+          ],
+          "negative_counts": [
+            [
+              146,
+              145,
+              167
+            ],
+            [
+              157,
+              145,
+              155
+            ],
+            [
+              141,
+              140,
+              171
+            ],
+            [
+              151,
+              158,
+              173
+            ],
+            [
+              151,
+              135,
+              167
+            ]
+          ],
+          "unit": "district-group negative cells",
+          "target_fpr": 0.025
+        },
+        "window_days": 90,
+        "alpha": 0.025,
+        "maturity_days": 28,
+        "asof": "2026-10-01 00:00:00",
+        "probability_start": "2026-06-05 00:00:00",
+        "probability_end": "2026-07-20 00:00:00",
+        "threshold_end_exclusive": "2026-09-03 00:00:00",
+        "last_label_time": "2026-09-02 18:00:00",
+        "label_counts": {
+          "probability_cells": 2700,
+          "threshold_cells": 2700
+        }
+      }
+    }
+  },
+  "raw_new_data_downloaded": false,
+  "test_outcomes_used_for_selection": false,
+  "r12_forecasts_reproduced": true
+}

@@ -1,0 +1,203 @@
+{
+  "stage": "13_last_seattle_recalibration_attempt",
+  "history_sha256": "9850bbc536587cdb7ea182f21ded663568430350f8afae647f8bd1c65898305e",
+  "r12_complete_sha256": "c3e2e53670bd8a8c5500942f6e0e7289d4b3a96488ee93a7a6ad5f4f0c523f17",
+  "r12_plan_sha256": "05d4dc1ca51d5f39b8507d7c669a232f130df4d1ff23bc502bc33e0904e9570a",
+  "code_sha256": {
+    "adaptive_alarm.py": "5ed0e9feef52d25e7c5b4efa776495c0313117d360f4c6bcc9ea1846ee220704",
+    "adaptive_alarm_experiment.py": "393647072177727eaa560d90dd8895b84783151799d92c2c7f81f59c7a73a412",
+    "offline_forecast.py": "bb7be37ae37d0ea858637cc8d1af65ffe0b5bb119cbc7d381fc04b814cbb1db7",
+    "expanded_forecast.py": "c84f66fd5234dfac6daa65259f52211ea5d0f87ab3008244e9be89a3d3646a4b",
+    "spatiotemporal.py": "ae4327eed64df3eafea8441c29c22aee7b7664c83228abfe0b5de219d286c8c2"
+  },
+  "neural": "R12 frozen local ensemble seeds331/337/349; no retraining or feature changes",
+  "candidates": [
+    {
+      "id": "local_neural_w90_a010",
+      "method": "local_neural",
+      "window_days": 90,
+      "alpha": 0.01
+    },
+    {
+      "id": "local_neural_w90_a025",
+      "method": "local_neural",
+      "window_days": 90,
+      "alpha": 0.025
+    },
+    {
+      "id": "local_neural_w90_a050",
+      "method": "local_neural",
+      "window_days": 90,
+      "alpha": 0.05
+    },
+    {
+      "id": "local_neural_w180_a010",
+      "method": "local_neural",
+      "window_days": 180,
+      "alpha": 0.01
+    },
+    {
+      "id": "local_neural_w180_a025",
+      "method": "local_neural",
+      "window_days": 180,
+      "alpha": 0.025
+    },
+    {
+      "id": "local_neural_w180_a050",
+      "method": "local_neural",
+      "window_days": 180,
+      "alpha": 0.05
+    },
+    {
+      "id": "local_neural_w365_a010",
+      "method": "local_neural",
+      "window_days": 365,
+      "alpha": 0.01
+    },
+    {
+      "id": "local_neural_w365_a025",
+      "method": "local_neural",
+      "window_days": 365,
+      "alpha": 0.025
+    },
+    {
+      "id": "local_neural_w365_a050",
+      "method": "local_neural",
+      "window_days": 365,
+      "alpha": 0.05
+    },
+    {
+      "id": "recent_calendar_w90_a010",
+      "method": "recent_calendar",
+      "window_days": 90,
+      "alpha": 0.01
+    },
+    {
+      "id": "recent_calendar_w90_a025",
+      "method": "recent_calendar",
+      "window_days": 90,
+      "alpha": 0.025
+    },
+    {
+      "id": "recent_calendar_w90_a050",
+      "method": "recent_calendar",
+      "window_days": 90,
+      "alpha": 0.05
+    },
+    {
+      "id": "recent_calendar_w180_a010",
+      "method": "recent_calendar",
+      "window_days": 180,
+      "alpha": 0.01
+    },
+    {
+      "id": "recent_calendar_w180_a025",
+      "method": "recent_calendar",
+      "window_days": 180,
+      "alpha": 0.025
+    },
+    {
+      "id": "recent_calendar_w180_a050",
+      "method": "recent_calendar",
+      "window_days": 180,
+      "alpha": 0.05
+    },
+    {
+      "id": "recent_calendar_w365_a010",
+      "method": "recent_calendar",
+      "window_days": 365,
+      "alpha": 0.01
+    },
+    {
+      "id": "recent_calendar_w365_a025",
+      "method": "recent_calendar",
+      "window_days": 365,
+      "alpha": 0.025
+    },
+    {
+      "id": "recent_calendar_w365_a050",
+      "method": "recent_calendar",
+      "window_days": 365,
+      "alpha": 0.05
+    },
+    {
+      "id": "seasonal_w90_a010",
+      "method": "seasonal",
+      "window_days": 90,
+      "alpha": 0.01
+    },
+    {
+      "id": "seasonal_w90_a025",
+      "method": "seasonal",
+      "window_days": 90,
+      "alpha": 0.025
+    },
+    {
+      "id": "seasonal_w90_a050",
+      "method": "seasonal",
+      "window_days": 90,
+      "alpha": 0.05
+    },
+    {
+      "id": "seasonal_w180_a010",
+      "method": "seasonal",
+      "window_days": 180,
+      "alpha": 0.01
+    },
+    {
+      "id": "seasonal_w180_a025",
+      "method": "seasonal",
+      "window_days": 180,
+      "alpha": 0.025
+    },
+    {
+      "id": "seasonal_w180_a050",
+      "method": "seasonal",
+      "window_days": 180,
+      "alpha": 0.05
+    },
+    {
+      "id": "seasonal_w365_a010",
+      "method": "seasonal",
+      "window_days": 365,
+      "alpha": 0.01
+    },
+    {
+      "id": "seasonal_w365_a025",
+      "method": "seasonal",
+      "window_days": 365,
+      "alpha": 0.025
+    },
+    {
+      "id": "seasonal_w365_a050",
+      "method": "seasonal",
+      "window_days": 365,
+      "alpha": 0.05
+    }
+  ],
+  "scenarios": {
+    "primary": {
+      "lag_days": 7,
+      "publication_days": 3
+    },
+    "delayed_stress": {
+      "lag_days": 14,
+      "publication_days": 7
+    }
+  },
+  "development": "all already inspected:2025 and Jan-Sep2026; both used for operating-point selection",
+  "target": "unchanged R11/R12 excess above primary adaptive background",
+  "update": "monthly; prior90/180/365days ending28days before update; chronological halves for probability and regional thresholds; targets known at update",
+  "selection": "prefer FPR<=.05 and recall>=.10 in both development periods; maximize worst-period precision then pooledF0.5; FPR-safe fallback maximizesF0.5; no safe point fallback minimizes maximumFPR",
+  "primary_group": "all; secondary groups reuse the primary selected configuration",
+  "final_control": "Seattle October2026; full month preliminary, first21days mature sensitivity; fewer than4paired14dayblocks => no interval claim",
+  "criteria": {
+    "precision": 0.3,
+    "recall": 0.1,
+    "fpr": 0.05,
+    "ap_above_optimized_simple": true,
+    "brier_improvement": true
+  },
+  "no_future_weather_or_zero_lag_sensitivity": true,
+  "planned_snapshot_date": "2026-11-22"
+}

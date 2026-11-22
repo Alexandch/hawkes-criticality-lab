@@ -1,0 +1,16 @@
+{
+  "base_revision": "c2bb333ce5a6c99dc7906b5376f5b56c743c11ca",
+  "base_pages": 53,
+  "base_sha256": "e84744fb1511e5738f03cc97be9cc744adae3b15ae1fb08b2096734e323f9224",
+  "supplement_pages": 4,
+  "total_pages": 57,
+  "output_sha256": "caec20cd6fd903d92639b765b85ccc1325524c0934ccde372832e28bf79ebdee",
+  "builder_sha256": "9cdc30612f02cd38321f2def4e33438ddea54ac31a2e6a4421a13f04aae249c2",
+  "source_sha256": {
+    "results/adaptive_seattle_detector/headline.csv": "125ad39ec9eda642a58b03cda670d3f0f514046bee1ca65f57eade12594ef2ad",
+    "results/adaptive_seattle_detector/frozen_plan.json": "f6e5e86e70b873580040b086f553af26a6dfd7f1a1fc070df2d37a92f2e3075f",
+    "results/adaptive_seattle_detector/assessment.json": "a0ed9e1d14d0c591575f48b3012c6f43cc20e5ad64bdc59c0e4471781863764a",
+    "report/assets/adaptive_october.png": "10428aa5a0d627183eb8e6939fe3a3b20706cf9271e504e58fc4b76d1de50bbd",
+    "report/assets/adaptive_development.png": "39abe11859c8ef6ff65af86ef02e5bfb5407519ce32ed0b4dd364ee4c1759779"
+  }
+}

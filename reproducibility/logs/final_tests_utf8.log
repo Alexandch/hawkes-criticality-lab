@@ -1,3 +1,11 @@
+test_fbeta_and_false_alarm_denominators (test_adaptive_alarm.AdaptiveAlarmTests.test_fbeta_and_false_alarm_denominators) ... ok
+test_future_labels_and_scores_cannot_change_an_earlier_policy (test_adaptive_alarm.AdaptiveAlarmTests.test_future_labels_and_scores_cannot_change_an_earlier_policy) ... ok
+test_joint_selection_prefers_safe_feasible_point_over_large_ap_or_fbeta (test_adaptive_alarm.AdaptiveAlarmTests.test_joint_selection_prefers_safe_feasible_point_over_large_ap_or_fbeta) ... ok
+test_no_safe_candidate_fallback_minimizes_fpr (test_adaptive_alarm.AdaptiveAlarmTests.test_no_safe_candidate_fallback_minimizes_fpr) ... ok
+test_october_extension_preserves_history_and_deduplicates_cases (test_adaptive_alarm.AdaptiveAlarmTests.test_october_extension_preserves_history_and_deduplicates_cases) ... ok
+test_probability_threshold_and_maturity_blocks_are_disjoint_and_past (test_adaptive_alarm.AdaptiveAlarmTests.test_probability_threshold_and_maturity_blocks_are_disjoint_and_past) ... ok
+test_short_new_test_never_proves_full_utility (test_adaptive_alarm.AdaptiveAlarmTests.test_short_new_test_never_proves_full_utility) ... ok
+test_tied_scores_conservatively_abstain_and_have_no_fake_precision (test_adaptive_alarm.AdaptiveAlarmTests.test_tied_scores_conservatively_abstain_and_have_no_fake_precision) ... ok
 test_failed_fits_remain_missing_and_reduce_all_trial_accuracy (test_background_models.BackgroundModelsTests.test_failed_fits_remain_missing_and_reduce_all_trial_accuracy) ... ok
 test_fixed_background_concave_solver_matches_independent_bounded_search (test_background_models.BackgroundModelsTests.test_fixed_background_concave_solver_matches_independent_bounded_search) ... ok
 test_forecast_horizon_and_future_events_do_not_change_past_fit (test_background_models.BackgroundModelsTests.test_forecast_horizon_and_future_events_do_not_change_past_fit) ... ok
@@ -110,6 +118,6 @@ test_likelihood_matches_existing_grouped_event_likelihood (test_window_features.
 test_recording_events_preserves_counts_and_simulator_stream (test_window_features.WindowFeatureTests.test_recording_events_preserves_counts_and_simulator_stream) ... ok
 
 ----------------------------------------------------------------------
-Ran 110 tests in 146.542s
+Ran 118 tests in 74.821s
 
 OK
