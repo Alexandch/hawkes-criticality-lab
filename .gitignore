@@ -34,6 +34,7 @@ secrets.json
 /data/**/*.npz
 /data/**/*.sqlite
 /data/**/*.partial
+/data/**/*.dly
 
 # Large simulation caches are regenerated from the saved protocols
 /results/**/*.npz
@@ -42,6 +43,7 @@ secrets.json
 !/results/empirical_transfer/data/*.npz
 /runs/
 /.publication-review/
+/tmp/pdfs/
 
 # Large per-observation tables; summaries, operating metrics and models remain
 /results/**/trajectory_metrics.csv

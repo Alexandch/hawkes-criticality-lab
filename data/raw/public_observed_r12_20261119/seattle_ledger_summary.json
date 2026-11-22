@@ -1,0 +1,12 @@
+{
+  "records": 2402,
+  "new": 2402,
+  "changed": 0,
+  "cached": false,
+  "observed_at": "2026-11-19T16:58:59.642694+00:00",
+  "sha256": "6fed02cc9a75fb1102f4d76612330fabc608708251907ef248f82331e673ee3d",
+  "caveat": "absence from this scope does not imply deletion; first_seen begins at actual snapshot observation, not historical incident time",
+  "source_manifest_sha256": "918cdeae46870ccba8ac8d47492f63d85b1b406334b5fb045f99607120700dfe",
+  "prospective_forecasts_issued": false,
+  "notes": "first-seen begins now; recording alone does not validate prediction accuracy"
+}

@@ -1,0 +1,28 @@
+{
+  "successful": true,
+  "protocol_sha256": "9a2eff181932089bf6aedf195a581350b375552d034df2b51036752539064321",
+  "complete_sha256": "c3e2e53670bd8a8c5500942f6e0e7289d4b3a96488ee93a7a6ad5f4f0c523f17",
+  "verifier_sha256": "3ace661c19bf20be3b6c4da54c86f447dc785de6e6af7f423224a72e2039a5ec",
+  "cases": {
+    "chicago": 1189263,
+    "san_francisco": 426309,
+    "nyc": 2053043,
+    "seattle": 383703
+  },
+  "districts": {
+    "chicago": 22,
+    "san_francisco": 10,
+    "nyc": 77,
+    "seattle": 5
+  },
+  "frozen_forecast_files": 8,
+  "checks": [
+    "source and input hashes",
+    "new-city event-grid reconstruction",
+    "quality-filtered NOAA reparse",
+    "all neural and tree forecast replay",
+    "outcome-free prediction journal",
+    "all metrics and district/month tables replay"
+  ],
+  "limits": "retrospective source snapshots do not establish historical publication times or prospective usefulness"
+}

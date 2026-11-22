@@ -1,0 +1,9 @@
+{
+  "station": "USW00094846",
+  "url": "https://www.ncei.noaa.gov/pub/data/ghcn/daily/all/USW00094846.dly",
+  "sha256": "709523acad487042828ef1988338bed98cb39db368b8e1cbe02eb0f7b6706e25",
+  "retrieved_utc": "2026-11-19T16:46:09.254173+00:00",
+  "source": "NOAA GHCN-Daily",
+  "documentation": "https://www.ncei.noaa.gov/pub/data/ghcn/daily/readme.txt",
+  "warning": "current revised observations; historical publication times not provided"
+}

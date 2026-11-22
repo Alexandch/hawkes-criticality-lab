@@ -1,0 +1,27 @@
+{
+  "city": "seattle",
+  "station": "USW00024233",
+  "start": "2019-01-01",
+  "end_exclusive": "2026-10-01",
+  "elements": [
+    "TMAX",
+    "TMIN",
+    "PRCP",
+    "SNOW"
+  ],
+  "units": [
+    "degrees C",
+    "degrees C",
+    "mm",
+    "mm"
+  ],
+  "missing_fraction": {
+    "TMAX": 0.0,
+    "TMIN": 0.00035335689045936394,
+    "PRCP": 0.0021201413427561835,
+    "SNOW": 0.0
+  },
+  "input_sha256": "47bc00a221ee28f1bc06f341ba06afd96e1bd5c42ac0010e52061a80cd6c021b",
+  "panel_sha256": "91b0c5cd82f143040754a453715e8b4a88bef428c12d05a67ede969b77ef890d",
+  "availability": "daily observation with assumed 5-day lag; not target-interval weather or verified historical release"
+}

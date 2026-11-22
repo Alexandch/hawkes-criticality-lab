@@ -1,0 +1,138 @@
+{
+  "reason": "NYPD public YTD source is Quarterly, latest report2026-09-30; former report+3day assumption was optimistic",
+  "source": "https://data.cityofnewyork.us/resource/5uac-w243",
+  "amendment_before_frozen_plan_and_test": true,
+  "old_protocol_sha256": "252cd7f4014a74e6ddfd2bafc6e03432178c625125ad016a3bd31dae2ce82118",
+  "old_protocol": {
+    "stage": "12_four_city_expansion",
+    "cities": [
+      "chicago",
+      "san_francisco",
+      "nyc",
+      "seattle"
+    ],
+    "groups": [
+      "all",
+      "property",
+      "assault_robbery"
+    ],
+    "methods": [
+      "seasonal",
+      "recent_calendar",
+      "local_neural",
+      "pooled_neural",
+      "weather_neural",
+      "boosted15",
+      "boosted31"
+    ],
+    "seeds": [
+      331,
+      337,
+      349
+    ],
+    "epochs": 120,
+    "scenarios": {
+      "primary": {
+        "lag_days": 7,
+        "publication_days": 3,
+        "weather_lag": 5
+      },
+      "delayed_stress": {
+        "lag_days": 14,
+        "publication_days": 7,
+        "weather_lag": 10
+      }
+    },
+    "splits": {
+      "train": [
+        "2019-03-02 00:00:00",
+        "2023-12-03 18:00:00"
+      ],
+      "validation": [
+        "2024-01-01 00:00:00",
+        "2024-06-02 18:00:00"
+      ],
+      "probability_calibration": [
+        "2024-07-01 00:00:00",
+        "2024-07-31 18:00:00"
+      ],
+      "alarm_calibration": [
+        "2024-08-01 00:00:00",
+        "2024-12-03 18:00:00"
+      ],
+      "test2025": [
+        "2025-01-01 00:00:00",
+        "2025-12-31 18:00:00"
+      ],
+      "test2026": [
+        "2026-01-01 00:00:00",
+        "2026-09-30 18:00:00"
+      ]
+    },
+    "target": "R11: N >= ceil(primary adaptive background + max(2,.5*primary adaptive background))",
+    "selection": "per city/group maximum validation AP; tied by method name; baseline chosen on validation AP; no test tuning",
+    "alarm": "regional 5% negative-cell FPR thresholds on separate past calibration; no guarantee on future cells",
+    "probability_calibration": "monotone Platt on July2024 only; alarm calibration August1-December3",
+    "train_target_availability": "known by2024-01-01; validation by2024-07-01; calibration by2025-01-01; 28day maturity exclusions",
+    "neural": "local vs city-balanced pooled; same per-city sampling budget; 3 seeds; Poisson residual count plus BCE risk",
+    "weather": "quality-filtered NOAA observations delayed5days; stress10days; no actual future weather; historical publication times assumed",
+    "trees": "240000 city-balanced training-only rows, no class reweighting; 160 iterations, leaves15/31, lr.05, L2=10, no internal shuffled validation",
+    "practical_screen": {
+      "minimum_precision": 0.3,
+      "minimum_recall": 0.1,
+      "maximum_fpr": 0.05,
+      "ap_beats_simple_baseline": true,
+      "brier_improvement_ci_high_below_zero": true
+    },
+    "novelty": "NYC/Seattle district outcomes not previously used in R10/R11; Chicago/SF holdout periods already inspected; all retrospective,2026preliminary",
+    "groups_dependent": "all includes both exclusive groups; these are distinct targets, not independent replications",
+    "panel_sha256": {
+      "chicago": "15c54deb20c959758f2a056b23faa30e9f40a4a6835f1426523f9fcf57c5f468",
+      "san_francisco": "6fc0346e321fd36421d4c8db6a940f66fd63a6f2190fc0afa7c18c82dff7e51e",
+      "nyc": "baaf1d66a5b806e30c940e162205371a6a44cc0afb31e63b1b6631d2150f4ba1",
+      "seattle": "9850bbc536587cdb7ea182f21ded663568430350f8afae647f8bd1c65898305e"
+    },
+    "weather_sha256": {
+      "chicago": "6baec46b432f3f92b4ec7a9e7f055dc13f57b70da0c0843ff4b702aae284cda0",
+      "san_francisco": "e716f24ab951a67dbf1eee20044c02f042995ffafb6f370e4be0095398d65079",
+      "nyc": "50840722f230503eb1779a648d82dcc6a8205e1db6d05f680c3166571d986620",
+      "seattle": "91b0c5cd82f143040754a453715e8b4a88bef428c12d05a67ede969b77ef890d"
+    },
+    "code_sha256": {
+      "expanded_forecast.py": "05f27f2e148e7d29bc5fe52356184a6810a928b2b20cf424880347c2aff324b1",
+      "expanded_experiment.py": "0b10eef4bc7475690a75116cc53079ba6521a129c2ac778737f741f109e35805",
+      "offline_forecast.py": "bb7be37ae37d0ea858637cc8d1af65ffe0b5bb119cbc7d381fc04b814cbb1db7",
+      "spatiotemporal.py": "ae4327eed64df3eafea8441c29c22aee7b7664c83228abfe0b5de219d286c8c2"
+    },
+    "preparation_sha256": "985e8cf8968b7fd5d282697c64d8198a29554ad511b9e12f8365cf37de836e2c",
+    "versions": {
+      "python": "3.14.7",
+      "numpy": "2.5.3",
+      "pandas": "3.0.6",
+      "torch": "2.14.1+cpu",
+      "sklearn": "1.9.1"
+    }
+  },
+  "reused_models": [
+    "local_chicago_s331.csv",
+    "local_chicago_s331.pt",
+    "local_chicago_s337.csv",
+    "local_chicago_s337.pt",
+    "local_chicago_s349.csv",
+    "local_chicago_s349.pt",
+    "local_san_francisco_s331.csv",
+    "local_san_francisco_s331.pt",
+    "local_san_francisco_s337.csv",
+    "local_san_francisco_s337.pt",
+    "local_san_francisco_s349.csv",
+    "local_san_francisco_s349.pt",
+    "local_seattle_s331.csv",
+    "local_seattle_s331.pt",
+    "local_seattle_s337.csv",
+    "local_seattle_s337.pt",
+    "local_seattle_s349.csv",
+    "local_seattle_s349.pt"
+  ],
+  "reuse_scope": "only unchanged local Chicago/SF/Seattle inputs and objectives; NYC and shared models retrained",
+  "correction": "assumed report quarter end+45days; stress+90days; calibrate on published July and Aug-Sep2024 labels only"
+}

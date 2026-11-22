@@ -1,0 +1,27 @@
+{
+  "city": "chicago",
+  "station": "USW00094846",
+  "start": "2019-01-01",
+  "end_exclusive": "2026-10-01",
+  "elements": [
+    "TMAX",
+    "TMIN",
+    "PRCP",
+    "SNOW"
+  ],
+  "units": [
+    "degrees C",
+    "degrees C",
+    "mm",
+    "mm"
+  ],
+  "missing_fraction": {
+    "TMAX": 0.0,
+    "TMIN": 0.0,
+    "PRCP": 0.0,
+    "SNOW": 0.0
+  },
+  "input_sha256": "709523acad487042828ef1988338bed98cb39db368b8e1cbe02eb0f7b6706e25",
+  "panel_sha256": "6baec46b432f3f92b4ec7a9e7f055dc13f57b70da0c0843ff4b702aae284cda0",
+  "availability": "daily observation with assumed 5-day lag; not target-interval weather or verified historical release"
+}

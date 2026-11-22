@@ -1,0 +1,19 @@
+{
+  "city": "nyc",
+  "year": 2021,
+  "rows": 238414,
+  "url": "https://data.cityofnewyork.us/resource/qgea-i56i.csv?%24select=cmplnt_num%2Ccmplnt_fr_dt%2Ccmplnt_fr_tm%2Crpt_dt%2Caddr_pct_cd%2Cofns_desc&%24where=cmplnt_fr_dt+%3E%3D+%272021-01-01T00%3A00%3A00%27+AND+cmplnt_fr_dt+%3C+%272022-01-01T00%3A00%3A00%27+AND+ofns_desc+in%28%27PETIT+LARCENY%27%2C%27GRAND+LARCENY%27%2C%27GRAND+LARCENY+OF+MOTOR+VEHICLE%27%2C%27BURGLARY%27%2C%27FELONY+ASSAULT%27%2C%27ASSAULT+3+%26+RELATED+OFFENSES%27%2C%27ROBBERY%27%29&%24order=cmplnt_fr_dt%2Ccmplnt_num&%24limit=1000000",
+  "count_url": "https://data.cityofnewyork.us/resource/qgea-i56i.json?%24select=count%28%2A%29+as+rows&%24where=cmplnt_fr_dt+%3E%3D+%272021-01-01T00%3A00%3A00%27+AND+cmplnt_fr_dt+%3C+%272022-01-01T00%3A00%3A00%27+AND+ofns_desc+in%28%27PETIT+LARCENY%27%2C%27GRAND+LARCENY%27%2C%27GRAND+LARCENY+OF+MOTOR+VEHICLE%27%2C%27BURGLARY%27%2C%27FELONY+ASSAULT%27%2C%27ASSAULT+3+%26+RELATED+OFFENSES%27%2C%27ROBBERY%27%29",
+  "columns": [
+    "cmplnt_num",
+    "cmplnt_fr_dt",
+    "cmplnt_fr_tm",
+    "rpt_dt",
+    "addr_pct_cd",
+    "ofns_desc"
+  ],
+  "sha256": "a57266f99f3505552200e5ea1897cbb5d3fa868f7c191327b83b38cec3917609",
+  "retrieved_utc": "2026-11-19T16:30:52.895999+00:00",
+  "start": "2021-01-01T00:00:00",
+  "end_exclusive": "2022-01-01T00:00:00"
+}

@@ -1,0 +1,11 @@
+{
+  "status": "research_prototype_offline_only",
+  "practical_screen": "precision>=.30, recall>=.10, FPR<=.05, AP>validation-chosen simple baseline, paired Brier improvement CI<0",
+  "selected_before_test": true,
+  "prospective_validation_performed": false,
+  "historical_publication_times_verified": false,
+  "novel_city_all_group_slices": 4,
+  "novel_city_all_group_slices_passing": 0,
+  "all_new_city_slices_pass": false,
+  "warning": "an exploratory engineering screen, not proof of operational utility or intervention benefit"
+}

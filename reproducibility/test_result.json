@@ -1,8 +1,8 @@
 {
-  "tests_run": 99,
+  "tests_run": 110,
   "failures": 0,
   "errors": 0,
   "successful": true,
-  "elapsed_seconds": 57.6279336999869,
+  "elapsed_seconds": 158.52608310000505,
   "log": "reproducibility\\logs\\final_tests_utf8.log"
 }

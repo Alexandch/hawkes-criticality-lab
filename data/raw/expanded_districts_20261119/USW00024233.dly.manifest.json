@@ -1,0 +1,9 @@
+{
+  "station": "USW00024233",
+  "url": "https://www.ncei.noaa.gov/pub/data/ghcn/daily/all/USW00024233.dly",
+  "sha256": "47bc00a221ee28f1bc06f341ba06afd96e1bd5c42ac0010e52061a80cd6c021b",
+  "retrieved_utc": "2026-11-19T16:46:08.852700+00:00",
+  "source": "NOAA GHCN-Daily",
+  "documentation": "https://www.ncei.noaa.gov/pub/data/ghcn/daily/readme.txt",
+  "warning": "current revised observations; historical publication times not provided"
+}

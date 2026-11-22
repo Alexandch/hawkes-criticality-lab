@@ -1,0 +1,62 @@
+{
+  "contains_outcomes": false,
+  "frozen_plan_sha256": "05d4dc1ca51d5f39b8507d7c669a232f130df4d1ff23bc502bc33e0904e9570a",
+  "entries": [
+    {
+      "city": "chicago",
+      "scenario": "primary",
+      "file": "forecasts/chicago_primary.npz",
+      "sha256": "905674a9810c0e5669a1c6adb33cb5fdf8b3d98df11b3fb423a97a20ab7581a7",
+      "contains_outcomes": false
+    },
+    {
+      "city": "san_francisco",
+      "scenario": "primary",
+      "file": "forecasts/san_francisco_primary.npz",
+      "sha256": "7bf1d953af9f4dc23d7293a6d1c6afb60abcd2d75c1cdf7464a0af364f5081ca",
+      "contains_outcomes": false
+    },
+    {
+      "city": "nyc",
+      "scenario": "primary",
+      "file": "forecasts/nyc_primary.npz",
+      "sha256": "04bd6c452161960379deb086e9dd9bc6b39eb8de5045a702463f8828a2bc4aab",
+      "contains_outcomes": false
+    },
+    {
+      "city": "seattle",
+      "scenario": "primary",
+      "file": "forecasts/seattle_primary.npz",
+      "sha256": "b5d842e5f313310676ac54e13dc9a3c7ffd4ca3348927faefbbd98c69c274578",
+      "contains_outcomes": false
+    },
+    {
+      "city": "chicago",
+      "scenario": "delayed_stress",
+      "file": "forecasts/chicago_delayed_stress.npz",
+      "sha256": "1fceb3594b6d19a8e0a388fbf0640d5fdf3a71701456d1b8c5a0b7d4bd4838d7",
+      "contains_outcomes": false
+    },
+    {
+      "city": "san_francisco",
+      "scenario": "delayed_stress",
+      "file": "forecasts/san_francisco_delayed_stress.npz",
+      "sha256": "11179a8001fa53dc467d36a95b14ea5d5a4ad0257283fb7c5b4078f37097a312",
+      "contains_outcomes": false
+    },
+    {
+      "city": "nyc",
+      "scenario": "delayed_stress",
+      "file": "forecasts/nyc_delayed_stress.npz",
+      "sha256": "5d90a98097a72ba0f62540c623f1973bc1234739f38f1ccc61b7dac00a33b0ab",
+      "contains_outcomes": false
+    },
+    {
+      "city": "seattle",
+      "scenario": "delayed_stress",
+      "file": "forecasts/seattle_delayed_stress.npz",
+      "sha256": "799ce472881d16fe7ec9313abfb63748779107c788126ed6683b8a6ff4dbab33",
+      "contains_outcomes": false
+    }
+  ]
+}

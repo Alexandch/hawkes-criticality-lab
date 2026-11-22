@@ -1,0 +1,10 @@
+{
+  "city": "nyc",
+  "since": "2026-11-01",
+  "until_exclusive": "2026-11-20",
+  "count_url": "https://data.cityofnewyork.us/resource/5uac-w243.json?%24select=count%28%2A%29+as+rows&%24where=rpt_dt+%3E%3D+%272026-11-01T00%3A00%3A00%27+AND+rpt_dt+%3C+%272026-11-20T00%3A00%3A00%27+AND+ofns_desc+in%28%27PETIT+LARCENY%27%2C%27GRAND+LARCENY%27%2C%27GRAND+LARCENY+OF+MOTOR+VEHICLE%27%2C%27BURGLARY%27%2C%27FELONY+ASSAULT%27%2C%27ASSAULT+3+%26+RELATED+OFFENSES%27%2C%27ROBBERY%27%29",
+  "observed_utc": "2026-11-19T16:58:49.881417+00:00",
+  "rows": 0,
+  "interpretation": "No published records in the requested report-date window; not evidence of no crimes",
+  "source_frequency": "Quarterly"
+}

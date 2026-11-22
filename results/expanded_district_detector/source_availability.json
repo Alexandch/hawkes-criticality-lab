@@ -1,0 +1,77 @@
+{
+  "observed_utc": "2026-11-19T16:59:45.199740+00:00",
+  "sources": [
+    {
+      "city": "chicago",
+      "dataset": "ijzp-q8t2",
+      "metadata_url": "https://data.cityofchicago.org/api/views/ijzp-q8t2.json",
+      "coverage_url": "https://data.cityofchicago.org/resource/ijzp-q8t2.json?%24select=max%28date%29+as+latest",
+      "frequency": {
+        "Metadata": {
+          "Frequency": "Data are updated daily."
+        }
+      },
+      "latest": [
+        {
+          "latest": "2026-11-11T00:00:00.000"
+        }
+      ],
+      "rows_updated_at_utc": "2026-11-19T12:05:54+00:00"
+    },
+    {
+      "city": "san_francisco",
+      "dataset": "wg3w-h783",
+      "metadata_url": "https://data.sfgov.org/api/views/wg3w-h783.json",
+      "coverage_url": "https://data.sfgov.org/resource/wg3w-h783.json?%24select=max%28report_datetime%29+as+latest",
+      "frequency": {
+        "Publishing Details": {
+          "Data change frequency": "Hourly",
+          "Publishing frequency": "Daily"
+        }
+      },
+      "latest": [
+        {
+          "latest": "2026-11-17T03:03:00.000"
+        }
+      ],
+      "rows_updated_at_utc": "2026-11-18T17:58:40+00:00"
+    },
+    {
+      "city": "nyc",
+      "dataset": "5uac-w243",
+      "metadata_url": "https://data.cityofnewyork.us/api/views/5uac-w243.json",
+      "coverage_url": "https://data.cityofnewyork.us/resource/5uac-w243.json?%24select=max%28rpt_dt%29+as+latest",
+      "frequency": {
+        "Update": {
+          "Update Frequency": "Quarterly"
+        }
+      },
+      "latest": [
+        {
+          "latest": "2026-09-30T00:00:00.000"
+        }
+      ],
+      "rows_updated_at_utc": "2026-11-05T21:20:50+00:00"
+    },
+    {
+      "city": "seattle",
+      "dataset": "tazs-3rd5",
+      "metadata_url": "https://data.seattle.gov/api/views/tazs-3rd5.json",
+      "coverage_url": "https://data.seattle.gov/resource/tazs-3rd5.json?%24select=max%28report_date_time%29+as+latest",
+      "frequency": {
+        "Refresh Frequency": {
+          "Frequency": "Daily"
+        }
+      },
+      "latest": [
+        {
+          "latest": "2026-11-17T23:17:29.000"
+        }
+      ],
+      "rows_updated_at_utc": "2026-11-18T16:27:08+00:00"
+    }
+  ],
+  "nyc": "Quarterly source is unsuitable as a recent event feed for6h alerts; model uses assumed quarter-end+45day release and stress+90days",
+  "historical_publication_times_reconstructed": false,
+  "weather": "5day lag, stress10day; exact historical NOAA release times unknown"
+}

@@ -1,0 +1,9 @@
+{
+  "station": "USW00094728",
+  "url": "https://www.ncei.noaa.gov/pub/data/ghcn/daily/all/USW00094728.dly",
+  "sha256": "7fb0dc46b5a1222b8b3066e191decea93a2f993f783654ec7b6a4787e506d2ca",
+  "retrieved_utc": "2026-11-19T16:46:09.468988+00:00",
+  "source": "NOAA GHCN-Daily",
+  "documentation": "https://www.ncei.noaa.gov/pub/data/ghcn/daily/readme.txt",
+  "warning": "current revised observations; historical publication times not provided"
+}

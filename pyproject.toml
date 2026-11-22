@@ -17,6 +17,8 @@ dependencies = [
 [project.optional-dependencies]
 neural = ["torch>=2.3"]
 fast = ["numba>=0.63"]
+expanded = ["torch>=2.3", "scikit-learn==1.9.1", "threadpoolctl>=3.5"]
+report = ["reportlab>=4", "pypdf>=5"]
 
 [project.scripts]
 critical-processes = "critical_processes.cli:main"

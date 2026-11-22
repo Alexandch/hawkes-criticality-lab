@@ -1,0 +1,19 @@
+{
+  "stage": "R12",
+  "source_sha256": {
+    "results/expanded_district_detector/headline.csv": "3148eb793eeb5d28717da7bdfdd057cbe4d8eb8fa9a2717d3876f5936c737482",
+    "results/expanded_district_detector/metrics.csv": "0913f4ebd0e0d86e478e3af66bb09e3fbbe5592b09bf68e6e9ab4ed3421cf4b1",
+    "results/expanded_district_detector/protocol.json": "9a2eff181932089bf6aedf195a581350b375552d034df2b51036752539064321"
+  },
+  "renderer_sha256": "e95e911912a4d3bb9f41a88718f4d0530e406e9589a0308d29bcd2ec102b3b85",
+  "assets": [
+    {
+      "file": "report/assets/expanded_operating.png",
+      "sha256": "e96ff9152bc7c5f88a7c0b905eba6722180c3fedf1f478f70e79b8c0326c86a9"
+    },
+    {
+      "file": "report/assets/expanded_ablation.png",
+      "sha256": "654caa72c298cee3889c6549d396aa45b6596a6916e1a0abe1ea747ab709b3d9"
+    }
+  ]
+}

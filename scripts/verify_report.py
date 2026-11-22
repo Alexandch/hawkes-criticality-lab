@@ -19,7 +19,7 @@ def main():
     root = Path(__file__).resolve().parents[1]
     report = root / "report"
     test_result = json.loads((root / "reproducibility/test_result.json").read_text(encoding="utf-8"))
-    assert test_result["successful"] and test_result["tests_run"] == 99
+    assert test_result["successful"] and test_result["tests_run"] == 110
     assert test_result["failures"] == test_result["errors"] == 0
     documents = [root / "README.md"]
     assert verify_archive(root) == 37
@@ -43,7 +43,7 @@ def main():
             assert text.count("n<sup>*</sup>") == 2
             assert "итоговая редакция" in text.lower()
             figures = [int(v) for v in re.findall(r"(?m)^\*Рисунок (\d+)\.", text)]
-            assert figures == list(range(1, 21)), "figure captions must be sequential"
+            assert figures == list(range(1, 23)), "figure captions must be sequential"
         table_width = None
         in_code = False
         for number, line in enumerate(text.splitlines(), 1):
@@ -200,7 +200,33 @@ def main():
         assert digest(new_summary / name) == value
     interpreted = pd.read_csv(new_summary / "interpretable_differences.csv")
     assert interpreted.loc[interpreted.blocks < 4, "mae_ci_low"].isna().all()
-    print(f"Verified {len(documents)} Markdown documents, {links} local links, {len(manifest['assets'])} figure copies, P1/R1-R11 result cells and unchanged frozen final metrics.")
+    expanded = root / 'results/expanded_district_detector'
+    expanded_protocol = json.loads((expanded / 'protocol.json').read_text(encoding='utf-8'))
+    for name, value in expanded_protocol['code_sha256'].items():
+        assert digest(root / 'src/critical_processes' / name) == value
+    assert digest(root / 'scripts/prepare_expanded_districts.py') == expanded_protocol['preparation_sha256']
+    for name, value in json.loads((expanded / 'complete.json').read_text(encoding='utf-8'))['artifact_sha256'].items():
+        assert digest(expanded / name) == value
+    verification = json.loads((expanded / 'verification.json').read_text(encoding='utf-8'))
+    assert verification['successful'] and verification['frozen_forecast_files'] == 8
+    assert sum(verification['districts'].values()) == 114
+    assert len(pd.read_csv(expanded / 'metrics.csv')) == 336
+    assert len(pd.read_csv(expanded / 'headline.csv')) == 48
+    expanded_assets = json.loads((report / 'assets/expanded_manifest.json').read_text(encoding='utf-8'))
+    for name, value in expanded_assets['source_sha256'].items():assert digest(root / name) == value
+    for item in expanded_assets['assets']:assert digest(root / item['file']) == item['sha256']
+    data_accounting = pd.read_csv(expanded / 'data_summary.csv')
+    assert data_accounting.common_scope_cases.sum() == 4036805
+    assert data_accounting.train_cases.sum() == 2354861
+    assert data_accounting.districts.sum() == 114
+    pdf_build = json.loads((root / 'output/pdf/r12_build.json').read_text(encoding='utf-8'))
+    assert pdf_build['total_pages'] == 53 and pdf_build['base_pages'] == 48
+    assert digest(root / 'output/pdf/hawkes_criticality_report.pdf') == pdf_build['output_sha256']
+    assert digest(root / 'scripts/append_expanded_pdf.py') == pdf_build['builder_sha256']
+    for name, value in pdf_build['source_sha256'].items():assert digest(root / name) == value
+    pdf_qa = json.loads((root / 'output/pdf/r12_qa.json').read_text(encoding='utf-8'))
+    assert pdf_qa['successful'] and pdf_qa['sha256'] == pdf_build['output_sha256']
+    print(f"Verified {len(documents)} Markdown documents, {links} local links, {len(manifest['assets'])+2} figure copies, P1/R1-R12 result cells and unchanged frozen final metrics.")
 
 
 if __name__ == "__main__":

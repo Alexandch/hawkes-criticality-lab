@@ -1,0 +1,44 @@
+{
+  "city": "seattle",
+  "raw_rows": 404671,
+  "cases": 383703,
+  "districts": [
+    "EAST",
+    "NORTH",
+    "SOUTH",
+    "SOUTHWEST",
+    "WEST"
+  ],
+  "start": "2019-01-01",
+  "end_exclusive": "2026-10-01",
+  "invalid_rows": 0,
+  "unknown_district_rows": 1784,
+  "conflicting_cases": 86,
+  "duplicate_offense_rows": 19004,
+  "report_missing": 0,
+  "report_delay_over7d": 0.12151064755813741,
+  "raw_sha256": {
+    "data/raw/expanded_districts_20261119/seattle_2019.csv.gz": "eb89ee560ef3ced1b4f64b36ab3077f39fea42694b8f81d4b35d06b49c8b4815",
+    "data/raw/expanded_districts_20261119/seattle_2020.csv.gz": "615f07261109f03c0121f656daefa352df6f717bdd5d753c32b1894ad4966e7e",
+    "data/raw/expanded_districts_20261119/seattle_2021.csv.gz": "b64baf747cb4e74fe37b77a8333d02b27fc44042be4b5c1659992153bd5cf6c5",
+    "data/raw/expanded_districts_20261119/seattle_2022.csv.gz": "16b2e15385398c11a6d552615d9bf54f39f8103b7067046febae12188d9468a9",
+    "data/raw/expanded_districts_20261119/seattle_2023.csv.gz": "0e0e0028ce5f325e097ed4dce97a688f5ce00bd4e8d38501b25ffda4952b0d26",
+    "data/raw/expanded_districts_20261119/seattle_2024.csv.gz": "038e149ed53fb7e4b04f5133c3f6dc5672a7c918b4a259c08cce977969c55d48",
+    "data/raw/expanded_districts_20261119/seattle_2025.csv.gz": "5320248e210c3d0fcc8e0bb1bd811391462b77111e50dc8aeb581512b8b44176",
+    "data/raw/expanded_districts_20261119/seattle_2026.csv.gz": "2af0f611fc6dc0e21efae4d83795c6bc87cf201b31aacf1553cc59fae6f25acb"
+  },
+  "centroid_sha256": "1a6328861112fa5ac204efcc123f8f9fadc625d47d55142f6a017677c84be2d8",
+  "centroid_scope": "January2019 events reported before2023; coarse graph only",
+  "panel_sha256": "9850bbc536587cdb7ea182f21ded663568430350f8afae647f8bd1c65898305e",
+  "scope": [
+    "LARCENY-THEFT",
+    "MOTOR VEHICLE THEFT",
+    "BURGLARY",
+    "ASSAULT OFFENSES",
+    "AGGRAVATED ASSAULT",
+    "ROBBERY"
+  ],
+  "report_dates_are_publication_times": false,
+  "report_date_precision": "recorded report timestamp",
+  "notes": "selected registered cases; violence priority for mixed cases; no personal attributes; retrospective revised snapshot"
+}

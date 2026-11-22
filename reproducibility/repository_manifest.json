@@ -10,12 +10,12 @@
       "bytes": 246
     },
     ".gitignore": {
-      "sha256": "f0c00712fc36fafdd75a9cb3c0997b11bb1dd6dc440b954de4cd547e2022ce47",
-      "bytes": 1132
+      "sha256": "5d6babb2e8c921044f92ae7b270e49fdc4fa99411469fcc2a144bd03019a1a3e",
+      "bytes": 1158
     },
     "README.md": {
-      "sha256": "89e556d52ee5022db66b3fa84ddfaed6870fef5de9b20dbc175aa13fb01fc782",
-      "bytes": 107051
+      "sha256": "1f422348970891d1b988ad8d95cb8e78cb4472a18efe5de330af0c51ffb5f67a",
+      "bytes": 123900
     },
     "data/processed/code_core_2020_2021_17cities.csv.manifest.json": {
       "sha256": "230388ebc2d10b726e57bf171d8173ae7dd2d3ee4f73028120942314960b776d",
@@ -108,6 +108,30 @@
     "data/processed/expanded_20261110/portal_seattle.csv.gz.manifest.json": {
       "sha256": "55743d604b81e7f9caff7cda8bdf0f410714571f7fffad2c7d2f751a7da8c575",
       "bytes": 3865
+    },
+    "data/processed/expanded_districts_20261119/chicago_weather.json": {
+      "sha256": "f956a9ca0c8f916b6bc910f99fd0615c6c7524218f2b44b7c07cebefd0da976d",
+      "bytes": 664
+    },
+    "data/processed/expanded_districts_20261119/nyc.json": {
+      "sha256": "1e5ce1e9e8610124827fd868781200ca2dd307ed21e5ef776b75348e40f97d68",
+      "bytes": 3013
+    },
+    "data/processed/expanded_districts_20261119/nyc_weather.json": {
+      "sha256": "03bdaddd2bd9c41057625a3ec3ba75e04e6050808ca575ada25d50e020e065a8",
+      "bytes": 660
+    },
+    "data/processed/expanded_districts_20261119/san_francisco_weather.json": {
+      "sha256": "28805d55c6a87073fa424f18ad414392455ff5dd16a430bf7d066af465cfc55f",
+      "bytes": 689
+    },
+    "data/processed/expanded_districts_20261119/seattle.json": {
+      "sha256": "588383af6c519b334a7eebb58bb34a064190b725e84a3ef7992aaaf9f910f059",
+      "bytes": 2152
+    },
+    "data/processed/expanded_districts_20261119/seattle_weather.json": {
+      "sha256": "4e0afdf8574da055d18a132c1562b8bf5fdebde4fd7b4738844f4d309cc595de",
+      "bytes": 701
     },
     "data/processed/nypd_2024_2025_verified_quality.json": {
       "sha256": "2acf7b9e30a93050bb01b2dd0498b2b79c93da31aeeaf2fe332598ce1e77f5e9",
@@ -281,6 +305,94 @@
       "sha256": "2b705e0c7078af6bf3c11f1968b45137d35c6957e48926bae5d44e08c217b879",
       "bytes": 43352
     },
+    "data/raw/expanded_districts_20261119/USW00023234.dly.manifest.json": {
+      "sha256": "8c2f9af5c4e5481d365f2702740673f4c94c54c5f36e15a34443b639de0f60f1",
+      "bytes": 449
+    },
+    "data/raw/expanded_districts_20261119/USW00024233.dly.manifest.json": {
+      "sha256": "bd2d1635e9f80b3dc947957b71aa966499ea142f99949b7f8ac054d609be1a89",
+      "bytes": 449
+    },
+    "data/raw/expanded_districts_20261119/USW00094728.dly.manifest.json": {
+      "sha256": "8822d3657859adf4cb7e7bb3a7189bf7e075312ddc07a1bef1cb260917392e87",
+      "bytes": 449
+    },
+    "data/raw/expanded_districts_20261119/USW00094846.dly.manifest.json": {
+      "sha256": "a5e095af2e0d0404062fee5b7ac1d926e777d449b629711975ca59409a35aeba",
+      "bytes": 449
+    },
+    "data/raw/expanded_districts_20261119/nyc_2019.csv.gz.manifest.json": {
+      "sha256": "b83ad951f4b74abfce5d957a180b0f73f40f609642643306329757b68ed27afb",
+      "bytes": 1333
+    },
+    "data/raw/expanded_districts_20261119/nyc_2020.csv.gz.manifest.json": {
+      "sha256": "e1d3fe9c8ee01e3e0906e0f09ccb80714d6b0ddfd5d8a06f54a729539cd6f6cc",
+      "bytes": 1333
+    },
+    "data/raw/expanded_districts_20261119/nyc_2021.csv.gz.manifest.json": {
+      "sha256": "34678478db4214bdf93f1307d9f71c4ab7ad67872bfdc1a4723a8bc890766e66",
+      "bytes": 1333
+    },
+    "data/raw/expanded_districts_20261119/nyc_2022.csv.gz.manifest.json": {
+      "sha256": "212f23f2226fb508fe85552ffa5d95b6d3af48f0df2dfbd3e30e0fbeca885fe0",
+      "bytes": 1333
+    },
+    "data/raw/expanded_districts_20261119/nyc_2023.csv.gz.manifest.json": {
+      "sha256": "5e6830a05211482ea6efff40d63affbd4332b55c3a67b908636230ef2a3be428",
+      "bytes": 1333
+    },
+    "data/raw/expanded_districts_20261119/nyc_2024.csv.gz.manifest.json": {
+      "sha256": "6ae2b1a587998546aa99ea1c52e9adf315cc1a6b17207994b567ebb20c497bc9",
+      "bytes": 1333
+    },
+    "data/raw/expanded_districts_20261119/nyc_2025.csv.gz.manifest.json": {
+      "sha256": "1275f196e712875fa5af06a0d39d8d8e4cd18d784fcbdfe9153d9bb73510e747",
+      "bytes": 1333
+    },
+    "data/raw/expanded_districts_20261119/nyc_2026.csv.gz.manifest.json": {
+      "sha256": "6033bf407ac1609c4fdf646178334f691a7dc31657888e93ffa06cac16a767d8",
+      "bytes": 1333
+    },
+    "data/raw/expanded_districts_20261119/nyc_training_centroids.json": {
+      "sha256": "59a43184894aa957bef86637ab9d15570cc333103171d3f1a9f8d8fc2c4a347f",
+      "bytes": 8257
+    },
+    "data/raw/expanded_districts_20261119/seattle_2019.csv.gz.manifest.json": {
+      "sha256": "b50d7d65f352960a656f17840f23e14f374f7f364908566233f12a757a2025d3",
+      "bytes": 1271
+    },
+    "data/raw/expanded_districts_20261119/seattle_2020.csv.gz.manifest.json": {
+      "sha256": "a2ebc6815999c87358b31fbba1a243038f6cfd83723b5dea12ca71c025192151",
+      "bytes": 1271
+    },
+    "data/raw/expanded_districts_20261119/seattle_2021.csv.gz.manifest.json": {
+      "sha256": "4acff88907d0bec20a125e597965e458d8e5c497b4dee819f482d8459c9e0dfe",
+      "bytes": 1271
+    },
+    "data/raw/expanded_districts_20261119/seattle_2022.csv.gz.manifest.json": {
+      "sha256": "0341ba85a1d66630d39c0d3cf210eacf712cf033e06fbd17ffdd12251e71c2de",
+      "bytes": 1271
+    },
+    "data/raw/expanded_districts_20261119/seattle_2023.csv.gz.manifest.json": {
+      "sha256": "3e650f81d92a2b32c23ffd7ac9b7a42c0a106e8d8b6cdb605132435e5f2d39ee",
+      "bytes": 1271
+    },
+    "data/raw/expanded_districts_20261119/seattle_2024.csv.gz.manifest.json": {
+      "sha256": "8fd39329723e81d8611ae415475f384ebd39b071d1e4c221dcb5d1aa41b19618",
+      "bytes": 1271
+    },
+    "data/raw/expanded_districts_20261119/seattle_2025.csv.gz.manifest.json": {
+      "sha256": "7120f5184234c6b14fb5c46d260a035403deeabd67766cfd35f61a9de382c57a",
+      "bytes": 1271
+    },
+    "data/raw/expanded_districts_20261119/seattle_2026.csv.gz.manifest.json": {
+      "sha256": "b6dca26e3fdca15c36419b7d7422259d2e06a39afc59b33723ca405cd4237bc1",
+      "bytes": 1271
+    },
+    "data/raw/expanded_districts_20261119/seattle_training_centroids.json": {
+      "sha256": "1a6328861112fa5ac204efcc123f8f9fadc625d47d55142f6a017677c84be2d8",
+      "bytes": 752
+    },
     "data/raw/offline_20261110/chicago_202610.csv.gz.manifest.json": {
       "sha256": "826b42c9defbb67f7e276913e9eaba2571e45822ef4b39cd5c605f4036074c74",
       "bytes": 813
@@ -296,6 +408,18 @@
     "data/raw/public_observed_20261110/san_francisco/san_francisco.csv.gz.manifest.json": {
       "sha256": "32bd11a449dc21ff646df4cc7756f03f43bc00512faccc8c67a574a617ee46d3",
       "bytes": 1309
+    },
+    "data/raw/public_observed_r12_20261119/nyc_empty_window.json": {
+      "sha256": "83e2aa1683fbb4f4e06b702c931fe229b25f4b816368ed1441f738e8f0589602",
+      "bytes": 698
+    },
+    "data/raw/public_observed_r12_20261119/seattle.csv.gz.manifest.json": {
+      "sha256": "918cdeae46870ccba8ac8d47492f63d85b1b406334b5fb045f99607120700dfe",
+      "bytes": 842
+    },
+    "data/raw/public_observed_r12_20261119/seattle_ledger_summary.json": {
+      "sha256": "4a044d43e229671207b640a306e64e61975e9e36bcc8d0c29310ce1b1d191f2a",
+      "bytes": 586
     },
     "data/raw/spatiotemporal_20261110/chicago_2019.csv.gz.manifest.json": {
       "sha256": "e210171a402210203eb7c93f90b1daeb59d4bcf6cd1aeefd8267536244cd7bd6",
@@ -378,12 +502,20 @@
       "bytes": 1572
     },
     "output/pdf/hawkes_criticality_report.pdf": {
-      "sha256": "d9dfc0ad0752d44020a0e347d277d65d4e2c99424f139f9ac289115cf86d963f",
-      "bytes": 4344382
+      "sha256": "e84744fb1511e5738f03cc97be9cc744adae3b15ae1fb08b2096734e323f9224",
+      "bytes": 4882902
+    },
+    "output/pdf/r12_build.json": {
+      "sha256": "528303ca36b373a7cb331ee24c44c59ded08358f62de961adf694cbcbb6bed18",
+      "bytes": 1158
+    },
+    "output/pdf/r12_qa.json": {
+      "sha256": "4b51e306d2344780452a89052d6b6b2859eecbaddd61780a5ba0efcf35d414c1",
+      "bytes": 326
     },
     "pyproject.toml": {
-      "sha256": "1423d9d27635e8ad727df65edd5972989d52e74276f58ce83d4ada544e3a0e6d",
-      "bytes": 632
+      "sha256": "f24f62e8bfc36bbb96e6b4dc2d9d9062d31a39cd5f91791df8b8c51ac9bb3fce",
+      "bytes": 741
     },
     "report/assets/background_comparison.png": {
       "sha256": "7732fe959528f4c3f33630b011e3afe98743254272ef3e409cce0f99ab116eb9",
@@ -444,6 +576,18 @@
     "report/assets/equations_manifest.json": {
       "sha256": "435fd513978b301ae3cbc00c51c7f7d078d61fc59676589dbf06641363f066f7",
       "bytes": 2143
+    },
+    "report/assets/expanded_ablation.png": {
+      "sha256": "654caa72c298cee3889c6549d396aa45b6596a6916e1a0abe1ea747ab709b3d9",
+      "bytes": 213163
+    },
+    "report/assets/expanded_manifest.json": {
+      "sha256": "27312ed35db70da20e313e9eef48a0065f85f4fa2bbc837f24671539bc61ae67",
+      "bytes": 838
+    },
+    "report/assets/expanded_operating.png": {
+      "sha256": "e96ff9152bc7c5f88a7c0b905eba6722180c3fedf1f478f70e79b8c0326c86a9",
+      "bytes": 90010
     },
     "report/assets/extended_detector_comparison.png": {
       "sha256": "6aa166e0a6647496c52abdce3d48d701f856dbaeceddbcdecda3738c99456fc7",
@@ -522,12 +666,20 @@
       "bytes": 314
     },
     "reproducibility/logs/final_tests_utf8.log": {
-      "sha256": "d0f14d88506e6b518c7389f109156311ba6b984231c0a191ed81785e57901edb",
-      "bytes": 17242
+      "sha256": "4bb14985b9e6e656d94693a8dae819e823b65619df83bb0ebc2a99a2a7419cf8",
+      "bytes": 19271
+    },
+    "reproducibility/r12_history_availability_amendment.json": {
+      "sha256": "c2b0b6287bc1eac4dbf0778ff8a3f9c9fad16d67a1e629df21bb079f88e0c0eb",
+      "bytes": 5239
+    },
+    "reproducibility/r12_pretest_amendment.json": {
+      "sha256": "e310bc99848034089df2298c94fa1cfccc56c9a97ac3a158106447fc4dda0bd1",
+      "bytes": 5514
     },
     "reproducibility/test_result.json": {
-      "sha256": "24b0a50b7523ce9f12288845f752e821e969aad8a8245ae40bf8d8209c811e8e",
-      "bytes": 177
+      "sha256": "8a2c9b927d0614373db68c34c5e23d3199aff15d7811450622659a73fa27be66",
+      "bytes": 180
     },
     "requirements-lock.txt": {
       "sha256": "a3994c6b4683da0e7d4cca20426498ba19046e30e38f0b674a581b9c7935f734",
@@ -928,6 +1080,222 @@
     "results/empirical_transfer/training_feature_reference.json": {
       "sha256": "24186296048212472d2cd685c7e9526c1e837dc0b3a8809ea223fe30ead1977d",
       "bytes": 4406
+    },
+    "results/expanded_district_detector/assessment.json": {
+      "sha256": "173ac35fb57eea2391d4156759ff5587b86afcfb5ff4b91b80d5682ab4a6e7f9",
+      "bytes": 543
+    },
+    "results/expanded_district_detector/complete.json": {
+      "sha256": "c3e2e53670bd8a8c5500942f6e0e7289d4b3a96488ee93a7a6ad5f4f0c523f17",
+      "bytes": 6101
+    },
+    "results/expanded_district_detector/data_summary.csv": {
+      "sha256": "c54506aacb8ab139bdf6605e8374da03b404ebaff37c437f18d20f5bfd89bc28",
+      "bytes": 428
+    },
+    "results/expanded_district_detector/district_metrics.csv": {
+      "sha256": "22652808ea9e2aee2f39f79a4cdbd5ba763cd53d3c463ff24916342eb63a8933",
+      "bytes": 3431946
+    },
+    "results/expanded_district_detector/forecast_journal.json": {
+      "sha256": "c7097ba2185e36c3cb1d84fb1841ddde6c5555ff7f5fe740fa6f3bcd832a1a24",
+      "bytes": 2116
+    },
+    "results/expanded_district_detector/frozen_plan.json": {
+      "sha256": "05d4dc1ca51d5f39b8507d7c669a232f130df4d1ff23bc502bc33e0904e9570a",
+      "bytes": 783805
+    },
+    "results/expanded_district_detector/headline.csv": {
+      "sha256": "3148eb793eeb5d28717da7bdfdd057cbe4d8eb8fa9a2717d3876f5936c737482",
+      "bytes": 33104
+    },
+    "results/expanded_district_detector/headline_all.csv": {
+      "sha256": "a2b10dbaf0f2a00e95f92a36fbb81d1970e38c759beb6fb592e78d00ea73d268",
+      "bytes": 5690
+    },
+    "results/expanded_district_detector/metrics.csv": {
+      "sha256": "0913f4ebd0e0d86e478e3af66bb09e3fbbe5592b09bf68e6e9ab4ed3421cf4b1",
+      "bytes": 135898
+    },
+    "results/expanded_district_detector/models/boosted15.joblib": {
+      "sha256": "d2663c4c8871bdfebe5189ceaf4761f2d6a5a521ce92011885fc8cb6316267fa",
+      "bytes": 381552
+    },
+    "results/expanded_district_detector/models/boosted31.joblib": {
+      "sha256": "4038d05472088fe018a4441cedabf454c2d0f791275d96ac3b82599e78b4312b",
+      "bytes": 728624
+    },
+    "results/expanded_district_detector/models/local_chicago_s331.csv": {
+      "sha256": "dcfe645de370f0d93f77a4087b52349cfd51296ac0e8893519785e1861635e19",
+      "bytes": 3239
+    },
+    "results/expanded_district_detector/models/local_chicago_s331.pt": {
+      "sha256": "cefdeb01bed279e2268fcc9689f3785ced98600ac67dfb1c6f0c0fab623a79dc",
+      "bytes": 27438
+    },
+    "results/expanded_district_detector/models/local_chicago_s337.csv": {
+      "sha256": "c1153009f34fb0877ec2a02f57997559c09e50fe6d6eb4976998fe48970e77b2",
+      "bytes": 3252
+    },
+    "results/expanded_district_detector/models/local_chicago_s337.pt": {
+      "sha256": "beca666ccc36df879dfedeb92fd40c808ccdfaab761eecdacebb2854d4a7510a",
+      "bytes": 27438
+    },
+    "results/expanded_district_detector/models/local_chicago_s349.csv": {
+      "sha256": "580e7b82f85ac9d50ad48eec8bacdac01603f0db7b4f347b606c0a33e3b60d89",
+      "bytes": 3236
+    },
+    "results/expanded_district_detector/models/local_chicago_s349.pt": {
+      "sha256": "d265567094362ae06348d969d20f0a38535ae9c3b58eb1c9a122ba6274418482",
+      "bytes": 27438
+    },
+    "results/expanded_district_detector/models/local_nyc_s331.csv": {
+      "sha256": "cab9a00130472fc0dd417fc20651b590410d0747eed8d9996fcfc1dadc0ab98e",
+      "bytes": 3126
+    },
+    "results/expanded_district_detector/models/local_nyc_s331.pt": {
+      "sha256": "00b1a4971d45da75a7300e239d80612474cd6126fff0b0fc93e3f8ee10c8cd87",
+      "bytes": 27378
+    },
+    "results/expanded_district_detector/models/local_nyc_s337.csv": {
+      "sha256": "c3673c7a2217b21f9ad8f9bfee00d8b02d62e265fc325602fe7b90c4efb03f64",
+      "bytes": 3133
+    },
+    "results/expanded_district_detector/models/local_nyc_s337.pt": {
+      "sha256": "b4e66bd22e26877fac7184771e3a2a0ee0e13ef619d6aa2b828d0fd9ca01c2d1",
+      "bytes": 27378
+    },
+    "results/expanded_district_detector/models/local_nyc_s349.csv": {
+      "sha256": "85751f48ebc29128fc48bbe2a613854de37f6ce337ec67d6b1fb5d204ad13125",
+      "bytes": 3124
+    },
+    "results/expanded_district_detector/models/local_nyc_s349.pt": {
+      "sha256": "11f7c404d1bd876b9c4d20e1b6fb03a55bd3c1961b7466840969105444ff5837",
+      "bytes": 27378
+    },
+    "results/expanded_district_detector/models/local_san_francisco_s331.csv": {
+      "sha256": "af1a20c54781dca69abaa0d207116c6d22a9b677585afbeb111950426d98ef30",
+      "bytes": 3195
+    },
+    "results/expanded_district_detector/models/local_san_francisco_s331.pt": {
+      "sha256": "174bc6f9630e616b1bf67149ae3857cd0d4b7d50b0983e08d5e605d324bf501d",
+      "bytes": 27656
+    },
+    "results/expanded_district_detector/models/local_san_francisco_s337.csv": {
+      "sha256": "978e26580a8bb4c2eb47b965aa2de65872297c99867c6d0135027063fdc3a68d",
+      "bytes": 3185
+    },
+    "results/expanded_district_detector/models/local_san_francisco_s337.pt": {
+      "sha256": "acfe30ac8c9b1cb9bcff7d79d30fb48ee9b059ffe2c8fa8864e266c7a22f5c60",
+      "bytes": 27656
+    },
+    "results/expanded_district_detector/models/local_san_francisco_s349.csv": {
+      "sha256": "ede4eaab6b26d34f8d5dbccd037fec71acc0fdf9c1dede0c0c50e8e462d8a72d",
+      "bytes": 3182
+    },
+    "results/expanded_district_detector/models/local_san_francisco_s349.pt": {
+      "sha256": "31da8b49883fa9a7cdc84a5f61460cad8303b419cec556a6aa021f4f58e9dbd9",
+      "bytes": 27656
+    },
+    "results/expanded_district_detector/models/local_seattle_s331.csv": {
+      "sha256": "5c90c93d564898bd80ce5f4fc69ba0c1ed3f554aa7c998c1e9040cb57d3e0fe5",
+      "bytes": 3364
+    },
+    "results/expanded_district_detector/models/local_seattle_s331.pt": {
+      "sha256": "957252312140e39d794c3890fa3943e360a72659c5009f746462574ee96e1711",
+      "bytes": 27438
+    },
+    "results/expanded_district_detector/models/local_seattle_s337.csv": {
+      "sha256": "c3c070983795d0f7e001f8d50cb07391647def5dfd0b814f6e4784a571ee2a51",
+      "bytes": 3373
+    },
+    "results/expanded_district_detector/models/local_seattle_s337.pt": {
+      "sha256": "8ba1c8eaa7e65475b1e9f8b1b73d00d706d279963697c3f881857ceb01c5c6b7",
+      "bytes": 27438
+    },
+    "results/expanded_district_detector/models/local_seattle_s349.csv": {
+      "sha256": "1d053d48e48033a587a39aa3c8b6a48125c5c665013666a57833054da020e705",
+      "bytes": 3376
+    },
+    "results/expanded_district_detector/models/local_seattle_s349.pt": {
+      "sha256": "5347defa3739a8173d8e72b620cd05a1ef5d3b74ee46e6473cd903ab18f73585",
+      "bytes": 27438
+    },
+    "results/expanded_district_detector/models/pooled_s331.csv": {
+      "sha256": "adcbe09bd0e8b894c15caf513f67fc220afc03c9e1dc5a1ddd8507fd4cb049a9",
+      "bytes": 3181
+    },
+    "results/expanded_district_detector/models/pooled_s331.pt": {
+      "sha256": "0f174a648bc2d92a669b54a8f4baee5fb2b0439c88d096e1430175469d796d5b",
+      "bytes": 27333
+    },
+    "results/expanded_district_detector/models/pooled_s337.csv": {
+      "sha256": "8b5098be29a80adcfc366cde5d0f2ee2bcc8f8940fdbbbdb98575fb9340a987c",
+      "bytes": 3192
+    },
+    "results/expanded_district_detector/models/pooled_s337.pt": {
+      "sha256": "8beae60995ca8d1bf1b268874e0fc7acc7ca256607a56fef67722e35bba171be",
+      "bytes": 27333
+    },
+    "results/expanded_district_detector/models/pooled_s349.csv": {
+      "sha256": "d693b603eb1cdd8b3ca02031724af12edc7c8e6047deaa37be62fd02bf161724",
+      "bytes": 3188
+    },
+    "results/expanded_district_detector/models/pooled_s349.pt": {
+      "sha256": "f8347102f62ae823d6d92772f45f0fb2acefb02e6d33ef150a6f7eb08989e1b2",
+      "bytes": 27333
+    },
+    "results/expanded_district_detector/models/weather_s331.csv": {
+      "sha256": "a46fbedf2d9d3c2658d91ca875ce0b96ce2f0c85f61ef0276cfdc71c99ecb324",
+      "bytes": 3190
+    },
+    "results/expanded_district_detector/models/weather_s331.pt": {
+      "sha256": "a00eea09f8f879cc4615a69a901075ada1ae87d18b55274f26319af16fbdb31f",
+      "bytes": 29460
+    },
+    "results/expanded_district_detector/models/weather_s337.csv": {
+      "sha256": "521b13cbe65efbc1e09ad4547bf68b907ba30daf5e40be2e8b2805cecd54074c",
+      "bytes": 3193
+    },
+    "results/expanded_district_detector/models/weather_s337.pt": {
+      "sha256": "6be4a5094d63400c7562954320256fa0f72dd2853a156ecb1c5c919cd3a1902c",
+      "bytes": 29460
+    },
+    "results/expanded_district_detector/models/weather_s349.csv": {
+      "sha256": "b3b43f6e2ac4e93b03119a17725b3a69afce81cea42075f1a85af54230a1541f",
+      "bytes": 3191
+    },
+    "results/expanded_district_detector/models/weather_s349.pt": {
+      "sha256": "b582f2d57843bbb84c43a48cf6a8c9e14edfa4fc172abb47c24f125532cca3c0",
+      "bytes": 29460
+    },
+    "results/expanded_district_detector/monthly_metrics.csv": {
+      "sha256": "fff3537fb994825612029263c7afe15b2325e16ba98d0caad90e929af5426d7e",
+      "bytes": 178540
+    },
+    "results/expanded_district_detector/protocol.json": {
+      "sha256": "9a2eff181932089bf6aedf195a581350b375552d034df2b51036752539064321",
+      "bytes": 4515
+    },
+    "results/expanded_district_detector/source_availability.json": {
+      "sha256": "76851d50614a3a85db2b0a4460cf7b7b224c28214a2e1e2571e1399a32d79ebf",
+      "bytes": 2555
+    },
+    "results/expanded_district_detector/test_started.json": {
+      "sha256": "0bb5eea2e5af2650dbf426ecf6019d7618759f84073f277a8db4e7c4efe78fb9",
+      "bytes": 194
+    },
+    "results/expanded_district_detector/training_summary.csv": {
+      "sha256": "efbcd849518bc14ad0b461e7b200f726160315cd9e64bd8a81f67ef40ede2067",
+      "bytes": 767
+    },
+    "results/expanded_district_detector/validation_metrics.csv": {
+      "sha256": "7a624f17ab8cd0f84b73ffe4311d8b1248e88fe8e5dc05f64ce7b93c76dc01b4",
+      "bytes": 23285
+    },
+    "results/expanded_district_detector/verification.json": {
+      "sha256": "2167b6ffbb20078c8a71d4b94c90578692b3ee06f8487acde88162d9210dfea3",
+      "bytes": 939
     },
     "results/extended_neural/auxiliary_n_errors.csv": {
       "sha256": "d0a3147a39b937926c43743eca1f7b91ff70303baaf15b4a76df5189ab32ac5d",
@@ -2661,6 +3029,14 @@
       "sha256": "6dbb4c035388d340a5b087d69f70bbf41854ecdbe070e16662f0b502c8881846",
       "bytes": 2645
     },
+    "scripts/append_expanded_pdf.py": {
+      "sha256": "fcc3ae2f669d7dd9c4d903733f08afded64e26a371fb2d380a2e2e9d6b9f3664",
+      "bytes": 17734
+    },
+    "scripts/capture_expanded_observations.py": {
+      "sha256": "eceba7f8f6ba9e4bc4b31891702143c0589e0130ce30c0cf00099c91a0212853",
+      "bytes": 4490
+    },
     "scripts/capture_public_observations.py": {
       "sha256": "f6e6cab7efaf199148040c53b302734f7657cba87c6a3fccef7d8764d459e20c",
       "bytes": 3450
@@ -2696,6 +3072,10 @@
     "scripts/prepare_code_subset.py": {
       "sha256": "c2e433636f0b5de014ba81a184668375ddbb9d32348d1145c1a1fad10c618a85",
       "bytes": 3836
+    },
+    "scripts/prepare_expanded_districts.py": {
+      "sha256": "985e8cf8968b7fd5d282697c64d8198a29554ad511b9e12f8365cf37de836e2c",
+      "bytes": 13381
     },
     "scripts/prepare_expanded_panel.py": {
       "sha256": "06146492ae72e23ac1430feaa537fe781167e0e838082cfb7f68cf56bae9f804",
@@ -2733,6 +3113,10 @@
       "sha256": "a8f3049c4ba554708faeb7647a9f740f0635907927986226cf93de8f48a4a00e",
       "bytes": 6646
     },
+    "scripts/summarize_expanded_detector.py": {
+      "sha256": "e95e911912a4d3bb9f41a88718f4d0530e406e9589a0308d29bcd2ec102b3b85",
+      "bytes": 5130
+    },
     "scripts/summarize_offline.py": {
       "sha256": "fbfb223f45ca4e0ad8eb63ea0da004ab33c87e8ded32957ffe0e771a6dd6078c",
       "bytes": 13735
@@ -2753,6 +3137,10 @@
       "sha256": "53de9555cb727f4a766e042d55f93b8956db1531cbf33126b82b66d8d97a8fc2",
       "bytes": 7030
     },
+    "scripts/verify_expanded_detector.py": {
+      "sha256": "3ace661c19bf20be3b6c4da54c86f447dc785de6e6af7f423224a72e2039a5ec",
+      "bytes": 7612
+    },
     "scripts/verify_extended_training.py": {
       "sha256": "252f3acaac8dbd385b869e2c1ed4e7457efe06ba432de345e877fc99d28bb51a",
       "bytes": 7055
@@ -2766,12 +3154,12 @@
       "bytes": 10049
     },
     "scripts/verify_report.py": {
-      "sha256": "a21a8df0e6c654fcfbdbb75e3803603d31e2b4ae1158b8530dc6299f3e0d3593",
-      "bytes": 13825
+      "sha256": "50d723e205fab87148956227888669aad74d38d9d394c77ab413105bb3c416b8",
+      "bytes": 15906
     },
     "scripts/verify_repository_snapshot.py": {
-      "sha256": "812e841fcdb5a60911ace6653f0875dffb1629739fecbe0b24c34647e81bc3b2",
-      "bytes": 5438
+      "sha256": "7879fb9bdd2ee01944b76858db13e90462a2f151c487824f4f4eeb6663d03113",
+      "bytes": 6861
     },
     "scripts/verify_robust_experiment.py": {
       "sha256": "a596d394b51e8e06c5525e64440d992726ebcc27e143cee59e5a176845885089",
@@ -2864,6 +3252,14 @@
     "src/critical_processes/estimation.py": {
       "sha256": "f8ff5fcbdfba926e030c5d8797f97268e1e2fe305e36cdeedaec8a55e4760cac",
       "bytes": 3500
+    },
+    "src/critical_processes/expanded_experiment.py": {
+      "sha256": "819591cc10ae3ae54995d9779d180f2bca2114648fc015d16e1c27ea0e90fe91",
+      "bytes": 21801
+    },
+    "src/critical_processes/expanded_forecast.py": {
+      "sha256": "c84f66fd5234dfac6daa65259f52211ea5d0f87ab3008244e9be89a3d3646a4b",
+      "bytes": 9303
     },
     "src/critical_processes/extended_training.py": {
       "sha256": "59391de2cb9389bb595dd59b89d8cb8f5a2609ab15fb6aa12f7dc64b7db5dbed",
@@ -2984,6 +3380,10 @@
     "tests/test_empirical_transfer.py": {
       "sha256": "ac966caad9fe38b74bfe28bc12603c2db460b7fc022c7fcffcd6b89dfe82b10d",
       "bytes": 1344
+    },
+    "tests/test_expanded_detector.py": {
+      "sha256": "9ef2b3e3ccc8fb7ff860dcd595c73b732a4298959963d81248040d224ed7f8ac",
+      "bytes": 7563
     },
     "tests/test_extended_training.py": {
       "sha256": "d5f82c152bc2a73803b741e3a1035f77a4c062fa31e1bfd571f16eba6c6852e1",
@@ -3292,6 +3692,30 @@
       "bytes": 45293
     },
     {
+      "path": "data/processed/expanded_districts_20261119/chicago_weather.npz",
+      "bytes": 26821
+    },
+    {
+      "path": "data/processed/expanded_districts_20261119/nyc.npz",
+      "bytes": 4530298
+    },
+    {
+      "path": "data/processed/expanded_districts_20261119/nyc_weather.npz",
+      "bytes": 26253
+    },
+    {
+      "path": "data/processed/expanded_districts_20261119/san_francisco_weather.npz",
+      "bytes": 21989
+    },
+    {
+      "path": "data/processed/expanded_districts_20261119/seattle.npz",
+      "bytes": 773544
+    },
+    {
+      "path": "data/processed/expanded_districts_20261119/seattle_weather.npz",
+      "bytes": 25484
+    },
+    {
       "path": "data/processed/nypd_2024_2025_verified.csv",
       "bytes": 46117359
     },
@@ -3310,6 +3734,10 @@
     {
       "path": "data/processed/public_observations/rows.sqlite",
       "bytes": 1073152
+    },
+    {
+      "path": "data/processed/public_observations_r12/rows.sqlite",
+      "bytes": 499712
     },
     {
       "path": "data/processed/spatiotemporal_20261110/chicago.npz",
@@ -3472,6 +3900,86 @@
       "bytes": 42540082
     },
     {
+      "path": "data/raw/expanded_districts_20261119/USW00023234.dly",
+      "bytes": 4165020
+    },
+    {
+      "path": "data/raw/expanded_districts_20261119/USW00024233.dly",
+      "bytes": 4413420
+    },
+    {
+      "path": "data/raw/expanded_districts_20261119/USW00094728.dly",
+      "bytes": 4810320
+    },
+    {
+      "path": "data/raw/expanded_districts_20261119/USW00094846.dly",
+      "bytes": 4516830
+    },
+    {
+      "path": "data/raw/expanded_districts_20261119/nyc_2019.csv.gz",
+      "bytes": 2144263
+    },
+    {
+      "path": "data/raw/expanded_districts_20261119/nyc_2020.csv.gz",
+      "bytes": 2025931
+    },
+    {
+      "path": "data/raw/expanded_districts_20261119/nyc_2021.csv.gz",
+      "bytes": 2204285
+    },
+    {
+      "path": "data/raw/expanded_districts_20261119/nyc_2022.csv.gz",
+      "bytes": 2709830
+    },
+    {
+      "path": "data/raw/expanded_districts_20261119/nyc_2023.csv.gz",
+      "bytes": 2691499
+    },
+    {
+      "path": "data/raw/expanded_districts_20261119/nyc_2024.csv.gz",
+      "bytes": 2695796
+    },
+    {
+      "path": "data/raw/expanded_districts_20261119/nyc_2025.csv.gz",
+      "bytes": 2560840
+    },
+    {
+      "path": "data/raw/expanded_districts_20261119/nyc_2026.csv.gz",
+      "bytes": 1838427
+    },
+    {
+      "path": "data/raw/expanded_districts_20261119/seattle_2019.csv.gz",
+      "bytes": 592576
+    },
+    {
+      "path": "data/raw/expanded_districts_20261119/seattle_2020.csv.gz",
+      "bytes": 607935
+    },
+    {
+      "path": "data/raw/expanded_districts_20261119/seattle_2021.csv.gz",
+      "bytes": 654106
+    },
+    {
+      "path": "data/raw/expanded_districts_20261119/seattle_2022.csv.gz",
+      "bytes": 679671
+    },
+    {
+      "path": "data/raw/expanded_districts_20261119/seattle_2023.csv.gz",
+      "bytes": 638111
+    },
+    {
+      "path": "data/raw/expanded_districts_20261119/seattle_2024.csv.gz",
+      "bytes": 630500
+    },
+    {
+      "path": "data/raw/expanded_districts_20261119/seattle_2025.csv.gz",
+      "bytes": 575657
+    },
+    {
+      "path": "data/raw/expanded_districts_20261119/seattle_2026.csv.gz",
+      "bytes": 416788
+    },
+    {
       "path": "data/raw/nypd_complaints_2024_2025_verified.csv",
       "bytes": 81516235
     },
@@ -3490,6 +3998,10 @@
     {
       "path": "data/raw/public_observed_20261110/san_francisco/san_francisco.csv.gz",
       "bytes": 8816
+    },
+    {
+      "path": "data/raw/public_observed_r12_20261119/seattle.csv.gz",
+      "bytes": 43068
     },
     {
       "path": "data/raw/spatiotemporal_20261110/chicago_2019.csv.gz",
@@ -3602,6 +4114,38 @@
     {
       "path": "results/dynamic_estimation/trajectory_metrics.csv",
       "bytes": 31187985
+    },
+    {
+      "path": "results/expanded_district_detector/forecasts/chicago_delayed_stress.npz",
+      "bytes": 7557875
+    },
+    {
+      "path": "results/expanded_district_detector/forecasts/chicago_primary.npz",
+      "bytes": 7557536
+    },
+    {
+      "path": "results/expanded_district_detector/forecasts/nyc_delayed_stress.npz",
+      "bytes": 26630104
+    },
+    {
+      "path": "results/expanded_district_detector/forecasts/nyc_primary.npz",
+      "bytes": 26629915
+    },
+    {
+      "path": "results/expanded_district_detector/forecasts/san_francisco_delayed_stress.npz",
+      "bytes": 3469321
+    },
+    {
+      "path": "results/expanded_district_detector/forecasts/san_francisco_primary.npz",
+      "bytes": 3466790
+    },
+    {
+      "path": "results/expanded_district_detector/forecasts/seattle_delayed_stress.npz",
+      "bytes": 1750321
+    },
+    {
+      "path": "results/expanded_district_detector/forecasts/seattle_primary.npz",
+      "bytes": 1750078
     },
     {
       "path": "results/extended_neural/data/calibration.npz",

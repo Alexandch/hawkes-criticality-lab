@@ -1,0 +1,17 @@
+{
+  "base_revision": "c4c75db3af5dcfaca50209c96cdb57baadcf1b24",
+  "base_sha256": "d9dfc0ad0752d44020a0e347d277d65d4e2c99424f139f9ac289115cf86d963f",
+  "base_pages": 48,
+  "supplement_pages": 5,
+  "total_pages": 53,
+  "output_sha256": "e84744fb1511e5738f03cc97be9cc744adae3b15ae1fb08b2096734e323f9224",
+  "builder_sha256": "fcc3ae2f669d7dd9c4d903733f08afded64e26a371fb2d380a2e2e9d6b9f3664",
+  "source_sha256": {
+    "results/expanded_district_detector/headline_all.csv": "a2b10dbaf0f2a00e95f92a36fbb81d1970e38c759beb6fb592e78d00ea73d268",
+    "results/expanded_district_detector/headline.csv": "3148eb793eeb5d28717da7bdfdd057cbe4d8eb8fa9a2717d3876f5936c737482",
+    "results/expanded_district_detector/data_summary.csv": "c54506aacb8ab139bdf6605e8374da03b404ebaff37c437f18d20f5bfd89bc28",
+    "results/expanded_district_detector/assessment.json": "173ac35fb57eea2391d4156759ff5587b86afcfb5ff4b91b80d5682ab4a6e7f9",
+    "report/assets/expanded_operating.png": "e96ff9152bc7c5f88a7c0b905eba6722180c3fedf1f478f70e79b8c0326c86a9",
+    "report/assets/expanded_ablation.png": "654caa72c298cee3889c6549d396aa45b6596a6916e1a0abe1ea747ab709b3d9"
+  }
+}

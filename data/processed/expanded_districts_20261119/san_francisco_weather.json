@@ -1,0 +1,27 @@
+{
+  "city": "san_francisco",
+  "station": "USW00023234",
+  "start": "2019-01-01",
+  "end_exclusive": "2026-10-01",
+  "elements": [
+    "TMAX",
+    "TMIN",
+    "PRCP",
+    "SNOW"
+  ],
+  "units": [
+    "degrees C",
+    "degrees C",
+    "mm",
+    "mm"
+  ],
+  "missing_fraction": {
+    "TMAX": 0.0,
+    "TMIN": 0.00035335689045936394,
+    "PRCP": 0.0,
+    "SNOW": 1.0
+  },
+  "input_sha256": "f481ce1280a976ed37bbead6da52b97c825fed05e2e59bcc6907b9d5624e62dc",
+  "panel_sha256": "e716f24ab951a67dbf1eee20044c02f042995ffafb6f370e4be0095398d65079",
+  "availability": "daily observation with assumed 5-day lag; not target-interval weather or verified historical release"
+}

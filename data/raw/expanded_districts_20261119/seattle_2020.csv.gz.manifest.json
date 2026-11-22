@@ -1,0 +1,18 @@
+{
+  "city": "seattle",
+  "year": 2020,
+  "rows": 50851,
+  "url": "https://data.seattle.gov/resource/tazs-3rd5.csv?%24select=report_number%2Coffense_date%2Creport_date_time%2Cprecinct%2Coffense_sub_category&%24where=offense_date+%3E%3D+%272020-01-01T00%3A00%3A00%27+AND+offense_date+%3C+%272021-01-01T00%3A00%3A00%27+AND+offense_sub_category+in%28%27LARCENY-THEFT%27%2C%27MOTOR+VEHICLE+THEFT%27%2C%27BURGLARY%27%2C%27ASSAULT+OFFENSES%27%2C%27AGGRAVATED+ASSAULT%27%2C%27ROBBERY%27%29&%24order=offense_date%2Creport_number&%24limit=1000000",
+  "count_url": "https://data.seattle.gov/resource/tazs-3rd5.json?%24select=count%28%2A%29+as+rows&%24where=offense_date+%3E%3D+%272020-01-01T00%3A00%3A00%27+AND+offense_date+%3C+%272021-01-01T00%3A00%3A00%27+AND+offense_sub_category+in%28%27LARCENY-THEFT%27%2C%27MOTOR+VEHICLE+THEFT%27%2C%27BURGLARY%27%2C%27ASSAULT+OFFENSES%27%2C%27AGGRAVATED+ASSAULT%27%2C%27ROBBERY%27%29",
+  "columns": [
+    "report_number",
+    "offense_date",
+    "report_date_time",
+    "precinct",
+    "offense_sub_category"
+  ],
+  "sha256": "615f07261109f03c0121f656daefa352df6f717bdd5d753c32b1894ad4966e7e",
+  "retrieved_utc": "2026-11-19T16:37:40.149328+00:00",
+  "start": "2020-01-01T00:00:00",
+  "end_exclusive": "2021-01-01T00:00:00"
+}

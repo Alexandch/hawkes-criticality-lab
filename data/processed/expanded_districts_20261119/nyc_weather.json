@@ -1,0 +1,27 @@
+{
+  "city": "nyc",
+  "station": "USW00094728",
+  "start": "2019-01-01",
+  "end_exclusive": "2026-10-01",
+  "elements": [
+    "TMAX",
+    "TMIN",
+    "PRCP",
+    "SNOW"
+  ],
+  "units": [
+    "degrees C",
+    "degrees C",
+    "mm",
+    "mm"
+  ],
+  "missing_fraction": {
+    "TMAX": 0.0,
+    "TMIN": 0.0,
+    "PRCP": 0.0,
+    "SNOW": 0.0
+  },
+  "input_sha256": "7fb0dc46b5a1222b8b3066e191decea93a2f993f783654ec7b6a4787e506d2ca",
+  "panel_sha256": "50840722f230503eb1779a648d82dcc6a8205e1db6d05f680c3166571d986620",
+  "availability": "daily observation with assumed 5-day lag; not target-interval weather or verified historical release"
+}

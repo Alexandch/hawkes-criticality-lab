@@ -1,0 +1,11 @@
+{
+  "city": "seattle",
+  "url": "https://data.seattle.gov/resource/tazs-3rd5.csv?%24select=offense_id%2Creport_number%2Coffense_date%2Creport_date_time%2Cprecinct%2Coffense_sub_category&%24where=report_date_time+%3E%3D+%272026-11-01T00%3A00%3A00%27+AND+report_date_time+%3C+%272026-11-20T00%3A00%3A00%27+AND+offense_sub_category+in%28%27LARCENY-THEFT%27%2C%27MOTOR+VEHICLE+THEFT%27%2C%27BURGLARY%27%2C%27ASSAULT+OFFENSES%27%2C%27AGGRAVATED+ASSAULT%27%2C%27ROBBERY%27%29&%24order=offense_id&%24limit=100000",
+  "since": "2026-11-01",
+  "until_exclusive": "2026-11-20",
+  "rows": 2402,
+  "sha256": "18db90341fb28f8ce7d0fb08a5927a947c194d8c26f8b98ff1fd2b306c5b8a84",
+  "observed_utc": "2026-11-19T16:58:59.642694+00:00",
+  "scope": "partial report-date window; no inference from absence",
+  "not_training_or_test_input_for_R12": true
+}

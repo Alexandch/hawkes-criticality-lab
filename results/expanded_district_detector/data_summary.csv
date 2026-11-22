@@ -1,0 +1,5 @@
+city,districts,source_panel_cases,common_scope_cases,train_cases,validation_cases,probability_calibration_cases,alarm_calibration_cases,test2025_cases,test2026_cases
+chicago,22,1189263,1176356,704936,68034,15964,59573,152246,113902
+san_francisco,10,426309,423703,300026,20160,4445,15628,36267,24352
+nyc,77,2053043,2053043,1106425,118046,25974,48537,277609,199307
+seattle,5,383703,383703,243474,19213,4304,18182,45672,33110
